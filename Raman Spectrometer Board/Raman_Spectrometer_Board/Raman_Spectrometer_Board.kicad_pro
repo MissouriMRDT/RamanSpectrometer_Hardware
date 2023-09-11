@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CCD_Breakout.kicad_pro",
+    "filename": "Raman_Spectrometer_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,7 +324,7 @@
   },
   "sheets": [
     [
-      "64b006a0-b432-4c05-bc21-eb3325874dfb",
+      "dd57774e-6364-4f58-a24d-9970470de2f9",
       ""
     ]
   ],
