@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\dcmce\OneDrive\Documents\GitHub\RamanSpectrometer_Hardware\Laser Diode Breakout\Laser_Diode_Breakout\Laser_Diode_Breakout.kicad_sch</source>
-    <date>9/24/2023 2:12:00 PM</date>
+    <date>9/24/2023 4:45:01 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,6 +24,15 @@
     </sheet>
   </design>
   <components>
+    <comp ref="Conn1">
+      <value>Molex_SL_03</value>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="MOLEX SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a67fc7d-c88d-425a-82e5-c997dbbe9e1b</tstamps>
+    </comp>
     <comp ref="D1">
       <value>785nm Laser Diode</value>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -35,7 +44,7 @@
       <tstamps>28f71ff8-6f79-436b-891f-7e52c6db3c28</tstamps>
     </comp>
     <comp ref="D2">
-      <value>532nm Laser Diode</value>
+      <value>520nm Laser Diode</value>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
@@ -44,35 +53,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>20177a9a-0202-4fe3-9ba4-c5f8493b7818</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x03_Pin</value>
-      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d92ad3da-96c0-4de1-a897-4006ba944721</tstamps>
-    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x03_Pin">
-      <description>Generic connector, single row, 01x03, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03_Pin</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -91,28 +73,39 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_03">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
-    </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
+    <net code="3" name="GND">
+      <node ref="Conn1" pin="2" pintype="input"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="2" name="Green_LED">
+    <net code="4" name="Green_LED">
+      <node ref="Conn1" pin="3" pintype="input"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="3" name="Red_LED">
+    <net code="5" name="Red_LED">
+      <node ref="Conn1" pin="1" pintype="input"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
   </nets>
 </export>
