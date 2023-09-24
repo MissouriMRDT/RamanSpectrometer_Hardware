@@ -2391,11 +2391,11 @@
     (property "Datasheet" "" (at 26.67 53.34 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c69))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c6a))
     (pin "2" (uuid 67a2f8f3-0313-4f28-a38a-06e300a3b7c3))
     (pin "3" (uuid 62d22449-d630-4802-bce7-66af4f1430a9))
     (pin "4" (uuid f0a67ac2-b30e-45cb-9892-67c54261a45a))
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c69))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c6a))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
@@ -2628,7 +2628,7 @@
     (property "Value" "OKI" (at 87.63 30.48 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 77.47 40.64 0)
+    (property "Footprint" "MRDT_Devices:OKI_Horizontal" (at 77.47 40.64 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 77.47 40.64 0)
@@ -2661,11 +2661,11 @@
     (property "Datasheet" "" (at 26.67 43.18 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 3b419847-4955-4881-962b-8cf806261ec6))
+    (pin "1" (uuid 3b419847-4955-4881-962b-8cf806261ec7))
     (pin "2" (uuid f822dc00-5617-4b0e-b5bc-a79bdf94069a))
     (pin "3" (uuid 2ced8b5f-2cbb-4d43-9292-8c2b7bd30f67))
     (pin "4" (uuid 25e04b0d-00bc-4965-8624-3f7af22f1dab))
-    (pin "1" (uuid 3b419847-4955-4881-962b-8cf806261ec6))
+    (pin "1" (uuid 3b419847-4955-4881-962b-8cf806261ec7))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
