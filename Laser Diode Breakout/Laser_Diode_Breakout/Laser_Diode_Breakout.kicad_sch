@@ -250,13 +250,13 @@
     (uuid fcbbe76f-04ce-40bc-b0f7-fd29cccc3a93)
   )
 
-  (label "Diodes" (at 53.34 67.31 0) (fields_autoplaced)
+  (text "Connectors" (at 34.29 22.86 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 376853a4-8922-4a69-8a87-565d02294e8d)
+    (uuid 32df7815-bcf4-482c-a143-c05a27d91bd6)
   )
-  (label "Connectors" (at 34.29 22.86 0) (fields_autoplaced)
+  (text "Diodes" (at 52.07 66.04 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 3fea6ca5-60a6-4541-af03-b8b088aec5df)
+    (uuid a95d8f33-0edd-461d-b084-b84156cba744)
   )
 
   (global_label "Red_LED" (shape output) (at 48.26 34.29 180) (fields_autoplaced)

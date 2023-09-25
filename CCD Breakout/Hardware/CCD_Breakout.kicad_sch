@@ -713,7 +713,7 @@
     (effects (font (size 1.778 1.778)) (justify left bottom))
     (uuid 237be361-2a51-491d-b0bd-a84aecea8ef6)
   )
-  (text "I/O" (at 74.93 38.1 0)
+  (text "I/O" (at 74.93 39.37 0)
     (effects (font (size 4.318 4.318)) (justify left bottom))
     (uuid 6ae0dd26-6296-43a3-8007-01f4acd8a431)
   )
