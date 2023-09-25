@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\dcmce\OneDrive\Documents\GitHub\RamanSpectrometer_Hardware\CCD Breakout\Hardware\CCD_Breakout.kicad_sch</source>
-    <date>9/24/2023 2:32:12 PM</date>
+    <date>9/24/2023 8:14:07 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -54,25 +54,26 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a9a3a122-a13b-4b81-bc94-0c63875a7be7</tstamps>
     </comp>
+    <comp ref="Conn1">
+      <value>Molex_SL_05</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_05_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_05" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="MOLEX SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7552dad9-311c-4e61-a903-3dfdb3d5e63e</tstamps>
+    </comp>
     <comp ref="J1">
       <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>30cf0ab3-33ea-4dfd-94e9-733288bef2da</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x05_Pin</value>
-      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>199edb23-80c2-4766-8fba-1025c1845c37</tstamps>
+      <tstamps>1a555930-fbe3-4b30-a59f-6d5730b74624</tstamps>
     </comp>
     <comp ref="U1">
       <value>ILX511</value>
@@ -100,25 +101,6 @@
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Conn_01x05_Pin">
-      <description>Generic connector, single row, 01x05, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x05_Pin</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -169,6 +151,19 @@
         <pin num="22" name="VDD" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_05">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -180,13 +175,16 @@
     <library logical="MRDT_CCD">
       <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/RamanSpectrometer_Hardware/CCD Breakout/Library/MRDT_CCD.kicad_sym</uri>
     </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+5V">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="Conn1" pin="1" pintype="input"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="VDD" pintype="input"/>
       <node ref="U1" pin="20" pinfunction="VDD" pintype="input"/>
       <node ref="U1" pin="21" pinfunction="VDD" pintype="input"/>
@@ -198,8 +196,8 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Conn1" pin="5" pintype="input"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="GND" pintype="input"/>
       <node ref="U1" pin="16" pinfunction="GND" pintype="input"/>
       <node ref="U1" pin="17" pinfunction="GND" pintype="input"/>
@@ -216,7 +214,7 @@
       <node ref="U1" pin="4" pinfunction="SHSW" pintype="input"/>
     </net>
     <net code="5" name="Vout">
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Conn1" pin="4" pintype="input"/>
       <node ref="U1" pin="1" pinfunction="Vout" pintype="output"/>
     </net>
     <net code="6" name="unconnected-(U1-NC-Pad7)">
@@ -235,11 +233,11 @@
       <node ref="U1" pin="14" pinfunction="NC" pintype="input+no_connect"/>
     </net>
     <net code="11" name="øCLK">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Conn1" pin="2" pintype="input"/>
       <node ref="U1" pin="5" pinfunction="øCLK" pintype="input"/>
     </net>
     <net code="12" name="øROG">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Conn1" pin="3" pintype="input"/>
       <node ref="U1" pin="11" pinfunction="øROG" pintype="input"/>
     </net>
   </nets>
