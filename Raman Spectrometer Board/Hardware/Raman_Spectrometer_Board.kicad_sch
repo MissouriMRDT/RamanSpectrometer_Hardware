@@ -2279,11 +2279,11 @@
     (property "Datasheet" "" (at 24.13 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c70))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c71))
     (pin "2" (uuid 67a2f8f3-0313-4f28-a38a-06e300a3b7c3))
     (pin "3" (uuid 62d22449-d630-4802-bce7-66af4f1430a9))
     (pin "4" (uuid f0a67ac2-b30e-45cb-9892-67c54261a45a))
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c70))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c71))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
@@ -2452,9 +2452,9 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 27.94 40.64 0) (unit 3)
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 27.94 40.64 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 91d9e15c-74d4-4858-93ee-f8b8fa9960a9)
+    (uuid 99844a06-4530-4b29-abda-d35bfd82cdcf)
     (property "Reference" "Conn1" (at 30.48 30.48 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2467,15 +2467,15 @@
     (property "Datasheet" "" (at 24.13 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid b7447b9d-2785-4ff3-9cf2-acad42304cc3))
-    (pin "2" (uuid 4afca22e-dd68-44e7-9cb5-a6747423cb19))
-    (pin "3" (uuid ab7498ab-4ae4-4c2f-8e9b-fbf692db5f2b))
-    (pin "4" (uuid 180d876c-f189-4fb8-90fe-ee409721b731))
-    (pin "1" (uuid b7447b9d-2785-4ff3-9cf2-acad42304cc3))
+    (pin "1" (uuid af9518fc-c97f-48b9-9fd5-007a1f1c9a6a))
+    (pin "2" (uuid ba2e1962-eacb-4069-9b7a-fd5cbc108d1c))
+    (pin "3" (uuid ab36252b-cd90-4be1-bee6-b6cdc2620eb5))
+    (pin "4" (uuid 96a2f6ca-2d49-46cd-8f8f-77f36e42c12e))
+    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f50b))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
-          (reference "Conn1") (unit 3)
+          (reference "Conn1") (unit 2)
         )
       )
     )
