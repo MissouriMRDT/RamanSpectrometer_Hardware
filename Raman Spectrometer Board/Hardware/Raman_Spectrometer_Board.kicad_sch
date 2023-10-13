@@ -2457,31 +2457,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 133.35 80.01 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2a98b49e-6369-4a4e-b86e-752a7e647219)
-    (property "Reference" "#PWR017" (at 133.35 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 133.35 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 133.35 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 133.35 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fecf7420-91cb-44d7-b65b-981c644bfe3c))
-    (instances
-      (project "Raman_Spectrometer_Board"
-        (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 157.48 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ef9a8e5-a0e6-4662-b349-dac16553c8d0)
@@ -2598,11 +2573,11 @@
     (property "Datasheet" "" (at 24.13 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7b))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7c))
     (pin "2" (uuid 67a2f8f3-0313-4f28-a38a-06e300a3b7c3))
     (pin "3" (uuid 62d22449-d630-4802-bce7-66af4f1430a9))
     (pin "4" (uuid f0a67ac2-b30e-45cb-9892-67c54261a45a))
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7b))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7c))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
@@ -2714,6 +2689,31 @@
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 133.35 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6f61d360-e980-4bf7-93a1-3409f477fc46)
+    (property "Reference" "#PWR09" (at 133.35 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 133.35 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 849504ca-b37c-4559-8b38-ee17c5eb23c1))
+    (instances
+      (project "Raman_Spectrometer_Board"
+        (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2888,11 +2888,11 @@
     (property "Datasheet" "" (at 24.13 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f514))
+    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f515))
     (pin "2" (uuid ba2e1962-eacb-4069-9b7a-fd5cbc108d1c))
     (pin "3" (uuid ab36252b-cd90-4be1-bee6-b6cdc2620eb5))
     (pin "4" (uuid 96a2f6ca-2d49-46cd-8f8f-77f36e42c12e))
-    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f514))
+    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f515))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"

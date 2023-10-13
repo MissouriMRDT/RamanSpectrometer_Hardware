@@ -316,11 +316,11 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+5V" (at 0 3.556 0)
+      (property "Value" "+12V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -332,10 +332,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+5V_0_1"
+      (symbol "+12V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -361,9 +361,9 @@
           (fill (type none))
         )
       )
-      (symbol "+5V_1_1"
+      (symbol "+12V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
+          (name "+12V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -664,56 +664,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 46.99 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 626f74a3-efcb-471d-8938-452043ee5437)
-    (property "Reference" "#PWR04" (at 46.99 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 46.99 22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 46.99 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 46.99 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09fe681b-34fe-4cb7-a887-97fd0eac2d8e))
-    (instances
-      (project "Laser_Diode_Breakout"
-        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 36.83 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 76a3d953-2444-4f19-8f55-c78a0339e5c2)
-    (property "Reference" "#PWR07" (at 36.83 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 36.83 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 36.83 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5b627642-645f-471a-b4ee-72826bcf7012))
-    (instances
-      (project "Laser_Diode_Breakout"
-        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 86.36 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96900090-de5b-49be-bad1-50b0c0afefbd)
@@ -796,6 +746,31 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 76.2 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aeb8ffae-c3e9-44aa-9de8-1970a9b01cc8)
+    (property "Reference" "#PWR04" (at 76.2 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 76.2 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 76.2 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f1cecb0e-1aa7-4ee3-b422-7f0a56870f82))
+    (instances
+      (project "Laser_Diode_Breakout"
+        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 46.99 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba22b412-6245-452b-ba4c-cb6ec4f3062c)
@@ -849,6 +824,56 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 36.83 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d4a01c23-5acc-4fe4-ac4c-2be9f0743ff5)
+    (property "Reference" "#PWR02" (at 36.83 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 36.83 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 36.83 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 36.83 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f128e7ff-ebe8-4a37-b7ab-fd02cdd333b4))
+    (instances
+      (project "Laser_Diode_Breakout"
+        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 46.99 27.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ef1ec8ae-9b39-4330-9bfd-04e9cfded482)
+    (property "Reference" "#PWR01" (at 46.99 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 46.99 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 46.99 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 46.99 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83a349c8-10ff-4940-86e1-ea53b49e1f89))
+    (instances
+      (project "Laser_Diode_Breakout"
+        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 41.91 64.77 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8951732-134a-4aea-b92b-29b0bb437cde)
@@ -875,31 +900,6 @@
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
           (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 76.2 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fe4d61db-13db-4d18-aaa1-75d82b4829f8)
-    (property "Reference" "#PWR08" (at 76.2 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 76.2 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8a984d93-935b-48e3-95c7-7b9fd4f1178b))
-    (instances
-      (project "Laser_Diode_Breakout"
-        (path "/c855c228-4e5d-4dfd-9922-c2d1c9f93d6f"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
