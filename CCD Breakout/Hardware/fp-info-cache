@@ -1,4 +1,4 @@
-22349959487790408
+22607719469256912
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -545,13 +545,6 @@ Matias ALPS keyswitch ISO enter
 0
 2
 2
-Button_Switch_SMD
-Nidec_Copal_CAS-120A
-Slide Switch, SMD, Nidec CAS series, https://www.nidec-components.com/e/catalog/switch/cas.pdf
-SMD slide switch Nidec CAS 120A 
-0
-3
-3
 Button_Switch_SMD
 Nidec_Copal_SH-7010A
 4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
@@ -1436,15 +1429,15 @@ SMD SMT SPST EVQP2
 2
 Button_Switch_SMD
 SW_SPST_EVQP7A
-Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906
-tactile switch
+Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf
+
 0
 4
 2
 Button_Switch_SMD
 SW_SPST_EVQP7C
-Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906
-tactile switch
+Light Touch Switch
+
 0
 4
 2
@@ -2049,20 +2042,6 @@ SW PUSH 12mm http://katalog.we-online.de/em/datasheet/430476085716.pdf
 tact sw push 12mm
 0
 4
-2
-Button_Switch_THT
-SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243
-tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1
-PHAP3362 6mm tact sw THT
-0
-2
-2
-Button_Switch_THT
-SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250
-tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1
-PHAP3362A 6mm tact sw THT
-0
-2
 2
 Button_Switch_THT
 SW_PUSH_6mm
@@ -6685,15 +6664,8 @@ jack stereo TRS
 5
 5
 Connector_Audio
-Jack_3.5mm_Lumberg_1503_02_Horizontal
-TRS 3.5mm, horizontal, Surface Mount (SMT), https://downloads.lumberg.com/datenblaetter/en/1503_02.pdf
-TRS audio jack horizontal
-0
-4
-3
-Connector_Audio
 Jack_3.5mm_Lumberg_1503_07_Horizontal
-TRS 3.5mm, horizontal, through-hole, height 5mm, width 6.5mm, https://downloads.lumberg.com/datenblaetter/en/1503_07.pdf
+TRS 3.5mm, horizontal, through-hole, https://downloads.lumberg.com/datenblaetter/en/1503_07.pdf
 TRS audio jack horizontal
 0
 4
@@ -8112,20 +8084,6 @@ barreljack switchcraftconxall dc power
 0
 2
 2
-Connector_BarrelJack
-BarrelJack_Wuerth_694106106102_2.0x5.5mm
-Wuerth Elektronik 694106106102 Barrel Jack, 2.0x5.5mm, https://www.we-online.com/components/products/datasheet/694106106102.pdf
-barrel jack Wuerth Elektronik 694106106102
-0
-4
-3
-Connector_BarrelJack
-BarrelJack_Wuerth_694108106102_2.5x5.5mm
-Wuerth Elektronik 694108106102 Barrel Jack, 2.5x5.5mm, https://www.we-online.com/components/products/datasheet/694106106102.pdf
-barrel jack Wuerth Elektronik 694108106102
-0
-4
-3
 Connector_BarrelJack
 BarrelJack_Wuerth_6941xx301002
 Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf
@@ -19028,7 +18986,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0212 (compatible alternatives: 43045-0213, 43045-0224), 1 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 2
 2
@@ -19070,7 +19028,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0424), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 4
 4
@@ -19112,7 +19070,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 6
 6
@@ -19154,7 +19112,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0812 (compatible alternatives: 43045-0813, 43045-0824), 4 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 8
 8
@@ -19196,7 +19154,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1012_2x05_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1012 (compatible alternatives: 43045-1013, 43045-1024), 5 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 10
 10
@@ -19238,7 +19196,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1224), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 12
 12
@@ -19280,7 +19238,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1412 (compatible alternatives: 43045-1413, 43045-1424), 7 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 14
 14
@@ -19322,7 +19280,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1612 (compatible alternatives: 43045-1613, 43045-1624), 8 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 16
 16
@@ -19364,7 +19322,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1812_2x09_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1812 (compatible alternatives: 43045-1813, 43045-1824), 9 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 18
 18
@@ -19406,7 +19364,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-2012 (compatible alternatives: 43045-2013, 43045-2024), 10 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 20
 20
@@ -19448,7 +19406,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2212_2x11_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-2212 (compatible alternatives: 43045-2213, 43045-2224), 11 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 22
 22
@@ -19490,7 +19448,7 @@ connector Molex Micro-Fit_3.0 top entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-2412 (compatible alternatives: 43045-2413, 43045-2424), 12 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 vertical
+connector Molex Micro-Fit_3.0 side entry
 0
 24
 24
@@ -23442,20 +23400,6 @@ PCIe
 0
 164
 164
-Connector_PCBEdge
-JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder
-PCI Express mini card latch for 3.9mm connector height, https://www.jae.com/direct/topics/topics_file_download/?topics_id=68909&ext_no=06&index=0&_lang=en&v=2022071912512930114109
-MiniPCI
-0
-6
-1
-Connector_PCBEdge
-JAE_MM60-EZH059-Bx_BUS_PCI_Express_Holder
-PCI Express mini card latch for 5.9mm connector height, https://www.jae.com/direct/topics/topics_file_download/topics_id=68910&ext_no=06&index=0&_lang=en&v=
-MiniPCI
-0
-6
-1
 Connector_PCBEdge
 Samtec_MECF-05-0_-L-DV_2x05_P1.27mm_Polarized_Edge
 Highspeed card edge connector for PCB's with 05 contacts (polarized)
@@ -48139,13 +48083,6 @@ USB-A CUI stacked horizontal through-hole
 12
 9
 Connector_USB
-USB_A_Molex_48037-2200_Horizontal
-USB type A Plug, Horizontal, https://www.molex.com/pdm_docs/sd/480372200_sd.pdf
-USB-A
-0
-6
-5
-Connector_USB
 USB_A_Molex_67643_Horizontal
 USB type A, Horizontal, https://www.molex.com/pdm_docs/sd/676433910_sd.pdf
 USB_A Female Connector receptacle
@@ -48307,33 +48244,12 @@ USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB410
 20
 17
 Connector_USB
-USB_C_Receptacle_GCT_USB4110
-USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf
-USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A
-0
-20
-17
-Connector_USB
 USB_C_Receptacle_GCT_USB4115-03-C
 USB TYPE C, VERT RCPT PCB, SMT, https://gct.co/files/drawings/usb4115.pdf
 USB C Type-C Receptacle SMD
 0
 28
 25
-Connector_USB
-USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal
-USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf
-USB C Type-C receptacle power-only charging-only 6P 6C right angled
-0
-10
-7
-Connector_USB
-USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal
-USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1mm stake: https://gct.co/files/drawings/usb4125.pdf
-USB C Type-C receptacle power-only charging-only 6P 6C right angled
-0
-10
-7
 Connector_USB
 USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal
 USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A: https://gct.co/files/drawings/usb4135.pdf
@@ -51044,13 +50960,6 @@ ACDC-Converter TRACO TMLM 10 and TMLM 20
 4
 4
 Converter_ACDC
-Converter_ACDC_TRACO_TPP-15-1xx-D_THT
-ACDC-Converter, 15W, TRACO TPP 15-D, 42 x 28.9 x 21.5mm, https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf
-ACDC-Converter TRACO TPP
-0
-5
-5
-Converter_ACDC
 Converter_ACDC_Vigortronix_VTX-214-010-xxx_THT
 Vigortronix VTX-214-010-xxx serie of ACDC converter, http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
 Vigortronix VTX-214-010-xxx serie of ACDC converter
@@ -51317,13 +51226,6 @@ DCDC-Converter Silvertel Ag5405 Ag5412 Ag5424 single output POE
 10
 10
 Converter_DCDC
-Converter_DCDC_Silvertel_Ag99xxLP_THT
-Converter, DCDC, Silvertel Ag9900 PoE, 1500VDC isolation, Vin 36V - 75V, 4.9W - 10W output, https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf
-DCDC converter IEEE 802.3af
-0
-8
-8
-Converter_DCDC
 Converter_DCDC_Silvertel_Ag5810
 DCDC-Converter, 60W POE, Silvertel, pitch 2.54mm, package size 69.98x30x15.64mm, https://silvertel.com/images/datasheets/Ag5810-datasheet-IEEE802_3bt-Power-over-Ethernet-4-pair-PD.pdf
 DCDC-Converter Silvertel Ag5810 single output POE
@@ -51344,27 +51246,6 @@ dcdc traco 5w
 0
 6
 6
-Converter_DCDC
-Converter_DCDC_TRACO_TEA1-xxxx_THT
-DCDC-Converter, TRACO, TEA1-xxxx, 1W, Rev. August 31. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tea1.pdf)
-DCDC-Converter TRACO TEA1 THT SIP-4 1W
-0
-4
-4
-Converter_DCDC
-Converter_DCDC_TRACO_TEA1E-xxxx_THT
-DCDC-Converter, TRACO, TEA1E-xxxx, 1W, Rev. September 7. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tea1e.pdf)
-DCDC-Converter TRACO TEA1E THT SIP-7 1W
-0
-4
-4
-Converter_DCDC
-Converter_DCDC_TRACO_TEA1HI-xxxx_THT
-DCDC-Converter, TRACO, TEA1HI-xxxx, 1W, Rev. September 21. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tea1hi.pdf)
-DCDC-Converter TRACO TEA1HI THT SIP-7 1W
-0
-4
-4
 Converter_DCDC
 Converter_DCDC_TRACO_TEL12-xxxx_THT
 Traco 12W, THT (https://www.tracopower.com/sites/default/files/products/datasheets/tel12_datasheet.pdf)
@@ -51421,34 +51302,6 @@ DCDC-Converter TRACO THN30 Generic
 0
 6
 6
-Converter_DCDC
-Converter_DCDC_TRACO_TMA-05xxD_12xxD_Dual_THT
-DCDC-Converter, TRACO, TMA-05xxD, TMA-12xxD, Dual outputs, Rev. August 29. 2023, https://www.tracopower.com/products/tma.pdf
-DCDC-Converter TRACO TMA-05xxD TMA-12xxD Dual THT
-0
-5
-5
-Converter_DCDC
-Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT
-DCDC-Converter, TRACO, TMA-05xxS, TMA-12xxS Single output, Rev. August 29. 2023, https://www.tracopower.com/products/tma.pdf
-DCDC-Converter TRACO TMA-05xxS TMA-12xxS Single THT
-0
-4
-4
-Converter_DCDC
-Converter_DCDC_TRACO_TMA-15xxD_24xxD_Dual_THT
-DCDC-Converter, TRACO, TMA-15xxD, TMA-24xxD, Dual outputs, Rev. August 29. 2023, https://www.tracopower.com/products/tma.pdf
-DCDC-Converter TRACO TMA-15xxD TMA-24xxD Dual THT
-0
-5
-5
-Converter_DCDC
-Converter_DCDC_TRACO_TMA-15xxS_24xxS_Single_THT
-DCDC-Converter, TRACO, TMA-15xxS, TMA-24xxS, Single output, Rev. August 29. 2023, https://www.tracopower.com/products/tma.pdf
-DCDC-Converter TRACO TMA-15xxS TMA-24xxS Single THT
-0
-4
-4
 Converter_DCDC
 Converter_DCDC_TRACO_TMR-1-xxxx_Dual_THT
 DCDC-Converter, TRACO, TMR 1-xxxx, Dual output, Rev. March 21.2016
@@ -53403,13 +53256,6 @@ TVS protection diodes
 2
 2
 Diode_SMD
-Nexperia_DSN1608-2_1.6x0.8mm
-Diode SMD DSN1608, 1.6 x 0.8 x 0.29 mm, https://assets.nexperia.com/documents/package-information/SOD964.pdf
-diode SOD964 SOD-964
-0
-2
-2
-Diode_SMD
 Vishay_SMPA
 Diode SMPA (DO-221BC), https://www.vishay.com/docs/87659/v8pa10.pdf
 Diode SMPA (DO-221BC)
@@ -55021,14 +54867,14 @@ SAW filter 6-pin
 6
 Filter
 Filter_Schaffner_FN405
-Compact PCB mounting EMI filter (https://www.schaffner.com/product/FN405/Schaffner_datasheet_FN405.pdf)
+Compact PCB mounting EMI filter (https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/)
 EMI filter
 0
 5
 5
 Filter
 Filter_Schaffner_FN406
-Ultra Compact EMC Filter (https://www.schaffner.com/product/FN406/Schaffner_datasheet_FN406.pdf)
+Ultra Compact EMC Filter (https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/)
 emi filter
 0
 5
@@ -56413,13 +56259,6 @@ Bourns SRR1260 SMD inductor
 2
 2
 Inductor_SMD
-L_Bourns_SRU5016_5.2x5.2mm
-Bourns SRU5016 series shielded SMD power inductor, 1.6mm height https://www.bourns.com/docs/product-datasheets/sru5016.pdf
-Bourns SRU5016 SMD inductor
-0
-4
-3
-Inductor_SMD
 L_Changjiang_FNR3010S
 Inductor, Changjiang, FNR3010S, 3.0x3.0x1.0mm, https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf
 Inductor wirewound power shielded
@@ -57235,13 +57074,6 @@ Inductor_SMD
 L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm
 Wire Wound Chip Common Mode Choke Coil SMD, Murata DLW5BTxxxSQ2x, https://www.murata.com/products/productdata/8796762701854/EFLC0020.pdf, manual footprint
 inductor common mode choke
-0
-4
-4
-Inductor_SMD
-L_CommonModeChoke_TDK_ACM7060
-ACM7060 SMT Common Mode Filter, https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf
-SMT Common Mode Line Filter
 0
 4
 4
@@ -59878,34 +59710,6 @@ cmode choke dual
 4
 4
 Inductor_THT
-L_CommonMode_TDK_B82747E6163A040
-3 Phase, CM Choke, drill hole 2mm ( https://product.tdk.com/system/files/dam/doc/product/emc/emc/line-filter/data_sheet/30/ds/b82747e6.pdf )
-three phase common mode triple choke
-0
-6
-6
-Inductor_THT
-L_CommonMode_TDK_B82747E6203A040
-3 Phase, CM Choke, drill hole 2.2mm ( https://product.tdk.com/system/files/dam/doc/product/emc/emc/line-filter/data_sheet/30/ds/b82747e6.pdf )
-three phase common mode triple choke
-0
-6
-6
-Inductor_THT
-L_CommonMode_TDK_B82747E6253A040
-3 Phase, CM Choke, drill hole 2.44mm ( https://product.tdk.com/system/files/dam/doc/product/emc/emc/line-filter/data_sheet/30/ds/b82747e6.pdf )
-three phase common mode triple choke
-0
-6
-6
-Inductor_THT
-L_CommonMode_TDK_B82747E6353A040
-3 Phase, CM Choke, drill hole 3mm ( https://product.tdk.com/system/files/dam/doc/product/emc/emc/line-filter/data_sheet/30/ds/b82747e6.pdf )
-three phase common mode triple choke
-0
-6
-6
-Inductor_THT
 L_CommonMode_Toroid_Vertical_L19.3mm_W10.8mm_Px6.35mm_Py15.24mm_Bourns_8100
 L_CommonMode_Toroid, Vertical series, Radial, pin pitch=6.35*15.24mm^2, , length*width=19.304*10.795mm^2, Bourns, 8100, http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
 L_CommonMode_Toroid Vertical series Radial pin pitch 6.35*15.24mm^2  length 19.304mm width 10.795mm Bourns 8100
@@ -60033,35 +59837,35 @@ CommonModeChoke Gleichtaktdrossel
 4
 Inductor_THT
 L_Mount_Lodestone_VTM120
-Lodestone Pacific, 30.48mm diameter vertical toroid mount, 16AWG/1.27mm holes, https://www.lodestonepacific.com/wp-content/uploads/2020/07/VTM-Series-Full-Page.pdf
+Lodestone Pacific, 30.48mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
 vertical inductor toroid mount
 0
 4
 4
 Inductor_THT
 L_Mount_Lodestone_VTM160
-Lodestone Pacific, 40.64mm diameter vertical toroid mount, 16AWG/1.27mm holes, https://www.lodestonepacific.com/wp-content/uploads/2020/07/VTM-Series-Full-Page.pdf
+Lodestone Pacific, 40.64mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
 vertical inductor toroid mount
 0
 4
 4
 Inductor_THT
 L_Mount_Lodestone_VTM254
-Lodestone Pacific, 64.51mm diameter vertical toroid mount, 16AWG/1.27mm holes, https://www.lodestonepacific.com/wp-content/uploads/2020/07/VTM-Series-Full-Page.pdf
+Lodestone Pacific, 64.51mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
 vertical inductor toroid mount
 0
 4
 4
 Inductor_THT
 L_Mount_Lodestone_VTM280
-Lodestone Pacific, 71.12mm diameter vertical toroid mount, 16AWG/1.27mm holes, https://www.lodestonepacific.com/wp-content/uploads/2020/07/VTM-Series-Full-Page.pdf
+Lodestone Pacific, 71.12mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
 vertical inductor toroid mount
 0
 4
 4
 Inductor_THT
 L_Mount_Lodestone_VTM950-6
-Lodestone Pacific, vertical toroid mount, 11x19mm, 6 pins, https://www.lodestonepacific.com/wp-content/uploads/2021/05/VTM950-6.pdf
+Lodestone Pacific, vertical toroid mount, 11x19mm, 6 pins, http://www.lodestonepacific.com/CatKpdf/VTM950-6.pdf
 vertical inductor toroid mount
 0
 6
@@ -62348,13 +62152,1658 @@ Yellow 5381 Series LED
 0
 2
 2
+MRDT_Actives
+ABM3B-8.000MHZ-10-1-U-T
+5 mm x 3.2 mm
+
+0
+4
+4
+MRDT_Actives
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
+MRDT_Actives
+IRFZ44ESTRLPBF
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+4
+3
+MRDT_Actives
+IRLS3034_TO-263-7_P
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+11
+3
+MRDT_Actives
+LED_CREE_XLAMP_XPG
+
+
+0
+3
+3
+MRDT_Actives
+NX5032GA_Crystal
+
+
+0
+2
+2
+MRDT_Actives
+PMN280ENEAX
+
+
+0
+6
+6
+MRDT_Actives
+Q36SR12020NRFA
+
+
+0
+8
+8
+MRDT_Actives
+Rohm_R6020ENJ_N_Channel_MOSFET
+
+
+0
+3
+3
+MRDT_Actives
+SO-8_N_Si4116dy_nChannelMOSFET
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+3
+MRDT_Actives
+TO-220-3_Horizontal_Reversed_NoHole
+TO-220-3, Horizontal, RM 2.54mm
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
 MRDT_CCD
 ILX511
 
 
 0
+22
+22
+MRDT_Connectors
+Anderson_1_Horizontal
+
+
+0
+1
+1
+MRDT_Connectors
+Anderson_2_Horizontal_Side_by_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Horizontal_Side_by_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Horizontal_Stacked
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Horizontal_Stacked_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Vertical_Side_by_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Vertical_Sidy_by_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_3_Horizontal_Side_by_Side
+
+
+0
+3
+3
+MRDT_Connectors
+Anderson_3_Vertical_Side_by_Side
+
+
+0
+3
+3
+MRDT_Connectors
+BNC_THT_Horizontal
+
+
+0
+4
+4
+MRDT_Connectors
+CR1220_Battery_Holder
+
+
+0
+3
+2
+MRDT_Connectors
+JTAG_ARM_Connector_10_Pin
+
+
+0
+10
+10
+MRDT_Connectors
+MOLEX_47346-0001
+
+
+0
+11
+6
+MRDT_Connectors
+MOLEX_SL_02_Horizontal
+
+
+0
+2
+2
+MRDT_Connectors
+MOLEX_SL_02_Vertical
+
+
+0
+2
+2
+MRDT_Connectors
+MOLEX_SL_03_Horizontal
+
+
+0
+3
+3
+MRDT_Connectors
+MOLEX_SL_03_Vertical
+
+
+0
+3
+3
+MRDT_Connectors
+MOLEX_SL_04_Horizontal
+
+
+0
+4
+4
+MRDT_Connectors
+MOLEX_SL_04_Vertical
+
+
+0
+5
+4
+MRDT_Connectors
+MOLEX_SL_05_Horizontal
+
+
+0
+5
+5
+MRDT_Connectors
+MOLEX_SL_05_Vertical
+
+
+0
+5
+5
+MRDT_Connectors
+MOLEX_SL_07_Horizontal
+
+
+0
+7
+7
+MRDT_Connectors
+MOLEX_SL_07_Vertical
+
+
+0
+7
+7
+MRDT_Connectors
+MOLEX_SL_08_Horizontal
+
+
+0
+8
+8
+MRDT_Connectors
+MOLEX_SL_08_Vertical
+
+
+0
+8
+8
+MRDT_Connectors
+MOLEX_SL_09_Horizontal
+
+
+0
+9
+9
+MRDT_Connectors
+MOLEX_SL_09_Vertical
+
+
+0
+9
+9
+MRDT_Connectors
+MOLEX_SL_10_Horizontal
+
+
+0
+10
+10
+MRDT_Connectors
+MOLEX_SL_10_Vertical
+
+
+0
+10
+10
+MRDT_Connectors
+MOLEX_uF_D_02_Horizontal
+
+
+0
+3
+2
+MRDT_Connectors
+MOLEX_uF_D_04_Horizontal
+
+
+0
+5
+4
+MRDT_Connectors
+MOLEX_uF_D_06_Horizontal
+
+
+0
+7
+6
+MRDT_Connectors
+MOLEX_uF_D_08_Horizontal
+
+
+0
+10
+8
+MRDT_Connectors
+MOLEX_uF_D_10_Horizontal
+
+
+0
+12
+10
+MRDT_Connectors
+MOLEX_uF_S_02_Horizontal
+
+
+0
+3
+2
+MRDT_Connectors
+MOLEX_uF_S_02_Vertical
+
+
+0
+2
+2
+MRDT_Connectors
+MOLEX_uF_S_03_Horizontal
+
+
+0
+4
+3
+MRDT_Connectors
+MOLEX_uF_S_03_Vertical
+
+
+0
+3
+3
+MRDT_Connectors
+MOLEX_uF_S_04_Horizontal
+
+
+0
+6
+4
+MRDT_Connectors
+MOLEX_uF_S_04_Vertical
+
+
+0
+4
+4
+MRDT_Connectors
+MOLEX_uF_S_05_Horizontal
+
+
+0
+7
+5
+MRDT_Connectors
+MOLEX_uF_S_05_Vertical
+
+
+0
+5
+5
+MRDT_Connectors
+MOLEX_uF_S_06_Horizontal
+
+
+0
+8
+6
+MRDT_Connectors
+MOLEX_uF_S_06_Vertical
+
+
+0
+6
+6
+MRDT_Connectors
+MOLEX_uF_S_07_Horizontal
+
+
+0
+9
+7
+MRDT_Connectors
+MOLEX_uF_S_07_Vertical
+
+
+0
+7
+7
+MRDT_Connectors
+MOLEX_uF_S_08_Vertical
+
+
+0
+8
+8
+MRDT_Connectors
+MOLEX_uF_S_09_Vertical
+
+
+0
+9
+9
+MRDT_Connectors
+RJ45_Teensy
+
+
+0
+16
+15
+MRDT_Connectors
+RP-SMA_Jack_Tru-Hole_Right-Angle
+
+
+0
+5
+2
+MRDT_Connectors
+Solder_Pad_5mmX3mm
+
+Solder Pad
+0
+1
+1
+MRDT_Connectors
+Solder_Pad_6mmX4mm
+
+Solder Pad
+0
+1
+1
+MRDT_Connectors
+Square_Anderson_1_H
+
+
+0
+1
+1
+MRDT_Connectors
+Square_Anderson_2_H_Side_By_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Side_By_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Stacked
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Stacked_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_V_Side_By_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_V_Side_By_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_3_H_Side_By_Side
+
+
+0
+3
+3
+MRDT_Connectors
+Square_Anderson_3_V_Side_By_Side
+
+
+0
+3
+3
+MRDT_Connectors
+USB-UX60R-MB-5ST
+
+
+0
+9
+5
+MRDT_Devices
+ABS25
+
+
+0
+4
+2
+MRDT_Devices
+BUZZER_SMI_1324_TW_5V_2_R
+
+
+0
+2
+2
+MRDT_Devices
+HX1198FNL
+
+
+0
+16
+16
+MRDT_Devices
+LDD-1500L_LED_DRIVER
+
+
+0
+9
+9
+MRDT_Devices
+LM2576
+Buck Coverter
+Buck
+0
+6
+6
+MRDT_Devices
+NX3225GA
+
+
+0
+4
+4
+MRDT_Devices
+OKI_Horizontal
+
+OKI
+0
+3
+3
+MRDT_Devices
+PKE3316ZPI
+
+
+0
+6
+6
+MRDT_Devices
+Q36SR12020NRFA
+
+
+0
+8
+8
+MRDT_Devices
+TSR_1-2433
+
+
+0
+3
+3
+MRDT_Drill_Holes
+4_40_Hole
+
+
 0
 0
+0
+MRDT_Drill_Holes
+4_40_Hole_Corner
+
+
+0
+0
+0
+MRDT_Drill_Holes
+6_32_Hole
+
+
+0
+0
+0
+MRDT_Drill_Holes
+6_32_Hole_Corner
+
+
+0
+0
+0
+MRDT_Drill_Holes
+BATT_PWR_VIA
+
+
+0
+1
+1
+MRDT_Drill_Holes
+MOUTING_HOLE_D0.13in
+
+
+0
+0
+0
+MRDT_Drill_Holes
+Via_.6mm
+
+
+0
+1
+1
+MRDT_Drill_Holes
+Via_P1.27mm_5x5
+
+
+0
+25
+1
+MRDT_ICs
+BMX160
+
+
+0
+14
+14
+MRDT_ICs
+BNO055
+
+
+0
+28
+28
+MRDT_ICs
+DRV8301
+
+
+0
+57
+57
+MRDT_ICs
+DRV8302DCA
+TSSOP-56-PP
+
+0
+57
+57
+MRDT_ICs
+ESP8266_12E_SMD
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+MRDT_ICs
+HRP5
+
+
+0
+6
+5
+MRDT_ICs
+ICM_20948
+
+
+0
+24
+24
+MRDT_ICs
+MAX4314ESD+
+
+
+0
+14
+14
+MRDT_ICs
+MODULE_NEO-M8P-2
+
+
+0
+24
+24
+MRDT_ICs
+MultiPowerSO_30
+
+
+0
+33
+33
+MRDT_ICs
+NUP4201MR6
+
+
+0
+6
+6
+MRDT_ICs
+SOIC_10NB
+
+
+0
+10
+10
+MRDT_ICs
+SOIC_16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+MRDT_ICs
+STM32F405RGT6
+LQFP-64
+
+0
+64
+64
+MRDT_ICs
+TB67H400AFNG,EL
+HTSSOP-48_6.1x12.5mm_P0.5mm
+HTSSOP SO
+0
+49
+49
+MRDT_ICs
+USEQGSEAN8L180
+
+
+0
+36
+30
+MRDT_Passives
+3528SMD_Diode
+
+
+0
+2
+2
+MRDT_Passives
+ATC_Fuse_Block
+
+Fuse ATC
+0
+4
+2
+MRDT_Passives
+DR74_330_R
+
+
+0
+2
+2
+MRDT_Passives
+ETQ-P4M470YFN_Inductor
+
+
+0
+2
+2
+MRDT_Passives
+SOT-23_Diode
+
+
+0
+3
+3
+MRDT_Passives
+WSLP2726
+
+
+0
+4
+4
+MRDT_Sensors
+ACS759ECB_PFF_Leadform_5pins
+Allegro, Hallsensor, Through hole, Package CB-PFF,
+Allegro, Hallsensor, Through hole, Package CB-PFF,
+0
+5
+5
+MRDT_Sensors
+Adafruit_LSM9DS1
+
+
+0
+14
+14
+MRDT_Sensors
+FGPMMOPA6H
+
+
+0
+20
+20
+MRDT_Sensors
+GY_ML8511_Breakout
+
+
+0
+5
+5
+MRDT_Sensors
+HIH_4030_Breakout
+
+
+0
+3
+3
+MRDT_Sensors
+IMU_LSM90S1
+
+
+0
+13
+13
+MRDT_Sensors
+MPL3115A2_Breakout
+
+
+0
+6
+6
+MRDT_Sensors
+MQ_4
+Temperature Sensor
+
+0
+6
+3
+MRDT_Sensors
+MQ_135_Breakout
+
+
+0
+4
+4
+MRDT_Sensors
+Razor_9DOF_Sparkfun
+
+
+0
+12
+12
+MRDT_Sensors
+TCD-1304
+
+
+0
+22
+22
+MRDT_Sensors
+TMP36
+
+
+0
+3
+3
+MRDT_Shields
+Arduino_Micro_THT_Top
+
+ARDUINO, MICRO
+0
+34
+31
+MRDT_Shields
+ESP2866EX_Chip
+
+
+0
+33
+33
+MRDT_Shields
+ESP_8266_Breakout_Small
+
+
+0
+16
+16
+MRDT_Shields
+ESP_8266_NODEMCU
+
+
+0
+30
+30
+MRDT_Shields
+Full_Booster_Mount
+
+
+0
+0
+0
+MRDT_Shields
+Half_Booster_Mount
+
+
+0
+0
+0
+MRDT_Shields
+LAUNCHXL_F28069M_FULL_SMD_BOTTOM
+
+
+0
+80
+77
+MRDT_Shields
+LAUNCHXL_F28069M_FULL_SMD_TOP
+
+
+0
+80
+77
+MRDT_Shields
+LAUNCHXL_F28069M_FULL_THT_BOTTOM
+
+
+0
+80
+77
+MRDT_Shields
+LAUNCHXL_F28069M_FULL_THT_TOP
+
+
+0
+80
+77
+MRDT_Shields
+LAUNCHXL_F28069M_J1_SMD_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J1_SMD_TOP
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J1_THT_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J1_THT_TOP
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J5_SMD_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J5_SMD_TOP
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J5_THT_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+LAUNCHXL_F28069M_J5_THT_TOP
+
+
+0
+40
+39
+MRDT_Shields
+RASPBERRY_PI_HEADERS
+
+
+0
+40
+40
+MRDT_Shields
+RaspberryPi_THT_BOTTOM
+
+
+0
+40
+40
+MRDT_Shields
+Standard_Mount_Full
+
+
+0
+0
+0
+MRDT_Shields
+Standard_Mount_Half
+
+
+0
+0
+0
+MRDT_Shields
+TM4C123G_Booster
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129Breakout_THT
+
+
+0
+56
+52
+MRDT_Shields
+TM4C129E_Launchpad_FULL_SMD_BOTTOM
+
+
+0
+80
+77
+MRDT_Shields
+TM4C129E_Launchpad_FULL_SMD_TOP
+
+
+0
+80
+77
+MRDT_Shields
+TM4C129E_Launchpad_FULL_THT_BOTTOM
+
+
+0
+80
+77
+MRDT_Shields
+TM4C129E_Launchpad_FULL_THT_TOP
+
+
+0
+80
+77
+MRDT_Shields
+TM4C129E_Launchpad_FULL_Vertical
+
+
+0
+80
+77
+MRDT_Shields
+TM4C129E_Launchpad_X7_SMD_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X7_SMD_TOP
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X7_THT_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X7_THT_TOP
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X9_SMD_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X9_SMD_TOP
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X9_THT_BOTTOM
+
+
+0
+40
+39
+MRDT_Shields
+TM4C129E_Launchpad_X9_THT_TOP
+
+
+0
+40
+39
+MRDT_Shields
+Teensy_4_1
+
+
+0
+65
+65
+MRDT_Shields
+Teensy_4_1_Bare
+
+
+0
+48
+48
+MRDT_Shields
+Teensy_4_1_Ethernet
+
+
+0
+54
+54
+MRDT_Shields
+Teensy_4_1_Vertical
+
+
+0
+65
+65
+MRDT_Silkscreens
+0-README
+
+
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_7.5mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_10mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_20mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_30mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_40mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_50mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Logo_60mm
+
+Logo, MRDT
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Retro_Logo_34mmX21.5mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+0_MRDT_Retro_Logo_40mmX25.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_100_silkscreen
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_Dahlbot_2.0
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_Meh
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_Nothing_3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_Nothing_3mm_Cu
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_Shimble
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_WifiPower
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_fire_silkscreen
+
+
+0
+0
+0
+MRDT_Silkscreens
+Sean_Duda_Signature_41.0mmx30.7mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+yagi
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Aaron_Colvin_Sig_4mmx14.1mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Alex_Wortmann_PT1
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Alex_Wortmann_PT2
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Alisa_Lazareva_15mmx11mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Andrea_Biasella_22mmx9.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Andrew_Phillips_19.7mmx7.7mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Andrew_Van_Horn_Sig_15mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Anthony_Robles_15mmx8.2mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Austin Ashbaugh 276mm x 207.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Austin_Christman_22mmx8.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Austin_Hill_Sig_22mmx9.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Brady_Davis_36mmx9mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Brian_Dahlman_Sig_20.1mmX7.5mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Eric_Welch_Sig_22mmx9.4mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Ethan_Medrow_6.3mmx13
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Evan_Hite_Sig_15mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_25mmx6
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_30mmx7.3
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Jack_Schott_15.2mmx27mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Jacob_Lipina_Sig_15mm
+
+Signature Sig Logo
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Jacob_Troy_Sig_22mmx16.5mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Jared_Sinkey_15.5mmx34.4mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Joey_Mendez_14.6mmx6.5mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_John_Bueke
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Kamran_Winschel_17.1mmx3.9mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_MaxRyan_25x6.6mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Nick_Clark_Sig_20.0mmX10.3mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Patrick_Sanchez_15mmx5mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Ryan Signature
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Sam_Thompson_Sig_20.0mmX13.1mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_SanfanLiu_sig21.8mmx12.3mm1
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Atlas_Logo_28.6mmX37.3mm
+
+Logo, Atlas
+0
+0
+0
+MRDT_Silkscreens
+zz_Atlas_Logo_58.4mmx76mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Atlas_Logo_Short_100mmX92.2mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Atlas_Logo_Short_Title_110mmX37.4mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Atlas_Logo_Short_Title_140mmX47.6mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Full_2.26inx3in
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Short_1.4inx0.65in
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Short_1.8inx0.8in
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Short_1inx0.46in
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Short_3inx1.4in
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Valkyrie_Logo_Full_40mmx40mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Valkyrie_Logo_Full_50mmx50mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Valkyrie_Logo_Full_60mmx60mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Valkyrie_Logo_Full_70mmx70mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Valkyrie_Logo_Full_100mmx100mm
+
+
+0
+0
+0
+MRDT_Switches
+1P2T_Angled_Slide_GPI-152-3013
+
+
+0
+6
+3
+MRDT_Switches
+2P2T_Switch_GrayHill_Series76
+
+
+0
+6
+6
+MRDT_Switches
+3P1T_Switch
+
+
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -65591,7 +67040,7 @@ IRReceiverVishayTSOP-xxxx CAST
 3
 OptoDevice
 Vishay_CNY70
-package for Vishay CNY70 refective photo coupler/interrupter, https://www.vishay.com/docs/83751/cny70.pdf
+package for Vishay CNY70 refective photo coupler/interrupter
 Vishay CNY70 refective photo coupler
 0
 4
@@ -69062,13 +70511,6 @@ AQFN 7mm
 78
 74
 Package_DFN_QFN
-Nordic_AQFN-94-1EP_7x7mm_P0.4mm
-aQFN, Nordic, nRF5340, https://infocenter.nordicsemi.com/pdf/nRF5340_PS_v1.2.pdf
-aqfn qfn nordic nrf nrf5340 aqfn94
-0
-103
-95
-Package_DFN_QFN
 OnSemi_DFN-8_2x2mm_P0.5mm
 DFN8 2x2, 0.5P (https://www.onsemi.com/pub/Collateral/511AT.PDF)
 DFN 0.5
@@ -69554,20 +70996,6 @@ QFN NoLead
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm_ThermalVias
 QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-39
-25
-Package_DFN_QFN
-QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm
-QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-29
-25
-Package_DFN_QFN
-QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
-QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 39
@@ -71288,20 +72716,6 @@ QFN NoLead
 36
 25
 Package_DFN_QFN
-Texas_RJE0020A_VQFN-20-1EP_3x3mm_P0.45mm_EP0.675x0.76mm
-Texas RJE0020A VQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/tps51396a.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
-Texas VQFN NoLead
-0
-22
-21
-Package_DFN_QFN
-Texas_RJE0020A_VQFN-20-1EP_3x3mm_P0.45mm_EP0.675x0.76mm_ThermalVias
-Texas RJE0020A VQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/tps51396a.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
-Texas VQFN NoLead
-0
-24
-21
-Package_DFN_QFN
 Texas_RNN0018A
 Texas Instruments, VQFN-HR RNN0018A (http://www.ti.com/lit/ds/symlink/tps568215.pdf)
 ti vqfn-hr rnn0018a
@@ -71623,20 +73037,6 @@ Texas RSE0010 UQFN NoLead
 0
 10
 10
-Package_DFN_QFN
-Texas_VQFN-HR-12_2x2.5mm_P0.5mm
-Texas  VQFN-HR, 12 Pin, http://www.ti.com/lit/ml/mpqf508/mpqf508.pdf
-RUX0012A Texas VQFN-HR NoLead
-0
-12
-12
-Package_DFN_QFN
-Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias
-Texas  VQFN-HR, 12 Pin, http://www.ti.com/lit/ml/mpqf508/mpqf508.pdf
-RUX0012A Texas VQFN-HR NoLead
-0
-16
-12
 Package_DFN_QFN
 Texas_VQFN-HR-20_3x2.5mm_P0.5mm_RQQ0011A
 Texas  VQFN-HR, 11 Pin, https://www.ti.com/lit/ml/mpqf579/mpqf579.pdf
@@ -75215,20 +76615,6 @@ TQFP QFP
 176
 176
 Package_QFP
-Texas_PHP0048E_HTQFP-48-1EP_7x7mm_P0.5mm_EP6.5x6.5mm_Mask3.62x3.62mm
-Texas PHP0048E HTQFP, 48 Pin (https://www.ti.com/lit/ds/symlink/tusb4020bi.pdf#page=42), generated with kicad-footprint-generator ipc_gullwing_generator.py
-Texas HTQFP QFP
-0
-51
-49
-Package_QFP
-Texas_PHP0048E_HTQFP-48-1EP_7x7mm_P0.5mm_EP6.5x6.5mm_Mask3.62x3.62mm_ThermalVias
-Texas PHP0048E HTQFP, 48 Pin (https://www.ti.com/lit/ds/symlink/tusb4020bi.pdf#page=42), generated with kicad-footprint-generator ipc_gullwing_generator.py
-Texas HTQFP QFP
-0
-88
-49
-Package_QFP
 VQFP-80_14x14mm_P0.65mm
 VQFP, 80 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
 VQFP QFP
@@ -75642,20 +77028,6 @@ HTSSOP SO
 47
 25
 Package_SO
-HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm
-HTSSOP, 28 Pin (https://www.trinamic.com/fileadmin/assets/Support/AppNotes/AN005x-IC_Package_PCB_Footprint_Guidelines_HTSSOP28_rev1.00.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO
-0
-30
-29
-Package_SO
-HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm_ThermalVias
-HTSSOP, 28 Pin (https://www.trinamic.com/fileadmin/assets/Support/AppNotes/AN005x-IC_Package_PCB_Footprint_Guidelines_HTSSOP28_rev1.00.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO
-0
-41
-29
-Package_SO
 HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm
 HTSSOP, 28 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0108.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py
 HTSSOP SO
@@ -75893,20 +77265,6 @@ MFSOP 4 pin SMD
 0
 5
 5
-Package_SO
-MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm
-MSOP, 8 Pin (https://www.diodes.com/assets/Package-Files/MSOP-8EP.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-13
-9
-Package_SO
-MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm_ThermalVias
-MSOP, 8 Pin (https://www.diodes.com/assets/Package-Files/MSOP-8EP.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-18
-9
 Package_SO
 MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm
 MSOP, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf#page=13), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -76638,13 +77996,6 @@ SOP SO
 Package_SO
 SOP-8_6.62x9.15mm_P2.54mm
 SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-8
-8
-Package_SO
-SOP-8_6.605x9.655mm_P2.54mm
-SOP, 8 Pin (https://www.onsemi.com/pdf/datasheet/hcpl2631m-d.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
 0
 8
@@ -81963,13 +83314,6 @@ rf antenna
 4
 2
 RF_Antenna
-Pulse_W3000
-Pulse Electronics W3000 tri-band antenna for GPS (1.575Ghz), 868Mhz and 2.4Ghz ISM bands, https://productfinder.pulseeng.com/products/datasheets/W3000.pdf
-Antenna GPS 868Mhz ISM 1.575Ghz
-0
-2
-2
-RF_Antenna
 Pulse_W3011
 Pulse RF Antenna, 4mm Clearance
 antenna rf
@@ -83153,20 +84497,6 @@ Panasonic Relay SPST
 4
 4
 Relay_THT
-Relay_3PST_COTO_3650
-Low thermal EMF 3PST-NO reed relay, 150V 0.25A, similar to 3660 but with independent shield, https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf
-reed relay low thermal emf
-0
-9
-9
-Relay_THT
-Relay_3PST_COTO_3660
-Low thermal EMF 3PST-NO reed relay, 150V 0.25A, similar to 3650 but with shared shield/contact, https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf
-reed relay low thermal emf
-0
-8
-8
-Relay_THT
 Relay_DPDT_AXICOM_IMSeries_Pitch3.2mm
 AXICOM IM-Series Relays, DPDR, Pitch 3.2mm, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FV%7Fpdf%7FEnglish%7FENG_SS_108-98001_V_IM_0614_v1.pdf%7F4-1462039-1
 AXICOM IM-Series Relay DPDR Pitch 3.2mm
@@ -83292,13 +84622,6 @@ Relay DPDT Schrack-RT2 RM5mm 16A 250V AC Relay
 0
 8
 8
-Relay_THT
-Relay_DPST_COTO_3602
-Low thermal EMF DPST-NO reed relay, 150V 0.25A, https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf
-reed relay low thermal emf
-0
-7
-7
 Relay_THT
 Relay_DPST_Fujitsu_FTR-F1A
 https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
@@ -84987,13 +86310,6 @@ rotary encoder
 5
 5
 Rotary_Encoder
-RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx
-Bourns rotary encoder, PEC12R, with switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
-rotary encoder
-0
-7
-6
-Rotary_Encoder
 RotaryEncoder_Bourns_Horizontal_PEC12R-2xxxF-Nxxxx
 Bourns rotary encoder, PEC12R, without switch, horizontal shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
 rotary encoder
@@ -85021,20 +86337,6 @@ rotary encoder
 0
 7
 6
-Sensor
-ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
-Temperature and humidity module, http://www.aosong.com/en/products-22.html
-Temperature and humidity module DHT22 AM2302
-0
-4
-4
-Sensor
-ASAIR_AM2302_P2.54mm_Vertical
-Temperature and humidity module, http://www.aosong.com/en/products-22.html
-Temperature and humidity module DHT22 AM2302
-0
-4
-4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -85140,13 +86442,6 @@ MEMS Microphone LGA
 0
 5
 5
-Sensor_Audio
-Knowles_LGA-6_4.72x3.76mm
-Knowles MEMS Analog Microphone, Omnidirectional, SMD, Differential/Single-Ended Output, -40dB, Bottom Port, https://www.knowles.com/docs/default-source/default-document-library/spm0687lr5h-1_winfrey_datasheet.pdf
-SPM0687LR5H MEMS Microphone LGA
-0
-6
-6
 Sensor_Audio
 Knowles_SPH0645LM4H-6_3.5x2.65mm
 Knowles MEMS I2S Microphone: https://www.knowles.com/subdepartment/dpt-microphones/subdpt-sisonic-surface-mount-mems
@@ -85469,20 +86764,6 @@ QFN 0.5
 0
 25
 24
-Sensor_Pressure
-CFSensor_XGZP6897x
-Port External Dia 3.13mm, Port Internal Dia 0.9mm, 8 Pin (https://cfsensor.com/wp-content/uploads/2022/11/XGZP6897D-Pressure-Sensor-V2.7.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py, hand modified
-sop sensor
-0
-8
-8
-Sensor_Pressure
-CFSensor_XGZP6899D
-Port External Dia 3mm, Port Internal Dia 1mm, 8 Pin (https://cfsensor.com/wp-content/uploads/2022/11/XGZP6899D-Pressure-Sensor-V2.8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py, hand modified
-sop sensor
-0
-8
-8
 Sensor_Pressure
 Freescale_98ARH99066A
 https://www.nxp.com/docs/en/data-sheet/MPXH6250A.pdf
