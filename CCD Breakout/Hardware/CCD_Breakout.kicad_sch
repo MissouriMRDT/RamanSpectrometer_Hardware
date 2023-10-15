@@ -1103,7 +1103,7 @@
     (property "Value" "ILX511" (at 35.56 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 43.18 40.64 0)
+    (property "Footprint" "MRDT_CCD:ILX511" (at 43.18 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.spectralproducts.com/pdf/SonyILX511.pdf" (at 53.34 40.64 0)

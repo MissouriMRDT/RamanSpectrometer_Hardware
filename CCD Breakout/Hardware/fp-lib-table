@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MRDT_CCD")(type "KiCad")(uri "${KIPRJMOD}/MRDT_CCD.pretty")(options "")(descr ""))
+)
