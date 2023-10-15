@@ -2573,11 +2573,11 @@
     (property "Datasheet" "" (at 24.13 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7c))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7e))
     (pin "2" (uuid 67a2f8f3-0313-4f28-a38a-06e300a3b7c3))
     (pin "3" (uuid 62d22449-d630-4802-bce7-66af4f1430a9))
     (pin "4" (uuid f0a67ac2-b30e-45cb-9892-67c54261a45a))
-    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7c))
+    (pin "1" (uuid cca3c6ad-97ff-4471-a486-4bbee41f4c7e))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
@@ -2888,11 +2888,11 @@
     (property "Datasheet" "" (at 24.13 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f515))
+    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f517))
     (pin "2" (uuid ba2e1962-eacb-4069-9b7a-fd5cbc108d1c))
     (pin "3" (uuid ab36252b-cd90-4be1-bee6-b6cdc2620eb5))
     (pin "4" (uuid 96a2f6ca-2d49-46cd-8f8f-77f36e42c12e))
-    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f515))
+    (pin "1" (uuid 7f5a51d9-5d02-4447-b0ea-f96992e4f517))
     (instances
       (project "Raman_Spectrometer_Board"
         (path "/dd57774e-6364-4f58-a24d-9970470de2f9"
@@ -3209,7 +3209,7 @@
     (property "Value" "Molex_SL_04" (at 123.19 85.09 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 127 88.9 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 127 88.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 127 88.9 0)
@@ -3313,7 +3313,7 @@
     (property "Value" "Molex_SL_05" (at 180.34 106.68 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Horizontal" (at 156.21 125.73 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical" (at 156.21 125.73 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 156.21 125.73 0)
