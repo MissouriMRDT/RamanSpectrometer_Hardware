@@ -192,9 +192,9 @@
 
   (footprint "Signatures:Caleb_Ehlers_Signature_15mmx4.8mm" (layer "F.Cu")
     (tstamp a05c6b95-bb3e-47a7-9afa-068c2bbe44a8)
-    (at 74.168 48.26)
+    (at 77.978 38.354)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "G***" (at 1.016 -5.842) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
       (tstamp b5a24c42-c156-4be4-b604-dbb4275ec356)
     )

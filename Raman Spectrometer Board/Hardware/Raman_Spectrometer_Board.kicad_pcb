@@ -1312,7 +1312,7 @@
 
   (footprint "Signatures:Caleb_Ehlers_Signature_15mmx4.8mm" (layer "F.Cu")
     (tstamp d550905f-1d33-480f-a0ff-59f475792dc1)
-    (at 43.18 25.908)
+    (at 132.334 37.338)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 10.16 -0.254) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -3245,6 +3245,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ac2e3af6-ee4d-4ccd-9ed3-8c3e088129d2))
   (gr_text "3V3" (at 59.323 50.546) (layer "F.SilkS") (tstamp 1e302d32-7a8f-47ba-ae00-dd864abcdc14)
     (effects (font (size 1.27 1.27) (thickness 0.2032)) (justify left bottom))
+  )
+  (gr_text "Raman Spectrometer\nBoard" (at 49.784 27.94) (layer "F.SilkS") (tstamp 22044f40-c71f-4c74-9514-3e16c2faba64)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify bottom))
   )
   (gr_text "12V" (at 59.323 57.658) (layer "F.SilkS") (tstamp 3a420aad-e53b-43af-9166-9ad9e23391b2)
     (effects (font (size 1.27 1.27) (thickness 0.2032)) (justify left bottom))
