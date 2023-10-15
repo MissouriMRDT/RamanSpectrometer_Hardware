@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MRDT_CCD")(type "KiCad")(uri "C:/Users/dcmce/OneDrive/Documents/GitHub/RamanSpectrometer_Hardware/CCD Breakout/Library/MRDT_CCD.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_CCD")(type "KiCad")(uri "C:/GitHub/RamanSpectrometer_Hardware/CCD Breakout/Library/MRDT_CCD.kicad_sym")(options "")(descr ""))
 )
