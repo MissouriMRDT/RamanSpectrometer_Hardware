@@ -2301,8 +2301,8 @@
     (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp eb5e3d4a-4d2d-42a1-b975-15fcdc6a9596))
   (gr_arc (start 100.075999 30.733999) (mid 98.960076 33.428075) (end 96.265999 34.543999)
     (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp fea8ba78-d1e7-4647-9ffd-34d8a6a4666a))
-  (gr_text "CCD\nBreakout" (at 50.546 26.67 90) (layer "B.SilkS") (tstamp 13f997b8-ecb5-46bf-83f0-6b9f2eb75bc2)
-    (effects (font (size 1.397 1.397) (thickness 0.3048) bold italic) (justify bottom mirror))
+  (gr_text "CCD Breakout, Rev1\nMars Rover Design Team\nMissouri S&T, 2023\nCaleb Ehlers" (at 51.054 26.924 90) (layer "B.SilkS") (tstamp 13f997b8-ecb5-46bf-83f0-6b9f2eb75bc2)
+    (effects (font (size 0.762 0.762) (thickness 0.1524) bold) (justify bottom mirror))
   )
 
   (segment (start 68.42 24.638) (end 65.786 22.004) (width 0.25) (layer "F.Cu") (net 2) (tstamp 0bb5b96c-b307-408b-9180-96cfe22b4f4e))
