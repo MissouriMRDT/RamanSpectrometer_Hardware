@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\dcmce\OneDrive\Documents\GitHub\RamanSpectrometer_Hardware\Laser Diode Breakout\Laser_Diode_Breakout\Laser_Diode_Breakout.kicad_sch</source>
-    <date>9/24/2023 4:45:01 PM</date>
-    <tool>Eeschema 7.0.7</tool>
+    <source>C:\GitHub\RamanSpectrometer_Hardware\Laser Diode Breakout\Hardware\Laser_Diode_Breakout.kicad_sch</source>
+    <date>10/21/2023 1:38:44 PM</date>
+    <tool>Eeschema 7.0.8</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -25,26 +25,29 @@
   </design>
   <components>
     <comp ref="Conn1">
-      <value>Molex_SL_03</value>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <value>Molex_SL_04</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_04_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_04" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
       <property name="ki_keywords" value="MOLEX SL"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7a67fc7d-c88d-425a-82e5-c997dbbe9e1b</tstamps>
+      <tstamps>bc357610-20e6-4bdf-97e9-ecc3d6dd5a85</tstamps>
     </comp>
     <comp ref="D1">
-      <value>785nm Laser Diode</value>
+      <value>782nm Laser Diode</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>28f71ff8-6f79-436b-891f-7e52c6db3c28</tstamps>
+      <tstamps>a9c1fe59-0da6-45e9-a732-409a78102fc4</tstamps>
     </comp>
     <comp ref="D2">
       <value>520nm Laser Diode</value>
+      <footprint>RamanDiodes:PLT5520B - 520nm</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
@@ -52,6 +55,110 @@
       <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>20177a9a-0202-4fe3-9ba4-c5f8493b7818</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32184901-ede7-41de-8479-1723616cd4ec</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32775dc0-7e86-478a-b8f7-e4fe0d6b3e10</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96d700c0-3032-470d-baa9-ab285c3e0951</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>78.7</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8951732-134a-4aea-b92b-29b0bb437cde</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74b241fb-62cf-4d01-a9d6-788994129072</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5a4888b-7951-4f0f-9108-e1feefcd5e6f</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03ac9f42-d7ed-4ba1-a765-03dbf4b20533</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7e33477-9c6a-4b01-9135-ed5787316d6e</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ee7430-230d-4034-ae8b-755a8868fff8</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Laser_Diode_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfe94c87-24d8-4f34-81d6-d2b73d860896</tstamps>
     </comp>
   </components>
   <libparts>
@@ -73,15 +180,59 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRDT_Connectors" part="Molex_SL_03">
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_04">
       <fields>
         <field name="Reference">Conn</field>
-        <field name="Value">Molex_SL_03</field>
+        <field name="Value">Molex_SL_04</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
         <pin num="2" name="" type="input"/>
         <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -90,22 +241,65 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="3" name="GND">
-      <node ref="Conn1" pin="2" pintype="input"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-    </net>
-    <net code="4" name="Green_LED">
-      <node ref="Conn1" pin="3" pintype="input"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="5" name="Red_LED">
+    <net code="1" name="+12V">
       <node ref="Conn1" pin="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Conn1" pin="4" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Green_LED">
+      <node ref="Conn1" pin="3" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="Red_LED">
+      <node ref="Conn1" pin="2" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
     </net>
   </nets>
 </export>

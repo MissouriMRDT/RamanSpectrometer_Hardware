@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\dcmce\OneDrive\Documents\GitHub\RamanSpectrometer_Hardware\CCD Breakout\Hardware\CCD_Breakout.kicad_sch</source>
-    <date>9/24/2023 8:14:07 PM</date>
-    <tool>Eeschema 7.0.7</tool>
+    <source>C:\GitHub\RamanSpectrometer_Hardware\CCD Breakout\Hardware\CCD_Breakout.kicad_sch</source>
+    <date>10/21/2023 1:39:18 PM</date>
+    <tool>Eeschema 7.0.8</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Ramen CCD Breakout </title>
@@ -26,6 +26,7 @@
   <components>
     <comp ref="C1">
       <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
@@ -36,6 +37,7 @@
     </comp>
     <comp ref="C2">
       <value>0.01µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
@@ -46,6 +48,7 @@
     </comp>
     <comp ref="C3">
       <value>22µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
@@ -77,12 +80,31 @@
     </comp>
     <comp ref="U1">
       <value>ILX511</value>
+      <footprint>MRDT_CCD:ILX511</footprint>
       <datasheet>https://www.spectralproducts.com/pdf/SonyILX511.pdf</datasheet>
       <libsource lib="MRDT_CCD" part="ILX511" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d0d8cb67-bcdc-4c77-9836-42c655ede6ae</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed3ec53c-c93d-4723-be53-a632b1387616</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCD_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd037efb-59d0-47f1-ba5b-a150549f54c0</tstamps>
     </comp>
   </components>
   <libparts>
@@ -164,6 +186,15 @@
         <pin num="5" name="" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -173,10 +204,13 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="MRDT_CCD">
-      <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/RamanSpectrometer_Hardware/CCD Breakout/Library/MRDT_CCD.kicad_sym</uri>
+      <uri>C:/GitHub/RamanSpectrometer_Hardware/CCD Breakout/Library/MRDT_CCD.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:/Users/dcmce/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -232,11 +266,17 @@
     <net code="10" name="unconnected-(U1-NC-Pad14)">
       <node ref="U1" pin="14" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="11" name="øCLK">
+    <net code="11" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="13" name="øCLK">
       <node ref="Conn1" pin="2" pintype="input"/>
       <node ref="U1" pin="5" pinfunction="øCLK" pintype="input"/>
     </net>
-    <net code="12" name="øROG">
+    <net code="14" name="øROG">
       <node ref="Conn1" pin="3" pintype="input"/>
       <node ref="U1" pin="11" pinfunction="øROG" pintype="input"/>
     </net>
