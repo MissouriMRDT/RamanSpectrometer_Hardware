@@ -6587,7 +6587,7 @@
 			)
 		)
 	)
-	(global_label "..."
+	(global_label "CCD_ROG_3V3"
 		(shape output)
 		(at 76.2 152.4 0)
 		(fields_autoplaced yes)
@@ -6599,7 +6599,7 @@
 		)
 		(uuid "675d6703-68ab-45af-a5af-29640106d33b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.9996 152.4 0)
+			(at 92.3085 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6653,7 @@
 			)
 		)
 	)
-	(global_label "..."
+	(global_label "CLD_CLK_3V3"
 		(shape output)
 		(at 76.2 149.86 0)
 		(fields_autoplaced yes)
@@ -6665,7 +6665,7 @@
 		)
 		(uuid "84fa72c1-74ad-422a-a715-3fdb3e782856")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.9996 149.86 0)
+			(at 91.7642 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
