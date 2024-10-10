@@ -7184,7 +7184,7 @@
 		)
 	)
 	(global_label "PWM"
-		(shape output)
+		(shape input)
 		(at 172.72 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7228,7 +7228,7 @@
 		)
 	)
 	(global_label "IN_B"
-		(shape input)
+		(shape output)
 		(at 33.02 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7470,7 +7470,7 @@
 		)
 	)
 	(global_label "IN_B"
-		(shape output)
+		(shape input)
 		(at 172.72 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7602,7 +7602,7 @@
 		)
 	)
 	(global_label "SEL"
-		(shape output)
+		(shape input)
 		(at 172.72 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7690,7 +7690,7 @@
 		)
 	)
 	(global_label "IN_A"
-		(shape output)
+		(shape input)
 		(at 172.72 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7778,7 +7778,7 @@
 		)
 	)
 	(global_label "PWM"
-		(shape input)
+		(shape output)
 		(at 33.02 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8683,10 +8683,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b6fee33-2d6e-4242-b300-860ee3e0e379")
 		(property "Reference" "H2"
-			(at 271.78 22.8599 0)
+			(at 267.716 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,8 +8693,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 271.78 25.3999 0)
+		(property "Value" "~"
+			(at 271.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,10 +9849,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7630bd19-72b9-4dc0-9b1c-611f2be4ab14")
 		(property "Reference" "H4"
-			(at 278.13 30.4799 0)
+			(at 274.32 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,8 +9859,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 278.13 33.0199 0)
+		(property "Value" "~"
+			(at 278.13 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +9982,7 @@
 		(dnp no)
 		(uuid "79812643-07f4-46d9-801b-3bf3b7a9bfc9")
 		(property "Reference" "J1"
-			(at 234.95 17.78 0)
+			(at 234.95 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +9990,7 @@
 			)
 		)
 		(property "Value" "RJ45_LED_Shielded"
-			(at 234.95 20.32 0)
+			(at 234.95 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,10 +11096,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c769d7a8-066c-4b9f-a03c-e26b38d48919")
 		(property "Reference" "Conn1"
-			(at 26.67 29.21 0)
+			(at 26.67 30.988 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11109,7 +11106,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 26.67 31.75 0)
+			(at 26.67 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11541,10 +11538,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce8dc19e-2307-4160-bca5-b0c34a4a2c4e")
 		(property "Reference" "Conn1"
-			(at 26.67 19.05 0)
+			(at 26.416 20.574 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11552,7 +11548,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 26.67 21.59 0)
+			(at 26.67 22.606 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11618,10 +11614,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d154a292-1a20-44b4-a112-0d01b8d5dddf")
 		(property "Reference" "H3"
-			(at 271.78 30.4799 0)
+			(at 267.97 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,8 +11624,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 271.78 33.0199 0)
+		(property "Value" "~"
+			(at 271.78 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,7 +11754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "220"
 			(at 130.81 50.7999 0)
 			(effects
 				(font
@@ -12319,10 +12314,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb1acd1b-c0f8-4385-92be-b049097da475")
 		(property "Reference" "H1"
-			(at 278.13 22.8599 0)
+			(at 274.32 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,8 +12324,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 278.13 25.3999 0)
+		(property "Value" "~"
+			(at 278.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
