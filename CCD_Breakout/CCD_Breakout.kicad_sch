@@ -999,48 +999,30 @@
 				)
 			)
 		)
-		(symbol "MRDT_Drill_Holes:Via"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "V"
-				(at 0 -2.54 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Via"
-				(at 0 2.54 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1049,36 +1031,52 @@
 					(hide yes)
 				)
 			)
-			(symbol "Via_0_1"
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 1.27)
+						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "Via_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 5.08) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1319,12 +1317,6 @@
 		(uuid "36778a20-7a6e-4efc-9b00-7eb8888a1cff")
 	)
 	(junction
-		(at 26.67 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40234dcb-911d-4e7f-a1fa-709205633024")
-	)
-	(junction
 		(at 46.99 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1335,6 +1327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a990306-4ae3-4d2b-9eb1-c9cfd7070528")
+	)
+	(junction
+		(at 26.67 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "818718ff-4899-4d33-8fac-461f2366ee5b")
 	)
 	(junction
 		(at 86.36 49.53)
@@ -1604,13 +1602,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 22.86) (xy 26.67 20.32)
+			(xy 26.67 21.59) (xy 26.67 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b1321c5-db88-4b87-b2b5-3a4a2b7e8aca")
+		(uuid "57a614ee-385a-4726-b77a-2bf22e4217ee")
 	)
 	(polyline
 		(pts
@@ -1641,16 +1639,6 @@
 			(type default)
 		)
 		(uuid "65685c5a-292f-446c-8fd1-0709a9f6bfe7")
-	)
-	(wire
-		(pts
-			(xy 26.67 22.86) (xy 29.21 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c05596-b590-4ea0-bc17-f91ed1266fbf")
 	)
 	(wire
 		(pts
@@ -1814,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 22.86) (xy 29.21 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3828467-e6cb-483b-abbf-54f70a202402")
+	)
+	(wire
+		(pts
 			(xy 59.69 39.37) (xy 52.07 39.37)
 		)
 		(stroke
@@ -1854,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 22.86) (xy 24.13 22.86)
+			(xy 24.13 22.86) (xy 26.67 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2062,6 +2060,16 @@
 		)
 		(uuid "8e5d6d86-1536-4871-bb44-7dd069730f9d")
 	)
+	(text "HOLES"
+		(exclude_from_sim no)
+		(at 27.432 75.184 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "caa4a85f-0dbd-469f-8421-b9e86ded4fcd")
+	)
 	(text "Jumper\n"
 		(exclude_from_sim no)
 		(at 26.924 45.72 0)
@@ -2116,7 +2124,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "Vout"
 		(shape input)
 		(at 52.07 77.47 180)
 		(fields_autoplaced yes)
@@ -2128,7 +2136,7 @@
 		)
 		(uuid "2fe13b62-2eb2-4814-a33a-ed48864281c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3676 77.47 0)
+			(at 44.9725 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,6 +2523,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "19bad34d-3952-4efd-8bc2-b39caf3687f2")
+		(property "Reference" "H2"
+			(at 34.036 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_05")
 		(at 62.23 81.28 0)
 		(unit 1)
@@ -2588,6 +2659,69 @@
 			(project ""
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
 					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3668159c-d0fc-4cad-8fab-2419a11b2103")
+		(property "Reference" "H4"
+			(at 34.036 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2734,7 +2868,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e4e894b-dd04-4d10-8b7c-bfef9cf6c399")
 		(property "Reference" "#PWR07"
 			(at 46.99 26.67 0)
@@ -2746,7 +2879,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 46.99 17.78 0)
+			(at 46.736 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,53 +2926,51 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Drill_Holes:Via")
-		(at 26.67 83.82 0)
+		(lib_id "power:+5V")
+		(at 26.67 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "424556b4-4012-4fa8-89fc-300e42bba5da")
-		(property "Reference" "V1"
-			(at 29.21 82.5499 0)
+		(uuid "5854c144-fbf1-4aad-9eaf-8946eab9c225")
+		(property "Reference" "#PWR05"
+			(at 26.67 25.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Via"
-			(at 29.21 85.0899 0)
+		(property "Value" "+5V"
+			(at 26.67 18.034 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 83.82 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 83.82 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 26.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,12 +2979,75 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc833897-be60-4c68-8e94-235915c00531")
+			(uuid "991dc80a-9979-4665-b02d-c4a3cf9d0e06")
 		)
 		(instances
-			(project ""
+			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "V1")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "75c76962-f089-42f3-bd82-37b7c0837c0a")
+		(property "Reference" "H3"
+			(at 25.146 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2998,79 +3192,12 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4e6f4ba-1cf1-4543-abbd-fddfa6415f03")
-		(property "Reference" "#PWR05"
-			(at 26.67 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 26.67 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aaa25e9-f5c6-46b5-8ba3-01c826e9c90e")
-		)
-		(instances
-			(project ""
-				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 50.8 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac0f7759-7205-4345-ab32-47a4f50fbe73")
 		(property "Reference" "#PWR03"
 			(at 50.8 71.12 0)
@@ -3082,7 +3209,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 62.23 0)
+			(at 50.546 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,73 +3250,6 @@
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Drill_Holes:Via")
-		(at 26.67 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6e7c1d9-a00f-49d8-aa1d-1c6b0fc2beb4")
-		(property "Reference" "V2"
-			(at 29.21 76.1999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Via"
-			(at 29.21 78.7399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e527f76-2538-456a-a425-24c3e4918b7d")
-		)
-		(instances
-			(project "CCD_Breakout"
-				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -3256,6 +3316,69 @@
 			(project ""
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8976c75-9c05-481c-ac05-a46ab072903a")
+		(property "Reference" "H1"
+			(at 25.146 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
+					(reference "H1")
 					(unit 1)
 				)
 			)
