@@ -8264,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "OKI"
+		(property "Value" "OKI 12V-5V"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -8536,7 +8536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "OKI"
+		(property "Value" "OKI 5V-3V"
 			(at 130.81 158.75 0)
 			(effects
 				(font
@@ -9427,7 +9427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Molex_SL_03"
+		(property "Value" "Diode"
 			(at 134.62 132.0799 0)
 			(effects
 				(font
@@ -10682,7 +10682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Molex_SL_05"
+		(property "Value" "CCD"
 			(at 184.15 38.0999 0)
 			(effects
 				(font
@@ -11310,7 +11310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Molex_SL_05"
+		(property "Value" "Gantry"
 			(at 184.15 133.3499 0)
 			(effects
 				(font
