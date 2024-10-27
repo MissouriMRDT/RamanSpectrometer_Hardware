@@ -11240,7 +11240,7 @@
 				)
 			)
 		)
-		(property "Value" "Molex_SL_02"
+		(property "Value" "Fan"
 			(at 219.71 120.65 0)
 			(effects
 				(font
