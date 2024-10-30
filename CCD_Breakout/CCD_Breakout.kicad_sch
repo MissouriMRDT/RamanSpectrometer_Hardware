@@ -2422,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_CCD:ILX511"
 			(at 76.2 40.64 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 30.1752 31.75 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 25.0952 31.75 0)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -2816,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.04 64.008 90)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 62.23 95.25 0)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -3091,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.69 35.8648 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
 			(at 21.59 54.61 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 77.47 95.25 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
 			(at 21.59 48.26 0)
 			(effects
 				(font
