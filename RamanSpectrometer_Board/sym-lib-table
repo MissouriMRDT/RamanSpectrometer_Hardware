@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vl53l4cx")(type "KiCad")(uri "C:/Users/eru3e/Documents/GitHub/RamanSpectrometer_Hardware/lib/vl53l4cx.kicad_sym")(options "")(descr ""))
+)

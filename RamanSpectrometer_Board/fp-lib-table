@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "VL53L4CX")(type "KiCad")(uri "C:/Users/eru3e/Documents/GitHub/RamanSpectrometer_Hardware/lib/VL53L4CX.pretty")(options "")(descr ""))
+)

@@ -245,126 +245,6 @@
 				)
 			)
 		)
-		(symbol "+12V_3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "+12V_4"
 			(power)
 			(pin_numbers hide)
@@ -1773,102 +1653,6 @@
 				)
 			)
 		)
-		(symbol "GND_3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_4"
 			(power)
 			(pin_numbers hide)
@@ -2795,177 +2579,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MRDT_Sensors:VL53L4CX"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VL53L4CX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VL53L4CX_0_1"
-				(rectangle
-					(start 0 -1.27)
-					(end 13.97 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VL53L4CX_1_1"
-				(pin power_in line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -5.08 180)
-					(length 2.54)
-					(name "GPIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -2.54 180)
-					(length 2.54)
-					(name "XSHUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5371,6 +4984,177 @@
 				)
 			)
 		)
+		(symbol "vl53l4cx:VL53L4CX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VL53L4CX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MRDT_Sensors:VL53L4CX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VL53L4CX_0_1"
+				(rectangle
+					(start 0 -1.27)
+					(end 13.97 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VL53L4CX_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "XSHUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 228.6 85.09)
@@ -5501,8 +5285,8 @@
 		(uuid "5152723b-e8cc-41fc-8063-35f25ec91fa2")
 	)
 	(no_connect
-		(at 35.56 142.24)
-		(uuid "59de4d5a-7860-4e51-b098-56757076899c")
+		(at 275.59 125.73)
+		(uuid "53069913-a6df-42a9-9802-e2966b84cae0")
 	)
 	(no_connect
 		(at 76.2 127)
@@ -5658,26 +5442,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 134.62 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09baaba7-4540-4c16-b1f1-0ec52f541c2c")
-	)
-	(polyline
-		(pts
-			(xy 201.93 111.76) (xy 109.22 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d595342-3b2f-473c-990a-5e4a0e32cdca")
-	)
-	(wire
-		(pts
 			(xy 35.56 36.83) (xy 35.56 38.1)
 		)
 		(stroke
@@ -5788,26 +5552,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 76.2) (xy 166.37 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7741e5-1caf-49a8-8ba7-553f93922c82")
-	)
-	(wire
-		(pts
-			(xy 137.16 87.63) (xy 137.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20de005b-5a7c-434e-a21c-8bdbdaa40c6d")
-	)
-	(wire
-		(pts
 			(xy 118.11 53.34) (xy 118.11 58.42)
 		)
 		(stroke
@@ -5845,16 +5589,6 @@
 			(type default)
 		)
 		(uuid "25a99ee6-ebcb-424e-939c-dd18b9ea1561")
-	)
-	(wire
-		(pts
-			(xy 166.37 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25fbc5bc-0a6b-40e9-bcec-2f34ec3a2c92")
 	)
 	(wire
 		(pts
@@ -5978,16 +5712,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 129.54 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3cc3c5-3dab-4389-bb71-ae46603120e7")
-	)
-	(wire
-		(pts
 			(xy 259.08 85.09) (xy 259.08 73.66)
 		)
 		(stroke
@@ -6005,26 +5729,6 @@
 			(type default)
 		)
 		(uuid "3e45e11f-5282-4d38-aa3a-4cdf5ff724d2")
-	)
-	(wire
-		(pts
-			(xy 177.8 87.63) (xy 177.8 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4101af4a-888c-4c02-8cbb-b5ec0d730338")
-	)
-	(wire
-		(pts
-			(xy 125.73 76.2) (xy 125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d8b6e1-d269-437c-91c1-dd13df52ae1c")
 	)
 	(wire
 		(pts
@@ -6055,16 +5759,6 @@
 			(type default)
 		)
 		(uuid "4326c460-b318-402f-84ae-6bfcd6aad40e")
-	)
-	(wire
-		(pts
-			(xy 162.56 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439b43f6-6851-4710-8496-80f63a37aad0")
 	)
 	(wire
 		(pts
@@ -6275,26 +5969,6 @@
 			(type default)
 		)
 		(uuid "6ab184bb-5fe7-4d58-ad37-1c2ce4448739")
-	)
-	(polyline
-		(pts
-			(xy 109.22 67.31) (xy 201.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac9819e-383d-4b2a-8d02-8297adf49f0d")
-	)
-	(wire
-		(pts
-			(xy 177.8 78.74) (xy 177.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6edc2dc9-8a22-451e-a533-1a0876ac506a")
 	)
 	(wire
 		(pts
@@ -6508,16 +6182,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 177.8 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91be18cd-f043-453b-b187-5ba2638e9681")
-	)
-	(wire
-		(pts
 			(xy 34.29 93.98) (xy 35.56 93.98)
 		)
 		(stroke
@@ -6596,16 +6260,6 @@
 		)
 		(uuid "9a6352f8-14d4-47cc-bf5d-48b3ca43cf38")
 	)
-	(polyline
-		(pts
-			(xy 109.22 67.31) (xy 109.22 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba03c73-4b33-4d2d-8766-2addd180bb93")
-	)
 	(wire
 		(pts
 			(xy 34.29 147.32) (xy 35.56 147.32)
@@ -6615,16 +6269,6 @@
 			(type default)
 		)
 		(uuid "9d098ae0-a2f6-4c37-a0c3-6d967edf447a")
-	)
-	(wire
-		(pts
-			(xy 137.16 99.06) (xy 137.16 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d182e33-700a-412d-87cb-fe1d206a5f09")
 	)
 	(polyline
 		(pts
@@ -6748,16 +6392,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 137.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4947153-276b-432f-bd0a-e52e6fd1bef4")
-	)
-	(wire
-		(pts
 			(xy 228.6 85.09) (xy 228.6 87.63)
 		)
 		(stroke
@@ -6785,16 +6419,6 @@
 			(type default)
 		)
 		(uuid "b8233125-3024-47b7-abe3-ac115fea6f01")
-	)
-	(wire
-		(pts
-			(xy 125.73 78.74) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92922b4-18b2-4944-afbe-b5a905043867")
 	)
 	(wire
 		(pts
@@ -6898,6 +6522,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 128.27) (xy 276.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce77218f-c1b0-4524-8362-e7671a58d4ae")
+	)
+	(wire
+		(pts
 			(xy 76.2 38.1) (xy 76.2 40.64)
 		)
 		(stroke
@@ -6905,16 +6539,6 @@
 			(type default)
 		)
 		(uuid "cfea784a-67b6-44d0-ac8c-974673bdbf23")
-	)
-	(polyline
-		(pts
-			(xy 201.93 67.31) (xy 201.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d648d392-49f5-491c-a561-1a28857b952d")
 	)
 	(wire
 		(pts
@@ -7035,16 +6659,6 @@
 			(type default)
 		)
 		(uuid "e98d84d9-8f3d-42da-9aff-022e1e97b15d")
-	)
-	(wire
-		(pts
-			(xy 177.8 78.74) (xy 175.26 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e993441b-f415-4268-8415-d3c7d0d0621b")
 	)
 	(wire
 		(pts
@@ -7226,6 +6840,16 @@
 		)
 		(uuid "fcad65ca-3e3b-4f0b-a6f8-3c05913256d9")
 	)
+	(wire
+		(pts
+			(xy 34.29 142.24) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0ea8f2-1631-4577-a510-d1061ced0e83")
+	)
 	(rectangle
 		(start 20.32 55.88)
 		(end 100.33 172.72)
@@ -7357,16 +6981,6 @@
 			)
 		)
 		(uuid "bc342feb-c62c-4539-ab7f-0aa66f8e448e")
-	)
-	(text "Diodes\n"
-		(exclude_from_sim no)
-		(at 152.4 72.644 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "c26a3290-4a8e-4369-8574-0ff873522d1f")
 	)
 	(text "Diode Connector Breakout"
 		(exclude_from_sim no)
@@ -7592,6 +7206,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO"
+		(shape input)
+		(at 276.86 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d95c3d7-3018-42b3-a125-e7eb5163c970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.3205 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7860,6 +7496,28 @@
 			)
 		)
 	)
+	(global_label "GPIO"
+		(shape output)
+		(at 34.29 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ebc64e4-6264-42e4-8e98-2cd50cfc4856")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.8295 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape output)
 		(at 34.29 147.32 180)
@@ -8014,28 +7672,6 @@
 			)
 		)
 	)
-	(global_label "Green_LED"
-		(shape input)
-		(at 162.56 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b3d7acb6-2d52-42eb-9886-1ecbb5151645")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7777 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SEL"
 		(shape input)
 		(at 172.72 137.16 180)
@@ -8071,28 +7707,6 @@
 		(uuid "b4d0dd40-4cc1-4684-a772-9fa8375282ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.9948 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Red_LED"
-		(shape input)
-		(at 121.92 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf9f02f4-c7c8-463e-8a14-515c921b1b54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0125 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,73 +8333,6 @@
 			(project ""
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d2ed8f5-bce5-42f7-b475-62a3a822287d")
-		(property "Reference" "R10"
-			(at 171.45 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 171.45 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 171.45 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24d9f41e-a3ee-49e3-b235-fe75d934c5bc")
-		)
-		(pin "1"
-			(uuid "3745b845-090c-480a-ab36-9e7dffe0a0d0")
-		)
-		(instances
-			(project "RamanSpectrometer_Board"
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9536,82 +9083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 134.62 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51ca04bd-c1d6-432f-8c98-80d226019293")
-		(property "Reference" "Q3"
-			(at 140.97 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 140.97 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 139.7 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 139.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 134.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8f2b034f-acf2-4349-8746-e966b672de93")
-		)
-		(pin "2"
-			(uuid "ee1b1250-c55b-4197-a4a1-292cc2a15573")
-		)
-		(pin "1"
-			(uuid "c6ef4a45-e67c-4108-9719-90c033362ea8")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 168.91 0)
 		(unit 1)
@@ -9681,73 +9152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "602cb299-18c4-43bb-8c15-298a7ea49030")
-		(property "Reference" "R8"
-			(at 130.81 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "78.7"
-			(at 130.81 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.81 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea913982-0018-4b04-83b0-d7f23e5f02fe")
-		)
-		(pin "1"
-			(uuid "f99f2ea9-b147-42c3-ab2b-fbc85597c525")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 35.56 0)
 		(unit 1)
@@ -9811,86 +9215,6 @@
 			(project ""
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Sensors:VL53L4CX")
-		(at 259.08 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66b95661-9baa-4861-8934-92714c4464a5")
-		(property "Reference" "U4"
-			(at 266.065 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VL53L4CX"
-			(at 266.065 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 259.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
-			(at 259.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "21af333e-0272-4f24-aa76-9ab5f22fdee2")
-		)
-		(pin "1"
-			(uuid "48ad5e4d-ddec-43b2-bae7-2e0c544d9f8f")
-		)
-		(pin "5"
-			(uuid "793afc5e-d00e-4c9f-9de0-49f85ff1492d")
-		)
-		(pin "6"
-			(uuid "1b77e5ff-2099-48c4-887c-33fad6c315e6")
-		)
-		(pin "2"
-			(uuid "02784814-f04d-44c7-b7e9-28a287bf8a7a")
-		)
-		(pin "3"
-			(uuid "be1f674f-444e-40a9-9af6-8226d04f496e")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10106,142 +9430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 137.16 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dda51d2-3034-4d96-9a12-42ebee6f7cd3")
-		(property "Reference" "D4"
-			(at 140.97 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "782nm Laser Diode"
-			(at 140.97 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c84ca56-cd2a-453b-a203-0679577b28be")
-		)
-		(pin "2"
-			(uuid "d1a3ed75-6283-40c1-bd83-1c81883f6a37")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 177.8 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73291042-2f99-48ad-815f-edcb3d9b14c1")
-		(property "Reference" "#PWR029"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91fe9329-c3d6-47cf-a4dc-9f7a88553f32")
-		)
-		(instances
-			(project "RamanSpectrometer_Board"
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 124.46 128.27 0)
 		(unit 1)
@@ -10378,75 +9566,6 @@
 			(project ""
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "741ee12c-16c0-46af-bf39-0057a256bca6")
-		(property "Reference" "D5"
-			(at 181.61 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "520nm Laser Diode"
-			(at 181.61 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57fa2ee8-1279-4a76-b8ca-6a8701eb7915")
-		)
-		(pin "2"
-			(uuid "ff960b57-6df2-4113-b0c1-f11192e31c48")
-		)
-		(instances
-			(project "RamanSpectrometer_Board"
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10885,6 +10004,86 @@
 		)
 	)
 	(symbol
+		(lib_id "vl53l4cx:VL53L4CX")
+		(at 259.08 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b7bc30-7e53-408e-b682-cd042d1c794c")
+		(property "Reference" "U4"
+			(at 266.065 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VL53L4CX"
+			(at 266.065 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VL53L4CX:VL53L4CX"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2be1135f-3c4c-4f6b-b0ec-697e223dde18")
+		)
+		(pin "4"
+			(uuid "35c6a96d-da72-4ecd-ba62-fdb05c95fe38")
+		)
+		(pin "6"
+			(uuid "142795c9-484d-4cdf-af11-85c52c330c87")
+		)
+		(pin "3"
+			(uuid "bfd22f9c-3022-47b8-8690-a40ffdf8038d")
+		)
+		(pin "1"
+			(uuid "a4a2bc3f-adf3-4399-817e-a555545003b5")
+		)
+		(pin "5"
+			(uuid "799d0df7-f5d4-40fc-a523-419187c829ba")
+		)
+		(instances
+			(project ""
+				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 31.75 0)
 		(unit 1)
@@ -10945,73 +10144,6 @@
 			(project "RamanSpectrometer_Board"
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+12V_3")
-		(lib_id "power:+12V")
-		(at 125.73 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90af5271-ef8c-404d-aa2f-29542b4633db")
-		(property "Reference" "#PWR027"
-			(at 125.73 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 125.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81684f2c-757d-4eb3-9ae2-8497d08e8c3c")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11355,73 +10487,6 @@
 			(project "RamanSpectrometer_Board"
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+12V_3")
-		(lib_id "power:+12V")
-		(at 166.37 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aafbedec-6d78-43bc-bfa7-26ad2906ec81")
-		(property "Reference" "#PWR028"
-			(at 166.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 166.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3a5c291-71d2-4aa3-9075-a9dbbea54953")
-		)
-		(instances
-			(project "RamanSpectrometer_Board"
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12058,149 +11123,6 @@
 			(project "RamanSpectrometer_Board"
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 175.26 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc6d1feb-e6c8-44d0-b0a3-7deec78705dc")
-		(property "Reference" "Q4"
-			(at 181.61 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 181.61 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 180.34 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "33616a83-7da1-4ef3-a5c8-e293f46d0444")
-		)
-		(pin "2"
-			(uuid "4f1bd7b0-2ffc-4d7a-9786-472a1252e549")
-		)
-		(pin "1"
-			(uuid "246016a6-4eda-40f2-828b-78d351da1143")
-		)
-		(instances
-			(project "RamanSpectrometer_Board"
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 137.16 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce5d5742-4b0e-46cc-a52d-1b74b90caa5a")
-		(property "Reference" "#PWR026"
-			(at 137.16 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22963d0f-bdeb-46c3-b849-b2cafb24c53e")
-		)
-		(instances
-			(project ""
-				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
