@@ -1965,6 +1965,102 @@
 				)
 			)
 		)
+		(symbol "GND_5"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_5_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_5_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MRDT_Connectors:AndersonPP"
 			(pin_numbers hide)
 			(pin_names
@@ -2699,6 +2795,177 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MRDT_Sensors:VL53L4CX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VL53L4CX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VL53L4CX_0_1"
+				(rectangle
+					(start 0 -1.27)
+					(end 13.97 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VL53L4CX_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "XSHUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5286,10 +5553,6 @@
 		(uuid "a089ef8e-2440-43a3-9652-b5bf142f0962")
 	)
 	(no_connect
-		(at 35.56 147.32)
-		(uuid "a5ca635a-b32c-4073-ba51-526c7f7c5093")
-	)
-	(no_connect
 		(at 76.2 134.62)
 		(uuid "a734de15-bb91-4978-9583-0f371ea99444")
 	)
@@ -5332,10 +5595,6 @@
 	(no_connect
 		(at 35.56 116.84)
 		(uuid "e76d637f-59b7-4720-a460-0f07502148b3")
-	)
-	(no_connect
-		(at 35.56 144.78)
-		(uuid "e7eed215-346f-449c-b5a0-0cf0f2fd7084")
 	)
 	(wire
 		(pts
@@ -5706,6 +5965,16 @@
 			(type default)
 		)
 		(uuid "376882cb-cf0e-48db-b929-3c0018173eee")
+	)
+	(wire
+		(pts
+			(xy 255.27 128.27) (xy 256.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39851e24-92cb-484b-8686-21c46f18ebf5")
 	)
 	(wire
 		(pts
@@ -6339,6 +6608,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 147.32) (xy 35.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d098ae0-a2f6-4c37-a0c3-6d967edf447a")
+	)
+	(wire
+		(pts
 			(xy 137.16 99.06) (xy 137.16 102.87)
 		)
 		(stroke
@@ -6356,6 +6635,16 @@
 			(type default)
 		)
 		(uuid "a01a27ae-32f8-44f4-870f-32dff2de40e0")
+	)
+	(wire
+		(pts
+			(xy 255.27 125.73) (xy 256.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a078f066-59d8-4b50-a354-0470bcc3e95c")
 	)
 	(wire
 		(pts
@@ -6529,6 +6818,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 135.89) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be57c566-4ed2-47ef-9581-936030cb7416")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 86.36 30.48)
 		)
 		(stroke
@@ -6536,6 +6835,16 @@
 			(type default)
 		)
 		(uuid "c2220583-998e-4a0a-9f5d-ecb37ff975b0")
+	)
+	(wire
+		(pts
+			(xy 255.27 133.35) (xy 256.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ab073c-3851-4fe7-a6e4-e87827d3bf3d")
 	)
 	(wire
 		(pts
@@ -6666,6 +6975,16 @@
 			(type default)
 		)
 		(uuid "e330a400-1bf6-47df-ae44-ba6b93624859")
+	)
+	(wire
+		(pts
+			(xy 34.29 144.78) (xy 35.56 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51125db-5c65-4caa-b336-46e7cac237cf")
 	)
 	(wire
 		(pts
@@ -7255,6 +7574,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape output)
+		(at 34.29 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "471cecb7-4013-4858-bfc1-b9d2a92536a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7367 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CCD_CLK_5V"
 		(shape input)
 		(at 173.99 39.37 180)
@@ -7290,6 +7631,28 @@
 		(uuid "5577704f-74ce-4118-9498-7351c24532b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.8619 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 255.27 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c62712b-1f14-49cf-af5e-01cfc162e603")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.7167 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,6 +7851,28 @@
 		(uuid "89b567e8-3748-47d2-8cd3-2c7c20d70bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.6924 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape output)
+		(at 34.29 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "965718e5-0273-45db-a932-24b165ac8a7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7972 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,6 +8291,28 @@
 		(uuid "fc717b0b-5f61-4ae0-823d-9d468390857e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.9948 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 255.27 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd32f765-9c2e-4c37-857a-d118f25aadd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.7772 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,6 +9817,86 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Sensors:VL53L4CX")
+		(at 259.08 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66b95661-9baa-4861-8934-92714c4464a5")
+		(property "Reference" "U4"
+			(at 266.065 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VL53L4CX"
+			(at 266.065 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-vl53l4cx-time-of-flight-distance-sensor/pinouts"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "21af333e-0272-4f24-aa76-9ab5f22fdee2")
+		)
+		(pin "1"
+			(uuid "48ad5e4d-ddec-43b2-bae7-2e0c544d9f8f")
+		)
+		(pin "5"
+			(uuid "793afc5e-d00e-4c9f-9de0-49f85ff1492d")
+		)
+		(pin "6"
+			(uuid "1b77e5ff-2099-48c4-887c-33fad6c315e6")
+		)
+		(pin "2"
+			(uuid "02784814-f04d-44c7-b7e9-28a287bf8a7a")
+		)
+		(pin "3"
+			(uuid "be1f674f-444e-40a9-9af6-8226d04f496e")
+		)
+		(instances
+			(project ""
+				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_03")
 		(at 130.81 134.62 0)
 		(unit 1)
@@ -10664,6 +11151,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 255.27 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c9594db-abd5-4f9a-ab9a-ee92d5077762")
+		(property "Reference" "#PWR033"
+			(at 255.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.968 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1229bbe3-2467-4f64-8d5d-674f9df1d25e")
+		)
+		(instances
+			(project ""
+				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_05")
 		(at 180.34 43.18 0)
 		(unit 1)
@@ -11141,6 +11693,72 @@
 			(project "RamanSpectrometer_Board"
 				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 255.27 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6bcbb79-78be-41bd-87f0-3c8432b58612")
+		(property "Reference" "#PWR034"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e63a139-e27f-4c53-a0c8-e68f5d82d91f")
+		)
+		(instances
+			(project ""
+				(path "/907bff09-eb40-4480-9724-a701f7fd16bf"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
