@@ -5028,7 +5028,7 @@
 		)
 	)
 	(junction
-		(at 128.27 119.38)
+		(at 129.54 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01d40ff8-378d-4567-a55d-77888186e11e")
@@ -5040,7 +5040,7 @@
 		(uuid "0541a28d-64db-429f-be40-3f9785adc28a")
 	)
 	(junction
-		(at 138.43 128.27)
+		(at 139.7 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13858943-97a2-4895-a3b5-760a400638c0")
@@ -5058,7 +5058,7 @@
 		(uuid "2bdc59a7-82f1-436e-bff3-8e98160d8c03")
 	)
 	(junction
-		(at 116.84 163.83)
+		(at 162.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "409de5ba-8cdc-4261-90c3-b06967607db1")
@@ -5088,13 +5088,13 @@
 		(uuid "8e3797be-088c-46a6-bd9d-10fdd82df3eb")
 	)
 	(junction
-		(at 130.81 173.99)
+		(at 176.53 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9770b2bb-8826-4963-a145-82f12a90cf76")
 	)
 	(junction
-		(at 144.78 163.83)
+		(at 190.5 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c12092-9548-4cf2-82a1-58c4dce329e7")
@@ -5257,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 119.38) (xy 130.81 119.38)
+			(xy 129.54 123.19) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5337,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 228.6 123.19)
+			(xy 181.61 111.76) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5347,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 175.26 134.62)
+			(xy 214.63 132.08) (xy 217.17 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 175.26 127)
+			(xy 214.63 124.46) (xy 217.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5377,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 161.29) (xy 144.78 163.83)
+			(xy 190.5 66.04) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5387,7 +5387,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 129.54 128.27)
+			(xy 129.54 132.08) (xy 130.81 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5437,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 163.83) (xy 116.84 163.83)
+			(xy 166.37 68.58) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 135.89 111.76)
+			(xy 139.7 115.57) (xy 137.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5477,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.16) (xy 175.26 137.16)
+			(xy 214.63 134.62) (xy 217.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5487,7 +5487,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.39 116.84) (xy 199.39 143.51)
+			(xy 241.3 114.3) (xy 241.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5537,7 +5537,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 128.27 119.38)
+			(xy 127 123.19) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 128.27) (xy 138.43 128.27)
+			(xy 138.43 132.08) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5577,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 172.72) (xy 144.78 173.99)
+			(xy 190.5 77.47) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5597,7 +5597,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.39 143.51) (xy 163.83 143.51)
+			(xy 241.3 140.97) (xy 205.74 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 228.6 127)
+			(xy 181.61 116.84) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5637,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 34.29) (xy 175.26 34.29)
+			(xy 175.26 34.29) (xy 176.53 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5657,7 +5657,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 135.89 90.17)
+			(xy 123.19 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 132.08) (xy 175.26 132.08)
+			(xy 214.63 129.54) (xy 217.17 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 173.99) (xy 116.84 172.72)
+			(xy 162.56 78.74) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5717,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 31.75) (xy 175.26 31.75)
+			(xy 175.26 31.75) (xy 176.53 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5747,7 +5747,7 @@
 	)
 	(polyline
 		(pts
-			(xy 204.47 149.86) (xy 204.47 114.3)
+			(xy 157.48 137.16) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5757,7 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 163.83) (xy 140.97 163.83)
+			(xy 190.5 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5777,7 +5777,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 114.3) (xy 243.84 114.3)
+			(xy 158.75 99.06) (xy 196.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +5837,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 138.43 130.81)
+			(xy 139.7 132.08) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5847,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 116.84) (xy 199.39 116.84)
+			(xy 205.74 114.3) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5877,7 +5877,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 175.26 36.83)
+			(xy 175.26 36.83) (xy 176.53 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5887,7 +5887,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 138.43 128.27)
+			(xy 139.7 128.27) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5907,7 +5907,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 41.91) (xy 175.26 41.91)
+			(xy 175.26 41.91) (xy 176.53 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5917,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 226.06 127)
+			(xy 181.61 114.3) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5977,7 +5977,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 114.3) (xy 138.43 111.76)
+			(xy 139.7 118.11) (xy 139.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6027,7 +6027,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.84 149.86) (xy 204.47 149.86)
+			(xy 196.85 137.16) (xy 157.48 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6077,7 +6077,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 135.89 82.55)
+			(xy 121.92 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6097,7 +6097,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 116.84) (xy 163.83 143.51)
+			(xy 205.74 114.3) (xy 205.74 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 135.89 92.71)
+			(xy 123.19 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6127,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 173.99) (xy 116.84 173.99)
+			(xy 176.53 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6237,7 +6237,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 109.22) (xy 138.43 109.22)
+			(xy 137.16 113.03) (xy 139.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6287,7 +6287,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 39.37) (xy 175.26 39.37)
+			(xy 175.26 39.37) (xy 176.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6327,7 +6327,7 @@
 	)
 	(polyline
 		(pts
-			(xy 204.47 114.3) (xy 205.74 114.3)
+			(xy 157.48 99.06) (xy 158.75 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6337,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 135.89 95.25)
+			(xy 121.92 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6357,7 +6357,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 171.45) (xy 130.81 173.99)
+			(xy 176.53 76.2) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6367,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 138.43 107.95)
+			(xy 139.7 113.03) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 135.89 85.09)
+			(xy 118.11 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6477,7 +6477,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 173.99) (xy 130.81 176.53)
+			(xy 176.53 78.74) (xy 176.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 228.6 124.46)
+			(xy 179.07 111.76) (xy 181.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6517,7 +6517,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 119.38) (xy 128.27 128.27)
+			(xy 129.54 123.19) (xy 129.54 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6557,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 163.83) (xy 144.78 165.1)
+			(xy 190.5 68.58) (xy 190.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6567,7 +6567,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 161.29) (xy 116.84 163.83)
+			(xy 162.56 66.04) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6577,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 134.62) (xy 220.98 134.62)
+			(xy 170.18 121.92) (xy 173.99 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6597,7 +6597,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.7) (xy 228.6 142.24)
+			(xy 181.61 127) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6637,7 +6637,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.84 114.3) (xy 243.84 149.86)
+			(xy 196.85 99.06) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6707,7 +6707,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 173.99) (xy 130.81 173.99)
+			(xy 190.5 78.74) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6717,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 175.26 129.54)
+			(xy 214.63 127) (xy 217.17 127)
 		)
 		(stroke
 			(width 0)
@@ -6757,7 +6757,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 163.83) (xy 116.84 165.1)
+			(xy 162.56 68.58) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6767,7 +6767,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 135.89 87.63)
+			(xy 123.19 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6798,6 +6798,18 @@
 		(uuid 0c2ff951-cb52-479c-8660-c1dbb916bf70)
 	)
 	(rectangle
+		(start 109.22 68.58)
+		(end 147.32 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d154793-3aa3-49e8-8ed1-9ad89b90c5cc)
+	)
+	(rectangle
 		(start 264.16 16.51)
 		(end 280.67 36.83)
 		(stroke
@@ -6810,8 +6822,8 @@
 		(uuid 13f8040a-b9d3-4ff2-a3b7-b0993abeb6ac)
 	)
 	(rectangle
-		(start 149.86 16.51)
-		(end 203.2 49.53)
+		(start 151.13 16.51)
+		(end 204.47 49.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -6845,6 +6857,40 @@
 		)
 		(uuid bc88dfef-8a82-429e-ab94-f2bc7d167b06)
 	)
+	(rectangle
+		(start 104.14 99.06)
+		(end 154.94 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dce05b66-14da-4a88-a11a-c0071d7839c6)
+	)
+	(rectangle
+		(start 152.4 52.07)
+		(end 200.66 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e257d62e-3f72-4947-b315-34c4759b48c6)
+	)
+	(text "TOF Sensor"
+		(exclude_from_sim no)
+		(at 118.364 71.12 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "04590d04-599e-4800-8e70-dcc5feed7abe")
+	)
 	(text "Anderson"
 		(exclude_from_sim no)
 		(at 32.766 16.51 0)
@@ -6864,6 +6910,16 @@
 			)
 		)
 		(uuid "2136c0b4-f4c5-492d-aff2-997e2f198568")
+	)
+	(text "Diode Connector"
+		(exclude_from_sim no)
+		(at 117.856 101.854 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "2956f191-bbb4-4903-a85d-ec7661cc9d16")
 	)
 	(text "HOLES"
 		(exclude_from_sim no)
@@ -6887,6 +6943,16 @@
 		)
 		(uuid "6bbb4d7a-82a4-4492-b5e7-5299619322e6")
 	)
+	(text "Fan Connector"
+		(exclude_from_sim no)
+		(at 169.418 101.6 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "92817fe3-e5fa-4c5e-92bd-7605f62f3e25")
+	)
 	(text "12V to 5V OKI Converter"
 		(exclude_from_sim no)
 		(at 77.724 18.034 0)
@@ -6899,7 +6965,7 @@
 	)
 	(text "CCD Breakout"
 		(exclude_from_sim no)
-		(at 172.72 21.59 0)
+		(at 173.99 21.59 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -6909,7 +6975,7 @@
 	)
 	(text "Gantry Connector"
 		(exclude_from_sim no)
-		(at 181.864 119.126 0)
+		(at 219.456 116.586 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6919,7 +6985,7 @@
 	)
 	(text "5V to 3V3V OKI Converter\n"
 		(exclude_from_sim no)
-		(at 130.302 151.638 0)
+		(at 176.022 56.388 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6961,7 +7027,7 @@
 	)
 	(global_label "CS"
 		(shape output)
-		(at 172.72 132.08 180)
+		(at 214.63 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6971,7 +7037,7 @@
 		)
 		(uuid "0b5a6b78-86a2-4c67-8e15-c4c23af2dae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.2553 132.08 0)
+			(at 209.1653 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7181,7 @@
 	)
 	(global_label "PWM"
 		(shape input)
-		(at 172.72 129.54 180)
+		(at 214.63 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7125,7 +7191,7 @@
 		)
 		(uuid "36aa4f98-a632-4ef2-bd3b-b715aee7eee6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.562 129.54 0)
+			(at 207.472 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7225,7 @@
 	)
 	(global_label "GPIO"
 		(shape input)
-		(at 134.62 92.71 180)
+		(at 123.19 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7169,7 +7235,7 @@
 		)
 		(uuid "4d95c3d7-3018-42b3-a125-e7eb5163c970")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1595 92.71 0)
+			(at 115.7295 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7247,7 @@
 	)
 	(global_label "CCD_CLK_5V"
 		(shape input)
-		(at 173.99 39.37 180)
+		(at 175.26 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7191,7 +7257,7 @@
 		)
 		(uuid "4e421b32-ca4f-4b86-b130-9b6f498f9f42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.3934 39.37 0)
+			(at 160.6634 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7291,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 134.62 90.17 180)
+		(at 123.19 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7235,7 +7301,7 @@
 		)
 		(uuid "5c62712b-1f14-49cf-af5e-01cfc162e603")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0667 90.17 0)
+			(at 116.6367 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7357,7 @@
 	)
 	(global_label "Green_Laser_3V3"
 		(shape input)
-		(at 125.73 119.38 180)
+		(at 127 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7301,7 +7367,7 @@
 		)
 		(uuid "670c71bf-07e8-41f4-803e-6ac886e0eec7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8396 119.38 0)
+			(at 108.1096 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +7577,7 @@
 	)
 	(global_label "IN_B"
 		(shape input)
-		(at 172.72 127 180)
+		(at 214.63 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7521,7 +7587,7 @@
 		)
 		(uuid "a0ce3cf9-4109-4e75-91c6-f43aaa5113ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.5619 127 0)
+			(at 207.4719 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7621,7 @@
 	)
 	(global_label "FAN_OUT"
 		(shape input)
-		(at 217.17 134.62 180)
+		(at 170.18 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7565,7 +7631,7 @@
 		)
 		(uuid "a287b734-ff26-4ec3-befb-efb3f7658055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0809 134.62 0)
+			(at 159.0909 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7687,7 @@
 	)
 	(global_label "SEL"
 		(shape input)
-		(at 172.72 137.16 180)
+		(at 214.63 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7631,7 +7697,7 @@
 		)
 		(uuid "b4bd99b5-82ce-4c0c-b935-887915056293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3482 137.16 0)
+			(at 208.2582 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7731,7 @@
 	)
 	(global_label "CCD_Vout"
 		(shape output)
-		(at 173.99 34.29 180)
+		(at 175.26 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7675,7 +7741,7 @@
 		)
 		(uuid "cb9ff28e-cc8d-498d-9391-dbdcdd6ccbef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1149 34.29 0)
+			(at 163.3849 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7753,7 @@
 	)
 	(global_label "IN_A"
 		(shape input)
-		(at 172.72 134.62 180)
+		(at 214.63 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7697,7 +7763,7 @@
 		)
 		(uuid "cd6e73b3-08b1-4305-bcdf-6485c76cb3de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.7433 134.62 0)
+			(at 207.6533 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7797,7 @@
 	)
 	(global_label "CCD_ROG_5V"
 		(shape input)
-		(at 173.99 36.83 180)
+		(at 175.26 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7741,7 +7807,7 @@
 		)
 		(uuid "e0e32833-8bad-43ca-b701-49d690df9854")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.091 36.83 0)
+			(at 160.361 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7929,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 134.62 87.63 180)
+		(at 123.19 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7873,7 +7939,7 @@
 		)
 		(uuid "fd32f765-9c2e-4c37-857a-d118f25aadd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1272 87.63 0)
+			(at 116.6972 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8149,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 123.19 0)
+		(at 181.61 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8092,7 +8158,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f6f466b-51af-487b-bf4c-996769e7d7be")
 		(property "Reference" "#PWR05"
-			(at 228.6 127 0)
+			(at 181.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8167,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 228.6 118.11 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 123.19 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +8184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 123.19 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 123.19 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8215,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_02")
-		(at 130.81 107.95 180)
+		(at 132.08 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8158,7 +8224,7 @@
 		(fields_autoplaced yes)
 		(uuid "186cbd36-c572-4664-a89c-cba058d38ac7")
 		(property "Reference" "Conn6"
-			(at 129.54 102.87 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8166,7 +8232,7 @@
 			)
 		)
 		(property "Value" "Laser"
-			(at 129.54 105.41 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8174,7 +8240,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
-			(at 130.81 105.41 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8183,7 +8249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 105.41 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8192,7 +8258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 107.95 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8422,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 228.6 142.24 0)
+		(at 181.61 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8365,7 +8431,7 @@
 		(fields_autoplaced yes)
 		(uuid "22ce5ebe-d8db-4821-a073-de671789e21c")
 		(property "Reference" "#PWR04"
-			(at 228.6 148.59 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 147.32 0)
+			(at 181.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 142.24 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 142.24 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 142.24 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Devices:OKI")
-		(at 125.73 166.37 0)
+		(at 171.45 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8431,7 +8497,7 @@
 		(fields_autoplaced yes)
 		(uuid "25962489-267b-4985-8abc-f438690c9bb2")
 		(property "Reference" "U3"
-			(at 127 167.64 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8440,7 +8506,7 @@
 			)
 		)
 		(property "Value" "OKI 5V-3V"
-			(at 130.81 158.75 0)
+			(at 176.53 63.5 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8448,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Devices:OKI_Horizontal"
-			(at 120.65 168.91 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8457,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 168.91 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8466,7 +8532,7 @@
 			)
 		)
 		(property "Description" "DC/DC Buck Converter"
-			(at 125.73 166.37 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9099,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 107.95 0)
+		(at 139.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9042,7 +9108,7 @@
 		(fields_autoplaced yes)
 		(uuid "4da7a791-b7fd-45f3-9d8a-71e93b4117e8")
 		(property "Reference" "#PWR06"
-			(at 138.43 111.76 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9117,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 138.43 102.87 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 107.95 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 107.95 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 107.95 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9165,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 168.91 0)
+		(at 190.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9107,7 +9173,7 @@
 		(dnp no)
 		(uuid "5327006d-0894-4138-867c-6ade41f87aa1")
 		(property "Reference" "C5"
-			(at 148.336 168.148 0)
+			(at 194.056 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9182,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 147.574 169.926 0)
+			(at 193.294 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 145.7452 172.72 0)
+			(at 191.4652 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +9200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 168.91 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9209,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 168.91 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9234,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_06")
-		(at 143.51 99.06 0)
+		(at 132.08 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9177,7 +9243,7 @@
 		(fields_autoplaced yes)
 		(uuid "58921758-0fe2-4c1c-afda-bd2256e14025")
 		(property "Reference" "Conn7"
-			(at 144.78 87.6299 0)
+			(at 133.35 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9252,7 @@
 			)
 		)
 		(property "Value" "TOF Sensor"
-			(at 144.78 90.1699 0)
+			(at 133.35 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9261,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_06_Vertical"
-			(at 143.51 99.06 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 99.06 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 99.06 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9317,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 138.43 130.81 0)
+		(at 139.7 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9260,7 +9326,7 @@
 		(fields_autoplaced yes)
 		(uuid "596c84f2-96a9-476b-b058-8f82bf45113e")
 		(property "Reference" "#PWR07"
-			(at 138.43 137.16 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 135.89 0)
+			(at 139.7 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 130.81 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +9352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 130.81 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 130.81 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9589,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 226.06 134.62 0)
+		(at 179.07 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9532,7 +9598,7 @@
 		(fields_autoplaced yes)
 		(uuid "73e3c67a-6de8-4b6c-bcf9-2a728f7213c0")
 		(property "Reference" "Q5"
-			(at 232.41 133.3499 0)
+			(at 185.42 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9607,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 232.41 135.8899 0)
+			(at 185.42 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9616,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 231.14 136.525 0)
+			(at 184.15 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9627,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 231.14 138.43 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9637,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 226.06 134.62 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +9896,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 95.25 180)
+		(at 121.92 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9838,7 +9904,7 @@
 		(dnp no)
 		(uuid "7b371554-01ae-4755-af3b-d5d268908d48")
 		(property "Reference" "#PWR026"
-			(at 133.35 91.44 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9913,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 95.25 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 95.25 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +9930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 95.25 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 95.25 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10162,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 173.99 31.75 0)
+		(at 175.26 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10105,7 +10171,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c75ec8a-0993-4527-b2b5-6e661bcc2c64")
 		(property "Reference" "#PWR010"
-			(at 173.99 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10180,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.99 26.67 0)
+			(at 175.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 31.75 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 31.75 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 173.99 31.75 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10361,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 82.55 0)
+		(at 121.92 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10303,7 +10369,7 @@
 		(dnp no)
 		(uuid "9c9594db-abd5-4f9a-ab9a-ee92d5077762")
 		(property "Reference" "#PWR033"
-			(at 133.35 86.36 0)
+			(at 121.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10378,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 80.518 0)
+			(at 118.11 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 82.55 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 82.55 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 82.55 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10426,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 135.89 119.38 0)
+		(at 137.16 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10369,7 +10435,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5933720-a3cb-47cc-b440-ba8cc6c30194")
 		(property "Reference" "Q3"
-			(at 142.24 118.1099 0)
+			(at 143.51 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10444,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 142.24 120.6499 0)
+			(at 143.51 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10453,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 140.97 121.285 0)
+			(at 142.24 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 140.97 123.19 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +10474,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 135.89 119.38 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10502,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_05")
-		(at 180.34 43.18 0)
+		(at 181.61 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10445,7 +10511,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d2045b-fa4b-4eb6-934a-510a9137d6c1")
 		(property "Reference" "Conn4"
-			(at 184.15 35.5599 0)
+			(at 185.42 35.5599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10454,7 +10520,7 @@
 			)
 		)
 		(property "Value" "CCD"
-			(at 184.15 38.0999 0)
+			(at 185.42 38.0999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10463,7 +10529,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
-			(at 180.34 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10472,7 +10538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10481,7 +10547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10647,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 168.91 0)
+		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10589,7 +10655,7 @@
 		(dnp no)
 		(uuid "ac8e3e3b-cfa0-41f1-af86-36f7532388a9")
 		(property "Reference" "C4"
-			(at 111.252 167.894 0)
+			(at 156.972 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +10664,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 109.728 170.18 0)
+			(at 155.448 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 117.8052 172.72 0)
+			(at 163.5252 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 168.91 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10691,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 168.91 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10782,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 144.78 161.29 0)
+		(at 190.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10725,7 +10791,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba0680cb-d487-425f-865e-f07e9d94eed5")
 		(property "Reference" "#PWR032"
-			(at 144.78 165.1 0)
+			(at 190.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10800,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 156.21 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 161.29 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +10817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 161.29 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +10826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 161.29 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +10919,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 129.54 85.09 270)
+		(at 118.11 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10861,7 +10927,7 @@
 		(dnp no)
 		(uuid "c6bcbb79-78be-41bd-87f0-3c8432b58612")
 		(property "Reference" "#PWR034"
-			(at 123.19 85.09 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +10936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.714 85.09 90)
+			(at 113.284 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 85.09 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 85.09 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +10962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 85.09 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11060,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_02")
-		(at 220.98 123.19 180)
+		(at 173.99 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11003,7 +11069,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca1a0aee-1773-443e-812a-120a6eec7a31")
 		(property "Reference" "Conn5"
-			(at 219.71 118.11 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11011,7 +11077,7 @@
 			)
 		)
 		(property "Value" "Fan"
-			(at 219.71 120.65 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11019,7 +11085,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
-			(at 220.98 120.65 0)
+			(at 173.99 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11028,7 +11094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 120.65 0)
+			(at 173.99 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11037,7 +11103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 123.19 0)
+			(at 173.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11129,7 @@
 	(symbol
 		(lib_name "Molex_SL_05_1")
 		(lib_id "MRDT_Connectors:Molex_SL_05")
-		(at 180.34 138.43 0)
+		(at 222.25 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11072,7 +11138,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca1ad9e3-15c3-4ed5-a8c2-e55af9bad08d")
 		(property "Reference" "Conn2"
-			(at 184.15 130.8099 0)
+			(at 226.06 128.2699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11081,7 +11147,7 @@
 			)
 		)
 		(property "Value" "Gantry"
-			(at 184.15 133.3499 0)
+			(at 226.06 130.8099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11090,7 +11156,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
-			(at 180.34 138.43 0)
+			(at 222.25 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11099,7 +11165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 138.43 0)
+			(at 222.25 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11108,7 +11174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 138.43 0)
+			(at 222.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +12192,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 130.81 176.53 0)
+		(at 176.53 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12135,7 +12201,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecacf562-9e57-4f17-a493-8655fd1bc88d")
 		(property "Reference" "#PWR031"
-			(at 130.81 182.88 0)
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 181.61 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 176.53 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 176.53 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 176.53 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12394,7 @@
 	(symbol
 		(lib_name "+12V_4")
 		(lib_id "power:+12V")
-		(at 116.84 161.29 0)
+		(at 162.56 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12337,7 +12403,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dafd59-1c20-4a7a-a37c-05b0fd7d4ed9")
 		(property "Reference" "#PWR030"
-			(at 116.84 165.1 0)
+			(at 162.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,7 +12412,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 116.84 156.21 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12354,7 +12420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 161.29 0)
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 161.29 0)
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 116.84 161.29 0)
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 41.91 0)
+		(at 175.26 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12402,7 +12468,7 @@
 		(dnp no)
 		(uuid "fb70c2d4-7229-4bbb-8609-da79ba3cc16b")
 		(property "Reference" "#PWR011"
-			(at 173.99 48.26 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12411,7 +12477,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 46.99 0)
+			(at 175.26 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 41.91 0)
+			(at 175.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,7 +12494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 41.91 0)
+			(at 175.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 41.91 0)
+			(at 175.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12525,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 128.27 90)
+		(at 134.62 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12467,7 +12533,7 @@
 		(dnp no)
 		(uuid "ffd9f162-a060-42a8-b1f8-3e742e795991")
 		(property "Reference" "R4"
-			(at 133.35 126.238 90)
+			(at 134.62 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12541,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 133.35 128.27 90)
+			(at 134.62 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12483,7 +12549,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 133.35 130.048 90)
+			(at 134.62 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12492,7 +12558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 128.27 0)
+			(at 134.62 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +12567,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 128.27 0)
+			(at 134.62 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
