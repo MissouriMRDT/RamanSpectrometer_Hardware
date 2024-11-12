@@ -4866,6 +4866,10 @@
 		(uuid "0f4c9626-ad20-498a-9fb7-0176e60b0a35")
 	)
 	(no_connect
+		(at 35.56 154.94)
+		(uuid "1ccef5e9-2f68-45ba-afd6-ec12ede1198e")
+	)
+	(no_connect
 		(at 35.56 111.76)
 		(uuid "1f1ffac7-0f5d-46cf-9f79-3e3d655c48af")
 	)
@@ -4958,10 +4962,6 @@
 		(uuid "a734de15-bb91-4978-9583-0f371ea99444")
 	)
 	(no_connect
-		(at 35.56 149.86)
-		(uuid "b147d1f7-23d1-4930-a30d-cbb4c690b495")
-	)
-	(no_connect
 		(at 76.2 114.3)
 		(uuid "b94ae135-e0af-4965-8751-7cb0ecdbbca9")
 	)
@@ -5036,16 +5036,6 @@
 			(type default)
 		)
 		(uuid "0467eef0-a4c6-4044-ba27-aa34cfc9fc14")
-	)
-	(wire
-		(pts
-			(xy 34.29 154.94) (xy 35.56 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a2ddc0-01d3-4552-a849-e728af3ff983")
 	)
 	(wire
 		(pts
@@ -5686,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "80422997-a4dc-48c0-93c3-7e243f106dbf")
+	)
+	(wire
+		(pts
+			(xy 34.29 149.86) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a2569c-595f-4381-84fa-25ea8b4ebd9e")
 	)
 	(wire
 		(pts
@@ -6889,6 +6889,28 @@
 			)
 		)
 	)
+	(global_label "CS"
+		(shape input)
+		(at 34.29 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50182c4a-b77b-4dc7-a2d6-f889b2420830")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 123.19 85.09 180)
@@ -7408,28 +7430,6 @@
 		(uuid "cf1ac56d-6e49-4f9d-9e91-1326fe40bfb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.5077 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS"
-		(shape input)
-		(at 34.29 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d838990d-5470-4a95-8b45-6747de3c860d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8253 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
