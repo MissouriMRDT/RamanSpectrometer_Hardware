@@ -1454,12 +1454,6 @@
 		(uuid "292bdf4a-f43f-4f2d-af9e-6b74a3e5c9be")
 	)
 	(junction
-		(at 53.34 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39bfdaa6-213b-4487-b953-9cbe4319e6ef")
-	)
-	(junction
 		(at 27.94 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1470,6 +1464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f89b431-3ab6-4545-ad5f-15bfe2f75efb")
+	)
+	(junction
+		(at 53.34 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3257315-ecaa-4376-8b66-e80c2bbfe54e")
 	)
 	(junction
 		(at 27.94 24.13)
@@ -1625,16 +1625,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243be70d-8220-4c2e-b149-3d7f30b5bd04")
-	)
-	(wire
-		(pts
 			(xy 48.26 33.02) (xy 62.23 33.02)
 		)
 		(stroke
@@ -1742,16 +1732,6 @@
 			(type default)
 		)
 		(uuid "4df7312f-1554-418c-ba3d-4eed8bfae75f")
-	)
-	(wire
-		(pts
-			(xy 53.34 38.1) (xy 54.61 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51439074-422d-4d45-8ee5-e275eac15cb6")
 	)
 	(polyline
 		(pts
@@ -1892,6 +1872,26 @@
 			(type default)
 		)
 		(uuid "890e4f60-51f8-4f6d-8eef-94ab917d9495")
+	)
+	(wire
+		(pts
+			(xy 53.34 38.1) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a36dd98-143f-402b-b8dd-8836bc7374bf")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 53.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d543c47-c9a3-438e-a8e6-c94ff0d05b7b")
 	)
 	(wire
 		(pts
@@ -2112,16 +2112,6 @@
 			(type default)
 		)
 		(uuid "dc200b8f-f2d8-4849-ac80-7009b4496b7d")
-	)
-	(wire
-		(pts
-			(xy 53.34 40.64) (xy 53.34 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2f6b8b-01d0-4b59-8fba-fdb9d7169820")
 	)
 	(wire
 		(pts
@@ -2355,7 +2345,7 @@
 	)
 	(global_label "Vout"
 		(shape input)
-		(at 53.34 87.63 180)
+		(at 53.34 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2365,7 +2355,7 @@
 		)
 		(uuid "ba8db4d5-4298-45b7-897f-df6d9a021081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.2425 87.63 0)
+			(at 46.2425 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2367,7 @@
 	)
 	(global_label "CLK"
 		(shape output)
-		(at 53.34 92.71 180)
+		(at 53.34 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2387,7 +2377,7 @@
 		)
 		(uuid "e99f1ffd-87e9-4974-bc48-851fba57ebc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 92.71 0)
+			(at 46.7867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31439b25-3374-4fd6-85e9-2f72e6778196")
-		(property "Reference" "Conn2"
+		(property "Reference" "Conn1"
 			(at 67.31 88.8999 0)
 			(effects
 				(font
@@ -2666,7 +2656,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "Conn2")
+					(reference "Conn1")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50c8d593-373b-4944-8097-5e736c31b857")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 80.0101 66.04 0)
 			(effects
 				(font
@@ -2896,7 +2886,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e520617-e332-4a67-922d-5d2443f9eabe")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 67.31 21.59 90)
 			(effects
 				(font
@@ -3153,7 +3143,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860b3c15-d647-4e44-9749-72cca6b2ca35")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 34.29 27.9399 0)
 			(effects
 				(font
@@ -3288,7 +3278,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a53e5f6-5822-4e01-af5d-d75bcd00a6be")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 25.146 49.53 0)
 			(effects
 				(font
@@ -3351,7 +3341,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa33181e-c140-4b12-9974-9bd056c44754")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 18.034 27.94 0)
 			(effects
 				(font
@@ -3420,7 +3410,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3501,7 +3491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6198a5e-4e6e-47d1-bffd-48c5e3070894")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 67.31 58.674 90)
 			(effects
 				(font
@@ -3553,7 +3543,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf610fc3-07bb-4dd2-813a-e953819c70a1")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 34.036 49.53 0)
 			(effects
 				(font
@@ -3681,7 +3671,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f238f801-dcaa-4880-8f64-b38be22e9a7d")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 50.292 37.846 90)
 			(effects
 				(font
@@ -3748,7 +3738,7 @@
 		(instances
 			(project "CCD_Breakout"
 				(path "/8c44394f-ce06-4603-9f88-0202e05c26c7"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
