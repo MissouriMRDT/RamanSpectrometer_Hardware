@@ -5958,6 +5958,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14be7e2e-c780-447e-8b88-ff53aa57aa95")
+	)
+	(wire
+		(pts
 			(xy 212.09 153.67) (xy 207.01 153.67)
 		)
 		(stroke
@@ -5995,16 +6005,6 @@
 			(type default)
 		)
 		(uuid "1ac2ee21-8aaf-4b25-9c4f-f1136516e383")
-	)
-	(wire
-		(pts
-			(xy 171.45 43.18) (xy 172.72 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f937209-1f4a-473c-888b-7a226a5eada3")
 	)
 	(wire
 		(pts
@@ -6485,16 +6485,6 @@
 			(type default)
 		)
 		(uuid "66a9c8b2-2c2a-4a51-9e0d-c91975d07b89")
-	)
-	(wire
-		(pts
-			(xy 171.45 38.1) (xy 172.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ed57d2-4640-4cc1-b16f-5719c80bea69")
 	)
 	(polyline
 		(pts
@@ -7608,6 +7598,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 38.1) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da45af6d-80d2-4ead-9d80-a0121d1de8cc")
+	)
+	(wire
+		(pts
 			(xy 219.71 39.37) (xy 220.98 39.37)
 		)
 		(stroke
@@ -8084,7 +8084,7 @@
 	)
 	(global_label "CCD_CLK_5V"
 		(shape input)
-		(at 171.45 43.18 180)
+		(at 171.45 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8094,7 +8094,7 @@
 		)
 		(uuid "11b2d5cf-9f3c-4157-a2a6-ca3e5d02beab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.8534 43.18 0)
+			(at 156.8534 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,7 +8436,7 @@
 	)
 	(global_label "CCD_Vout"
 		(shape output)
-		(at 171.45 38.1 180)
+		(at 170.18 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8446,7 +8446,7 @@
 		)
 		(uuid "713f864f-d7d7-4106-91e7-2d37f2d73e6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5749 38.1 0)
+			(at 158.3049 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
