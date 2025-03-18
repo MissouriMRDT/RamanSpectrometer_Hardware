@@ -5968,7 +5968,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 153.67) (xy 207.01 153.67)
+			(xy 213.36 152.4) (xy 208.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6008,7 +6008,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 153.67) (xy 207.01 152.4)
+			(xy 208.28 152.4) (xy 208.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6098,7 +6098,7 @@
 	)
 	(polyline
 		(pts
-			(xy 236.22 146.05) (xy 236.22 166.37)
+			(xy 237.49 144.78) (xy 237.49 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6188,7 +6188,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 158.75) (xy 165.1 160.02)
+			(xy 166.37 157.48) (xy 166.37 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6278,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 158.75) (xy 207.01 160.02)
+			(xy 208.28 157.48) (xy 208.28 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6358,7 +6358,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.67 146.05) (xy 236.22 146.05)
+			(xy 154.94 144.78) (xy 237.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6448,7 +6448,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 156.21) (xy 170.18 156.21)
+			(xy 170.18 154.94) (xy 171.45 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6468,7 +6468,7 @@
 	)
 	(polyline
 		(pts
-			(xy 236.22 166.37) (xy 153.67 166.37)
+			(xy 237.49 165.1) (xy 154.94 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6658,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 158.75) (xy 165.1 158.75)
+			(xy 171.45 157.48) (xy 166.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6718,7 +6718,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.67 166.37) (xy 153.67 146.05)
+			(xy 154.94 165.1) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7058,7 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 156.21) (xy 212.09 156.21)
+			(xy 212.09 154.94) (xy 213.36 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7278,7 +7278,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 158.75) (xy 207.01 158.75)
+			(xy 213.36 157.48) (xy 208.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7558,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 153.67) (xy 165.1 153.67)
+			(xy 171.45 152.4) (xy 166.37 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7728,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 153.67) (xy 165.1 152.4)
+			(xy 166.37 152.4) (xy 166.37 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8524,7 +8524,7 @@
 	)
 	(global_label "GimbalPWM_A"
 		(shape input)
-		(at 168.91 156.21 180)
+		(at 170.18 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8534,7 +8534,7 @@
 		)
 		(uuid "7dda0801-cd97-4c9d-9688-26a614427215")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1645 156.21 0)
+			(at 154.4345 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8744,7 @@
 	)
 	(global_label "GimbalPWM_B"
 		(shape input)
-		(at 210.82 156.21 180)
+		(at 212.09 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8754,7 +8754,7 @@
 		)
 		(uuid "a93057c3-7ad0-4589-ba8f-3117b57dc9d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8931 156.21 0)
+			(at 196.1631 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04d2fb99-fefd-4dfd-82ed-6bea213dc1cf")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR02"
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9345,7 +9345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0785b8a7-e45a-4879-9244-824393d6ad28")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR12")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9487,7 +9487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e9a1e61-b276-45e9-93cc-07f4ce2bdedf")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR06"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -9537,7 +9537,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9695,7 +9695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15e66c1c-d135-4f80-aba3-143f3f446765")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR029"
 			(at 238.76 90.17 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR29")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "189ff3cc-4493-4e24-a165-0ae9256ab6d0")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR018"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -9812,7 +9812,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9820,7 +9820,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 152.4 0)
+		(at 208.28 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9828,8 +9828,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df20eb9-0415-4f95-a629-f9bb8be91914")
-		(property "Reference" "#PWR38"
-			(at 207.01 156.21 0)
+		(property "Reference" "#PWR038"
+			(at 208.28 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9838,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 147.32 0)
+			(at 208.28 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 152.4 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 152.4 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +9864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 152.4 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9878,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR38")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9971,7 +9971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24532ec1-d47c-4b33-bb51-3ef8bf548fed")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR09"
 			(at 114.3 38.1 0)
 			(effects
 				(font
@@ -10021,7 +10021,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR9")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10038,7 +10038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26a5143d-8795-4e65-bb5d-a0dbeef2c722")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR023"
 			(at 177.8 139.7 0)
 			(effects
 				(font
@@ -10088,7 +10088,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR23")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26aa1283-bf39-4b46-ba96-ac64b8556e4e")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 124.46 68.58 0)
 			(effects
 				(font
@@ -10155,7 +10155,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10299,7 +10299,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_03")
-		(at 175.26 160.02 0)
+		(at 176.53 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10308,7 +10308,7 @@
 		(fields_autoplaced yes)
 		(uuid "30f06b50-d532-4f9c-b87d-42c2c0158e56")
 		(property "Reference" "Conn11"
-			(at 179.07 154.9399 0)
+			(at 180.34 153.6699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10317,7 +10317,7 @@
 			)
 		)
 		(property "Value" "GimbalA"
-			(at 179.07 157.4799 0)
+			(at 180.34 156.2099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10326,7 +10326,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
-			(at 175.26 160.02 0)
+			(at 176.53 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10335,7 +10335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 160.02 0)
+			(at 176.53 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10344,7 +10344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 160.02 0)
+			(at 176.53 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b09a79-f838-41fb-8310-1cd20a2e9777")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR033"
 			(at 257.81 133.35 0)
 			(effects
 				(font
@@ -10601,7 +10601,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR33")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4653defe-8cce-4b34-806d-d60500f28655")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR010"
 			(at 114.3 68.58 0)
 			(effects
 				(font
@@ -10668,7 +10668,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR10")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10677,7 +10677,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 207.01 160.02 0)
+		(at 208.28 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10685,8 +10685,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4842e5ea-6b66-4ce3-a9b3-cb44065afd0f")
-		(property "Reference" "#PWR39"
-			(at 207.01 166.37 0)
+		(property "Reference" "#PWR039"
+			(at 208.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 165.1 0)
+			(at 208.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,7 +10703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 160.02 0)
+			(at 208.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +10712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 160.02 0)
+			(at 208.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +10721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 160.02 0)
+			(at 208.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10735,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR39")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10751,7 +10751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48bdd60e-48d1-4699-97f3-15d3c9c46f1f")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR08"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -10801,7 +10801,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR8")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10955,7 +10955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee11f71-7462-4606-95f8-25d94d839e2b")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR020"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -11005,7 +11005,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR20")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ff1bc6-e73d-4e3d-bac7-45335ba43095")
-		(property "Reference" "#PWR28"
+		(property "Reference" "#PWR028"
 			(at 231.14 62.23 0)
 			(effects
 				(font
@@ -11143,7 +11143,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR28")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11159,7 +11159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f03bc1c-93c2-46e0-913b-adcfb51038dd")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR022"
 			(at 177.8 118.11 0)
 			(effects
 				(font
@@ -11209,7 +11209,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR22")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11225,7 +11225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b081af-c122-4ad3-a5af-dba16c464cc3")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR016"
 			(at 134.62 38.1 0)
 			(effects
 				(font
@@ -11275,7 +11275,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR16")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11290,7 +11290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74a96c7f-ca9c-4729-b445-82cd785f7bb0")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR013"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -11340,7 +11340,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR13")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11355,7 +11355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78985091-6a2c-4a7f-b056-6f0871d0d4aa")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR026"
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -11405,7 +11405,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11715,7 +11715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86085b1d-9932-4198-ad87-31d71dc4b722")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR025"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -11765,7 +11765,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR25")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bfb8bb-4d3c-431f-93a5-a4318de9c35b")
-		(property "Reference" "#PWR32"
+		(property "Reference" "#PWR032"
 			(at 123.19 176.53 0)
 			(effects
 				(font
@@ -11832,7 +11832,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR32")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11848,7 +11848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f6a4eb-c402-4646-8328-da10e886e75d")
-		(property "Reference" "#PWR31"
+		(property "Reference" "#PWR031"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -11898,7 +11898,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR31")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11985,7 +11985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89ef193f-2d07-4977-afbc-db05af427c52")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR04"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -12035,7 +12035,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR4")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12051,7 +12051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c5b8366-6da3-4114-bd08-a267f5c5897c")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR011"
 			(at 107.95 83.82 0)
 			(effects
 				(font
@@ -12101,7 +12101,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9374265b-2d91-4c61-8860-f250ac98d84d")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 124.46 38.1 0)
 			(effects
 				(font
@@ -12167,7 +12167,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12247,7 +12247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995f4e81-73b0-4e07-8bfc-27b8795b830b")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR019"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -12297,7 +12297,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR19")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12376,7 +12376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cacbf01-3534-4c5b-90df-c9bdc9daac7c")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR035"
 			(at 257.81 158.75 0)
 			(effects
 				(font
@@ -12426,7 +12426,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR35")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12441,7 +12441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f7a3e9a-2a89-420a-a752-f305c2c4bf7e")
-		(property "Reference" "#PWR30"
+		(property "Reference" "#PWR030"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -12491,7 +12491,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR30")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12507,7 +12507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13f7990-a881-4a39-a6e6-bdd97248a91b")
-		(property "Reference" "#PWR34"
+		(property "Reference" "#PWR034"
 			(at 257.81 146.05 0)
 			(effects
 				(font
@@ -12557,7 +12557,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR34")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12565,7 +12565,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 152.4 0)
+		(at 166.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12573,8 +12573,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45002f9-c028-4a14-adff-5d81b4911db4")
-		(property "Reference" "#PWR36"
-			(at 165.1 156.21 0)
+		(property "Reference" "#PWR036"
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12583,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 147.32 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,7 +12591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 152.4 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 152.4 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +12609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 152.4 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12623,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR36")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12707,7 +12707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76ab46e-e0ef-4d35-9b8f-9f9809ab74b1")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR03"
 			(at 33.02 33.02 0)
 			(effects
 				(font
@@ -12757,7 +12757,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR3")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12835,7 +12835,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_03")
-		(at 217.17 160.02 0)
+		(at 218.44 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12844,7 +12844,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad635c4a-ea14-4176-b7f2-f435bce068a7")
 		(property "Reference" "Conn12"
-			(at 220.98 154.9399 0)
+			(at 222.25 153.6699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12853,7 +12853,7 @@
 			)
 		)
 		(property "Value" "GimbalB"
-			(at 220.98 157.4799 0)
+			(at 222.25 156.2099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12862,7 +12862,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
-			(at 217.17 160.02 0)
+			(at 218.44 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12871,7 +12871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 160.02 0)
+			(at 218.44 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12880,7 +12880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 160.02 0)
+			(at 218.44 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,7 +13760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db0f2e5b-7c07-48cc-90b6-482ce5ba71de")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR027"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -13810,7 +13810,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR27")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13826,7 +13826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db49833d-9d31-45b3-b697-8995e88e924d")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR07"
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -13876,7 +13876,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR7")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14260,7 +14260,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 165.1 160.02 0)
+		(at 166.37 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14268,8 +14268,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9383e22-9f78-4927-bfe9-90490862e477")
-		(property "Reference" "#PWR37"
-			(at 165.1 166.37 0)
+		(property "Reference" "#PWR037"
+			(at 166.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 165.1 0)
+			(at 166.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +14286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 160.02 0)
+			(at 166.37 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14295,7 +14295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 160.02 0)
+			(at 166.37 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 160.02 0)
+			(at 166.37 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14318,7 +14318,7 @@
 		(instances
 			(project ""
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR37")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14333,7 +14333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecc63350-d325-45fc-82fd-7860b6dcb859")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -14383,7 +14383,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14467,7 +14467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d50bb6-079d-4f79-ab59-70402c7e70ae")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR017"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -14517,7 +14517,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR17")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14610,7 +14610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9caf80b-bacf-4ecc-9faa-0499e77947ae")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR05"
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -14660,7 +14660,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR5")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14676,7 +14676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d7b5a4-4ad8-4499-ae17-4d58a64a2d98")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01"
 			(at 31.75 86.36 0)
 			(effects
 				(font
@@ -14726,7 +14726,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14741,7 +14741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb74a924-2bb9-4d99-9fda-e25e661067aa")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR021"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -14791,7 +14791,7 @@
 		(instances
 			(project "Raman_Spectrometer_Board"
 				(path "/077f5846-9cb0-4080-abed-6f6bf902f164"
-					(reference "#PWR21")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
