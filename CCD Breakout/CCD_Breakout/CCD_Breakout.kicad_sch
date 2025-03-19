@@ -819,7 +819,7 @@
 					(end 2.54 0)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)

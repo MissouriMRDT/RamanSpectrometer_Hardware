@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../raman_board/")
+			(outputdirectory "./Gerbs")
 		)
 	)
 	(net 0 "")
@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6173,7 +6173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
