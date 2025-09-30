@@ -1519,6 +1519,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225eea4e-3ef1-4773-9468-9f6596499137")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 130.81 66.04)
 		)
 		(stroke
@@ -1526,6 +1536,16 @@
 			(type default)
 		)
 		(uuid "267c6b0c-e328-4386-a074-30644c305fa7")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8b5be5-43f5-4411-9643-f42111ed3e5c")
 	)
 	(wire
 		(pts
@@ -1569,6 +1589,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ab9e3b-a682-433b-99f5-3649ed06c862")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d4128b-5081-416f-b7a7-4b116952eb7d")
+	)
+	(wire
+		(pts
 			(xy 177.8 152.4) (xy 177.8 149.86)
 		)
 		(stroke
@@ -1576,6 +1616,71 @@
 			(type default)
 		)
 		(uuid "d7c1ccd2-650f-4b5f-a0b3-1796e885ecd2")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef76de33-2903-47db-a694-0dddfc7d334c")
+	)
+	(hierarchical_label "T-"
+		(shape output)
+		(at 175.26 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cbcba8e-2855-4f36-be63-b2ac3987e8ff")
+	)
+	(hierarchical_label "LED"
+		(shape output)
+		(at 175.26 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6220a378-c10b-4082-87d4-44d52208c69d")
+	)
+	(hierarchical_label "R+"
+		(shape input)
+		(at 175.26 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86401865-cdc6-4ea1-97e5-5d3451d902fe")
+	)
+	(hierarchical_label "R-"
+		(shape input)
+		(at 175.26 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb8301ce-c6ed-4b3c-9071-5bed18054d3c")
+	)
+	(hierarchical_label "T+"
+		(shape output)
+		(at 175.26 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea98ef69-9c6c-4d7a-8139-566bc69732e1")
 	)
 	(symbol
 		(lib_id "power:GND")

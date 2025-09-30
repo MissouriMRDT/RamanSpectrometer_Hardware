@@ -89,6 +89,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362aa731-d25c-4b7d-9dbb-e5d5d113cd06")
+	)
+	(wire
+		(pts
+			(xy 60.96 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b81a8-685d-42f4-996f-fcdc33260e41")
+	)
+	(wire
+		(pts
+			(xy 60.96 27.94) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5a7f13-73cd-4c6c-816d-1a759d3157d8")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 68.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab06493-1000-4b7f-a581-a617dfe3fd48")
+	)
+	(wire
+		(pts
+			(xy 60.96 22.86) (xy 68.58 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f5bf81-7882-4ecc-ab02-97153eb0cd12")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 271.78 27.94 0)
@@ -457,6 +507,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LED" input
+			(at 60.96 22.86 0)
+			(uuid "f03a9cc5-a7b9-4413-9fd5-6712a0032440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R+" output
+			(at 60.96 25.4 0)
+			(uuid "9735a26f-838f-4ea4-98d0-9f3d9174986a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R-" output
+			(at 60.96 27.94 0)
+			(uuid "76025401-1929-4737-9a00-6a5f3569b7e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "T+" input
+			(at 60.96 30.48 0)
+			(uuid "699ce1a9-2c64-4abb-a99e-15a2e74577cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "T-" input
+			(at 60.96 33.02 0)
+			(uuid "4690df5a-54cc-4412-afd0-937e29b4f1d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -877,6 +977,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LED" output
+			(at 68.58 22.86 180)
+			(uuid "4fbf5477-906d-4f75-b6f5-c49be80aa7b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R+" input
+			(at 68.58 25.4 180)
+			(uuid "5fc96c28-f822-4596-b307-523672f6b55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R-" input
+			(at 68.58 27.94 180)
+			(uuid "bd2c1436-d82d-4852-ba88-a0654bd344a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "T+" output
+			(at 68.58 30.48 180)
+			(uuid "086e8733-e65f-4476-9198-fcfee84b9d63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "T-" output
+			(at 68.58 33.02 180)
+			(uuid "e330e0c5-b71a-4789-8af3-ec8f9275c78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
