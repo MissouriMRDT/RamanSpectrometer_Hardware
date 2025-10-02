@@ -447,7 +447,7 @@
     ],
     [
       "3a0b3ce8-39e5-496a-97cd-21e6175c8f3d",
-      "Limi Switches"
+      "Limit Switches"
     ],
     [
       "57f2af9f-b055-41d8-9bd6-81b53eb984e5",
@@ -472,6 +472,10 @@
     [
       "2495d964-2266-4066-961c-06fbcb7a3cda",
       "CAN Transceiver"
+    ],
+    [
+      "2c80d6be-0ef8-43fe-8518-24188e641c24",
+      "Anderson"
     ]
   ],
   "text_variables": {}

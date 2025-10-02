@@ -89,6 +89,47 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Im pretty sure the Limit Switches and Motor Encoder are unecessary with the CAN system but im not sure so im leaving it here to be safe. "
+		(exclude_from_sim no)
+		(at 22.86 48.26 0)
+		(size 27.94 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "#1")
+		)
+		(uuid "6f64043a-50fa-42c9-8dce-ff119ed5495c")
+	)
+	(text_box "I think this just needs a 2 pin molex, but im not sure on specifics, like what voltage the servos need."
+		(exclude_from_sim no)
+		(at 177.8 45.72 0)
+		(size 25.4 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bfe60640-7cdd-4884-8770-6a962d917293")
+	)
 	(wire
 		(pts
 			(xy 60.96 25.4) (xy 68.58 25.4)
@@ -494,6 +535,48 @@
 		)
 	)
 	(sheet
+		(at 257.81 93.98)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c80d6be-0ef8-43fe-8518-24188e641c24")
+		(property "Sheetname" "Anderson"
+			(at 257.81 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "anderson.kicad_sch"
+			(at 257.81 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 45.72)
 		(size 41.91 22.86)
 		(exclude_from_sim no)
@@ -509,7 +592,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3a0b3ce8-39e5-496a-97cd-21e6175c8f3d")
-		(property "Sheetname" "Limi Switches"
+		(property "Sheetname" "Limit Switches"
 			(at 19.05 45.0084 0)
 			(effects
 				(font
