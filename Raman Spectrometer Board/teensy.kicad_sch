@@ -1549,6 +1549,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4c95ac-6972-4128-98ef-d20ffe1d76f6")
+	)
+	(wire
+		(pts
 			(xy 171.45 76.2) (xy 175.26 76.2)
 		)
 		(stroke
@@ -1649,6 +1659,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1386486-b615-4b39-96a6-1a4745fc6cdb")
+	)
+	(wire
+		(pts
 			(xy 171.45 66.04) (xy 175.26 66.04)
 		)
 		(stroke
@@ -1656,6 +1676,17 @@
 			(type default)
 		)
 		(uuid "ef76de33-2903-47db-a694-0dddfc7d334c")
+	)
+	(hierarchical_label "Servo1"
+		(shape output)
+		(at 175.26 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4562ccd9-a054-4dbc-8148-da6300317dd6")
 	)
 	(hierarchical_label "T-"
 		(shape output)
@@ -1722,6 +1753,17 @@
 			(justify left)
 		)
 		(uuid "cbca9ceb-a153-407a-b8f6-0ceccd7badad")
+	)
+	(hierarchical_label "Servo2"
+		(shape output)
+		(at 175.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db3a1e05-d696-4555-91c7-409d6e56ec4a")
 	)
 	(hierarchical_label "CTX"
 		(shape output)
