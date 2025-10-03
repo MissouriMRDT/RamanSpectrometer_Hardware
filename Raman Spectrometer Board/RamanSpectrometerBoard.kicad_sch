@@ -89,47 +89,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Im pretty sure the Limit Switches and Motor Encoder are unecessary with the CAN system but im not sure so im leaving it here to be safe. "
-		(exclude_from_sim no)
-		(at 22.86 48.26 0)
-		(size 27.94 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-			(href "#1")
-		)
-		(uuid "6f64043a-50fa-42c9-8dce-ff119ed5495c")
-	)
-	(text_box "Probably need to check this one"
-		(exclude_from_sim no)
-		(at 177.8 45.72 0)
-		(size 25.4 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bfe60640-7cdd-4884-8770-6a962d917293")
-	)
 	(wire
 		(pts
 			(xy 127 57.15) (xy 133.35 57.15)
@@ -159,6 +118,16 @@
 			(type default)
 		)
 		(uuid "604f1fb7-e72a-4c53-bfc5-23b67d20a836")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c22635-172e-48b5-b236-538f297785bb")
 	)
 	(wire
 		(pts
@@ -597,48 +566,6 @@
 		)
 	)
 	(sheet
-		(at 19.05 45.72)
-		(size 41.91 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3a0b3ce8-39e5-496a-97cd-21e6175c8f3d")
-		(property "Sheetname" "Limit Switches"
-			(at 19.05 45.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "limitSwitches.kicad_sch"
-			(at 19.05 69.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 133.35 99.06)
 		(size 41.91 20.32)
 		(exclude_from_sim no)
@@ -899,48 +826,6 @@
 		)
 	)
 	(sheet
-		(at 19.05 76.2)
-		(size 41.91 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "77660690-0c3f-4671-af46-9ec09310fcf8")
-		(property "Sheetname" "Motor Encoder"
-			(at 19.05 75.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motorEncoder.kicad_sch"
-			(at 19.05 102.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 19.05 109.22)
 		(size 41.91 25.4)
 		(exclude_from_sim no)
@@ -1067,8 +952,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 72.39)
-		(size 41.91 20.32)
+		(at 19.05 73.66)
+		(size 41.91 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1083,7 +968,7 @@
 		)
 		(uuid "c790a08a-952a-47a5-8a2d-3628381b83e8")
 		(property "Sheetname" "Diode Connector"
-			(at 133.35 71.6784 0)
+			(at 19.05 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,12 +977,22 @@
 			)
 		)
 		(property "Sheetfile" "diodeConnector.kicad_sch"
-			(at 133.35 93.2946 0)
+			(at 19.05 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "diodeOutput(3.3v)" input
+			(at 60.96 86.36 0)
+			(uuid "30fa0f10-7519-4c76-91b3-9eb61b02280a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1302,6 +1197,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "diodeOutput" output
+			(at 68.58 86.36 180)
+			(uuid "326e4a90-1d66-4468-bcd8-5d93f96a6319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
