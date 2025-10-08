@@ -121,6 +121,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 149.86) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683e5363-ad73-4c36-9cf0-94d6d3a9f79b")
+	)
+	(wire
+		(pts
+			(xy 127 161.29) (xy 133.35 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b80c87-8c21-4d49-a51e-4dbbcdb17565")
+	)
+	(wire
+		(pts
 			(xy 60.96 86.36) (xy 68.58 86.36)
 		)
 		(stroke
@@ -151,6 +171,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 154.94) (xy 68.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83764ab4-7a37-4814-be20-7aa948951fe5")
+	)
+	(wire
+		(pts
 			(xy 60.96 27.94) (xy 68.58 27.94)
 		)
 		(stroke
@@ -178,6 +208,16 @@
 			(type default)
 		)
 		(uuid "ce9e6cb3-6619-42f9-9ba9-53a47a52857a")
+	)
+	(wire
+		(pts
+			(xy 60.96 152.4) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1c1687-e47a-4618-bfe5-6dc30548a648")
 	)
 	(wire
 		(pts
@@ -1297,6 +1337,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIP" output
+			(at 68.58 154.94 180)
+			(uuid "616a9de8-1d2b-4fee-b755-44edb0bb085b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 68.58 149.86 180)
+			(uuid "726fccfd-a8f5-40a6-8f8c-3fea5106d53e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 68.58 152.4 180)
+			(uuid "e3a5edc3-71aa-4a60-9cfd-6e2f45d98c0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
