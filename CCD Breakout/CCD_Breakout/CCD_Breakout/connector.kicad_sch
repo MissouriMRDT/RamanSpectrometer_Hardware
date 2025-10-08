@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f238f685-afbf-4f41-a977-c2b41acba8b3")
+	(uuid "6628db2e-8343-465d-abf1-937f41626010")
 	(paper "A4")
 	(lib_symbols
 		(symbol "MRDT_Connectors:Molex_SL_06"
@@ -406,288 +406,140 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 158.75 92.71)
+			(xy 149.86 97.79) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "283984c3-6fed-44bd-bafa-c570ec80ea1d")
+		(uuid "38f53bf2-49e7-4c0c-8cdc-dac92b368c66")
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 158.75 97.79)
+			(xy 149.86 105.41) (xy 152.4 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d702668-ec6b-423e-bae1-8a4b9375ba1b")
+		(uuid "83ceba53-e6b7-461c-8e29-a08b2fb46b95")
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 153.67 105.41)
+			(xy 149.86 111.76) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3310d70b-f7e7-49c7-af56-f89fa55328d5")
+		(uuid "891a707a-7919-4e0c-82fb-f7431472b9e5")
 	)
 	(wire
 		(pts
-			(xy 153.67 105.41) (xy 158.75 105.41)
+			(xy 149.86 102.87) (xy 152.4 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35f0b489-87d8-49cc-b3ac-d046267741a5")
+		(uuid "a47aa96d-f207-4445-bbc4-712311b32f1a")
 	)
 	(wire
 		(pts
-			(xy 153.67 86.36) (xy 153.67 92.71)
+			(xy 148.59 95.25) (xy 148.59 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6197ef66-d3ce-4619-ae92-abe215922627")
+		(uuid "a90951ba-5fdc-49b6-9ea6-744624399746")
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 158.75 100.33)
+			(xy 149.86 107.95) (xy 152.4 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e180634-0bf1-4070-b30f-b9177bd6149f")
+		(uuid "ba4be7e2-e13f-47af-bcb4-075cabbe6bb2")
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 158.75 95.25)
+			(xy 152.4 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82bf34e5-dc7d-46fb-86d5-ba0ef74df486")
+		(uuid "c41cd84f-bc68-4dc0-99d7-96c02326baa2")
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 158.75 102.87)
+			(xy 149.86 100.33) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6c00e84-dece-4424-a8ed-0db4afbc4b95")
+		(uuid "d9ae1763-801e-4976-82f1-9a6c87bb1e97")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 149.86 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "182a7536-106b-4c75-8e89-a3b0ac2931e4")
+	)
+	(hierarchical_label "EOS"
+		(shape input)
+		(at 149.86 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aabf3446-991f-4532-8f32-08c46806b1f6")
 	)
 	(hierarchical_label "CLK2"
 		(shape input)
-		(at 154.94 102.87 180)
+		(at 149.86 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8e382f40-d9aa-49c0-b0d4-fc30243c0400")
-	)
-	(hierarchical_label "IN"
-		(shape output)
-		(at 154.94 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d98e0655-2489-4435-82c8-0be0e66c7861")
+		(uuid "c4615719-4cb5-4617-ae1b-e446274ea630")
 	)
 	(hierarchical_label "CLK"
-		(shape input)
-		(at 154.94 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1b92ae9-e107-4836-ba4b-787f8c6a5b25")
-	)
-	(hierarchical_label "EOS"
 		(shape output)
-		(at 154.94 100.33 180)
+		(at 149.86 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f57610bb-30f6-4209-bdfd-7db88b89411e")
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_06")
-		(at 163.83 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1196dbe5-b7a8-46d0-a885-ef61b9df1ee9")
-		(property "Reference" "Conn5"
-			(at 167.64 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_SL_06"
-			(at 167.64 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "52ae427f-7b5a-4eb5-b685-3d64b645c0b7")
-		)
-		(pin "3"
-			(uuid "d509123b-d9b1-46f5-9136-4531720944ee")
-		)
-		(pin "2"
-			(uuid "e682f417-9cd2-4b8a-8391-d05ae352b1b4")
-		)
-		(pin "1"
-			(uuid "67659ee5-7f79-4fea-8128-317c96838a45")
-		)
-		(pin "6"
-			(uuid "308272d4-de97-42a5-8a78-ff69bb1c89fa")
-		)
-		(pin "4"
-			(uuid "c90aff0e-6ab0-46e3-a3b9-65167ddaad5e")
-		)
-		(instances
-			(project ""
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
-					(reference "Conn5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "921c7677-ef0b-452c-a3f9-99b3b6858fc9")
-		(property "Reference" "#PWR026"
-			(at 153.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f18063d-ad92-41c1-b6c5-8d5b91a7069d")
-		)
-		(instances
-			(project ""
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ddb2794d-234a-4794-84c4-5f26ef0ceccf")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 113.03 0)
+		(at 149.86 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8341016-98b6-4143-9f38-38fb22fd5576")
-		(property "Reference" "#PWR027"
-			(at 153.67 119.38 0)
+		(uuid "2b0d474e-0eac-4f9b-8a5f-b5877694ca6b")
+		(property "Reference" "#PWR09"
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 118.11 0)
+			(at 149.86 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 113.03 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 113.03 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 113.03 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,12 +583,160 @@
 			)
 		)
 		(pin "1"
-			(uuid "58540c4d-3e60-4918-911e-75a2c086d4a1")
+			(uuid "a2dfedcd-421c-4100-95ca-136ba7307483")
 		)
 		(instances
 			(project ""
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
-					(reference "#PWR027")
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c07599b-5779-4c43-b350-e8f7a89b4d32")
+		(property "Reference" "#PWR08"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a28bc1f-9292-4297-b3f4-1f3e0dca3516")
+		)
+		(instances
+			(project ""
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_06")
+		(at 157.48 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90688905-c631-4087-8193-676edde752ae")
+		(property "Reference" "Conn1"
+			(at 161.29 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_06"
+			(at 161.29 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ae27f11-b43d-472d-8a5e-8593d4ec2287")
+		)
+		(pin "3"
+			(uuid "bb9fbce3-83f4-4c26-a095-ebfb40eea2d6")
+		)
+		(pin "5"
+			(uuid "bcdae7b9-9229-4bf1-b0f6-5a598e36c447")
+		)
+		(pin "2"
+			(uuid "a0fec300-9bed-4619-8888-64fdd7ad48d6")
+		)
+		(pin "4"
+			(uuid "7629f3ef-75a0-4596-9b48-e8c4602f9082")
+		)
+		(pin "6"
+			(uuid "bf67123f-d866-4f75-819a-c5398c3b0185")
+		)
+		(instances
+			(project ""
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
+					(reference "Conn1")
 					(unit 1)
 				)
 			)

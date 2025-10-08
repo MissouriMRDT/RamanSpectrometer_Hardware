@@ -1116,7 +1116,7 @@
 	)
 	(text_box "Im not 100% on the resistor values, but i believe 2000 total to the N-type drops the current low bellow its maximum rating."
 		(exclude_from_sim no)
-		(at 170.18 38.1 0)
+		(at 236.22 53.34 0)
 		(size 22.86 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
