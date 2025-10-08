@@ -815,6 +815,36 @@
 				(justify left top)
 			)
 		)
+		(pin "GPID" input
+			(at 60.96 154.94 0)
+			(uuid "784ffdf6-0ba3-4a06-86b3-7cf0c71ddb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 60.96 149.86 0)
+			(uuid "70e5c3ff-7825-4706-8dd8-1b3ff9c2e960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 60.96 152.4 0)
+			(uuid "3ee942e9-c50a-41f6-b76e-9e6410b50b7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"

@@ -1684,6 +1684,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 132.08) (xy 130.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3280b719-5a2d-4ad1-8b00-424f6e2ba426")
+	)
+	(wire
+		(pts
 			(xy 171.45 76.2) (xy 175.26 76.2)
 		)
 		(stroke
@@ -1701,6 +1711,16 @@
 			(type default)
 		)
 		(uuid "40e2a32a-caf5-4078-8c0c-ff1f062f96c4")
+	)
+	(wire
+		(pts
+			(xy 125.73 134.62) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b18811d-8db3-4caf-9c68-fb92c15f5ee4")
 	)
 	(wire
 		(pts
@@ -1731,6 +1751,16 @@
 			(type default)
 		)
 		(uuid "7536b191-3055-418a-9701-365a7cc246e7")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b2727c-3e1a-4982-b4f5-f746eac7ebe7")
 	)
 	(wire
 		(pts
@@ -1822,6 +1852,17 @@
 		)
 		(uuid "ef76de33-2903-47db-a694-0dddfc7d334c")
 	)
+	(hierarchical_label "GPIP"
+		(shape output)
+		(at 125.73 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "314cb869-4c8f-4a01-88cf-12e232c5867b")
+	)
 	(hierarchical_label "Servo1"
 		(shape output)
 		(at 175.26 101.6 0)
@@ -1832,6 +1873,17 @@
 			(justify left)
 		)
 		(uuid "4562ccd9-a054-4dbc-8148-da6300317dd6")
+	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 125.73 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bc88f96-bb7b-47c1-980e-de888cd7f979")
 	)
 	(hierarchical_label "T-"
 		(shape output)
@@ -1876,6 +1928,17 @@
 			(justify left)
 		)
 		(uuid "86401865-cdc6-4ea1-97e5-5d3451d902fe")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 125.73 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93de7163-8fc7-4538-ac2d-00d6b4d4116e")
 	)
 	(hierarchical_label "R-"
 		(shape input)
