@@ -420,6 +420,14 @@
     [
       "8c3a1694-1d06-41fa-b27f-e1548cfd8128",
       "Filtering Capacitor"
+    ],
+    [
+      "dbede1ef-0855-4322-ae3b-1b9092ecc0c1",
+      "Connector"
+    ],
+    [
+      "a53142f3-0354-4e7c-bbfe-f09d56efc2e2",
+      "ADC"
     ]
   ],
   "text_variables": {}

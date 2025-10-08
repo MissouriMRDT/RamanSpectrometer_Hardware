@@ -4,9 +4,229 @@
 	(generator_version "9.0")
 	(uuid "102965ac-29c6-4f96-94a4-d07431f6d693")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 62.23 24.13) (xy 69.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a37fb71-2cc1-4337-b556-f7c46b117c60")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 275.59 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6276b8a7-1bbd-467d-b240-07cb38970857")
+		(property "Reference" "H2"
+			(at 274.32 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 275.082 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 275.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 255.27 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81988efe-19d0-458e-b682-7577b8b3e5b6")
+		(property "Reference" "H1"
+			(at 254 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 254.762 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 255.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 30.48 22.86)
+		(at 250.19 29.21)
 		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +242,7 @@
 		)
 		(uuid "8c3a1694-1d06-41fa-b27f-e1548cfd8128")
 		(property "Sheetname" "Filtering Capacitor"
-			(at 30.48 22.1484 0)
+			(at 250.19 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +251,7 @@
 			)
 		)
 		(property "Sheetfile" "filteringCapacitor.kicad_sch"
-			(at 30.48 38.6846 0)
+			(at 250.19 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +268,111 @@
 		)
 	)
 	(sheet
-		(at 30.48 55.88)
+		(at 114.3 19.05)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a53142f3-0354-4e7c-bbfe-f09d56efc2e2")
+		(property "Sheetname" "ADC"
+			(at 114.3 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 114.3 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 19.05)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbede1ef-0855-4322-ae3b-1b9092ecc0c1")
+		(property "Sheetname" "Connector"
+			(at 69.85 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 69.85 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" output
+			(at 69.85 24.13 180)
+			(uuid "44c631d7-d5d4-4e94-8a54-6ad1e388754f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 105.41 24.13 0)
+			(uuid "c6e3dc12-f9f7-4fb0-8f7c-0f5dffdba242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 19.05)
 		(size 40.64 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +388,7 @@
 		)
 		(uuid "df02ed66-bf6d-4cf2-9207-d6cfc3fa7e76")
 		(property "Sheetname" "CCD"
-			(at 30.48 55.1684 0)
+			(at 21.59 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +397,62 @@
 			)
 		)
 		(property "Sheetfile" "ccd.kicad_sch"
-			(at 30.48 97.1046 0)
+			(at 21.59 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 62.23 24.13 0)
+			(uuid "d586533c-0580-432d-997d-956060300f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EOS" output
+			(at 62.23 26.67 0)
+			(uuid "e2cef7e2-01dd-4ef4-951a-2683b7670f32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ST" input
+			(at 62.23 29.21 0)
+			(uuid "de176999-dc5d-497b-b0e3-a3cd1a7262f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig" output
+			(at 62.23 53.34 0)
+			(uuid "ac74c82a-0bed-4371-b4f9-9a1947cb2210")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Video" output
+			(at 62.23 55.88 0)
+			(uuid "7a7c0c15-5adb-48b6-b60b-fe825a0eedba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
