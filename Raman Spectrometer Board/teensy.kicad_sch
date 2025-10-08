@@ -1714,6 +1714,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 93.98) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74633131-41a5-481d-8362-3aeda50e7ead")
+	)
+	(wire
+		(pts
 			(xy 171.45 114.3) (xy 175.26 114.3)
 		)
 		(stroke
@@ -1877,6 +1887,17 @@
 			(justify left)
 		)
 		(uuid "bb8301ce-c6ed-4b3c-9071-5bed18054d3c")
+	)
+	(hierarchical_label "fanOut"
+		(shape output)
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c33c7a96-bebb-45d1-b5db-c13f7fb5db0c")
 	)
 	(hierarchical_label "CRX"
 		(shape input)

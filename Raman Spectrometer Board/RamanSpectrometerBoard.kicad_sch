@@ -983,6 +983,16 @@
 				(justify left top)
 			)
 		)
+		(pin "fanOut" input
+			(at 133.35 161.29 180)
+			(uuid "520ef151-716a-4bdd-b91b-27dfc96ed0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
@@ -1247,6 +1257,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "fanOut" output
+			(at 127 161.29 0)
+			(uuid "34a3fcca-8d73-40bb-bdfb-7b93371225d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
