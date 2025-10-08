@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "140bf7f8-7b9d-45a7-bd05-620f0057b0f0")
+	(uuid "6628db2e-8343-465d-abf1-937f41626010")
 	(paper "A4")
 	(lib_symbols
 		(symbol "MRDT_Connectors:Molex_SL_05"

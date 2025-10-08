@@ -1226,16 +1226,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 160.02 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d54c81-3da2-4bb4-aae4-c0d0b9172ca9")
-	)
-	(wire
-		(pts
 			(xy 193.04 135.89) (xy 171.45 135.89)
 		)
 		(stroke
@@ -1276,13 +1266,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 139.7 99.06)
+			(xy 133.35 100.33) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a3657b3-90a5-4c13-9455-342a4bd3dcc4")
+		(uuid "276d4505-6d1d-403f-b430-efd5068d38a3")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1013b3-b8af-4bb2-b839-d50351ed7020")
+	)
+	(wire
+		(pts
+			(xy 133.35 107.95) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436fd600-4937-460f-8ab2-6af9c634d6ac")
 	)
 	(wire
 		(pts
@@ -1303,6 +1313,16 @@
 			(type default)
 		)
 		(uuid "67bb2b66-24a2-4b84-84c8-533a37c10ee7")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7e98ab-e9b3-4c90-bbdc-210c59c74a07")
 	)
 	(wire
 		(pts
@@ -1363,6 +1383,16 @@
 			(type default)
 		)
 		(uuid "915f1cc4-b4be-4b76-b4d4-b89b28d6740d")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c69a165-f1a6-437c-b98d-344e441fe0b5")
 	)
 	(wire
 		(pts
@@ -1476,7 +1506,7 @@
 	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 137.16 99.06 180)
+		(at 133.35 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1498,7 +1528,7 @@
 	)
 	(hierarchical_label "ST"
 		(shape input)
-		(at 160.02 93.98 0)
+		(at 171.45 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,6 +1558,73 @@
 			(justify left)
 		)
 		(uuid "ff40211b-6094-4a8a-840b-37088b4cdf27")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f3c020-f2dd-4f6d-9b26-521cc8235b20")
+		(property "Reference" "R4"
+			(at 135.636 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 135.636 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.366 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1fd0015-c67a-44f7-a1f0-24b4b781e7b5")
+		)
+		(pin "2"
+			(uuid "9ea147dc-6ab4-4ba9-b679-a697fee36271")
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/df02ed66-bf6d-4cf2-9207-d6cfc3fa7e76"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "2025-09-21_19-46-25:S16514")
@@ -1990,6 +2087,73 @@
 			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/df02ed66-bf6d-4cf2-9207-d6cfc3fa7e76"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e6930d2-b9bd-4143-bec8-bfa53e119bf3")
+		(property "Reference" "R3"
+			(at 163.83 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 163.83 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.576 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1e32470-8f9d-4748-b797-3e50cbc7122b")
+		)
+		(pin "2"
+			(uuid "32d79e43-ed69-4014-a956-e320a73fec72")
+		)
+		(instances
+			(project "CCD_Breakout"
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/df02ed66-bf6d-4cf2-9207-d6cfc3fa7e76"
+					(reference "R3")
 					(unit 1)
 				)
 			)

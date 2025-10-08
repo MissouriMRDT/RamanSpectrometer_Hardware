@@ -2,7 +2,40 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9e001395-e61e-433c-9760-603dbedb09be")
+	(uuid "54dfe6da-38af-4176-bc3d-b889bf7e66a9")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 118.11 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7c5277a-dafb-4058-b4b0-0f8c8b25b347")
+	)
+	(hierarchical_label "Video"
+		(shape input)
+		(at 118.11 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec801717-81bf-4560-aebc-ccba2b93f6a2")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 118.11 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f71dad27-9043-4664-ba69-8a3dc6002e63")
+	)
 )

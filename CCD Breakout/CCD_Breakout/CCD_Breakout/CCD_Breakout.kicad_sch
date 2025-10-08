@@ -91,6 +91,46 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 24.13) (xy 114.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b021eef-8695-48ea-8a58-f9758f46e2cc")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7f5f40-bc6b-4675-9fc4-a4cc02770b5e")
+	)
+	(wire
+		(pts
+			(xy 158.75 35.56) (xy 152.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb66125-1af5-4a62-bac2-8454b982863d")
+	)
+	(wire
+		(pts
+			(xy 158.75 55.88) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952f12b8-6a0f-4043-a009-face1fda89f2")
+	)
+	(wire
+		(pts
 			(xy 62.23 24.13) (xy 69.85 24.13)
 		)
 		(stroke
@@ -98,6 +138,36 @@
 			(type default)
 		)
 		(uuid "9a37fb71-2cc1-4337-b556-f7c46b117c60")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 158.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab53c65f-4600-4bd1-ad67-913e0e0065fa")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b21a97-9d1f-47a1-a59b-7291caa1e419")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 156.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2e4e6c-aa6a-48f5-998c-d94797be8ad2")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -299,6 +369,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 152.4 38.1 0)
+			(uuid "ffc66c16-e38a-4a24-b22d-f5079ca4edaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 152.4 35.56 0)
+			(uuid "42586613-6324-466e-8144-0c813d0c25c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Video" input
+			(at 114.3 24.13 180)
+			(uuid "413a3464-560d-4494-9c26-a609adf8f625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
