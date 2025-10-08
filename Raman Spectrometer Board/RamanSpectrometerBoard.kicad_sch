@@ -599,6 +599,46 @@
 				(justify left top)
 			)
 		)
+		(pin "CLK" input
+			(at 133.35 107.95 180)
+			(uuid "c6dd57f1-f3f5-4d6e-96ee-fec5d90b39eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK2" input
+			(at 133.35 113.03 180)
+			(uuid "f51f3404-37d0-45ff-b190-02c0aa4bbc94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EOS" output
+			(at 133.35 110.49 180)
+			(uuid "35864371-3dc1-413b-967d-ab96c9b0b3f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" output
+			(at 133.35 105.41 180)
+			(uuid "ae9f90c1-1e5f-4bc8-bc9b-ac32081bac02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"

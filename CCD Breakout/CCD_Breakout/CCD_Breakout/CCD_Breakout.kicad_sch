@@ -97,7 +97,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1b021eef-8695-48ea-8a58-f9758f46e2cc")
+		(uuid "1ccf409b-c83a-46fb-a683-1932641e172b")
+	)
+	(wire
+		(pts
+			(xy 105.41 26.67) (xy 114.3 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2673314d-6e98-4d1c-99a8-988fdb46de13")
 	)
 	(wire
 		(pts
@@ -111,13 +121,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 35.56) (xy 152.4 35.56)
+			(xy 62.23 26.67) (xy 69.85 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cb66125-1af5-4a62-bac2-8454b982863d")
+		(uuid "52fe7e58-e662-4fd5-b025-fba3a52de829")
+	)
+	(wire
+		(pts
+			(xy 152.4 35.56) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b308cc-37cc-4108-aae5-de7631b60283")
 	)
 	(wire
 		(pts
@@ -371,7 +391,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CLK" input
+		(pin "TRIG" input
 			(at 152.4 38.1 0)
 			(uuid "ffc66c16-e38a-4a24-b22d-f5079ca4edaf")
 			(effects
@@ -382,8 +402,18 @@
 			)
 		)
 		(pin "OUT" output
-			(at 152.4 35.56 0)
+			(at 114.3 24.13 180)
 			(uuid "42586613-6324-466e-8144-0c813d0c25c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Video" input
+			(at 152.4 35.56 0)
+			(uuid "413a3464-560d-4494-9c26-a609adf8f625")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,9 +421,9 @@
 				(justify right)
 			)
 		)
-		(pin "Video" input
-			(at 114.3 24.13 180)
-			(uuid "413a3464-560d-4494-9c26-a609adf8f625")
+		(pin "CLK2" output
+			(at 114.3 26.67 180)
+			(uuid "7b6522af-85e8-49fa-9b6e-337ee7095d8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,6 +486,26 @@
 		(pin "IN" input
 			(at 105.41 24.13 0)
 			(uuid "c6e3dc12-f9f7-4fb0-8f7c-0f5dffdba242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EOS" input
+			(at 69.85 26.67 180)
+			(uuid "492a2232-17d0-44ff-828a-19267535895c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK2" input
+			(at 105.41 26.67 0)
+			(uuid "1bac46da-1b96-43fa-914b-0555e47f8447")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -725,6 +725,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5f64d1-9455-4444-8e1d-27e7f95d3ba7")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 116.84 82.55)
 		)
 		(stroke
@@ -762,6 +772,16 @@
 			(type default)
 		)
 		(uuid "651873dc-cb68-4fe1-8009-cba6eaa12fcf")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720c00bf-ed26-46d1-9008-d7dacdaf2da2")
 	)
 	(wire
 		(pts
@@ -825,6 +845,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d5f8a4-affc-4b40-ab00-694bd4a04f2e")
+	)
+	(wire
+		(pts
 			(xy 124.46 72.39) (xy 116.84 72.39)
 		)
 		(stroke
@@ -883,9 +913,20 @@
 		)
 		(uuid "fab74eb4-e899-40d4-81ff-3c17b6f763f2")
 	)
+	(hierarchical_label "CLK2"
+		(shape output)
+		(at 156.21 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b59fa0a-e3d6-45f3-b01f-81fbae2088a7")
+	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 95.25 52.07 0)
+		(at 156.21 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -905,9 +946,9 @@
 		)
 		(uuid "ec801717-81bf-4560-aebc-ccba2b93f6a2")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "TRIG"
 		(shape input)
-		(at 158.75 93.98 0)
+		(at 156.21 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "120"
 			(at 119.38 68.5799 0)
 			(effects
 				(font
