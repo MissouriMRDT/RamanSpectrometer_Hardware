@@ -1834,6 +1834,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 137.16) (xy 175.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6169c9b-5223-481b-bf12-6b67fdcb52b8")
+	)
+	(wire
+		(pts
 			(xy 177.8 152.4) (xy 177.8 149.86)
 		)
 		(stroke
@@ -1861,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "ef76de33-2903-47db-a694-0dddfc7d334c")
+	)
+	(wire
+		(pts
+			(xy 171.45 139.7) (xy 175.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3081d6-b606-413a-828f-0e843feb027a")
 	)
 	(hierarchical_label "GPIP"
 		(shape output)
@@ -1972,6 +1992,17 @@
 		)
 		(uuid "bb8301ce-c6ed-4b3c-9071-5bed18054d3c")
 	)
+	(hierarchical_label "CLD_CLK_3V3"
+		(shape output)
+		(at 175.26 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1ce2c2e-d311-45f8-8f7e-c5a23a1a8409")
+	)
 	(hierarchical_label "fanOut"
 		(shape output)
 		(at 175.26 93.98 0)
@@ -2037,6 +2068,17 @@
 			(justify left)
 		)
 		(uuid "ea98ef69-9c6c-4d7a-8139-566bc69732e1")
+	)
+	(hierarchical_label "CCD_ROG_3V3"
+		(shape output)
+		(at 175.26 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f153fcdb-b022-4b7c-a719-e94869460b53")
 	)
 	(symbol
 		(lib_id "power:GND")

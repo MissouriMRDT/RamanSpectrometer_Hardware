@@ -191,6 +191,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 138.43) (xy 133.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99ba7ee-f3d1-4c30-9c85-a81d191409c1")
+	)
+	(wire
+		(pts
 			(xy 60.96 30.48) (xy 68.58 30.48)
 		)
 		(stroke
@@ -208,6 +218,16 @@
 			(type default)
 		)
 		(uuid "ce9e6cb3-6619-42f9-9ba9-53a47a52857a")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 133.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d401f836-55e2-415f-9ecf-cba5abbd9a78")
 	)
 	(wire
 		(pts
@@ -1407,6 +1427,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CCD_ROG_3V3" output
+			(at 127 138.43 0)
+			(uuid "b0ea7a80-3669-4efb-bb72-0b18c622934b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLD_CLK_3V3" output
+			(at 127 133.35 0)
+			(uuid "55d13970-183e-4179-bcaa-3b0c0b6592cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
