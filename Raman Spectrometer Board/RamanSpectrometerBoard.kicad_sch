@@ -89,6 +89,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I dont know that this is necessary"
+		(exclude_from_sim no)
+		(at 40.132 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97682b16-1314-4e5c-ab7e-64fdfb3e5155")
+	)
 	(wire
 		(pts
 			(xy 127 57.15) (xy 133.35 57.15)
@@ -101,6 +111,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184a7058-4a43-4bc6-a261-d6a5925e336f")
+	)
+	(wire
+		(pts
 			(xy 60.96 25.4) (xy 68.58 25.4)
 		)
 		(stroke
@@ -108,6 +128,16 @@
 			(type default)
 		)
 		(uuid "362aa731-d25c-4b7d-9dbb-e5d5d113cd06")
+	)
+	(wire
+		(pts
+			(xy 185.42 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491e9bea-0f66-4e1f-a6f7-2f4abbf5715c")
 	)
 	(wire
 		(pts
@@ -181,6 +211,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 135.89) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8683350a-839c-4d2d-a082-5155f7744ce8")
+	)
+	(wire
+		(pts
 			(xy 60.96 27.94) (xy 68.58 27.94)
 		)
 		(stroke
@@ -188,6 +228,16 @@
 			(type default)
 		)
 		(uuid "8d5a7f13-73cd-4c6c-816d-1a759d3157d8")
+	)
+	(wire
+		(pts
+			(xy 184.15 133.35) (xy 184.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9512f6e7-d668-45d7-9f4b-463a5d34f50c")
 	)
 	(wire
 		(pts
@@ -221,6 +271,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 133.35) (xy 184.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19cdecb-de67-4ab2-8a3a-65872e734d7b")
+	)
+	(wire
+		(pts
 			(xy 127 133.35) (xy 133.35 133.35)
 		)
 		(stroke
@@ -228,6 +288,26 @@
 			(type default)
 		)
 		(uuid "d401f836-55e2-415f-9ecf-cba5abbd9a78")
+	)
+	(wire
+		(pts
+			(xy 175.26 135.89) (xy 185.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92105d7-495c-489a-9aba-c62bf39134ae")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd291d4c-c924-4af1-ab6b-146e40480013")
 	)
 	(wire
 		(pts
@@ -660,27 +740,27 @@
 			)
 		)
 		(pin "CLK" input
-			(at 133.35 107.95 180)
+			(at 175.26 105.41 0)
 			(uuid "c6dd57f1-f3f5-4d6e-96ee-fec5d90b39eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CLK2" input
-			(at 133.35 113.03 180)
+			(at 175.26 107.95 0)
 			(uuid "f51f3404-37d0-45ff-b190-02c0aa4bbc94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "EOS" output
-			(at 133.35 110.49 180)
+			(at 133.35 107.95 180)
 			(uuid "35864371-3dc1-413b-967d-ab96c9b0b3f1")
 			(effects
 				(font
@@ -958,13 +1038,13 @@
 			)
 		)
 		(pin "CCD_CLK_5V" output
-			(at 133.35 135.89 180)
+			(at 175.26 135.89 0)
 			(uuid "837ad070-3b43-4a9b-bbd8-1ca66f641a3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CCD_ROG_3V3" input
@@ -978,13 +1058,13 @@
 			)
 		)
 		(pin "CCD_ROG_5V" output
-			(at 133.35 140.97 180)
+			(at 175.26 133.35 0)
 			(uuid "0e18800d-a609-4028-8ee5-2a666c9a7208")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1442,6 +1522,16 @@
 		(pin "CLD_CLK_3V3" output
 			(at 127 133.35 0)
 			(uuid "55d13970-183e-4179-bcaa-3b0c0b6592cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 127 105.41 0)
+			(uuid "9929df84-6599-4ba0-9b39-0ab3417a1258")
 			(effects
 				(font
 					(size 1.27 1.27)
