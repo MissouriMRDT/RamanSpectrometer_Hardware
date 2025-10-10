@@ -927,6 +927,46 @@
 				(justify left top)
 			)
 		)
+		(pin "CCD_CLK_3V3" input
+			(at 133.35 133.35 180)
+			(uuid "5f4d934f-d5df-4cb4-81fa-04ac66574354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CCD_CLK_5V" output
+			(at 133.35 135.89 180)
+			(uuid "837ad070-3b43-4a9b-bbd8-1ca66f641a3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CCD_ROG_3V3" input
+			(at 133.35 138.43 180)
+			(uuid "c27a6f56-dc2c-492d-99ba-9e81d286a684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CCD_ROG_5V" output
+			(at 133.35 140.97 180)
+			(uuid "0e18800d-a609-4028-8ee5-2a666c9a7208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
