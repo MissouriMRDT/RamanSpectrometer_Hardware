@@ -316,48 +316,6 @@
 		)
 	)
 	(sheet
-		(at 250.19 29.21)
-		(size 30.48 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8c3a1694-1d06-41fa-b27f-e1548cfd8128")
-		(property "Sheetname" "Filtering Capacitor"
-			(at 250.19 28.4984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "filteringCapacitor.kicad_sch"
-			(at 250.19 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CCD_Breakout"
-				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 114.3 19.05)
 		(size 38.1 22.86)
 		(exclude_from_sim no)
