@@ -89,16 +89,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I dont know that this is necessary"
-		(exclude_from_sim no)
-		(at 40.132 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "97682b16-1314-4e5c-ab7e-64fdfb3e5155")
-	)
 	(wire
 		(pts
 			(xy 127 57.15) (xy 133.35 57.15)
@@ -1071,48 +1061,6 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 109.22)
-		(size 41.91 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7af8bd4d-841c-4e2f-a8bb-8950033268d0")
-		(property "Sheetname" "Gantry Connector"
-			(at 19.05 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gantryConnector.kicad_sch"
-			(at 19.05 135.2046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(page "7")
 				)
 			)
 		)
