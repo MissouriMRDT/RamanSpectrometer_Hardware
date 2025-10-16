@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ADC"
 			(at 142.24 82.55 0)
 			(effects
 				(font
@@ -2615,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33151-XX-Family-Data-Sheet-DS20006220A.pdf"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 Msps/500 ksps, 14/12-Bit Single-Ended Input SAR ADC"
 			(at 142.24 91.44 0)
 			(effects
 				(font
