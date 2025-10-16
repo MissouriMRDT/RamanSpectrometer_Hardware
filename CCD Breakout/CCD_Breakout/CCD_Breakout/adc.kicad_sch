@@ -249,260 +249,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA1662DGK"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "OPA1662DGK"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, VSSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp operational-amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPA1662DGK_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1662DGK_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1662DGK_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1344,7 +1090,7 @@
 		(uuid "5e6c8614-3799-4bdd-8b71-860c26c474c8")
 	)
 	(junction
-		(at 43.18 68.58)
+		(at 62.23 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "623c4eb2-251e-4b90-9057-c56f2a838a86")
@@ -1368,7 +1114,7 @@
 		(uuid "822f1cb9-f495-4ec1-b426-f482e416c83e")
 	)
 	(junction
-		(at 91.44 71.12)
+		(at 97.79 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab8d51b9-cdef-4c7a-a945-737159a71166")
@@ -1384,6 +1130,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1368249-b5a6-4d06-9a48-00b6c5977880")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0517ba63-07b7-4f19-b75f-15051ac94cc3")
 	)
 	(wire
 		(pts
@@ -1427,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 91.44 71.12)
+			(xy 97.79 81.28) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1444,6 +1200,16 @@
 			(type default)
 		)
 		(uuid "18c9b53f-1ecf-4031-a763-e80d16dc5e67")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa54b3e-f587-4f8c-aa94-aeccc9503de1")
 	)
 	(wire
 		(pts
@@ -1477,17 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 68.58) (xy 74.93 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0dde6a-f7da-448b-965f-1329cecf3a3b")
-	)
-	(wire
-		(pts
-			(xy 43.18 80.01) (xy 43.18 85.09)
+			(xy 62.23 80.01) (xy 62.23 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1527,6 +1283,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fb3216-ccf4-42b4-abe3-fd044ad71b47")
+	)
+	(wire
+		(pts
 			(xy 129.54 93.98) (xy 129.54 96.52)
 		)
 		(stroke
@@ -1547,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 68.58) (xy 43.18 72.39)
+			(xy 62.23 68.58) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1637,17 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 109.22 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88054de9-79e1-43c1-a022-849823da6e63")
-	)
-	(wire
-		(pts
-			(xy 74.93 73.66) (xy 72.39 73.66)
+			(xy 81.28 73.66) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 109.22 71.12)
+			(xy 97.79 71.12) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 71.12) (xy 91.44 71.12)
+			(xy 96.52 71.12) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 72.39 81.28)
+			(xy 78.74 73.66) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 91.44 81.28)
+			(xy 78.74 81.28) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1777,33 +1533,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 121.92 58.42)
+			(xy 121.92 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfb6f2bf-82b1-4fc1-ab5a-a07ea96a6067")
+		(uuid "e693167d-e08f-431d-99d3-0f0ee9731e41")
 	)
 	(wire
 		(pts
-			(xy 43.18 66.04) (xy 43.18 68.58)
+			(xy 62.23 66.04) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9057f6d-1818-4dbd-9453-7b89e3deb154")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 121.92 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2c9e2c-29cb-445e-9534-12f7cb8ab00b")
 	)
 	(wire
 		(pts
@@ -1826,6 +1572,17 @@
 		)
 		(uuid "2b59fa0a-e3d6-45f3-b01f-81fbae2088a7")
 	)
+	(hierarchical_label "opIND-"
+		(shape output)
+		(at 81.28 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ccbdc7a-e592-42d4-995a-c4aa07d274b9")
+	)
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 156.21 93.98 0)
@@ -1836,6 +1593,28 @@
 			(justify left)
 		)
 		(uuid "b7c5277a-dafb-4058-b4b0-0f8c8b25b347")
+	)
+	(hierarchical_label "opOUTD"
+		(shape input)
+		(at 96.52 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7791bc1-2f0c-4adf-8822-401fa23dd4b3")
+	)
+	(hierarchical_label "opIND+"
+		(shape output)
+		(at 81.28 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d48776d0-f591-4332-90ab-6b6c73a8a7f1")
 	)
 	(hierarchical_label "Video"
 		(shape input)
@@ -1927,7 +1706,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 43.18 62.23 0)
+		(at 62.23 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1936,7 +1715,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a1b816d-5e91-4893-978e-87e052b3c610")
 		(property "Reference" "R2"
-			(at 45.72 60.9599 0)
+			(at 64.77 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1724,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 45.72 63.4999 0)
+			(at 64.77 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.196 62.484 90)
+			(at 63.246 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 62.23 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1751,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 43.18 62.23 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 43.18 76.2 270)
+		(at 62.23 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2475,7 +2254,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab23ddc7-dc7b-457a-9207-e3298f8bd398")
 		(property "Reference" "D1"
-			(at 45.72 74.9299 90)
+			(at 64.77 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2263,7 @@
 			)
 		)
 		(property "Value" "CMDZ1L8"
-			(at 45.72 77.4699 90)
+			(at 64.77 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2272,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 38.735 76.2 0)
+			(at 57.785 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMDZ5L1-36L.PDF"
-			(at 43.18 76.2 0)
+			(at 62.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2290,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 1.8V 250MW SOD323"
-			(at 43.18 76.2 0)
+			(at 62.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 85.09 0)
+		(at 62.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2545,7 +2324,7 @@
 		(fields_autoplaced yes)
 		(uuid "af6d0bc9-8950-411d-a8ae-43560ce76660")
 		(property "Reference" "#PWR012"
-			(at 43.18 91.44 0)
+			(at 62.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 90.17 0)
+			(at 62.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 85.09 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 85.09 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 85.09 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,92 +2440,6 @@
 			(project ""
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/a53142f3-0354-4e7c-bbfe-f09d56efc2e2"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1662DGK")
-		(at 82.55 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8452f54-0746-4778-81c7-1ed7f7ca5ded")
-		(property "Reference" "U6"
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1662DGK"
-			(at 82.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, VSSOP-8"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "c72133e4-9d68-4fff-a1c2-85334f79a239")
-		)
-		(pin "3"
-			(uuid "f7549e16-0910-40dd-be14-069a191a5366")
-		)
-		(pin "5"
-			(uuid "e98cdc6a-585f-411c-9716-175afdbb301c")
-		)
-		(pin "8"
-			(uuid "5dd9975f-c7b5-444c-8db6-1be360450547")
-		)
-		(pin "1"
-			(uuid "f2c5df9f-be80-4812-9281-b4652779d79b")
-		)
-		(pin "2"
-			(uuid "82be9486-4c4d-4961-88ac-47b9cd8ade39")
-		)
-		(pin "6"
-			(uuid "766d185d-5a2d-4b86-8e9f-7e0dfdb4ad91")
-		)
-		(pin "4"
-			(uuid "d5640af0-cfb7-4eb0-837d-305860e793ef")
-		)
-		(instances
-			(project ""
-				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/a53142f3-0354-4e7c-bbfe-f09d56efc2e2"
-					(reference "U6")
 					(unit 1)
 				)
 			)
