@@ -111,6 +111,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e82eee7-c226-4e7f-aaf0-b126574c863e")
+	)
+	(wire
+		(pts
 			(xy 60.96 25.4) (xy 68.58 25.4)
 		)
 		(stroke
@@ -138,6 +148,16 @@
 			(type default)
 		)
 		(uuid "604f1fb7-e72a-4c53-bfc5-23b67d20a836")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64463f08-077d-4f48-83ff-e06f0e07dcca")
 	)
 	(wire
 		(pts
@@ -762,6 +782,16 @@
 		(pin "IN" output
 			(at 133.35 105.41 180)
 			(uuid "ae9f90c1-1e5f-4bc8-bc9b-ac32081bac02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ST" input
+			(at 133.35 110.49 180)
+			(uuid "ea478420-89ae-40a0-be26-274a74380097")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,6 +1510,26 @@
 		(pin "IN" input
 			(at 127 105.41 0)
 			(uuid "9929df84-6599-4ba0-9b39-0ab3417a1258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EOS" input
+			(at 127 107.95 0)
+			(uuid "35b74b6f-7b2e-4635-b900-0e81ff02e8ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ST" output
+			(at 127 110.49 0)
+			(uuid "ec2bfb44-81a6-4984-b5dc-5ab00243afa3")
 			(effects
 				(font
 					(size 1.27 1.27)

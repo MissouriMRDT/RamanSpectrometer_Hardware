@@ -1714,6 +1714,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 137.16) (xy 130.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e35adc-8590-4e94-a4fd-02d31c574bab")
+	)
+	(wire
+		(pts
 			(xy 125.73 134.62) (xy 130.81 134.62)
 		)
 		(stroke
@@ -1731,6 +1741,16 @@
 			(type default)
 		)
 		(uuid "4b68d75a-4366-457f-bc8d-4ded554c78d5")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff9bd09-0885-419c-bf22-870f5266e035")
 	)
 	(wire
 		(pts
@@ -1882,6 +1902,17 @@
 		)
 		(uuid "fd3081d6-b606-413a-828f-0e843feb027a")
 	)
+	(hierarchical_label "EOS"
+		(shape input)
+		(at 125.73 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09debab5-70d0-4bb4-9de9-993ca7c1cb6f")
+	)
 	(hierarchical_label "GPIP"
 		(shape output)
 		(at 125.73 129.54 180)
@@ -1903,6 +1934,17 @@
 			(justify left)
 		)
 		(uuid "4562ccd9-a054-4dbc-8148-da6300317dd6")
+	)
+	(hierarchical_label "ST"
+		(shape output)
+		(at 175.26 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47d5447d-f310-4cc6-9aac-6d67d73549d2")
 	)
 	(hierarchical_label "SCL"
 		(shape output)

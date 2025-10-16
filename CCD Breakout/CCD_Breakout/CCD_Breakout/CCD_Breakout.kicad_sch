@@ -211,6 +211,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 29.21) (xy 69.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545c5292-4d0f-4f97-9913-4fe5426faf96")
+	)
+	(wire
+		(pts
 			(xy 62.23 83.82) (xy 173.99 83.82)
 		)
 		(stroke
@@ -841,6 +851,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ST" output
+			(at 69.85 29.21 180)
+			(uuid "b88df1c7-25d1-4acf-a67c-183680164cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
