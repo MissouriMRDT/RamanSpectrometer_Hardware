@@ -2034,7 +2034,7 @@
 		)
 		(uuid "bb8301ce-c6ed-4b3c-9071-5bed18054d3c")
 	)
-	(hierarchical_label "CLD_CLK_3V3"
+	(hierarchical_label "CCD_CLK_3V3"
 		(shape output)
 		(at 175.26 137.16 0)
 		(effects
@@ -2111,7 +2111,7 @@
 		)
 		(uuid "ea98ef69-9c6c-4d7a-8139-566bc69732e1")
 	)
-	(hierarchical_label "CCD_ROG_3V3"
+	(hierarchical_label "ADC_CLK_3V3"
 		(shape output)
 		(at 175.26 139.7 0)
 		(effects

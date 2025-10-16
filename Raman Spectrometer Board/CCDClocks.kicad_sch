@@ -902,7 +902,7 @@
 		)
 		(uuid "583ccc59-8b43-4032-8d57-dcdd77dd792e")
 	)
-	(hierarchical_label "CCD_ROG_5V"
+	(hierarchical_label "ADC_CLK_5V"
 		(shape output)
 		(at 149.86 78.74 0)
 		(effects
@@ -913,7 +913,7 @@
 		)
 		(uuid "6b5b398b-2272-4904-bd29-44e4269f91eb")
 	)
-	(hierarchical_label "CCD_ROG_3V3"
+	(hierarchical_label "ADC_CLK_3V3"
 		(shape input)
 		(at 149.86 109.22 0)
 		(effects

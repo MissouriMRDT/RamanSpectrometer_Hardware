@@ -1067,7 +1067,7 @@
 				(justify right)
 			)
 		)
-		(pin "CCD_ROG_3V3" input
+		(pin "ADC_CLK_3V3" input
 			(at 133.35 138.43 180)
 			(uuid "c27a6f56-dc2c-492d-99ba-9e81d286a684")
 			(effects
@@ -1077,7 +1077,7 @@
 				(justify left)
 			)
 		)
-		(pin "CCD_ROG_5V" output
+		(pin "ADC_CLK_5V" output
 			(at 175.26 133.35 0)
 			(uuid "0e18800d-a609-4028-8ee5-2a666c9a7208")
 			(effects
@@ -1487,7 +1487,7 @@
 				(justify left)
 			)
 		)
-		(pin "CCD_ROG_3V3" output
+		(pin "ADC_CLK_3V3" output
 			(at 127 138.43 0)
 			(uuid "b0ea7a80-3669-4efb-bb72-0b18c622934b")
 			(effects
@@ -1497,7 +1497,7 @@
 				(justify right)
 			)
 		)
-		(pin "CLD_CLK_3V3" output
+		(pin "CCD_CLK_3V3" output
 			(at 127 133.35 0)
 			(uuid "55d13970-183e-4179-bcaa-3b0c0b6592cd")
 			(effects
