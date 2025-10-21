@@ -3658,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP20_SOT360-1_NEX"
+		(property "Footprint" ""
 			(at 58.42 39.37 0)
 			(effects
 				(font

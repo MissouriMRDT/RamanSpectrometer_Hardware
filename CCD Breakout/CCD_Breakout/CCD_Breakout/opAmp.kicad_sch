@@ -998,7 +998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW14_TEX"
+		(property "Footprint" ""
 			(at 102.87 88.9 0)
 			(effects
 				(font
