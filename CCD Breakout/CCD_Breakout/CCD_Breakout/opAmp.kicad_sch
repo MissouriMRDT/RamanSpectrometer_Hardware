@@ -998,7 +998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCD:OPA4322AIPWR"
 			(at 102.87 88.9 0)
 			(effects
 				(font
