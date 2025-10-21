@@ -1666,7 +1666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:VDFN8_3X3_MCH"
+		(property "Footprint" "CAN:VDFN8_3X3_MCH"
 			(at 132.08 88.9 0)
 			(effects
 				(font
