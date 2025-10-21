@@ -724,7 +724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f8111b0-ccae-4fb6-87c1-7020d46b4d8a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0102"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -774,7 +774,7 @@
 		(instances
 			(project ""
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/bf499055-0d6c-41cb-ad4c-c2bb3d96cc3f"
-					(reference "#PWR027")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -882,7 +882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -934,7 +934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf086326-35fa-404d-8669-28a17daa2391")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0101"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -984,7 +984,7 @@
 		(instances
 			(project ""
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/bf499055-0d6c-41cb-ad4c-c2bb3d96cc3f"
-					(reference "#PWR026")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
