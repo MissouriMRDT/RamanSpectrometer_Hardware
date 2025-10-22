@@ -416,29 +416,25 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 151.13 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46593453-deeb-43c8-8c3e-6f4eed8f217e")
+	)
 	(wire
 		(pts
-			(xy 165.1 77.47) (xy 165.1 82.55)
+			(xy 162.56 82.55) (xy 162.56 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25f8d9e9-c82a-4032-a4aa-d496798f79c0")
+		(uuid "66391596-26b2-4f0a-914b-a811f3aca49a")
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 165.1 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c65574-cc43-4e5d-b5ed-1439dc931bfc")
-	)
-	(wire
-		(pts
-			(xy 165.1 82.55) (xy 160.02 82.55)
+			(xy 165.1 77.47) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -455,6 +451,16 @@
 			(type default)
 		)
 		(uuid "7ed5adc0-d35f-4ddc-b744-6fc4970b76b7")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5941b97-5f15-4f6a-b4fb-7b2a719c144b")
 	)
 	(wire
 		(pts
@@ -478,7 +484,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 64.77) (xy 165.1 64.77)
+			(xy 162.56 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dceeed50-6fee-418f-9da4-d61ebded357d")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
@@ -520,74 +536,8 @@
 		(uuid "dcea5daf-0c83-496b-8887-30a6ddd4e830")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 160.02 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34de8daf-0127-4d34-b6c9-459f02f6fe2d")
-		(property "Reference" "#PWR030"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4737c647-da0a-404b-844e-b092b190c13c")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/57f2af9f-b055-41d8-9bd6-81b53eb984e5"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 148.59 67.31 0)
+		(at 162.56 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -596,7 +546,7 @@
 		(fields_autoplaced yes)
 		(uuid "5282db75-7766-489d-b9a0-42d2a665c89a")
 		(property "Reference" "#PWR029"
-			(at 148.59 73.66 0)
+			(at 162.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 72.39 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 67.31 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 67.31 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 67.31 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +685,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 160.02 64.77 0)
+		(at 151.13 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -744,7 +694,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fe94698-0d34-4e76-b9f2-7d53118a25b0")
 		(property "Reference" "#PWR028"
-			(at 160.02 68.58 0)
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +703,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 59.69 0)
+			(at 151.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 64.77 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 64.77 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,7 +729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 64.77 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
