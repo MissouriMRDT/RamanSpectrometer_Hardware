@@ -376,7 +376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 271.78 27.94 0)
 			(effects
 				(font
@@ -439,7 +439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 271.78 19.05 0)
 			(effects
 				(font
@@ -502,7 +502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 262.89 27.94 0)
 			(effects
 				(font
@@ -565,7 +565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 262.89 19.05 0)
 			(effects
 				(font
