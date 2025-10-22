@@ -609,7 +609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -686,7 +686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 125.73 100.33 0)
 			(effects
 				(font
@@ -763,7 +763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -840,7 +840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 187.96 115.57 0)
 			(effects
 				(font
@@ -1049,7 +1049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV"
+		(property "Footprint" ""
 			(at 91.44 115.57 0)
 			(effects
 				(font
