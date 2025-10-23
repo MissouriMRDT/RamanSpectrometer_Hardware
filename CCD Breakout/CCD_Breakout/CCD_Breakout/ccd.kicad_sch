@@ -1843,6 +1843,123 @@
 			(embedded_fonts no)
 		)
 	)
+	(bezier
+		(pts
+			(xy 175.26 55.88) (xy 175.26 55.88) (xy 195.58 50.8) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0248e044-7f61-4066-b607-feb0b50d767c)
+	)
+	(bezier
+		(pts
+			(xy 228.6 55.88) (xy 228.6 45.72) (xy 228.6 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1c684201-5f8e-4125-9070-ad5eb8be53cf)
+	)
+	(bezier
+		(pts
+			(xy 248.92 50.8) (xy 248.92 50.8) (xy 228.6 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e2475c5-21d5-497a-85c6-273f6fd70cd1)
+	)
+	(bezier
+		(pts
+			(xy 228.6 55.88) (xy 228.6 55.88) (xy 248.92 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c0294ea-6daa-4b3b-829d-0f02a839987a)
+	)
+	(bezier
+		(pts
+			(xy 175.26 55.88) (xy 175.26 45.72) (xy 175.26 45.72) (xy 175.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ae2f2a1-75cb-48ad-a886-adce8a81e2fa)
+	)
+	(bezier
+		(pts
+			(xy 99.06 149.86) (xy 99.06 149.86) (xy 119.38 144.78) (xy 119.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74555cfd-0e4c-42ab-ae5c-13e852961e26)
+	)
+	(bezier
+		(pts
+			(xy 99.06 149.86) (xy 99.06 139.7) (xy 99.06 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92d2a999-6876-4cc9-8e00-7cdfeeb6aca3)
+	)
+	(bezier
+		(pts
+			(xy 119.38 144.78) (xy 119.38 144.78) (xy 99.06 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba8d6a2f-8620-47e0-b73f-3294e1470bd5)
+	)
+	(bezier
+		(pts
+			(xy 195.58 50.8) (xy 195.58 50.8) (xy 175.26 45.72) (xy 175.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e97c8a91-550c-4c55-b3a8-b93f3fcad6ba)
+	)
 	(text_box "CCD\n"
 		(exclude_from_sim no)
 		(at 25.4 99.06 0)

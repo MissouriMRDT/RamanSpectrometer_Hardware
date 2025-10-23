@@ -1077,6 +1077,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(bezier
+		(pts
+			(xy 81.28 76.2) (xy 81.28 76.2) (xy 101.6 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79e7f0b9-0adc-4eb1-9381-c9fd1d23c7fa)
+	)
+	(bezier
+		(pts
+			(xy 101.6 71.12) (xy 101.6 71.12) (xy 81.28 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba1f4910-6d98-471f-aab5-058f77b0a38e)
+	)
+	(bezier
+		(pts
+			(xy 81.28 76.2) (xy 81.28 66.04) (xy 81.28 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e83b377d-63d1-4755-ae2a-21845adef78d)
+	)
 	(junction
 		(at 121.92 58.42)
 		(diameter 0)
