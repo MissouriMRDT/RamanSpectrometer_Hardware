@@ -51,7 +51,18 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.254,
+          "via_gap": 0.0,
+          "width": 0.254
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +191,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.254
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +221,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -620,15 +639,11 @@
     ],
     [
       "d2cb0292-9da9-4449-86d5-dc8d83eb4083",
-      "Teensy"
+      "MCU"
     ],
     [
       "53169187-8b1b-4ef9-9158-1480f8ad4334",
-      "Power Led's"
-    ],
-    [
-      "747a7642-5cc4-4500-b3ab-03176ed514be",
-      "CCD Clocks"
+      "Power"
     ],
     [
       "3c339d9b-500e-4752-bc41-2adbdf3d2bf6",
@@ -636,23 +651,7 @@
     ],
     [
       "c790a08a-952a-47a5-8a2d-3628381b83e8",
-      "Diode Connector"
-    ],
-    [
-      "57f2af9f-b055-41d8-9bd6-81b53eb984e5",
-      "TOF Sensor"
-    ],
-    [
-      "bf499055-0d6c-41cb-ad4c-c2bb3d96cc3f",
-      "Fan Connector"
-    ],
-    [
-      "4f050ba4-5432-4480-9549-914958c0343d",
-      "Ethernet"
-    ],
-    [
-      "bba5e7eb-4185-406b-93fb-e0fe73f8d160",
-      "12v-5v OKI"
+      "Connectors"
     ],
     [
       "cd606917-b022-4e10-8237-39c4ab3fa613",
@@ -661,10 +660,6 @@
     [
       "2495d964-2266-4066-961c-06fbcb7a3cda",
       "CAN Transceiver"
-    ],
-    [
-      "2c80d6be-0ef8-43fe-8518-24188e641c24",
-      "Anderson"
     ]
   ],
   "text_variables": {}
