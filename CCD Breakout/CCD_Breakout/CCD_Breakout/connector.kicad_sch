@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_SL_07"
+		(symbol "MRDT_Connectors:Molex_SL_08"
 			(pin_names
 				(offset 1.016)
 			)
@@ -159,8 +159,8 @@
 					)
 				)
 			)
-			(property "Value" "Molex_SL_07"
-				(at 1.27 19.05 0)
+			(property "Value" "Molex_SL_08"
+				(at 1.27 21.59 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -168,7 +168,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -177,7 +177,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -203,9 +203,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_SL_07_0_1"
+			(symbol "Molex_SL_08_0_1"
 				(rectangle
-					(start 0 17.78)
+					(start 0 20.32)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -216,9 +216,9 @@
 					)
 				)
 			)
-			(symbol "Molex_SL_07_1_1"
+			(symbol "Molex_SL_08_1_1"
 				(pin input line
-					(at -5.08 16.51 0)
+					(at -5.08 19.05 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -236,7 +236,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 13.97 0)
+					(at -5.08 16.51 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -254,7 +254,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 11.43 0)
+					(at -5.08 13.97 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -272,7 +272,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 8.89 0)
+					(at -5.08 11.43 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -290,7 +290,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 6.35 0)
+					(at -5.08 8.89 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -308,7 +308,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 3.81 0)
+					(at -5.08 6.35 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -326,7 +326,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 1.27 0)
+					(at -5.08 3.81 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -336,6 +336,149 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,6 +716,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Place this near to the connector"
+		(exclude_from_sim no)
+		(at 114.3 60.96 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "69a3b931-e418-44a4-87f3-9dc221994fd2")
+	)
 	(junction
 		(at 149.86 66.04)
 		(diameter 0)
@@ -653,6 +816,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f468f74-4bcd-430c-8f67-6451296cce95")
+	)
+	(wire
+		(pts
 			(xy 121.92 72.39) (xy 121.92 68.58)
 		)
 		(stroke
@@ -670,6 +843,16 @@
 			(type default)
 		)
 		(uuid "456117e9-5b81-441a-b654-f4b5ef27a8e5")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e750b81-aaf3-4873-9461-ba6b17028f98")
 	)
 	(wire
 		(pts
@@ -1059,6 +1242,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 147.32 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a687af8-2908-47dd-92b4-cb7c014c8d1e")
+		(property "Reference" "#PWR019"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbb81407-1ea3-4198-8f1c-f4b3d2b6b8c0")
+		)
+		(instances
+			(project ""
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_08")
+		(at 157.48 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e550a86-3d43-46e4-ade9-8cbfad600ab3")
+		(property "Reference" "Conn1"
+			(at 161.29 100.3299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_08"
+			(at 161.29 102.8699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ae3d0f9-0fa1-4b04-8437-097a872ebdf4")
+		)
+		(pin "6"
+			(uuid "34950af2-6115-4a45-aed3-a028030cbaec")
+		)
+		(pin "5"
+			(uuid "265d652f-d707-4ee8-9e97-1ea6b99e1002")
+		)
+		(pin "1"
+			(uuid "8ce765c8-893d-46c0-8809-6739f5be4d6b")
+		)
+		(pin "8"
+			(uuid "5af243a4-eaed-4375-88ea-7e48c4d78ad9")
+		)
+		(pin "4"
+			(uuid "51088de0-f1a5-45ac-b9c8-46bb20e23a2f")
+		)
+		(pin "7"
+			(uuid "e0010eb7-c34b-4222-8203-f99a010fac42")
+		)
+		(pin "3"
+			(uuid "46406dcd-95e6-46ef-84fc-b52a676c3684")
+		)
+		(instances
+			(project ""
+				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
+					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 86.36 0)
 		(unit 1)
@@ -1119,91 +1456,6 @@
 			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_07")
-		(at 157.48 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e09d1488-95b3-4cc4-ac4c-32c91b1a1e18")
-		(property "Reference" "Conn1"
-			(at 161.29 101.5999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_SL_07"
-			(at 161.29 104.1399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Vertical"
-			(at 157.48 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "ffbe9d87-61cd-4aa1-8334-685c64ab8a57")
-		)
-		(pin "1"
-			(uuid "42aeedfe-c53f-41b8-a745-c6899bf9a345")
-		)
-		(pin "3"
-			(uuid "52f0a23f-5bc9-4962-a7c3-83483168a393")
-		)
-		(pin "2"
-			(uuid "9a770faf-10a8-480a-b3fb-055671d336d7")
-		)
-		(pin "4"
-			(uuid "0e8e1aba-06c4-4c55-95cd-1c3eb314a6b1")
-		)
-		(pin "6"
-			(uuid "1f8d53a4-85a6-438a-9f5d-21bde68178f5")
-		)
-		(pin "7"
-			(uuid "faa01d79-5d2e-409c-b07a-d2cb0393a84c")
-		)
-		(instances
-			(project ""
-				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/dbede1ef-0855-4322-ae3b-1b9092ecc0c1"
-					(reference "Conn1")
 					(unit 1)
 				)
 			)
