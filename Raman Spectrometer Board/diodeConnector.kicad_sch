@@ -615,49 +615,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_uF_D_06"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "MRDT_Connectors:Molex_SL_06"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Conn"
-				(at 1.27 2.54 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Molex_uF_D_06"
-				(at 1.27 21.59 0)
+			(property "Value" "Molex_SL_06"
+				(at 0 16.764 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_06_Horizontal"
-				(at 0 7.62 0)
+			(property "Footprint" ""
+				(at -5.08 3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 7.62 0)
+				(at -5.08 3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -5.08 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -665,19 +662,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MOLEX SL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Molex_uF_D_06_0_1"
+			(symbol "Molex_SL_06_0_1"
 				(rectangle
-					(start 0 20.32)
-					(end 2.54 5.08)
+					(start 0 15.24)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -687,9 +675,9 @@
 					)
 				)
 			)
-			(symbol "Molex_uF_D_06_1_1"
+			(symbol "Molex_SL_06_1_1"
 				(pin input line
-					(at -5.08 19.05 0)
+					(at -5.08 13.97 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -707,7 +695,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 16.51 0)
+					(at -5.08 11.43 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -725,7 +713,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 13.97 0)
+					(at -5.08 8.89 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -743,7 +731,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 11.43 0)
+					(at -5.08 6.35 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -761,7 +749,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 8.89 0)
+					(at -5.08 3.81 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -779,7 +767,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 6.35 0)
+					(at -5.08 1.27 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1646,6 +1634,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1747,131 +1860,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 140.97 87.63)
@@ -1892,10 +1880,58 @@
 		(uuid "5ae87860-33bf-432e-9ee7-f70d5d6d8ce9")
 	)
 	(junction
+		(at 245.11 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6409ee92-b925-47d3-9031-fd068ac7f4b6")
+	)
+	(junction
 		(at 45.72 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "742c06d5-f301-4543-9682-55d786e0591b")
+	)
+	(junction
+		(at 236.22 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b6bb61-190d-44df-8d30-f416b7085fad")
+	)
+	(junction
+		(at 228.6 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ede4a99b-2254-4481-8a81-4022d197436e")
+	)
+	(wire
+		(pts
+			(xy 245.11 49.53) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033be2ca-6679-4a1b-b31c-9c065bec7a49")
+	)
+	(wire
+		(pts
+			(xy 252.73 73.66) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1151f81e-12a4-4abc-b119-53b4dc291573")
+	)
+	(wire
+		(pts
+			(xy 236.22 31.75) (xy 236.22 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15098c32-3bad-4110-89be-ff8a38f5f1f0")
 	)
 	(wire
 		(pts
@@ -1919,16 +1955,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 58.42) (xy 245.11 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23564520-a560-4a9c-a7c7-13acd336be5c")
-	)
-	(wire
-		(pts
 			(xy 130.81 69.85) (xy 140.97 69.85)
 		)
 		(stroke
@@ -1949,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 34.29) (xy 236.22 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c2d598-066a-437e-ab53-3e1b512a72d9")
+	)
+	(wire
+		(pts
 			(xy 45.72 54.61) (xy 59.69 54.61)
 		)
 		(stroke
@@ -1956,6 +1992,36 @@
 			(type default)
 		)
 		(uuid "35bfe4a5-f22b-4701-8e08-f758376b468f")
+	)
+	(wire
+		(pts
+			(xy 236.22 34.29) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cde78c-2b2e-40d1-afd1-e67c6dec6da6")
+	)
+	(wire
+		(pts
+			(xy 245.11 60.96) (xy 245.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b554a33-2728-4c67-a650-4d7af51f686c")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e527fde-e242-440d-98c5-1daf12c8cb39")
 	)
 	(wire
 		(pts
@@ -1989,6 +2055,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 54.61) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8fd7f-b832-4e4d-bd1e-4f5c98a1a718")
+	)
+	(wire
+		(pts
 			(xy 157.48 45.72) (xy 157.48 49.53)
 		)
 		(stroke
@@ -2009,23 +2085,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 67.31) (xy 237.49 67.31)
+			(xy 245.11 49.53) (xy 236.22 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57270656-b37c-43e2-8655-90ceae2b6a5c")
+		(uuid "6092074f-8f7f-4418-a736-6faf68478fc9")
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 245.11 55.88)
+			(xy 218.44 73.66) (xy 228.6 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58fe2c74-e046-445b-9bdf-8d9c7943a9da")
+		(uuid "61154919-741d-41b9-a7a2-0e1b7638b9ea")
 	)
 	(wire
 		(pts
@@ -2046,6 +2122,46 @@
 			(type default)
 		)
 		(uuid "6a1ea6fd-2338-4d17-b6e2-c7498146df16")
+	)
+	(wire
+		(pts
+			(xy 245.11 38.1) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7343e6a3-62fb-4918-a6cf-ddf50544a634")
+	)
+	(wire
+		(pts
+			(xy 245.11 78.74) (xy 245.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766a72de-ae19-44dd-ba5b-63144a6735a1")
+	)
+	(wire
+		(pts
+			(xy 228.6 91.44) (xy 245.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4220ca-8ab6-490d-ac5d-7c4eafec9374")
+	)
+	(wire
+		(pts
+			(xy 245.11 45.72) (xy 245.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b72d3d-dfbd-46f4-8047-4fc7532f9ce2")
 	)
 	(wire
 		(pts
@@ -2079,6 +2195,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 34.29) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a502c8a2-e761-44cb-b507-5cd3d8ccae5f")
+	)
+	(wire
+		(pts
 			(xy 157.48 30.48) (xy 149.86 30.48)
 		)
 		(stroke
@@ -2089,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 73.66) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fc4fcc-1c97-4631-b5d3-eba1f6fe06c0")
+	)
+	(wire
+		(pts
 			(xy 157.48 57.15) (xy 157.48 64.77)
 		)
 		(stroke
@@ -2096,26 +2232,6 @@
 			(type default)
 		)
 		(uuid "ca68b994-a641-45c5-92e5-9aea9a1960b1")
-	)
-	(wire
-		(pts
-			(xy 245.11 55.88) (xy 245.11 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca9c8f68-bf73-44ec-ae07-b2d5b9b0f1f0")
-	)
-	(wire
-		(pts
-			(xy 245.11 72.39) (xy 245.11 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4d2f6f-50ce-40f4-91ce-758f51eb8b93")
 	)
 	(wire
 		(pts
@@ -2177,16 +2293,6 @@
 		)
 		(uuid "f4e4c868-a7f9-41f2-bfb8-8fa4c8659e0b")
 	)
-	(wire
-		(pts
-			(xy 245.11 58.42) (xy 245.11 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdf00e0-6437-4057-b41b-ccbda7155c28")
-	)
 	(hierarchical_label "GPID"
 		(shape input)
 		(at 54.61 64.77 180)
@@ -2198,6 +2304,17 @@
 		)
 		(uuid "4bbd3571-bf3d-452b-ad7a-7c647d6a152b")
 	)
+	(hierarchical_label "fanOut"
+		(shape input)
+		(at 261.62 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88c5fc47-50f1-441e-935f-0141723751cc")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 54.61 62.23 180)
@@ -2208,17 +2325,6 @@
 			(justify right)
 		)
 		(uuid "8ebf27b2-cab6-45e2-a689-a33d1848d513")
-	)
-	(hierarchical_label "fanOut"
-		(shape input)
-		(at 234.95 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "caeb911f-62d9-4bf0-b996-322b3cd639ea")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -2241,6 +2347,72 @@
 			(justify left)
 		)
 		(uuid "e18fc085-a6e8-4a22-b355-76bf763634a2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071ffb90-c657-4bc0-8b96-4a05d5db6e2f")
+		(property "Reference" "#PWR038"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf6f4db-24a0-46ed-95dc-0659aeb7b0cd")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2467,82 +2639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 242.57 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e0c6a4b-9c4a-42f1-9b7a-adb733fe8e05")
-		(property "Reference" "Q6"
-			(at 248.92 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 248.92 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 247.65 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 242.57 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "881c386f-e114-4e05-8316-90308352d980")
-		)
-		(pin "2"
-			(uuid "0d7155d2-8731-42e3-b4e6-ce1f629d9f2b")
-		)
-		(pin "1"
-			(uuid "da9adbc9-476a-4838-ab9a-edbde1024708")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 87.63 0)
 		(unit 1)
@@ -2706,16 +2802,16 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_02")
-		(at 234.95 54.61 180)
+		(at 213.36 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32ebbc9b-17ea-49d4-a718-fb693e829580")
-		(property "Reference" "Conn10"
-			(at 233.68 49.53 0)
+		(uuid "3738f054-9c59-4a8c-a882-72f9fda0b6da")
+		(property "Reference" "Conn7"
+			(at 212.09 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2723,15 +2819,15 @@
 			)
 		)
 		(property "Value" "Molex_SL_02"
-			(at 233.68 52.07 0)
+			(at 212.09 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
-			(at 234.95 52.07 0)
+		(property "Footprint" ""
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2740,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 52.07 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2749,7 +2845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 54.61 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,16 +2853,158 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "54b9d950-6273-4ef3-8832-8e66a7e0c2c8")
+		)
 		(pin "2"
-			(uuid "7f43de7e-493e-4e71-9aca-3f00c2d9c49d")
+			(uuid "bc84ae4f-e4c8-467d-aece-efc1c18f552f")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "Conn7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 231.14 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40ca6812-4b90-46cf-abc7-986395dab914")
+		(property "Reference" "Q4"
+			(at 224.79 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 224.79 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 226.06 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6833e30e-fc2a-46f1-9f06-4e85675510c8")
+		)
+		(pin "2"
+			(uuid "b50f70fd-1d37-4380-9f03-b106510d0662")
 		)
 		(pin "1"
-			(uuid "14be91c4-2ad4-4277-ae92-e3b46c05cbe3")
+			(uuid "9c8c52fd-6ca7-47b1-aff7-798813947c4e")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
-					(reference "Conn10")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 236.22 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa79391-ba19-45c2-8cd2-b94eb8c80c83")
+		(property "Reference" "#PWR049"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0d6985-066e-42c2-b4ff-cb36977390da")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2909,53 +3147,56 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:Molex_uF_D_06")
-		(at 64.77 73.66 0)
+		(lib_id "Transistor_FET:BSS138")
+		(at 247.65 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a29add9a-8a5b-498a-8491-014e123d8ea5")
-		(property "Reference" "Conn9"
-			(at 68.58 59.6899 0)
+		(uuid "8d7a2bf7-722f-4bfb-b62a-13316ec66c70")
+		(property "Reference" "Q5"
+			(at 241.3 74.9301 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Molex_uF_D_06"
-			(at 68.58 62.2299 0)
+		(property "Value" "BSS138"
+			(at 241.3 72.3901 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_06_Horizontal"
-			(at 64.77 66.04 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 242.57 75.565 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 66.04 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 242.57 77.47 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 73.66 0)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 247.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,28 +3204,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "02f2b6b0-9882-47bd-a32d-0532bb78141b")
-		)
-		(pin "4"
-			(uuid "41b246db-97f7-488e-9754-3c822a8ef682")
-		)
 		(pin "1"
-			(uuid "f6dea922-0f83-4aab-9858-e9329868e402")
-		)
-		(pin "5"
-			(uuid "2d7b72f5-10b7-449b-8ce2-3a3a8a30b61c")
-		)
-		(pin "6"
-			(uuid "e418b35e-81da-4f49-afb4-2245eb67bd72")
+			(uuid "a13723ae-b128-4826-8f88-915f12fc2620")
 		)
 		(pin "3"
-			(uuid "eb4c6ca5-0de7-4b0b-ace2-69cc6d6d8758")
+			(uuid "9af83462-95c8-4ea0-906d-def653cf295e")
+		)
+		(pin "2"
+			(uuid "b49f9f12-ae53-4b88-a7f0-5bbe1c4963fe")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
-					(reference "Conn9")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3061,72 +3293,6 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad8c6e8c-25ac-414d-ba85-44ffd04eb660")
-		(property "Reference" "#PWR041"
-			(at 245.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4baf79d8-e276-46e9-a5e7-5a58953b88c9")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3269,16 +3435,43 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 245.11 53.34 0)
+		(lib_id "Device:R_US")
+		(at 245.11 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc4d1ff7-8bb1-4b0b-b452-0e3cebbea299")
-		(property "Reference" "#PWR040"
+		(uuid "dbd50775-7943-41c9-8bac-e5d4f118780d")
+		(property "Reference" "R17"
+			(at 247.65 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 246.126 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 245.11 57.15 0)
 			(effects
 				(font
@@ -3287,16 +3480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 245.11 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 53.34 0)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,31 +3489,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "464e5117-5613-46f9-8574-4f6a59478e06")
 		)
 		(pin "1"
-			(uuid "61440c57-55eb-458c-b14a-ce2f2d966501")
+			(uuid "b9644a3f-a3be-4b2c-b773-102c203876bd")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
-					(reference "#PWR040")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3395,6 +3565,158 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_06")
+		(at 64.77 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e601fb9c-f025-4e43-9844-bf458560b671")
+		(property "Reference" "Conn5"
+			(at 68.58 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_06"
+			(at 68.58 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cd20c5ea-12c9-4ef9-98af-a1fee1c7a7c4")
+		)
+		(pin "4"
+			(uuid "d66a1730-e879-4567-915c-558332f57f79")
+		)
+		(pin "5"
+			(uuid "3d7f79e4-4fff-4652-8c99-f1aad5836627")
+		)
+		(pin "2"
+			(uuid "ed94292c-3b17-48cd-9fbe-d208c7e6a161")
+		)
+		(pin "6"
+			(uuid "b9aecbbd-07a5-4792-bf19-95cefe2d9280")
+		)
+		(pin "1"
+			(uuid "1e2ed404-e563-4da6-b85d-8aa8df332bc6")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "Conn5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eecae5a3-39dc-45c4-8562-8a3c5cb517a0")
+		(property "Reference" "R16"
+			(at 247.65 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 246.126 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63af66a1-2bfc-4fab-af05-7fd8b46ee0be")
+		)
+		(pin "1"
+			(uuid "0c7318be-14ba-42c9-a57b-f89be6d45f95")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "R16")
 					(unit 1)
 				)
 			)

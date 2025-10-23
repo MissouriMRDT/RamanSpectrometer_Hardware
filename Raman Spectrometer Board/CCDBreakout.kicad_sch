@@ -178,7 +178,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_uF_S_07"
+		(symbol "MRDT_Connectors:Molex_SL_07"
 			(pin_names
 				(offset 1.016)
 			)
@@ -193,7 +193,7 @@
 					)
 				)
 			)
-			(property "Value" "Molex_uF_S_07"
+			(property "Value" "Molex_SL_07"
 				(at 1.27 19.05 0)
 				(effects
 					(font
@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MRDT_Connectors:MOLEX_uF_S_07_Horizontal"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -237,7 +237,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_uF_S_07_0_1"
+			(symbol "Molex_SL_07_0_1"
 				(rectangle
 					(start 0 17.78)
 					(end 2.54 0)
@@ -250,7 +250,7 @@
 					)
 				)
 			)
-			(symbol "Molex_uF_S_07_1_1"
+			(symbol "Molex_SL_07_1_1"
 				(pin input line
 					(at -5.08 16.51 0)
 					(length 5.08)
@@ -1349,6 +1349,91 @@
 		(uuid "f9b164d8-341e-49dc-bdd9-483237d18cdd")
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_07")
+		(at 163.83 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007e1faf-4875-4020-ab8e-36fc4d6adbc8")
+		(property "Reference" "Conn3"
+			(at 167.64 99.0599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_07"
+			(at 167.64 101.5999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0dc6f0cf-afab-4dad-bc3b-9b8260954aaa")
+		)
+		(pin "2"
+			(uuid "ab378692-6f3d-4406-a4ec-84fd46b2732b")
+		)
+		(pin "3"
+			(uuid "2d8dcd93-7aa9-4e02-a7ce-e0c44e5335d7")
+		)
+		(pin "4"
+			(uuid "79579972-6ffd-4af4-a735-067d2cc3cbb9")
+		)
+		(pin "5"
+			(uuid "3899a802-a4fd-493c-9b1d-efe1400ab910")
+		)
+		(pin "1"
+			(uuid "ca8879c6-22f6-4020-b4a3-892bbe5fa0cd")
+		)
+		(pin "6"
+			(uuid "f7993733-41c5-4d30-8998-3260141bf8ce")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
+					(reference "Conn3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 90.17 66.04 0)
 		(unit 1)
@@ -1611,91 +1696,6 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_uF_S_07")
-		(at 163.83 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eba7490-cec0-40c5-963e-08009f12fc23")
-		(property "Reference" "Conn5"
-			(at 167.64 99.0599 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_uF_S_07"
-			(at 167.64 101.5999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_uF_S_07_Horizontal"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a22f4eca-9bc2-44c2-9a0a-e044a2dbad44")
-		)
-		(pin "2"
-			(uuid "9ce17eb7-c103-4018-95e9-22a7cb1bc54d")
-		)
-		(pin "4"
-			(uuid "7ae1b184-aef3-405a-b1eb-94356bbb12a1")
-		)
-		(pin "7"
-			(uuid "a194545d-46ba-4be2-aaf8-396bbc3f3ff1")
-		)
-		(pin "1"
-			(uuid "c6a98d86-c449-47da-ac5e-fdb6ea007d44")
-		)
-		(pin "6"
-			(uuid "7ddca4c9-719b-424c-8483-37ee8a48eae8")
-		)
-		(pin "3"
-			(uuid "fea62b1d-bf46-41d3-8f20-90a251b45cb5")
-		)
-		(instances
-			(project ""
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/3c339d9b-500e-4752-bc41-2adbdf3d2bf6"
-					(reference "Conn5")
 					(unit 1)
 				)
 			)
