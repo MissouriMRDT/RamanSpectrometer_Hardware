@@ -2476,7 +2476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CMDZ1L8"
+		(property "Value" "BZX8850S-B1V8-QYL"
 			(at 64.77 77.4699 90)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMDZ5L1-36L.PDF"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX8450-Q_SER.pdf"
 			(at 62.23 76.2 0)
 			(effects
 				(font
