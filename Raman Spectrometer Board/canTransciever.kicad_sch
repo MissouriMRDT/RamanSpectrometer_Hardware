@@ -1627,7 +1627,7 @@
 		)
 		(uuid "ff32d435-d423-46bc-a466-e739d3d40501")
 	)
-	(hierarchical_label "STBY"
+	(hierarchical_label "STBY2"
 		(shape input)
 		(at 68.58 97.79 180)
 		(effects
@@ -1638,7 +1638,7 @@
 		)
 		(uuid "0e925ba8-140e-4d97-aa77-f36708282880")
 	)
-	(hierarchical_label "TXD"
+	(hierarchical_label "TXD2"
 		(shape input)
 		(at 68.58 102.87 180)
 		(effects
@@ -1682,7 +1682,7 @@
 		)
 		(uuid "cfe4a7ac-3ddc-472a-a3ad-bc3a85b817f7")
 	)
-	(hierarchical_label "RXD"
+	(hierarchical_label "RXD2"
 		(shape output)
 		(at 68.58 105.41 180)
 		(effects

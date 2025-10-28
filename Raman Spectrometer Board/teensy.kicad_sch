@@ -2523,10 +2523,6 @@
 		(uuid "683296cb-e5a6-4ca3-abb6-f6f74fdbdc32")
 	)
 	(no_connect
-		(at 125.73 142.24)
-		(uuid "720c6507-f0fd-4b9f-b8a1-5adcdd4121b0")
-	)
-	(no_connect
 		(at 85.09 83.82)
 		(uuid "72e955a9-0f9b-4656-b9b6-b0afef2f9103")
 	)
@@ -2571,28 +2567,12 @@
 		(uuid "b27674f9-c66d-49f0-9ae7-c4e768d711d0")
 	)
 	(no_connect
-		(at 85.09 104.14)
-		(uuid "bd60f079-9d29-4a4d-b8c3-f1deb50ae865")
-	)
-	(no_connect
 		(at 85.09 96.52)
 		(uuid "c160a1d6-6667-4b79-893c-524c46c2c272")
 	)
 	(no_connect
 		(at 177.8 77.47)
 		(uuid "c2376294-beb1-47e9-a867-2cf034a20826")
-	)
-	(no_connect
-		(at 85.09 142.24)
-		(uuid "c94ec3c2-665d-493c-92f7-1a77331b2585")
-	)
-	(no_connect
-		(at 125.73 96.52)
-		(uuid "d3cb87ce-e8d1-4739-9cf1-7161c6832fa8")
-	)
-	(no_connect
-		(at 85.09 101.6)
-		(uuid "d6dfc208-9ebb-47ed-ac76-aca830d55e94")
 	)
 	(no_connect
 		(at 85.09 139.7)
@@ -2605,6 +2585,16 @@
 	(no_connect
 		(at 85.09 99.06)
 		(uuid "fd1b7da1-737e-4f41-8093-4492042bdaae")
+	)
+	(wire
+		(pts
+			(xy 125.73 142.24) (xy 129.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d53f7-2b16-4d8e-84c5-b8b26e519f7b")
 	)
 	(wire
 		(pts
@@ -2818,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 142.24) (xy 85.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5b1c63-c962-49e3-8e0d-6743933c20c4")
+	)
+	(wire
+		(pts
 			(xy 198.12 67.31) (xy 207.01 67.31)
 		)
 		(stroke
@@ -2898,6 +2898,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3339eb-d250-4cc4-b320-ba4be20faa1d")
+	)
+	(wire
+		(pts
 			(xy 80.01 81.28) (xy 85.09 81.28)
 		)
 		(stroke
@@ -2975,6 +2985,26 @@
 			(type default)
 		)
 		(uuid "d0d4128b-5081-416f-b7a7-4b116952eb7d")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e33d3c-4d93-4a48-8153-1a5d385b71b5")
+	)
+	(wire
+		(pts
+			(xy 125.73 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ce1ab3-1ac3-4b1c-ab7a-d69846366370")
 	)
 	(wire
 		(pts
@@ -3187,6 +3217,39 @@
 		)
 		(uuid "09debab5-70d0-4bb4-9de9-993ca7c1cb6f")
 	)
+	(hierarchical_label "STDBY2"
+		(shape output)
+		(at 129.54 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f348232-8903-4387-bf21-874320683d36")
+	)
+	(hierarchical_label "CRX"
+		(shape input)
+		(at 129.54 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1610bd14-8f67-44ff-b929-70a8ae1cee02")
+	)
+	(hierarchical_label "CTX2"
+		(shape output)
+		(at 80.01 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1776cf7c-1508-43c4-87d1-a8a49dc1861a")
+	)
 	(hierarchical_label "GPIP"
 		(shape output)
 		(at 80.01 129.54 180)
@@ -3242,6 +3305,17 @@
 		)
 		(uuid "6b995a2a-e11b-43ba-9eaa-a82380ba2997")
 	)
+	(hierarchical_label "CRX2"
+		(shape input)
+		(at 80.01 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f53cd59-a025-4b00-ae2b-7a11bb3075d6")
+	)
 	(hierarchical_label "IN"
 		(shape input)
 		(at 80.01 81.28 180)
@@ -3275,6 +3349,17 @@
 		)
 		(uuid "c1ce2c2e-d311-45f8-8f7e-c5a23a1a8409")
 	)
+	(hierarchical_label "CTX"
+		(shape output)
+		(at 80.01 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2584aad-7b6d-48fd-bdfb-df3d3eea7db7")
+	)
 	(hierarchical_label "fanOut"
 		(shape output)
 		(at 129.54 93.98 0)
@@ -3285,17 +3370,6 @@
 			(justify left)
 		)
 		(uuid "c33c7a96-bebb-45d1-b5db-c13f7fb5db0c")
-	)
-	(hierarchical_label "CRX"
-		(shape input)
-		(at 129.54 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbca9ceb-a153-407a-b8f6-0ceccd7badad")
 	)
 	(hierarchical_label "diodeOutput"
 		(shape output)
@@ -3318,17 +3392,6 @@
 			(justify left)
 		)
 		(uuid "db3a1e05-d696-4555-91c7-409d6e56ec4a")
-	)
-	(hierarchical_label "CTX"
-		(shape output)
-		(at 80.01 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dea04f2f-ad0e-49d5-94c1-5980432d0e66")
 	)
 	(hierarchical_label "ADC_CLK_3V3"
 		(shape output)
