@@ -4236,7 +4236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCD:S16514"
 			(at 64.77 132.08 0)
 			(effects
 				(font

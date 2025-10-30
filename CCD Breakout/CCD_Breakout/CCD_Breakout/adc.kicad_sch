@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCD:Untitled"
 			(at 142.24 91.44 0)
 			(effects
 				(font
