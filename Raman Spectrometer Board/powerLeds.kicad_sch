@@ -842,6 +842,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -1352,10 +1650,26 @@
 		(uuid "1e7816c9-8cbc-44d8-9d6c-b47c7a44e46c")
 	)
 	(junction
+		(at 168.91 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "341dac76-bd7d-4d19-851e-4186041456a8")
+	)
+	(junction
 		(at 139.7 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c46a4343-811d-4277-aa7c-d213064fa3f6")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 168.91 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0304a078-2a16-4a47-9bec-93f4c3b9a2e6")
 	)
 	(wire
 		(pts
@@ -1409,6 +1723,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 69.85) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ac09ef-30b5-4651-9110-f89cd763f862")
+	)
+	(wire
+		(pts
 			(xy 123.19 161.29) (xy 123.19 162.56)
 		)
 		(stroke
@@ -1439,13 +1763,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 147.32 55.88)
+			(xy 173.99 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54277e14-456e-4b8a-bf78-072b8e614b0a")
+		(uuid "59b836f1-606d-4cb8-a940-ba9614ea265e")
 	)
 	(wire
 		(pts
@@ -1456,6 +1780,16 @@
 			(type default)
 		)
 		(uuid "66493312-b76b-47cb-9b5c-1b2f3661f923")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bbd8d6-8170-45f4-9402-1ab149762e79")
 	)
 	(wire
 		(pts
@@ -1489,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 152.4 78.74)
+			(xy 184.15 71.12) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1549,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 71.12) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ec7e2a-1c5b-45c7-afa8-b6d92c3c4340")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 55.88 55.88)
 		)
 		(stroke
@@ -1599,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 48.26) (xy 152.4 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4342724-5337-44bb-b465-fe5a8dca6056")
-	)
-	(wire
-		(pts
 			(xy 50.8 71.12) (xy 55.88 71.12)
 		)
 		(stroke
@@ -1649,13 +1983,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 71.12) (xy 152.4 71.12)
+			(xy 147.32 71.12) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eca262e2-0108-4a28-b3be-db3e0c9c5699")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1d7215-9224-47d5-9ba8-b70a4b5421ce")
 	)
 	(wire
 		(pts
@@ -2201,6 +2545,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 168.91 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47a212ad-e885-4b37-93ef-4abfe895c24d")
+		(property "Reference" "Q6"
+			(at 168.91 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 168.91 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.815 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "273c942f-b6c1-4460-8ce8-1d04e7cf368a")
+		)
+		(pin "2"
+			(uuid "2486ce28-9062-46d3-aa05-a879b2bf0f5f")
+		)
+		(pin "1"
+			(uuid "2131b4fb-df57-4728-b67c-a3d1319296fb")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 78.74 0)
 		(unit 1)
@@ -2347,7 +2765,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 137.16 58.42 0)
+		(at 137.16 55.88 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2356,7 +2774,7 @@
 		(fields_autoplaced yes)
 		(uuid "5178468e-ec63-4074-b475-1df1a78910c4")
 		(property "Reference" "Conn11"
-			(at 139.7 48.26 0)
+			(at 139.7 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2364,7 +2782,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 139.7 50.8 0)
+			(at 139.7 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2372,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 133.35 72.39 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2381,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 72.39 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2390,7 +2808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 58.42 0)
+			(at 137.16 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 152.4 48.26 0)
+		(at 190.5 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2848,7 +3266,7 @@
 		(fields_autoplaced yes)
 		(uuid "827ce887-8646-43bf-adf6-28a8abb82a77")
 		(property "Reference" "#PWR044"
-			(at 152.4 52.07 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +3275,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 152.4 43.18 0)
+			(at 190.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 48.26 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +3292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 48.26 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 152.4 48.26 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 78.74 0)
+		(at 184.15 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3335,7 +3753,7 @@
 		(fields_autoplaced yes)
 		(uuid "b216b888-ae26-4bfa-a79c-797fce2a4b12")
 		(property "Reference" "#PWR045"
-			(at 152.4 85.09 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 83.82 0)
+			(at 184.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 78.74 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 78.74 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 78.74 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,6 +4144,76 @@
 			(project ""
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 168.91 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc300a3a-ba8c-4677-b21a-64aa66761014")
+		(property "Reference" "R19"
+			(at 171.45 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 171.45 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.926 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ea74d3f-fd0f-4ef9-9a64-ac6cba59bdf6")
+		)
+		(pin "1"
+			(uuid "ed07e6ce-e70e-4223-9f24-3cc113b4335e")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
+					(reference "R19")
 					(unit 1)
 				)
 			)
