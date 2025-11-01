@@ -8753,6 +8753,22 @@
 		(uuid "f6741166-c504-4054-924a-acf6081b1c81")
 	)
 	(via
+		(at 80.772 51.562)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "79de6161-7c64-4d02-94f8-f68d78aee380")
+	)
+	(via
+		(at 201.422 75.184)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "ab956b4b-898d-48f4-ba36-b49800c765ec")
+	)
+	(via
 		(at 121.412 83.566)
 		(size 0.6)
 		(drill 0.3)
