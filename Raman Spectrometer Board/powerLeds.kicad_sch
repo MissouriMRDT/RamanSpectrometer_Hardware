@@ -500,46 +500,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:AndersonPP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "MRDT_Connectors:1722861102"
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Conn"
-				(at 3.81 -1.27 0)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "AndersonPP"
-				(at 2.54 6.35 0)
+			(property "Value" "1722861102"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -3.81 -13.97 0)
+			(property "Footprint" "MRDT_Connectors:CONN_SD-172286-1000_02_MOL"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -3.81 -13.97 0)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1722861102?display=pdf"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -553,43 +552,31 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "1722861102"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "AndersonPP_0_1"
+			(property "ki_fp_filters" "CONN_SD-172286-1000_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1722861102_1_1"
 				(polyline
 					(pts
-						(xy 0 5.08) (xy 5.08 0)
+						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 5.08 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 2.54)
-					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -598,25 +585,119 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 0 0)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "AndersonPP_1_1"
-				(pin input line
-					(at 10.16 2.54 180)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 5.08)
-					(name "GND"
+					(name "1"
 						(effects
 							(font
-								(size 0.9906 0.9906)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -628,15 +709,13 @@
 						)
 					)
 				)
-			)
-			(symbol "AndersonPP_2_1"
-				(pin input line
-					(at 10.16 2.54 180)
+				(pin unspecified line
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "V+Log"
+					(name "2"
 						(effects
 							(font
-								(size 0.9906 0.9906)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -649,58 +728,156 @@
 					)
 				)
 			)
-			(symbol "AndersonPP_3_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "V+Act"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
+			(symbol "1722861102_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
-					(number "3"
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_4_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "PV+"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_5_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 0.9906 0.9906)
 							)
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1839,6 +2016,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 55.88) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cefe32-16bf-43b6-b7fe-25ca868ad17f")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bf14ae-79bd-4459-8939-bca9908418e3")
+	)
+	(wire
+		(pts
 			(xy 139.7 154.94) (xy 139.7 162.56)
 		)
 		(stroke
@@ -1849,6 +2046,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 40.64) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c06f773-0eeb-4b17-b4fb-7666a95dc6a4")
+	)
+	(wire
+		(pts
 			(xy 39.37 129.54) (xy 39.37 137.16)
 		)
 		(stroke
@@ -1856,6 +2063,16 @@
 			(type default)
 		)
 		(uuid "1cfd4f61-3e3e-4962-8f33-182a94b21db1")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24610fcd-db66-42b2-a2f9-95eb8f2a5e23")
 	)
 	(wire
 		(pts
@@ -1946,6 +2163,16 @@
 			(type default)
 		)
 		(uuid "5e3e2239-9804-4160-911c-9539ac5a5e0b")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6486e1e7-2a5a-4044-bc9e-6e364ba7e487")
 	)
 	(wire
 		(pts
@@ -2109,6 +2336,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 71.12) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c6020e-c445-4460-baf1-aa32f23dd4d2")
+	)
+	(wire
+		(pts
 			(xy 156.21 142.24) (xy 156.21 147.32)
 		)
 		(stroke
@@ -2116,6 +2353,16 @@
 			(type default)
 		)
 		(uuid "a31e4c0b-3048-4a05-bd99-724b18b61d1a")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7673201-9c77-4b80-ad4e-8be5eafc6513")
 	)
 	(wire
 		(pts
@@ -2179,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc403fa-aa91-471d-8fd2-0658003066b3")
+	)
+	(wire
+		(pts
 			(xy 54.61 144.78) (xy 54.61 151.13)
 		)
 		(stroke
@@ -2216,6 +2473,26 @@
 			(type default)
 		)
 		(uuid "c35a3ef7-4339-4161-aac9-33eb634e91d1")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5302121-cf8a-41c2-b876-a2ca50ccd649")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79b3ddf-1843-4f7c-a729-65caf33243a4")
 	)
 	(wire
 		(pts
@@ -2349,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69171e9-1de8-4d80-a717-c33c6344f4c6")
+	)
+	(wire
+		(pts
 			(xy 54.61 158.75) (xy 54.61 171.45)
 		)
 		(stroke
@@ -2366,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "fb5d7595-184d-4f63-8f39-01802b31311b")
+	)
+	(wire
+		(pts
+			(xy 85.09 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf6dd81-c2be-4b61-9bc6-59c7d1e4ab97")
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -2585,6 +2882,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:1722861102")
+		(at 46.99 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e576704-ffca-47ad-b275-b5b27777b171")
+		(property "Reference" "J5"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1722861102"
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:CONN_SD-172286-1000_02_MOL"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1722861102?display=pdf"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "723d2a60-b4e0-499b-b04a-5d1a9cbbcdf6")
+		)
+		(pin "1"
+			(uuid "75b8aa70-89be-49b3-b1ea-954f4e7db1c3")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 54.61 140.97 90)
 		(unit 1)
@@ -2657,160 +3024,6 @@
 			(project ""
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 137.16 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "210fe0f0-88f6-4d8b-afc8-afbd44d959ee")
-		(property "Reference" "Conn11"
-			(at 139.7 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 133.35 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a89")
-		)
-		(pin "1"
-			(uuid "4d6a1e0a-407a-4968-92d1-c8f515b55401")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc7")
-		)
-		(pin "4"
-			(uuid "069697b3-50de-4e80-8b2f-e26d9325b850")
-		)
-		(pin "1"
-			(uuid "bb6f7cde-e33f-49b5-bdfb-f794f4b87232")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bf6394f-5e1d-4c76-a292-fc032bcffb12")
-		(property "Reference" "Conn4"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 43.18 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 36.83 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a8b")
-		)
-		(pin "1"
-			(uuid "c528d495-6154-42b3-9f10-d28a4e4b939c")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc9")
-		)
-		(pin "4"
-			(uuid "069697b3-50de-4e80-8b2f-e26d9325b852")
-		)
-		(pin "1"
-			(uuid "bb6f7cde-e33f-49b5-bdfb-f794f4b87233")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn4")
 					(unit 1)
 				)
 			)
@@ -3186,83 +3399,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 137.16 43.18 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5178468e-ec63-4074-b475-1df1a78910c4")
-		(property "Reference" "Conn11"
-			(at 139.7 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 133.35 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a88")
-		)
-		(pin "1"
-			(uuid "3ccd3b49-0a80-4df1-b5ab-c075fae4f408")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc6")
-		)
-		(pin "4"
-			(uuid "f8a50fb7-2920-42e7-9efa-c4df28f5c07b")
-		)
-		(pin "1"
-			(uuid "bb6f7cde-e33f-49b5-bdfb-f794f4b87231")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn11")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 129.54 0)
 		(unit 1)
@@ -3324,83 +3460,6 @@
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
 					(reference "#PWR05")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 74.93 58.42 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5335c41e-b4fd-4282-8c01-b78dd3f19917")
-		(property "Reference" "Conn6"
-			(at 77.47 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 77.47 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a87")
-		)
-		(pin "1"
-			(uuid "3ccd3b49-0a80-4df1-b5ab-c075fae4f407")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc5")
-		)
-		(pin "4"
-			(uuid "5dc59dc9-c650-4d9e-b127-fa8bf4775709")
-		)
-		(pin "1"
-			(uuid "bb6f7cde-e33f-49b5-bdfb-f794f4b87230")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn6")
-					(unit 4)
 				)
 			)
 		)
@@ -3880,83 +3939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 74.93 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0c4fc6a-ac12-44a1-b14d-a76409e60e82")
-		(property "Reference" "Conn6"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 71.12 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a8a")
-		)
-		(pin "1"
-			(uuid "6d674747-1cc2-47cc-9208-9b50713cfdbd")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc8")
-		)
-		(pin "4"
-			(uuid "069697b3-50de-4e80-8b2f-e26d9325b851")
-		)
-		(pin "1"
-			(uuid "7d8f43ac-dcb0-4e82-b91f-c4621251afa5")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MRDT_Devices:OKI")
 		(at 134.62 149.86 0)
 		(unit 1)
@@ -4363,6 +4345,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:1722861102")
+		(at 80.01 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7be8a15-d390-4208-b641-ce34473c25f9")
+		(property "Reference" "J4"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1722861102"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:CONN_SD-172286-1000_02_MOL"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1722861102?display=pdf"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76af3750-6299-4ed0-88e6-031eb2437ed4")
+		)
+		(pin "1"
+			(uuid "6a5cd399-9598-4e57-bd07-d500fe3ec0b3")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 78.74 0)
 		(unit 1)
@@ -4424,83 +4476,6 @@
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
 					(reference "#PWR032")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 58.42 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2a67690-118b-42ea-8597-8c0c6543b7c1")
-		(property "Reference" "Conn4"
-			(at 43.18 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 43.18 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 36.83 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fe4f17e-6448-4ae2-b12c-5b6fa9682a86")
-		)
-		(pin "1"
-			(uuid "3ccd3b49-0a80-4df1-b5ab-c075fae4f406")
-		)
-		(pin "2"
-			(uuid "a78f3fe2-eb02-4a4c-8c4b-14537c465dc4")
-		)
-		(pin "4"
-			(uuid "0f51a6c2-2a3c-422c-9f8a-6e98673e3b1f")
-		)
-		(pin "1"
-			(uuid "bb6f7cde-e33f-49b5-bdfb-f794f4b8722f")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
-					(reference "Conn4")
-					(unit 4)
 				)
 			)
 		)
@@ -4636,6 +4611,76 @@
 			(project ""
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:1722861102")
+		(at 129.54 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec03633-426d-4217-8dbf-6038a6e5d06b")
+		(property "Reference" "J1"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1722861102"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:CONN_SD-172286-1000_02_MOL"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1722861102?display=pdf"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8c86360-a58f-48df-965d-510ed3865889")
+		)
+		(pin "1"
+			(uuid "812f8f38-afc3-4c38-aa89-0814cb0ddcfe")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/53169187-8b1b-4ef9-9158-1480f8ad4334"
+					(reference "J1")
 					(unit 1)
 				)
 			)
