@@ -91,7 +91,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 57.15) (xy 133.35 57.15)
+			(xy 127 76.2) (xy 133.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -108,6 +108,16 @@
 			(type default)
 		)
 		(uuid "16739441-422c-4dca-817c-6bc2a9bd50b6")
+	)
+	(wire
+		(pts
+			(xy 127 39.37) (xy 133.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29426b3a-191f-400f-a8d1-e113c546c99b")
 	)
 	(wire
 		(pts
@@ -141,7 +151,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 133.35 53.34)
+			(xy 127 72.39) (xy 133.35 72.39)
 		)
 		(stroke
 			(width 0)
@@ -218,6 +228,16 @@
 			(type default)
 		)
 		(uuid "9eae331e-f924-4ab0-98c0-4d03943d5efd")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efd2e86-d326-4605-b14e-c4aadc9cfb2e")
 	)
 	(wire
 		(pts
@@ -523,7 +543,7 @@
 	)
 	(sheet
 		(at 133.35 19.05)
-		(size 41.91 19.05)
+		(size 41.91 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -547,7 +567,7 @@
 			)
 		)
 		(property "Sheetfile" "canTransciever.kicad_sch"
-			(at 133.35 38.6846 0)
+			(at 133.35 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,6 +628,26 @@
 		(pin "TXD2" input
 			(at 133.35 35.56 180)
 			(uuid "753bb0fb-c56c-4c1d-8038-b5fce2de1f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW1" output
+			(at 133.35 39.37 180)
+			(uuid "3eb05549-ec18-430a-aece-2839467bb946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW2_Spare" output
+			(at 133.35 41.91 180)
+			(uuid "d9a027bc-c88e-4abf-8dbe-1fc04a85a884")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +890,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 45.72)
+		(at 133.35 64.77)
 		(size 41.91 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -866,7 +906,7 @@
 		)
 		(uuid "cd606917-b022-4e10-8237-39c4ab3fa613")
 		(property "Sheetname" "Servo Ports"
-			(at 133.35 45.0084 0)
+			(at 133.35 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +915,7 @@
 			)
 		)
 		(property "Sheetfile" "servos.kicad_sch"
-			(at 133.35 65.3546 0)
+			(at 133.35 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +924,7 @@
 			)
 		)
 		(pin "Servo1" input
-			(at 133.35 53.34 180)
+			(at 133.35 72.39 180)
 			(uuid "b3924e8e-ab12-4b26-a7f7-bba5858c800f")
 			(effects
 				(font
@@ -894,7 +934,7 @@
 			)
 		)
 		(pin "Servo2" input
-			(at 133.35 57.15 180)
+			(at 133.35 76.2 180)
 			(uuid "7dbd3af9-879d-466f-8184-27bab65d0bd0")
 			(effects
 				(font
@@ -976,7 +1016,7 @@
 			)
 		)
 		(pin "Servo1" output
-			(at 127 53.34 0)
+			(at 127 72.39 0)
 			(uuid "9972dd27-95a4-44bf-8c3b-9ad0f27819cb")
 			(effects
 				(font
@@ -986,7 +1026,7 @@
 			)
 		)
 		(pin "Servo2" output
-			(at 127 57.15 0)
+			(at 127 76.2 0)
 			(uuid "8f84a890-a977-4876-a34f-56b608fa9d82")
 			(effects
 				(font
@@ -1118,6 +1158,26 @@
 		(pin "STDBY2" output
 			(at 127 33.02 0)
 			(uuid "3f3bf343-af30-4aa6-a59c-81c15846abaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW1" input
+			(at 127 39.37 0)
+			(uuid "85e2d85f-0b0a-4dc4-92d5-eaa85d639a63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2_Spare" input
+			(at 127 41.91 0)
+			(uuid "93850678-8ca0-4df9-a5a2-e809366eb10d")
 			(effects
 				(font
 					(size 1.27 1.27)

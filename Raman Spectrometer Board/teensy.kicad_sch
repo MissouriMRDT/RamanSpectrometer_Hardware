@@ -2515,10 +2515,6 @@
 		(uuid "4beb2f0e-7176-4059-9537-de5e91149780")
 	)
 	(no_connect
-		(at 85.09 127)
-		(uuid "4d576d2a-7699-40a8-bc0d-64d88cfc700e")
-	)
-	(no_connect
 		(at 177.8 74.93)
 		(uuid "683296cb-e5a6-4ca3-abb6-f6f74fdbdc32")
 	)
@@ -2541,10 +2537,6 @@
 	(no_connect
 		(at 125.73 132.08)
 		(uuid "9b1e9688-5dda-433b-a82f-82aca22e1254")
-	)
-	(no_connect
-		(at 85.09 124.46)
-		(uuid "9d104c9e-d4ac-4010-a1e3-318ea76f0a09")
 	)
 	(no_connect
 		(at 198.12 62.23)
@@ -2808,6 +2800,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 124.46) (xy 85.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527eb9f5-5881-46d3-a649-07647a9c5048")
+	)
+	(wire
+		(pts
 			(xy 80.01 142.24) (xy 85.09 142.24)
 		)
 		(stroke
@@ -2915,6 +2917,16 @@
 			(type default)
 		)
 		(uuid "a39b2c22-b75f-46cf-a13f-1dcf4be9ea56")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab039415-ade9-4b47-9df4-75d54991784f")
 	)
 	(wire
 		(pts
@@ -3261,6 +3273,17 @@
 		)
 		(uuid "314cb869-4c8f-4a01-88cf-12e232c5867b")
 	)
+	(hierarchical_label "SW2_Spare"
+		(shape input)
+		(at 80.01 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fd970c1-e8a4-483a-a9f0-73b82f4c1dd0")
+	)
 	(hierarchical_label "Servo1"
 		(shape output)
 		(at 129.54 101.6 0)
@@ -3370,6 +3393,17 @@
 			(justify left)
 		)
 		(uuid "c33c7a96-bebb-45d1-b5db-c13f7fb5db0c")
+	)
+	(hierarchical_label "SW1"
+		(shape input)
+		(at 80.01 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cddb3999-76d7-48ea-b91b-e2596f4de5fb")
 	)
 	(hierarchical_label "diodeOutput"
 		(shape output)
