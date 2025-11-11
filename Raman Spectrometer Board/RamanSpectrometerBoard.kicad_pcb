@@ -15588,6 +15588,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "mils"
+		(at 165.2 63.4 0)
+		(layer "F.SilkS")
+		(uuid "9e6834b9-ed06-4fff-9611-a91096491a61")
+		(effects
+			(font
+				(size 0.619 0.619)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Fan"
 		(at 219.6 108.4 270)
 		(layer "F.SilkS")
@@ -15662,7 +15674,7 @@
 		)
 	)
 	(gr_text "4120 X 2445"
-		(at 156.718 63.246 0)
+		(at 155 63.4 0)
 		(layer "F.SilkS")
 		(uuid "f2fea553-ebc9-4e69-a204-d4587aa47c68")
 		(effects
