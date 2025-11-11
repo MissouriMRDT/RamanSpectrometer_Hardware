@@ -2080,7 +2080,7 @@
 	)
 	(text_box "Voltage Shifter (.6v-2.6v -> 0v-5v)"
 		(exclude_from_sim no)
-		(at 311.15 40.64 0)
+		(at 137.16 12.7 0)
 		(size 144.78 71.12)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4249,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CCD:S16514"
+		(property "Footprint" "CCD:ED90055-ND"
 			(at 64.77 132.08 0)
 			(effects
 				(font
