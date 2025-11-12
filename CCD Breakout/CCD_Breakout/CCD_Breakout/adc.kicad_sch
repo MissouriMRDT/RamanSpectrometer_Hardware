@@ -1241,6 +1241,26 @@
 		)
 		(uuid e83b377d-63d1-4755-ae2a-21845adef78d)
 	)
+	(text_box "ADC"
+		(exclude_from_sim no)
+		(at 48.26 43.18 0)
+		(size 132.08 76.2)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d20f8093-a7a5-48a0-8c84-fc40acffbfb0")
+	)
 	(junction
 		(at 129.54 63.5)
 		(diameter 0)
