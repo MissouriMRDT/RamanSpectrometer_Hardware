@@ -1678,6 +1678,92 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Limit Switches"
+		(exclude_from_sim no)
+		(at 35.56 86.36 0)
+		(size 48.26 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3f358064-85e8-45c2-b3bd-42fb2a2e1eb3")
+	)
+	(text_box "TOF"
+		(exclude_from_sim no)
+		(at 35.56 43.18 0)
+		(size 48.26 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86d4c4e3-f7fd-4cfe-a0ed-55cf119333c3")
+	)
+	(text_box "Fan\n"
+		(exclude_from_sim no)
+		(at 198.12 22.86 0)
+		(size 73.66 78.74)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "995d8028-2e52-4c09-aff9-8277a1f5639a")
+	)
+	(text_box "Laser Diode"
+		(exclude_from_sim no)
+		(at 91.44 27.94 0)
+		(size 86.36 60.96)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e4c52de9-cdfd-4658-b5c6-8fd4a6c8f3c2")
+	)
+	(junction
+		(at 63.5 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd45a2e-a8d7-4e72-a93e-e68d614b3511")
+	)
 	(junction
 		(at 122.555 80.01)
 		(diameter 0)
@@ -1774,6 +1860,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 106.68) (xy 55.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127f8d1e-5407-4dca-ab11-728dfa64d7b3")
+	)
+	(wire
+		(pts
 			(xy 236.22 31.75) (xy 236.22 34.29)
 		)
 		(stroke
@@ -1804,6 +1900,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 113.03) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a80dcc-df8d-44ba-82c0-b1b4d93b9c65")
+	)
+	(wire
+		(pts
 			(xy 57.15 72.39) (xy 57.15 57.15)
 		)
 		(stroke
@@ -1821,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "33c2d598-066a-437e-ab53-3e1b512a72d9")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3419d1cf-e202-4137-a81b-dc79ea87c6cd")
 	)
 	(wire
 		(pts
@@ -2024,6 +2140,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 101.6) (xy 52.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ffa2c7-573a-4ee4-a91b-c924aa026171")
+	)
+	(wire
+		(pts
 			(xy 157.48 38.1) (xy 157.48 45.72)
 		)
 		(stroke
@@ -2054,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 99.06) (xy 67.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaefff32-fe3c-48cb-9c13-d364c8e5859c")
+	)
+	(wire
+		(pts
 			(xy 113.03 69.85) (xy 111.76 69.85)
 		)
 		(stroke
@@ -2081,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "b1fc4fcc-1c97-4631-b5d3-eba1f6fe06c0")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 63.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1924d4-c5b4-4d55-8c1c-35252c23f193")
 	)
 	(wire
 		(pts
@@ -2131,6 +2277,16 @@
 			(type default)
 		)
 		(uuid "d8b99c2c-caff-4a59-8acb-175e74aac96a")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f7e278-874a-4b97-ab09-5ff594c93adb")
 	)
 	(wire
 		(pts
@@ -2194,6 +2350,17 @@
 		)
 		(uuid "88c5fc47-50f1-441e-935f-0141723751cc")
 	)
+	(hierarchical_label "LSwitch2"
+		(shape output)
+		(at 67.31 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dda1ee9-92be-4faf-8969-f80d550d49b8")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 54.61 62.23 180)
@@ -2204,6 +2371,17 @@
 			(justify right)
 		)
 		(uuid "8ebf27b2-cab6-45e2-a689-a33d1848d513")
+	)
+	(hierarchical_label "LSwitch1"
+		(shape output)
+		(at 67.31 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2ccad99-49ed-484d-917c-f6b700a05b80")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -2288,6 +2466,74 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 46.99 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0e4d8f-ffc5-4548-acd0-0743fac5995a")
+		(property "Reference" "Conn6"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7131dffd-f93c-47eb-8639-3fb48d3e30d1")
+		)
+		(pin "2"
+			(uuid "12eda690-e350-4ec3-8940-b234cb296ae5")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "Conn6")
 					(unit 1)
 				)
 			)
@@ -2382,6 +2628,74 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 46.99 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35012ea8-1b85-4ea0-9806-52da5ba127d9")
+		(property "Reference" "Conn4"
+			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a70b0c3e-7e85-488b-8876-ce4c787a1215")
+		)
+		(pin "2"
+			(uuid "ad0dd2c4-f99e-44d9-9c6d-437993f333e9")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "Conn4")
 					(unit 1)
 				)
 			)
@@ -3514,6 +3828,72 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f04e8613-06fe-473c-a66c-10edf66c55a5")
+		(property "Reference" "#PWR051"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23b1a64c-912e-4f7c-b3b8-d3097a717303")
+		)
+		(instances
+			(project ""
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/c790a08a-952a-47a5-8a2d-3628381b83e8"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

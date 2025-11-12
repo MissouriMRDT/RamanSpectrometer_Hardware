@@ -2471,10 +2471,6 @@
 		(uuid "ece06117-2ae5-4ceb-8599-fd5db84e5961")
 	)
 	(no_connect
-		(at 85.09 86.36)
-		(uuid "00e28006-0922-4b46-b354-8c21b2fca048")
-	)
-	(no_connect
 		(at 125.73 111.76)
 		(uuid "09feb0a8-e985-430d-8a20-898731e4091c")
 	)
@@ -2489,10 +2485,6 @@
 	(no_connect
 		(at 85.09 76.2)
 		(uuid "1a8e97cd-7ea0-4509-af06-adff8994de7a")
-	)
-	(no_connect
-		(at 85.09 88.9)
-		(uuid "30099601-24c8-44d3-880a-8a40f9306480")
 	)
 	(no_connect
 		(at 125.73 134.62)
@@ -2697,6 +2689,16 @@
 			(type default)
 		)
 		(uuid "3280b719-5a2d-4ad1-8b00-424f6e2ba426")
+	)
+	(wire
+		(pts
+			(xy 80.01 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37edf028-3b38-42ac-bc3a-c0cd7f9f5c85")
 	)
 	(wire
 		(pts
@@ -3050,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9045932-29f4-49df-9ad5-f15c709d900e")
+	)
+	(wire
+		(pts
 			(xy 133.35 53.34) (xy 133.35 55.88)
 		)
 		(stroke
@@ -3306,6 +3318,17 @@
 		)
 		(uuid "47d5447d-f310-4cc6-9aac-6d67d73549d2")
 	)
+	(hierarchical_label "LSwitch1"
+		(shape input)
+		(at 80.01 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "543cebf1-cdf6-4953-8c9c-2d136773575d")
+	)
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 80.01 134.62 180)
@@ -3360,6 +3383,17 @@
 			(justify right)
 		)
 		(uuid "93de7163-8fc7-4538-ac2d-00d6b4d4116e")
+	)
+	(hierarchical_label "LSwitch2"
+		(shape input)
+		(at 80.01 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b167bf15-d95a-4964-a705-4346f70756fc")
 	)
 	(hierarchical_label "CCD_CLK_3V3"
 		(shape output)

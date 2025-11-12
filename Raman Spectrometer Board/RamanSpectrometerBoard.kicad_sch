@@ -91,6 +91,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 76.2) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec02733-25f4-4c36-8bd4-2e42f0200493")
+	)
+	(wire
+		(pts
 			(xy 127 76.2) (xy 133.35 76.2)
 		)
 		(stroke
@@ -171,6 +181,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 78.74) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f80ab1-1391-4424-98f5-12f5bcd15271")
+	)
+	(wire
+		(pts
 			(xy 60.96 86.36) (xy 68.58 86.36)
 		)
 		(stroke
@@ -181,7 +201,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 80.01) (xy 68.58 80.01)
+			(xy 60.96 82.55) (xy 68.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +862,7 @@
 			)
 		)
 		(pin "fanOut" input
-			(at 60.96 80.01 0)
+			(at 60.96 82.55 0)
 			(uuid "ed7fa825-984a-440b-bd3f-87b661184ce3")
 			(effects
 				(font
@@ -874,6 +894,26 @@
 		(pin "SDA" input
 			(at 60.96 95.25 0)
 			(uuid "f6e29ad2-c3c5-4ff0-8a9d-3d15902b8cac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LSwitch1" output
+			(at 60.96 78.74 0)
+			(uuid "2ebad933-f065-4256-bd62-b931954f4a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LSwitch2" output
+			(at 60.96 76.2 0)
+			(uuid "368bef3c-9e3d-46da-9def-79e79917ce13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1116,7 @@
 			)
 		)
 		(pin "fanOut" output
-			(at 68.58 80.01 180)
+			(at 68.58 82.55 180)
 			(uuid "875998b2-279b-4e3f-98d1-f60a37010fe4")
 			(effects
 				(font
@@ -1183,6 +1223,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LSwitch1" input
+			(at 68.58 78.74 180)
+			(uuid "55fb3d7f-5f2e-4478-8016-32d249229090")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LSwitch2" input
+			(at 68.58 76.2 180)
+			(uuid "df0ae56e-39eb-4291-8b09-6c77eaa14ba9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
