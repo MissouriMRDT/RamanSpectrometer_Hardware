@@ -2446,6 +2446,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Teensy"
+		(exclude_from_sim no)
+		(at 64.77 31.75 0)
+		(size 86.36 135.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "786dff68-2fef-41e3-bfa5-2aff8c9c57fb")
+	)
+	(text_box "Ethernet"
+		(exclude_from_sim no)
+		(at 151.13 31.75 0)
+		(size 78.74 76.2)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "c8a011d6-4871-4022-b501-30b3d9152582")
+	)
 	(junction
 		(at 132.08 149.86)
 		(diameter 0)

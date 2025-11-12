@@ -1678,6 +1678,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Laser Diode Connector"
+		(exclude_from_sim no)
+		(at 91.44 25.4 0)
+		(size 81.28 64.77)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "1e877e31-997b-4a13-95a7-83a51ba624c3")
+	)
+	(text_box "CCD Breakout Connector"
+		(exclude_from_sim no)
+		(at 26.67 33.02 0)
+		(size 63.5 54.61)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "297e121b-78e5-4858-bf7c-245e6da5f8fc")
+	)
+	(text_box "Fan Connector"
+		(exclude_from_sim no)
+		(at 185.42 17.78 0)
+		(size 95.25 83.82)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "78ddfe6e-d3dc-4f5a-95bf-03782ed6a390")
+	)
 	(junction
 		(at 122.555 80.01)
 		(diameter 0)

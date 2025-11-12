@@ -362,6 +362,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Servo Ports"
+		(exclude_from_sim no)
+		(at 113.03 55.88 0)
+		(size 73.66 63.5)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "4ec55b8f-76a0-40e9-b59a-6844ce529595")
+	)
 	(wire
 		(pts
 			(xy 140.97 97.79) (xy 148.59 97.79)
