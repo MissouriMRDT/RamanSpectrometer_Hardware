@@ -2662,7 +2662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:SW_SLW-913535-2A-SMT"
+		(property "Footprint" "Raman:SW_SLW-913535-2A-SMT"
 			(at 149.86 110.49 0)
 			(effects
 				(font
