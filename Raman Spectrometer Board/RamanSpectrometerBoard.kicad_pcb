@@ -16549,6 +16549,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d2c7053d-21ea-4554-b38e-bdbeb9bc38a8")
 	)
+	(gr_text "+5V"
+		(at 254.5 96 90)
+		(layer "F.SilkS")
+		(uuid "0ec1fcea-4f8f-49c2-a0a4-49a5a9d281cc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CANL"
 		(at 161.5 110.5 0)
 		(layer "F.SilkS")
@@ -16571,6 +16584,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "EOS"
+		(at 231.5 110.5 0)
+		(layer "F.SilkS")
+		(uuid "178d7927-fff5-46fe-98ba-940144958ad3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Backup"
@@ -16598,6 +16624,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GPID"
+		(at 184 110.5 0)
+		(layer "F.SilkS")
+		(uuid "303d57bd-264f-4dcc-91d2-4c89d7098788")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Sample Servo 1\n"
 		(at 248.3 71.9 90)
 		(layer "F.SilkS")
@@ -16606,6 +16645,71 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CANL"
+		(at 172.5 110.5 0)
+		(layer "F.SilkS")
+		(uuid "3d5e67f8-c810-4962-bb10-48a20844fd4f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3V3"
+		(at 194 110.5 0)
+		(layer "F.SilkS")
+		(uuid "3e21ce9e-addd-40cc-bab4-1145d1ead5b2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 216 110.5 0)
+		(layer "F.SilkS")
+		(uuid "3fbbc8b4-1e88-4b2b-ae6c-e9065239d7a3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Servo2"
+		(at 254.5 99 90)
+		(layer "F.SilkS")
+		(uuid "42de50cf-55b3-4516-b685-313a81e503b1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 189.5 110.5 0)
+		(layer "F.SilkS")
+		(uuid "4b61ea4d-a21d-4c88-a352-584f3b58ddb0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -16634,6 +16738,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CANH"
+		(at 175 110.5 0)
+		(layer "F.SilkS")
+		(uuid "560edcc7-b6d1-4082-b249-02b4ba728d64")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+12V\n"
 		(at 194.056 56.388 0)
 		(layer "F.SilkS" knockout)
@@ -16642,6 +16759,32 @@
 			(font
 				(size 0.762 0.762)
 				(thickness 0.1905)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 224 110.5 0)
+		(layer "F.SilkS")
+		(uuid "779b1d02-404b-440b-972b-54126a08cfe7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ST"
+		(at 229 110.5 0)
+		(layer "F.SilkS")
+		(uuid "90594a32-c43c-4317-bfa3-7b325a94c8ee")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -16682,6 +16825,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "+5V"
+		(at 239 110.5 0)
+		(layer "F.SilkS")
+		(uuid "a1657af8-844e-470f-aacd-5d798e1831fb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Fan"
 		(at 219.6 108.4 270)
 		(layer "F.SilkS")
@@ -16694,6 +16850,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SDA"
+		(at 187 110.5 0)
+		(layer "F.SilkS")
+		(uuid "b5b2c588-859d-4d01-b2f3-f06e1c2e12a9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 254.5 101 90)
+		(layer "F.SilkS")
+		(uuid "bc901774-29c2-453f-920d-65edc4805d25")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Spare Servo 2"
 		(at 247.4 103.5 90)
 		(layer "F.SilkS")
@@ -16702,6 +16884,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IN"
+		(at 237 110.5 0)
+		(layer "F.SilkS")
+		(uuid "c01e1830-7394-47d7-81a5-c19d696bcdd1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -16731,6 +16926,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 192 110.5 0)
+		(layer "F.SilkS")
+		(uuid "c5555a14-dc51-45fd-81cb-bb2d7978c92b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CAN 1"
 		(at 167.8 106.426 270)
 		(layer "F.SilkS")
@@ -16743,6 +16951,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+3V3"
+		(at 181.5 110.5 0)
+		(layer "F.SilkS")
+		(uuid "d2e65737-6274-4c38-b520-082410b21427")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TOF\n\n"
 		(at 196.4 108.2 270)
 		(layer "F.SilkS")
@@ -16751,6 +16972,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3V3"
+		(at 241.5 110.5 0)
+		(layer "F.SilkS")
+		(uuid "e3a314d5-e264-4348-8436-69ee9da0a419")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
