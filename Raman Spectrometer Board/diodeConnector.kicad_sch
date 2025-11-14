@@ -2312,7 +2312,7 @@
 		)
 		(uuid "ffa5948c-f8f8-4776-87bb-4fbbcb422bcb")
 	)
-	(hierarchical_label "D1"
+	(hierarchical_label "D2"
 		(shape input)
 		(at 69.85 133.35 90)
 		(effects
@@ -2334,7 +2334,7 @@
 		)
 		(uuid "4bbd3571-bf3d-452b-ad7a-7c647d6a152b")
 	)
-	(hierarchical_label "D2"
+	(hierarchical_label "D1"
 		(shape input)
 		(at 69.85 153.67 90)
 		(effects
