@@ -4560,7 +4560,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-R (2012-12 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C7"
-			(at 0 -1.58 0)
+			(at 2.63 -0.0175 0)
 			(layer "F.SilkS")
 			(uuid "ca750359-8b54-46aa-a3c6-4602170bef59")
 			(effects
@@ -4978,7 +4978,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-R (2012-12 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C10"
-			(at -4.396 0.0345 0)
+			(at -3.3015 0.0345 0)
 			(layer "F.SilkS")
 			(uuid "91513326-5a5d-416d-88d0-0c8114e389f7")
 			(effects
@@ -12986,7 +12986,7 @@
 		)
 		(polygon
 			(pts
-				(xy 107.352 85.8695) (xy 188.632 85.8695) (xy 188.632 113.8095) (xy 107.352 113.8095)
+				(xy 107.352 85.8695) (xy 178.98 85.8695) (xy 178.98 113.8095) (xy 107.352 113.8095)
 			)
 		)
 		(filled_polygon
