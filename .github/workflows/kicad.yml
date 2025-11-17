@@ -1,7 +1,13 @@
 on: [push]
 
 jobs:
-    kicad-generate:
+    Raman-Generate:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
             project-name: "RamanSpectrometerBoard"
+            board-path: "./Raman Spectrometer Board"
+    CCD-Generate:
+        uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
+        with:
+            project-name: "CCD_Breakout"
+            board-path: "./CCD Breakout/CCD_Breakout/CCD_Breakout"
