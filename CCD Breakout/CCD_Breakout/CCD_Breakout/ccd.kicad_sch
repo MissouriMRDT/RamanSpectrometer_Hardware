@@ -4285,6 +4285,15 @@
 				(hide yes)
 			)
 		)
+		(property "Socket digikey link" "https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/110-44-424-41-001000/947063"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "7636c88e-694a-4b93-a71b-0ef615c9b3bf")
 		)
