@@ -2366,7 +2366,8 @@
 	)
 	(symbol
 		(lib_id "RamanSpectrometerBoard:SI01P10-TP")
-		(at 133.35 69.85 90)
+		(at 133.35 69.85 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
