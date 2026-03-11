@@ -121,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 133.35 110.49)
+			(xy 127 109.22) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -141,6 +141,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 116.84) (xy 133.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d2a46a-f388-46d6-a3a6-7e9a08f6da17")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 68.58 74.93)
 		)
 		(stroke
@@ -151,7 +161,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 133.35 113.03)
+			(xy 127 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +181,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 133.35 107.95)
+			(xy 127 106.68) (xy 133.35 106.68)
 		)
 		(stroke
 			(width 0)
@@ -261,7 +271,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 133.35 102.87)
+			(xy 127 101.6) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -291,7 +301,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 133.35 105.41)
+			(xy 127 104.14) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -308,6 +318,16 @@
 			(type default)
 		)
 		(uuid "ebf2ca0e-7e45-4288-b936-e0e2ef6ec7d0")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc81e299-f656-47a4-81ea-64396a68414b")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -717,18 +737,8 @@
 				(justify left top)
 			)
 		)
-		(pin "EOS" output
-			(at 133.35 107.95 180)
-			(uuid "35864371-3dc1-413b-967d-ab96c9b0b3f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IN" output
-			(at 133.35 105.41 180)
+			(at 133.35 104.14 180)
 			(uuid "ae9f90c1-1e5f-4bc8-bc9b-ac32081bac02")
 			(effects
 				(font
@@ -738,7 +748,7 @@
 			)
 		)
 		(pin "ST" input
-			(at 133.35 110.49 180)
+			(at 133.35 109.22 180)
 			(uuid "ea478420-89ae-40a0-be26-274a74380097")
 			(effects
 				(font
@@ -748,7 +758,7 @@
 			)
 		)
 		(pin "ADC_CLK_3V3" input
-			(at 133.35 113.03 180)
+			(at 133.35 111.76 180)
 			(uuid "3fa99515-eb6b-42f8-b7fc-a1e8a12b1e5f")
 			(effects
 				(font
@@ -758,8 +768,38 @@
 			)
 		)
 		(pin "CCD_CLK_3V3" input
-			(at 133.35 102.87 180)
+			(at 133.35 101.6 180)
 			(uuid "a6fa4200-f806-41f0-9e71-d79db86c750b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 133.35 114.3 180)
+			(uuid "ca204aa9-076d-4fb2-884e-54cbdd760993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig" output
+			(at 133.35 106.68 180)
+			(uuid "a2de4ac2-7f4c-4455-a230-b302f59b6860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig_CMOS" input
+			(at 133.35 116.84 180)
+			(uuid "e58dfb21-0b03-44f1-9b0d-5dd926c1510d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1126,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 127 105.41 0)
+			(at 127 104.14 0)
 			(uuid "9929df84-6599-4ba0-9b39-0ab3417a1258")
 			(effects
 				(font
@@ -1095,8 +1135,8 @@
 				(justify right)
 			)
 		)
-		(pin "EOS" input
-			(at 127 107.95 0)
+		(pin "Trig" input
+			(at 127 106.68 0)
 			(uuid "35b74b6f-7b2e-4635-b900-0e81ff02e8ab")
 			(effects
 				(font
@@ -1106,7 +1146,7 @@
 			)
 		)
 		(pin "ST" output
-			(at 127 110.49 0)
+			(at 127 109.22 0)
 			(uuid "ec2bfb44-81a6-4984-b5dc-5ab00243afa3")
 			(effects
 				(font
@@ -1156,7 +1196,7 @@
 			)
 		)
 		(pin "ADC_CLK_3V3" output
-			(at 127 113.03 0)
+			(at 127 111.76 0)
 			(uuid "8b2d18c8-d73a-4a58-962e-11654354e813")
 			(effects
 				(font
@@ -1166,7 +1206,7 @@
 			)
 		)
 		(pin "CCD_CLK_3V3" output
-			(at 127 102.87 0)
+			(at 127 101.6 0)
 			(uuid "60e43fa7-7fec-465b-bbb4-f73514647ebe")
 			(effects
 				(font
@@ -1243,6 +1283,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SDI" output
+			(at 127 114.3 0)
+			(uuid "a08838a8-7072-4166-9cfe-d71dfd618c7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig_CMOS" output
+			(at 127 116.84 0)
+			(uuid "95fd2d39-e95d-4946-b3cb-00b8632fea72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

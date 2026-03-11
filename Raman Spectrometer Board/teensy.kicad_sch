@@ -2511,10 +2511,6 @@
 		(uuid "ece06117-2ae5-4ceb-8599-fd5db84e5961")
 	)
 	(no_connect
-		(at 125.73 111.76)
-		(uuid "09feb0a8-e985-430d-8a20-898731e4091c")
-	)
-	(no_connect
 		(at 125.73 81.28)
 		(uuid "14f04fa1-84a4-4b28-9a73-d7ba01d0ef13")
 	)
@@ -2531,10 +2527,6 @@
 		(uuid "2783e848-f557-4c21-8040-b42c5b94fb8b")
 	)
 	(no_connect
-		(at 125.73 134.62)
-		(uuid "30e9f137-1025-4977-9abe-8c41f97e307f")
-	)
-	(no_connect
 		(at 85.09 91.44)
 		(uuid "36f5f550-c302-4260-b815-ee7a3205cb92")
 	)
@@ -2547,16 +2539,20 @@
 		(uuid "43423cc7-ec35-4c6c-924b-f705fc93922a")
 	)
 	(no_connect
+		(at 85.09 81.28)
+		(uuid "43ef2eec-f294-429b-ac0d-5ddccc7e3024")
+	)
+	(no_connect
+		(at 125.73 114.3)
+		(uuid "49522f8d-7069-4f97-9096-15bb43194217")
+	)
+	(no_connect
 		(at 85.09 93.98)
 		(uuid "4beb2f0e-7176-4059-9537-de5e91149780")
 	)
 	(no_connect
 		(at 177.8 74.93)
 		(uuid "683296cb-e5a6-4ca3-abb6-f6f74fdbdc32")
-	)
-	(no_connect
-		(at 85.09 116.84)
-		(uuid "6dddc17b-dc34-4b24-8f8a-432ecd04dd6e")
 	)
 	(no_connect
 		(at 85.09 83.82)
@@ -2589,10 +2585,6 @@
 	(no_connect
 		(at 125.73 127)
 		(uuid "a4bfebdd-3219-403c-b9bc-ede031f846fb")
-	)
-	(no_connect
-		(at 125.73 114.3)
-		(uuid "a6d741d4-e46e-4820-a6f0-eba2f30a82a5")
 	)
 	(no_connect
 		(at 85.09 109.22)
@@ -2742,6 +2734,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b4639c-86eb-45fa-a536-718dca204b4f")
+	)
+	(wire
+		(pts
 			(xy 125.73 76.2) (xy 129.54 76.2)
 		)
 		(stroke
@@ -2809,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "4b68d75a-4366-457f-bc8d-4ded554c78d5")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0d5aa7-7a17-40f7-b21a-daaf8c71266b")
 	)
 	(wire
 		(pts
@@ -2882,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 139.7) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f263b20-35a2-449f-8428-bcba01331db8")
+	)
+	(wire
+		(pts
 			(xy 80.01 129.54) (xy 85.09 129.54)
 		)
 		(stroke
@@ -2929,16 +2951,6 @@
 			(type default)
 		)
 		(uuid "9a3339eb-d250-4cc4-b320-ba4be20faa1d")
-	)
-	(wire
-		(pts
-			(xy 80.01 81.28) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39b2c22-b75f-46cf-a13f-1dcf4be9ea56")
 	)
 	(wire
 		(pts
@@ -3162,13 +3174,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 139.7) (xy 129.54 139.7)
+			(xy 125.73 111.76) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd3081d6-b606-413a-828f-0e843feb027a")
+		(uuid "fe4ea63d-f635-42af-9178-02cd6b6b7a99")
 	)
 	(label "R-"
 		(at 200.66 64.77 0)
@@ -3270,7 +3282,7 @@
 		)
 		(uuid "db0eba12-4183-408d-a09d-df9e4934de9a")
 	)
-	(hierarchical_label "EOS"
+	(hierarchical_label "Trig"
 		(shape input)
 		(at 80.01 137.16 180)
 		(effects
@@ -3415,12 +3427,12 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 80.01 81.28 180)
+		(at 129.54 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "914e8eb9-7b10-4677-a6e7-810de05d6db4")
 	)
@@ -3434,6 +3446,17 @@
 			(justify right)
 		)
 		(uuid "93de7163-8fc7-4538-ac2d-00d6b4d4116e")
+	)
+	(hierarchical_label "SDI"
+		(shape output)
+		(at 129.54 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a70ceb05-c907-4fdd-a61c-bbb2c09c3361")
 	)
 	(hierarchical_label "CCD_CLK_3V3"
 		(shape output)
@@ -3479,6 +3502,17 @@
 		)
 		(uuid "cddb3999-76d7-48ea-b91b-e2596f4de5fb")
 	)
+	(hierarchical_label "Trig_CMOS"
+		(shape output)
+		(at 129.54 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d155c3de-765c-4d81-9f86-239f4176e852")
+	)
 	(hierarchical_label "diodeOutput"
 		(shape output)
 		(at 80.01 114.3 180)
@@ -3503,12 +3537,12 @@
 	)
 	(hierarchical_label "ADC_CLK_3V3"
 		(shape output)
-		(at 129.54 139.7 0)
+		(at 80.01 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f153fcdb-b022-4b7c-a719-e94869460b53")
 	)
