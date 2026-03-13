@@ -401,7 +401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69884158-0944-4164-9bd1-08473b77d445")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 271.78 22.352 0)
 			(effects
 				(font
@@ -449,7 +449,7 @@
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -464,7 +464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de171abb-9c1f-4147-bf11-c91fccb756f1")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 262.89 31.242 0)
 			(effects
 				(font
@@ -512,7 +512,7 @@
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -853,6 +853,48 @@
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 118.11)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69fd377a-c855-41d7-9c7d-f57d50de570e")
+		(property "Sheetname" "Laser Diode Driver Circuit"
+			(at 219.71 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LaserDriverRev2.kicad_sch"
+			(at 219.71 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
+					(page "8")
 				)
 			)
 		)
