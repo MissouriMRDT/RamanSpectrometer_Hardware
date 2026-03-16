@@ -2412,565 +2412,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_DPDT_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -3270,7 +2711,305 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+10V"
+		(symbol "Transistor_FET:DMG2301L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMG2301L"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMG2301L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMG2301L_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -3291,7 +3030,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+10V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -3317,7 +3056,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3335,7 +3074,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+10V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3373,7 +3112,7 @@
 					)
 				)
 			)
-			(symbol "+10V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3498,1648 +3237,1266 @@
 		)
 	)
 	(junction
-		(at 212.09 77.47)
+		(at 149.86 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20600789-fcbf-4d3f-aeb5-279e3e245328")
+		(uuid "0756c7bc-5d4a-486d-92b2-848871f923ca")
 	)
 	(junction
-		(at 31.75 168.91)
+		(at 60.96 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c3329ba-da9d-40fa-b9c3-cb76116728bf")
+		(uuid "0c515e22-0c76-4483-8ceb-1b4ee142fede")
 	)
 	(junction
-		(at 162.56 114.3)
+		(at 44.45 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2cd40490-2c24-4965-bf62-8f12c38ea1e2")
+		(uuid "35dc3a4a-4f0b-475c-8bff-d3a70fbd0797")
 	)
 	(junction
-		(at 31.75 184.15)
+		(at 78.74 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4259f148-b6b5-4cdb-8c54-729f2daccfd7")
+		(uuid "568871be-bf30-4c3a-bf6b-a21883139190")
 	)
 	(junction
-		(at 185.42 114.3)
+		(at 162.56 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4703f776-20fd-43be-9012-9c128308aa27")
+		(uuid "58c51f4c-1ea3-455e-9d8d-f002f39c53f5")
 	)
 	(junction
-		(at 134.62 165.1)
+		(at 170.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "533d9bfa-c265-46cb-afe0-ed91172b5e69")
+		(uuid "5ea2a378-d05f-48da-bd33-6c3f73002f45")
 	)
 	(junction
-		(at 69.85 166.37)
+		(at 160.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b7232a1-18f1-44cf-b52e-d10c0311d1bf")
+		(uuid "5fc0e4a3-41a4-449b-a485-d60ea8f2a165")
 	)
 	(junction
-		(at 196.85 99.06)
+		(at 170.18 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e25b22c-52e4-4b3d-8bf7-76407cb3e41c")
+		(uuid "6623da73-f5ba-40d4-9db8-7de3aaeab10b")
 	)
 	(junction
-		(at 191.77 72.39)
+		(at 105.41 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62ac03fb-7259-4cec-95e6-b26fcb55ff2f")
+		(uuid "6da1f2ac-fa07-448d-8d4e-361edf863278")
 	)
 	(junction
-		(at 119.38 101.6)
+		(at 60.96 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e35fc88-f4c7-4c9a-8627-b0954a7187b5")
+		(uuid "76653faf-ab2d-4f2f-a1d1-9665aed1a4c6")
 	)
 	(junction
-		(at 172.72 114.3)
+		(at 44.45 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e855c0a-1f6f-478a-84f4-b9d7582e8e6c")
+		(uuid "7e9982ec-593a-423a-aeab-4a6e0507f22e")
 	)
 	(junction
-		(at 143.51 104.14)
+		(at 124.46 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "829ab682-3701-46b2-8fe6-20e9a933588c")
+		(uuid "9785f6e7-b199-4241-854e-aeae0442a3f4")
 	)
 	(junction
-		(at 132.08 62.23)
+		(at 138.43 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d8ac40f-c693-4d4e-b7b9-548df531c84d")
+		(uuid "9974889e-88b6-4aa9-9c66-9b5d52dc3362")
 	)
 	(junction
-		(at 119.38 62.23)
+		(at 82.55 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a69f9ef0-d1be-4cb1-bd5b-4fe815ed8802")
+		(uuid "a0a80405-9432-4593-bfdd-8d7cd278909d")
 	)
 	(junction
-		(at 100.33 57.15)
+		(at 215.9 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aabc7a71-4db2-4421-b3e0-aa67f9ff1d6c")
+		(uuid "ac16bf0c-4b12-48bd-8660-1d16959a6221")
 	)
 	(junction
-		(at 142.24 73.66)
+		(at 137.16 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af9ce1c6-5340-4d4f-b1cf-fe715bb885d3")
+		(uuid "b01f7373-fb11-43b3-b07e-f01053c122e6")
 	)
 	(junction
-		(at 172.72 99.06)
+		(at 172.72 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b34c7cf3-b01a-4ffc-968b-771156fe5a72")
+		(uuid "b5012953-132c-44fd-b5ef-08c4303527aa")
 	)
 	(junction
-		(at 154.94 54.61)
+		(at 105.41 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b39e3315-90e3-45e7-be70-0e60cb1b97b5")
+		(uuid "bd2f141a-adc1-4ecb-ba68-666b7cf683d1")
 	)
 	(junction
-		(at 140.97 92.71)
+		(at 149.86 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb68a244-0cf9-4fb4-9825-cc456d74116f")
+		(uuid "bea38c48-cf8d-4137-a64d-b7f10f0d4f02")
 	)
 	(junction
-		(at 165.1 99.06)
+		(at 210.82 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6100431-19eb-46d8-80d9-a2dfec827b8b")
+		(uuid "c551f167-31eb-44da-97e6-a83500d90c0d")
 	)
 	(junction
-		(at 48.26 157.48)
+		(at 138.43 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c787997b-234f-45ce-9e4e-4909c3f44636")
+		(uuid "d21c8bad-7a0c-4528-8446-6057fdab2777")
 	)
 	(junction
-		(at 191.77 82.55)
+		(at 190.5 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb7ba11f-6f42-4b30-9b57-e867a70f0ef7")
+		(uuid "d367e894-26e3-4fee-aba1-f1639dbf1f4c")
 	)
 	(junction
-		(at 66.04 157.48)
+		(at 78.74 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd74b495-d149-4ff2-a2c4-87b505f5df9c")
+		(uuid "df4710de-268a-4f2c-a0df-730cd36f0f6a")
 	)
 	(junction
-		(at 140.97 99.06)
+		(at 147.32 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfa55beb-fc0e-4c6e-8870-8d0db5de882b")
+		(uuid "e455936b-bd4f-4fbe-a348-971e766696c3")
 	)
 	(junction
-		(at 48.26 168.91)
+		(at 124.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfa79af3-0781-421a-8836-820f0a1f7a3e")
+		(uuid "e9ae8718-3901-42b4-8afb-802b36dcafd9")
 	)
 	(junction
-		(at 123.19 101.6)
+		(at 190.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6f31eec-e791-4abe-b3cf-f6ea7761d475")
+		(uuid "eba18f09-5fb1-42ca-8b4c-ebd29e9a3fa2")
 	)
 	(junction
-		(at 165.1 41.91)
+		(at 162.56 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d91076b9-a4e8-4965-a5ff-da2da915448b")
-	)
-	(junction
-		(at 185.42 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9d7cf56-7296-45e9-9c82-7df2cf2e0a88")
-	)
-	(junction
-		(at 100.33 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc72dad7-8084-41af-8416-97ddc3304e0d")
-	)
-	(junction
-		(at 106.68 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6391dda-4ec7-45bf-8086-c256c068febc")
-	)
-	(junction
-		(at 217.17 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eab61f3a-4cab-4649-9bf9-538c69a28513")
-	)
-	(junction
-		(at 176.53 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebcc5f2a-d737-46ed-a893-06715fadb5b3")
-	)
-	(junction
-		(at 123.19 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8fecda3-90db-4f5d-b8fa-ba0034d02d3f")
-	)
-	(junction
-		(at 66.04 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9861a37-c725-47c0-905e-642ae4ec807c")
-	)
-	(junction
-		(at 196.85 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb8cae0b-8261-43b3-8d7e-f6314765e1ad")
-	)
-	(junction
-		(at 176.53 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc303131-d639-481c-bf95-0d223dbe34e9")
+		(uuid "ffa309d1-5417-416e-bea6-3f7f7435c277")
 	)
 	(no_connect
-		(at 36.83 176.53)
-		(uuid "46d3b2cd-e805-41c4-aece-6465eac8dabc")
+		(at 107.95 99.06)
+		(uuid "101a117a-8d14-49b7-bf5d-4467e1b41cab")
 	)
-	(wire
-		(pts
-			(xy 208.28 110.49) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0162b13e-7dcf-42c5-a352-1f4032e61472")
-	)
-	(wire
-		(pts
-			(xy 123.19 92.71) (xy 128.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049bf960-4c2b-4c36-8723-6fac5b130347")
-	)
-	(wire
-		(pts
-			(xy 191.77 80.01) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04bdb767-c9d7-4e40-acc1-1d96bbc660c3")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 172.72 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058cd866-e256-4f2b-a7d5-54f2989fe95f")
-	)
-	(wire
-		(pts
-			(xy 81.28 67.31) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f9ef67-dc6a-44d1-b686-68b9b831523b")
-	)
-	(wire
-		(pts
-			(xy 69.85 163.83) (xy 69.85 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db01cd1-4a34-4719-ba98-c02f1b701b22")
-	)
-	(wire
-		(pts
-			(xy 31.75 167.64) (xy 31.75 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3d69ea-5962-4534-b0fa-757c9a252d7a")
-	)
-	(wire
-		(pts
-			(xy 119.38 62.23) (xy 121.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f5bf01-9cc8-4eeb-a6f9-ac849fb6b13e")
-	)
-	(wire
-		(pts
-			(xy 196.85 99.06) (xy 196.85 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1257542c-a1e3-43d2-8ec1-254a0528356c")
-	)
-	(wire
-		(pts
-			(xy 132.08 62.23) (xy 132.08 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1388e7b4-38b1-461e-bc29-c740878c4477")
-	)
-	(wire
-		(pts
-			(xy 154.94 44.45) (xy 154.94 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d26025-4278-4100-855c-ced5964d7ae5")
-	)
-	(wire
-		(pts
-			(xy 140.97 99.06) (xy 160.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15df5f1b-b0cc-4123-8523-38eec60b0d75")
-	)
-	(wire
-		(pts
-			(xy 66.04 157.48) (xy 66.04 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b815000-8302-4b27-8833-b111750a02db")
-	)
-	(wire
-		(pts
-			(xy 198.12 87.63) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1baede1d-cdb0-47e1-a3e5-09ecd9cd71f2")
-	)
-	(wire
-		(pts
-			(xy 113.03 152.4) (xy 113.03 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d92cf80-78cb-4c63-98ed-fb99e31c725e")
-	)
-	(wire
-		(pts
-			(xy 48.26 168.91) (xy 49.53 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dcd482e-7967-401d-bfd1-3bb87d77a5c1")
-	)
-	(wire
-		(pts
-			(xy 185.42 99.06) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e33fa53-cb38-437e-9644-f013817fff28")
-	)
-	(wire
-		(pts
-			(xy 48.26 168.91) (xy 48.26 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f27aea2-afb4-45e7-99c2-1fbf343f916e")
-	)
-	(wire
-		(pts
-			(xy 139.7 99.06) (xy 140.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2acba5fb-5fa2-433d-89bd-e2e30f2ebc06")
-	)
-	(wire
-		(pts
-			(xy 66.04 166.37) (xy 69.85 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d710bc6-97f8-413c-a430-de124faffbe5")
-	)
-	(wire
-		(pts
-			(xy 102.87 64.77) (xy 100.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306a0f8a-ace7-49b9-ac08-111023d26e72")
-	)
-	(wire
-		(pts
-			(xy 100.33 67.31) (xy 100.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "307f986f-1e0a-4592-999d-f8f63743ab12")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316f28c4-e43a-455e-9553-3f4f89d78bcd")
-	)
-	(wire
-		(pts
-			(xy 115.57 172.72) (xy 113.03 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "317ed103-af6b-493a-bf02-a91112e37a12")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 165.1 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3188e2f9-e696-43d3-aad0-3fe6494f518c")
-	)
-	(wire
-		(pts
-			(xy 48.26 157.48) (xy 48.26 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3525a88e-186b-44d2-a0af-22eadf200302")
-	)
-	(wire
-		(pts
-			(xy 154.94 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e38152-8f14-4959-8a9c-e38f4f160e4a")
-	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 160.02 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3611f184-0ae3-4772-8076-dcc5e5cac029")
-	)
-	(wire
-		(pts
-			(xy 106.68 162.56) (xy 106.68 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3815ae51-cfa7-4b84-9541-e757128f9d09")
-	)
-	(wire
-		(pts
-			(xy 172.72 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38383729-5925-4b75-b8c9-627f963166b5")
-	)
-	(wire
-		(pts
-			(xy 187.96 82.55) (xy 191.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3af630-2700-4ace-b526-255f094d6df1")
-	)
-	(wire
-		(pts
-			(xy 191.77 74.93) (xy 194.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e2ffa7-ba5b-4b61-aa21-42e9068954a2")
+	(no_connect
+		(at 107.95 93.98)
+		(uuid "3a50dc28-ca2e-4f71-a3bd-20760f0c7466")
 	)
-	(wire
-		(pts
-			(xy 100.33 78.74) (xy 100.33 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47159ace-35da-481d-a115-be956d692ce1")
+	(no_connect
+		(at 92.71 96.52)
+		(uuid "6d028c5a-a6b4-4b15-a4be-8fc1b23bf84a")
 	)
-	(wire
-		(pts
-			(xy 180.34 72.39) (xy 176.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4792e392-a3d4-4e22-8764-0cd7f9a891b9")
+	(no_connect
+		(at 49.53 167.64)
+		(uuid "d4bd8a8e-a34f-4a37-b59c-25ba43bafbe9")
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 143.51 104.14)
+			(xy 170.18 88.9) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47a3ab07-a6b2-4099-9f29-d05b416cc2f7")
+		(uuid "011e5a01-f2d2-41b3-826b-c3d60a6bc8fc")
 	)
 	(wire
 		(pts
-			(xy 208.28 102.87) (xy 208.28 99.06)
+			(xy 60.96 160.02) (xy 62.23 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a11743a-19c3-4efe-b9c8-34418b1c1ac8")
+		(uuid "013003f5-6de3-4e37-af45-14d9fa7bdb8d")
 	)
 	(wire
 		(pts
-			(xy 217.17 77.47) (xy 219.71 77.47)
+			(xy 160.02 38.1) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a2e2e52-ab17-47ce-a2c3-fcf83e67dedb")
+		(uuid "03479410-bee4-4f2f-8052-b231767415dd")
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 140.97 152.4)
+			(xy 111.76 49.53) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4b1e0b-a8ea-4c8c-af7e-e8d5c65d6ff2")
+		(uuid "10453f14-1840-4f5f-a8cb-45473c4887bd")
 	)
 	(wire
 		(pts
-			(xy 119.38 53.34) (xy 114.3 53.34)
+			(xy 60.96 171.45) (xy 60.96 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d9ae8a2-7cef-472f-9bc8-a626d86ca32c")
+		(uuid "113beb66-6c29-4793-85bf-309728b46330")
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 212.09 87.63)
+			(xy 147.32 63.5) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4effb003-f38e-4154-b7ff-dd57c4d3b55a")
+		(uuid "13166d7d-03be-47b1-bd46-68323466f083")
 	)
 	(wire
 		(pts
-			(xy 64.77 166.37) (xy 66.04 166.37)
+			(xy 130.81 142.24) (xy 130.81 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f80434a-f493-4e71-997e-38a4560c37eb")
+		(uuid "14863040-d94c-40ba-b3c4-014c05a5a53e")
 	)
 	(wire
 		(pts
-			(xy 172.72 102.87) (xy 172.72 99.06)
+			(xy 149.86 88.9) (xy 138.43 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50e82d7d-c72b-474a-b58c-f971203fac78")
+		(uuid "16f81699-3f08-4f5f-954c-36500669f61c")
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 128.27 85.09)
+			(xy 78.74 157.48) (xy 82.55 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50eb30fc-91a3-4265-bb63-b97824805121")
+		(uuid "1c115ad4-c988-49c1-a5a8-5dab7c5a535c")
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 162.56 115.57)
+			(xy 179.07 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55301464-472d-4c92-a8ae-fd945ca5dfff")
+		(uuid "1df45078-f722-47d5-a019-b46f61a60b74")
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 176.53 82.55)
+			(xy 127 92.71) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57365cee-7a4a-4f1c-834b-c88b2f7f8e13")
+		(uuid "275d6ea1-debb-4db4-bdd3-3d0f97566c85")
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 100.33 67.31)
+			(xy 73.66 148.59) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59bdbcfe-c3d6-4278-a12d-9870a5b4dd5b")
+		(uuid "2888b598-05d1-43c3-9b7b-c002b2e3d417")
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 196.85 99.06)
+			(xy 196.85 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a84daeb-19a8-43a2-a3be-6752f2213f5c")
+		(uuid "2bff8a18-6483-4010-80b3-cc3d2c51310f")
 	)
 	(wire
 		(pts
-			(xy 48.26 157.48) (xy 53.34 157.48)
+			(xy 170.18 36.83) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "609dc161-6605-4d57-b0a8-6d878bbb99b1")
+		(uuid "2e5fb450-1ec9-4e69-afa0-4e53d0858a1d")
 	)
 	(wire
 		(pts
-			(xy 196.85 114.3) (xy 208.28 114.3)
+			(xy 210.82 66.04) (xy 210.82 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63b36908-8958-484c-bfce-980f7c866fbc")
+		(uuid "2eacba2a-c46b-4347-bf56-e3d1e9c93339")
 	)
 	(wire
 		(pts
-			(xy 31.75 158.75) (xy 31.75 160.02)
+			(xy 130.81 152.4) (xy 130.81 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6912d197-dc3b-446d-bf01-c8d140cd31ed")
+		(uuid "300f7ed0-7ebb-4ed9-bed7-7fa2b610cb9c")
 	)
 	(wire
 		(pts
-			(xy 113.03 161.29) (xy 113.03 162.56)
+			(xy 124.46 157.48) (xy 121.92 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "704114c3-d692-46ba-bbe8-bb3f16e766a9")
+		(uuid "3832d4f9-36b2-4ed5-a65d-d0c5a4469369")
 	)
 	(wire
 		(pts
-			(xy 60.96 157.48) (xy 66.04 157.48)
+			(xy 60.96 140.97) (xy 66.04 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70f264bb-7f8c-421d-9536-7dfaa4035cf4")
+		(uuid "398b058f-6c6e-464a-9c99-7acd8c513eee")
 	)
 	(wire
 		(pts
-			(xy 140.97 168.91) (xy 140.97 170.18)
+			(xy 160.02 40.64) (xy 160.02 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7264a719-a381-429b-a54e-3ac89ed8e4ce")
+		(uuid "3c6279da-7dd7-44e8-8d04-484ef52eafd4")
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 132.08 72.39)
+			(xy 162.56 88.9) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73cb8312-91c8-41c1-8436-1d17f8ff436f")
+		(uuid "3dd0a134-c3f6-4e0d-ac9c-908b003eeecb")
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 142.24 73.66)
+			(xy 138.43 100.33) (xy 138.43 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75814304-606e-420a-ab0f-3b8627718fd8")
+		(uuid "3e24b366-1f5d-4d91-852e-81c659b0a135")
 	)
 	(wire
 		(pts
-			(xy 49.53 163.83) (xy 48.26 163.83)
+			(xy 147.32 50.8) (xy 147.32 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "790ded24-8010-433c-a729-b2b3ed101e31")
+		(uuid "3e83f467-eead-4df5-8f30-da764b3af6c1")
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 101.6)
+			(xy 105.41 74.93) (xy 105.41 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b2b245e-6b0b-4b69-af0e-e14cfae61d74")
+		(uuid "3f74bc8a-0e6e-485e-9da0-355c676e7e75")
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 140.97 85.09)
+			(xy 162.56 88.9) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ba3f9cf-a83f-4ac2-a7d3-3b545a982c6a")
+		(uuid "4201af69-66ed-4413-bcb6-665b55768590")
 	)
 	(wire
 		(pts
-			(xy 48.26 149.86) (xy 53.34 149.86)
+			(xy 105.41 55.88) (xy 105.41 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d13bc64-d3d2-4cec-92cc-6a5f84d3a1d4")
+		(uuid "42255cbc-f2c5-4ca3-919b-89d45437d597")
 	)
 	(wire
 		(pts
-			(xy 100.33 57.15) (xy 100.33 53.34)
+			(xy 151.13 144.78) (xy 151.13 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d6109a7-f1f8-4bef-8678-bb93d3aaafbf")
+		(uuid "4736200c-1af6-4a70-a6d5-4e471cab97b6")
 	)
 	(wire
 		(pts
-			(xy 161.29 152.4) (xy 161.29 153.67)
+			(xy 123.19 58.42) (xy 124.46 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e30f78b-2753-4fb3-a6c5-c69c1cc99850")
+		(uuid "47aa5d71-0fb6-4e25-bea9-dbd3acbaddb6")
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 123.19 92.71)
+			(xy 44.45 175.26) (xy 44.45 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8164973d-08e2-4f53-a961-b3110aaca321")
+		(uuid "48dab93b-2726-48a0-9042-0e2f8fad1822")
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 119.38 53.34)
+			(xy 44.45 160.02) (xy 50.8 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8225d602-bd74-4512-b132-bfa7f728d38b")
+		(uuid "4e4a7fac-22f0-47dc-a2fd-c27c3e8e5a76")
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 191.77 67.31)
+			(xy 44.45 149.86) (xy 44.45 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82c1dddc-c17e-4780-8102-b2ba9512a007")
+		(uuid "52383cc6-f94b-48c4-9ac0-440a9c84e88d")
 	)
 	(wire
 		(pts
-			(xy 162.56 113.03) (xy 162.56 114.3)
+			(xy 60.96 148.59) (xy 66.04 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83502c67-b8ab-45f9-a690-bc7c43a524de")
+		(uuid "53a80117-c97d-45b7-82c8-e448a2f5d251")
 	)
 	(wire
 		(pts
-			(xy 176.53 69.85) (xy 176.53 72.39)
+			(xy 137.16 69.85) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "850b4052-c74d-421c-90c7-e6943006d180")
+		(uuid "543f175a-06a0-4569-8693-a734cd94c974")
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 176.53 85.09)
+			(xy 78.74 140.97) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "865016bf-911a-49e3-b640-69b9c342c5c2")
+		(uuid "54f6b945-b5b1-451b-97dd-0f1b767d8915")
 	)
 	(wire
 		(pts
-			(xy 106.68 166.37) (xy 109.22 166.37)
+			(xy 149.86 104.14) (xy 138.43 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "871f2fde-4a28-45a5-889d-0c2d0e48fcf0")
+		(uuid "59800bd2-67c2-4dc1-b00f-a3ebd6dcf97b")
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 143.51 115.57)
+			(xy 82.55 154.94) (xy 82.55 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88a5384b-3813-4e56-b40c-732b564d6b0b")
+		(uuid "5e1eedcb-914a-4187-a546-b5d93fdf2860")
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 99.06)
+			(xy 149.86 88.9) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ab4966-b26b-4ca5-99fe-878809e5320d")
+		(uuid "5f29c74d-53d4-43a6-b402-e59fab233bdd")
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 48.26 184.15)
+			(xy 77.47 157.48) (xy 78.74 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a64c6f4-72fe-4f95-871f-03220252d0b8")
+		(uuid "60c0f4c8-56d7-4c20-a734-db18e3548be0")
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 162.56 114.3)
+			(xy 44.45 175.26) (xy 60.96 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c7e70da-010d-4fa5-8506-d40de550dd56")
+		(uuid "6166ebdf-326d-4b94-9057-ff3dce5eb28f")
 	)
 	(wire
 		(pts
-			(xy 165.1 40.64) (xy 165.1 41.91)
+			(xy 60.96 154.94) (xy 60.96 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cc2402d-ca25-4c5e-a293-136cf979b4d5")
+		(uuid "631754a3-cbc8-4897-a883-93769dc86cdd")
 	)
 	(wire
 		(pts
-			(xy 167.64 74.93) (xy 176.53 74.93)
+			(xy 87.63 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f1a038f-72a0-420b-859a-518a0242c951")
+		(uuid "66587300-4580-421a-89c1-47a9e596a561")
 	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 140.97 92.71)
+			(xy 157.48 50.8) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90c4cf20-f74d-4a3d-bc9f-9d74ec4f74bd")
+		(uuid "6681afce-cdb0-4ad7-8ae9-4cf2383032a1")
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 100.33 67.31)
+			(xy 137.16 69.85) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91f4895c-3f92-486a-a029-bf8e0be66a82")
+		(uuid "6803d135-7bb6-47ac-9181-6c21a250ac19")
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 123.19 101.6)
+			(xy 100.33 53.34) (xy 105.41 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952e9eab-73b1-4fbc-8f8c-892ced08e0d2")
+		(uuid "6a654d8f-11e9-4d51-867b-395f3fc692d7")
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 165.1 100.33)
+			(xy 100.33 63.5) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9603856f-9963-464a-98ea-ebe70cc0af1c")
+		(uuid "6aff0d27-6b9c-49b0-83a8-7f79cdab034b")
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 176.53 74.93)
+			(xy 127 100.33) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "962fab56-bd01-4869-9667-464619c4ae9a")
+		(uuid "6c667cde-6497-453c-b7d4-5465655cc51f")
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 54.61)
+			(xy 107.95 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9998fe2c-8bdf-4ba0-a290-7300ba90af84")
+		(uuid "6cac4851-d9de-4339-b83a-2db780acb3e6")
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 191.77 82.55)
+			(xy 82.55 157.48) (xy 85.09 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aff98d7-eb90-4ccd-8d86-9c983c10b5ab")
+		(uuid "6ed4b59c-6d61-4c87-9e6b-1970c77dac6d")
 	)
 	(wire
 		(pts
-			(xy 191.77 72.39) (xy 191.77 74.93)
+			(xy 210.82 63.5) (xy 204.47 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d51e7e9-d61c-4e9a-8ecc-1c19a2246ac6")
+		(uuid "7445aa6e-a746-4ad8-ab83-e37658011fdb")
 	)
 	(wire
 		(pts
-			(xy 64.77 64.77) (xy 71.12 64.77)
+			(xy 175.26 90.17) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4fbbe3-34db-41c0-bc10-8ca9ca179162")
+		(uuid "74d9b642-7ce1-4a76-a3e9-4ca23c3fdedf")
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 73.66)
+			(xy 44.45 158.75) (xy 44.45 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fef9083-f4de-404d-b337-e1c361a3b8ec")
+		(uuid "768030d0-fb57-4ebc-9c76-f73b7acafc3d")
 	)
 	(wire
 		(pts
-			(xy 118.11 62.23) (xy 119.38 62.23)
+			(xy 149.86 50.8) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1bf1182-63b5-455a-a2d9-07c994057700")
+		(uuid "77e39e04-5e53-4dfd-bcd0-6a88e816b919")
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 66.04 157.48)
+			(xy 170.18 38.1) (xy 170.18 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1cd85b7-8609-4392-b77a-d53bfa1256dc")
+		(uuid "78bb0904-5cde-49b2-abb3-3f189a6b6eed")
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 142.24 57.15)
+			(xy 130.81 161.29) (xy 130.81 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2a05642-6ce7-4e15-afa7-1de75709ad8e")
+		(uuid "7dc642f5-0986-4b94-a400-23e24f80727b")
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 185.42 114.3)
+			(xy 124.46 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3129843-5856-4ea3-8eb9-2a91a740cd24")
+		(uuid "7eef48fb-7d2d-4659-8b65-8fa2810b7ed2")
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 143.51 106.68)
+			(xy 105.41 53.34) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5ab1c75-9002-4ebe-af8e-80a58e6dc177")
+		(uuid "803dd2c8-cf54-4d5b-aac4-b312ee8f6bfc")
 	)
 	(wire
 		(pts
-			(xy 104.14 166.37) (xy 106.68 166.37)
+			(xy 162.56 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aac8d6bb-0918-420d-aeec-bde353e261a6")
+		(uuid "85aac342-e2ad-43fa-b3fd-fcefa9c65496")
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 157.48 54.61)
+			(xy 60.96 160.02) (xy 60.96 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abfedb81-4208-43b3-abd7-9f0e445bf00e")
+		(uuid "87933796-8947-40f5-9c60-a7e4ae4b3009")
 	)
 	(wire
 		(pts
-			(xy 134.62 165.1) (xy 132.08 165.1)
+			(xy 179.07 88.9) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afae0f4d-38db-4425-b0f5-86d3c5694e52")
+		(uuid "8b08e5dc-436f-408d-9f33-f1079c47e8b4")
 	)
 	(wire
 		(pts
-			(xy 140.97 160.02) (xy 140.97 161.29)
+			(xy 190.5 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afd05068-0a43-48cc-ae93-ea9584c5d80d")
+		(uuid "8c0a0690-12d6-4eb1-b033-41ce8702ab5e")
 	)
 	(wire
 		(pts
-			(xy 106.68 53.34) (xy 100.33 53.34)
+			(xy 107.95 60.96) (xy 105.41 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afec4c7f-d129-4d4c-ab40-0badff9a6bd8")
+		(uuid "8c365a08-bcb9-440f-9cbf-d3323df56ca8")
 	)
 	(wire
 		(pts
-			(xy 191.77 82.55) (xy 191.77 80.01)
+			(xy 149.86 100.33) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1d39e13-c9f8-421d-a20a-c3bc2d1c1186")
+		(uuid "8dfe3cf9-7086-42ee-82a1-70d3b0a838a4")
 	)
 	(wire
 		(pts
-			(xy 31.75 168.91) (xy 31.75 172.72)
+			(xy 162.56 100.33) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b47e2b03-9902-4409-b715-0d5f8cd61cbf")
+		(uuid "8e97d9c0-030c-4571-a0f0-d30e3f94c2e1")
 	)
 	(wire
 		(pts
-			(xy 172.72 110.49) (xy 172.72 114.3)
+			(xy 172.72 104.14) (xy 172.72 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b792413b-6103-41e5-be2d-96441bffb05a")
+		(uuid "93733971-b246-4a5b-a9e0-b0cf3d5237e8")
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 217.17 77.47)
+			(xy 60.96 148.59) (xy 60.96 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc99b5af-89fe-4ad4-9e3a-423011d94378")
+		(uuid "94130037-145d-41d9-9c11-fbb980dd752e")
 	)
 	(wire
 		(pts
-			(xy 48.26 180.34) (xy 48.26 184.15)
+			(xy 133.35 142.24) (xy 130.81 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcdaddae-1119-4744-acd9-dbf512d54d82")
+		(uuid "959f19e0-a3eb-4346-be0d-ebb81585a51b")
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 142.24 73.66)
+			(xy 170.18 55.88) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf16dc30-f03c-43c4-b106-b6ac6fe3781e")
+		(uuid "9a388543-504a-40fb-9e5d-3f24b3233e2c")
 	)
 	(wire
 		(pts
-			(xy 134.62 165.1) (xy 137.16 165.1)
+			(xy 149.86 104.14) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfd8efdf-6b8f-4252-ae02-4d9dead8c4b4")
+		(uuid "9b623e65-6972-4c8c-8faf-5389641d779f")
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 87.63 57.15)
+			(xy 44.45 171.45) (xy 44.45 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c14e60ab-a778-434d-b32b-84caabefd14c")
+		(uuid "9baf0dd4-5ce9-434c-9857-54db826a0e57")
 	)
 	(wire
 		(pts
-			(xy 196.85 99.06) (xy 208.28 99.06)
+			(xy 185.42 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c21c8a94-0d3d-4c2a-a2f5-ec1e54eca773")
+		(uuid "9cef06a1-922f-41ba-8bce-b3d061c1f400")
 	)
 	(wire
 		(pts
-			(xy 113.03 172.72) (xy 113.03 170.18)
+			(xy 215.9 71.12) (xy 215.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2f3c908-972e-497a-acbe-810e3d622063")
+		(uuid "a017c7e1-ffb5-46fc-ad5c-c413be84f97c")
 	)
 	(wire
 		(pts
-			(xy 48.26 163.83) (xy 48.26 157.48)
+			(xy 124.46 154.94) (xy 124.46 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3bf67ff-f9c0-416f-8488-a31181cc9cb0")
+		(uuid "a41e24c1-2233-4fff-9350-0beafa146d7e")
 	)
 	(wire
 		(pts
-			(xy 134.62 162.56) (xy 134.62 165.1)
+			(xy 210.82 73.66) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6f7a5a7-2304-4869-bee0-56edccc425fd")
+		(uuid "ace9d00d-87e3-4c16-871e-bfcd4898751a")
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 132.08 62.23)
+			(xy 124.46 157.48) (xy 127 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6fea522-f30e-4844-9495-d62c02f2f719")
+		(uuid "ad8173e2-33d4-4d09-922a-528d28704875")
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 148.59 104.14)
+			(xy 78.74 148.59) (xy 78.74 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8198cf0-27df-4cc2-9355-79ac84f120e7")
+		(uuid "aebb418e-2361-4aaf-93e1-7ad331aa963d")
 	)
 	(wire
 		(pts
-			(xy 212.09 87.63) (xy 205.74 87.63)
+			(xy 124.46 58.42) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c892073e-ed6a-47a7-b7d6-d1601cceed8f")
+		(uuid "af5b7786-e120-4646-99c3-c49f272032cb")
 	)
 	(wire
 		(pts
-			(xy 144.78 54.61) (xy 142.24 54.61)
+			(xy 185.42 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8bad015-ddff-4c51-a78f-e5f19597313f")
+		(uuid "b2b8ca2c-06e2-4c07-874e-9c55a9708024")
 	)
 	(wire
 		(pts
-			(xy 64.77 54.61) (xy 71.12 54.61)
+			(xy 170.18 78.74) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9d84736-bf7a-4d76-a9a8-6fe08541d644")
+		(uuid "b5c96e7e-b5f8-4b68-8d77-085bb4158d4e")
 	)
 	(wire
 		(pts
-			(xy 165.1 41.91) (xy 165.1 49.53)
+			(xy 190.5 63.5) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cad7c771-2d7a-4494-bd68-4a8090ae1a4d")
+		(uuid "b5d5ec10-2d41-4577-b673-33de60c1c4b0")
 	)
 	(wire
 		(pts
-			(xy 69.85 166.37) (xy 72.39 166.37)
+			(xy 160.02 48.26) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb44499b-5674-4158-8ea9-b5bae623e90d")
+		(uuid "b62426ad-8554-4f04-aa9c-046104acaf5a")
 	)
 	(wire
 		(pts
-			(xy 209.55 77.47) (xy 212.09 77.47)
+			(xy 210.82 73.66) (xy 215.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc7ef1bf-0094-4b3b-92cc-69f3d170448f")
+		(uuid "b715322a-a006-4543-a6d3-9a8c38605052")
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 100.33 57.15)
+			(xy 208.28 73.66) (xy 210.82 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd58971f-177f-4a2a-80df-ece7c68876dd")
+		(uuid "b8f47612-94d4-4d94-a66d-809c5f71e287")
 	)
 	(wire
 		(pts
-			(xy 217.17 74.93) (xy 217.17 77.47)
+			(xy 172.72 71.12) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfac7d1b-4c59-486d-8255-040d7777b98d")
+		(uuid "b9881d7c-5748-40d8-a427-5b7629eafcf7")
 	)
 	(wire
 		(pts
-			(xy 60.96 149.86) (xy 66.04 149.86)
+			(xy 138.43 104.14) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d48b1f13-747d-46d0-93c5-121823b653c7")
+		(uuid "bb34d5df-dd41-48a2-ba9c-91801d4ebebf")
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 31.75 184.15)
+			(xy 105.41 60.96) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6960b2e-c363-4cc9-a9e3-3cd70ec95606")
+		(uuid "bc5e3591-86fa-4ce1-a965-634f4ac92d65")
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 191.77 72.39)
+			(xy 190.5 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8b2accd-dfb8-4b79-a433-9684ae9eac0d")
+		(uuid "be9d4d0e-ee46-47a7-b022-a2a2cfc8a076")
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 31.75 185.42)
+			(xy 147.32 72.39) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9e7456b-728b-4211-a9d9-51206e0efe70")
+		(uuid "bf65700a-941b-427b-89d6-ccfa88671ca7")
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 172.72 114.3)
+			(xy 87.63 63.5) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db19989c-d5fb-4d70-bd74-09692e7f68b0")
+		(uuid "c610b8ea-a899-41eb-860e-7fb9ad43d53a")
 	)
 	(wire
 		(pts
-			(xy 161.29 168.91) (xy 161.29 170.18)
+			(xy 160.02 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbc7db0a-84e9-4030-975b-f5e4da5755fd")
+		(uuid "c6dbf2c8-87d7-4af6-bbbf-a2ffa6a1e426")
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 180.34 82.55)
+			(xy 190.5 76.2) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc42eb6a-bfbe-4381-9da4-86a61a2f880b")
+		(uuid "c90c2ae3-d555-45fd-bcd9-8fb3682fa24b")
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 134.62 62.23)
+			(xy 105.41 63.5) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcaff0a8-2164-4e08-8b43-b2bd3b5e9aa2")
+		(uuid "d2cb7d31-7610-4cd4-ab4f-aac469141d52")
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 100.33 57.15)
+			(xy 44.45 160.02) (xy 44.45 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd14afec-6dc5-4115-98c5-aaf4b40454a5")
+		(uuid "d36149f6-a6b2-46e1-a786-27bdb1171140")
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 196.85 114.3)
+			(xy 172.72 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd24806c-88c9-42a5-bdee-8d752caaaafe")
+		(uuid "d63bb850-432c-4ab5-815a-208197b25daa")
 	)
 	(wire
 		(pts
-			(xy 102.87 59.69) (xy 100.33 59.69)
+			(xy 196.85 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd71b076-1edc-4272-9df4-6244086553d2")
+		(uuid "d78ceb97-afdf-454c-9494-48be4f1e8bf8")
 	)
 	(wire
 		(pts
-			(xy 119.38 101.6) (xy 123.19 101.6)
+			(xy 172.72 102.87) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0e6d59b-1463-4ed0-8bef-735e9c4c497b")
+		(uuid "d9b7cf0e-0b45-42ed-80e5-440059b4e62e")
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 154.94 54.61)
+			(xy 127 88.9) (xy 138.43 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e15c7feb-aed9-42b4-81bc-92d3666dc6a5")
+		(uuid "da4324cd-f697-4b28-8892-0bb5bd14910a")
 	)
 	(wire
 		(pts
-			(xy 212.09 69.85) (xy 212.09 67.31)
+			(xy 62.23 154.94) (xy 60.96 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e45d2d1e-0360-4d41-85e4-7e576cfc8eda")
+		(uuid "da8ec40f-6f4b-4723-a46a-8b9ff3c60c09")
 	)
 	(wire
 		(pts
-			(xy 31.75 168.91) (xy 38.1 168.91)
+			(xy 137.16 58.42) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eadd0447-d1f8-4e44-bae7-69e6502e8f4f")
+		(uuid "dea76faa-731d-4fcc-ae5c-be2f3de3912a")
 	)
 	(wire
 		(pts
-			(xy 143.51 149.86) (xy 140.97 149.86)
+			(xy 162.56 92.71) (xy 162.56 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed93d8fe-78fe-495c-a85f-fa0b89fea4ae")
+		(uuid "df67edef-6cb9-4168-9c99-5768c2fe4516")
 	)
 	(wire
 		(pts
-			(xy 212.09 67.31) (xy 205.74 67.31)
+			(xy 151.13 161.29) (xy 151.13 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee95a7f4-0b3e-49cc-bc63-1e8d7a0fea96")
+		(uuid "e6812c45-bca8-4611-9a10-00f322233474")
 	)
 	(wire
 		(pts
-			(xy 191.77 67.31) (xy 191.77 72.39)
+			(xy 58.42 160.02) (xy 60.96 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f27bd324-2f36-482b-92c2-7211e4dfbc43")
+		(uuid "e74c8e19-8dbd-4587-b938-979f5926676e")
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 123.19 85.09)
+			(xy 215.9 73.66) (xy 218.44 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f38d7282-930c-4e6c-8235-78d3b499384e")
+		(uuid "ef2df891-5858-41f6-ad4a-bcc64b08c569")
 	)
 	(wire
 		(pts
-			(xy 45.72 168.91) (xy 48.26 168.91)
+			(xy 210.82 83.82) (xy 204.47 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f62fd07e-484b-4a26-a4de-d31f3dd83979")
+		(uuid "f25c6829-072c-4268-813a-5cf16a8cbc92")
 	)
 	(wire
 		(pts
-			(xy 196.85 110.49) (xy 196.85 114.3)
+			(xy 134.62 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f666595c-0a69-4a75-b1de-9b37b3ba40ac")
+		(uuid "f4a84cc6-14b2-460d-9235-569965d07cb0")
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 71.12 59.69)
+			(xy 137.16 58.42) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f86e24ba-5de4-4d3c-ba5c-6f4421686623")
+		(uuid "f6e46068-d6a3-45fc-902e-3c5ba495ffab")
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 71.12 69.85)
+			(xy 175.26 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9ef741e-1964-4a09-bb00-eb91333f6773")
+		(uuid "f6e894de-80b3-4514-b599-797fe83c842e")
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 92.71)
+			(xy 138.43 88.9) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb3e4e25-7755-4e8f-bf49-d85ba71baad5")
+		(uuid "f7826eab-cb91-4506-92e5-20d510cad6a0")
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 140.97 92.71)
+			(xy 124.46 49.53) (xy 119.38 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba44e92-8836-4b0e-9d42-14ba89848e94")
+		(uuid "f7b2af01-f936-4ec0-b014-d4c4ff4dd3c6")
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 176.53 80.01)
+			(xy 73.66 140.97) (xy 78.74 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe3165c-c0fc-4de5-85fa-e14d6a21dc5f")
+		(uuid "f828cf07-9719-4a3a-b23e-b81eab33ba8e")
 	)
-	(global_label "V_{I_LD}"
-		(shape output)
-		(at 219.71 77.47 0)
+	(global_label "v_{ref}"
+		(shape input)
+		(at 133.35 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5147,9 +4504,31 @@
 			)
 			(justify left)
 		)
-		(uuid "04160b5f-eafc-48d7-ab64-3b3ff65bdbda")
+		(uuid "4feb6938-a3ac-4a25-bb7d-ed9316255903")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.931 77.47 0)
+			(at 139.4341 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "v_{ref}"
+		(shape output)
+		(at 85.09 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80e04564-283a-4363-a119-2500f0f5e03d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1741 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,16 +4540,60 @@
 	)
 	(global_label "I_{LD_set}"
 		(shape input)
-		(at 64.77 64.77 180)
+		(at 87.63 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1c090bd1-5688-4f8e-86a6-e1f95384c874")
+		(uuid "84050efe-055a-477d-99c2-97e66024f26c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5126 102.87 0)
+			(at 80.3726 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_{I_LD}"
+		(shape output)
+		(at 218.44 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8fb1568-b622-420e-ad1b-412e1aae9e43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.661 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_{LD_set}"
+		(shape output)
+		(at 121.92 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e58e4f65-33b0-4876-affb-3b867ca43b31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3926 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,399 +4605,52 @@
 	)
 	(global_label "V_{I_LD}"
 		(shape input)
-		(at 64.77 54.61 180)
+		(at 87.63 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2d16d67e-f0aa-4c30-853b-7717a91e1751")
+		(uuid "ff33448d-d49f-4aff-8176-082096a3dcbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.819 92.71 0)
+			(at 81.679 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "I_{LD_set}"
-		(shape output)
-		(at 132.08 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a2c9b15-88d2-4d88-b19e-60024ea3dfb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.5526 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "v_{ref}"
-		(shape output)
-		(at 72.39 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66357883-f7f5-440d-a1d6-97d4638c7037")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4741 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P_{PD_set}"
-		(shape output)
-		(at 104.14 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7670c53c-5307-423c-b876-edd733ed10f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.7539 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P_{PD_set}"
-		(shape input)
-		(at 64.77 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "771458eb-8f0c-4577-a08e-618510e0d64a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6539 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "v_{ref}"
-		(shape input)
-		(at 148.59 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "783f2381-5ce7-4273-b4a9-d8096542a81d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6741 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_{P_PD}"
-		(shape input)
-		(at 64.77 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7efb47bd-6f9d-4371-96cb-3ea96e9db7ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0933 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "v_{ref}"
-		(shape input)
-		(at 115.57 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89bf32b8-76eb-4af5-9b49-9a157f121d8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.6541 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "v_{ref}"
-		(shape input)
-		(at 143.51 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b6ad090-6ef5-420c-9bf4-e1ab114d38a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.5941 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_{P_PD}"
-		(shape output)
-		(at 116.84 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dfc5fc24-9602-4ec8-ac13-a30b30939a63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8933 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 57.15 166.37 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02271d25-7d60-4c5d-b7ed-55af7bdbee1a")
-		(property "Reference" "U4"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4192"
-			(at 61.976 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $7.18000"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "dc64f9c3-2a97-4d0c-9ffc-fbaefea7cc20")
-		)
-		(pin "12"
-			(uuid "8699b0f4-d5f7-4073-880b-4a822804f370")
-		)
-		(pin "2"
-			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c85")
-		)
-		(pin "4"
-			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae66")
-		)
-		(pin "7"
-			(uuid "3b202ad8-469b-462b-80fe-b2d18b214ff9")
-		)
-		(pin "5"
-			(uuid "c5749380-3fdb-436c-896b-b463303bac44")
-		)
-		(pin "11"
-			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf6")
-		)
-		(pin "6"
-			(uuid "2b7049bf-4b8a-47e3-b7aa-27f5c9d9a3b3")
-		)
-		(pin "3"
-			(uuid "c7e62f95-8eb7-4ac6-aec3-78a325c333c9")
-		)
-		(pin "1"
-			(uuid "8dcc2b37-c0fe-40b6-8c43-709c4735ea68")
-		)
-		(pin "13"
-			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1120")
-		)
-		(pin "10"
-			(uuid "370221f2-7583-487a-9a09-74a9fd86c92b")
-		)
-		(pin "8"
-			(uuid "7ebcd4d2-4aac-4772-b325-b12cf5e2cfac")
-		)
-		(pin "14"
-			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea50")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "U4")
-					(unit 3)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 154.94 48.26 0)
+		(at 69.85 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d548afc-d864-43a3-be33-8304f7c9cff1")
-		(property "Reference" "R22"
-			(at 157.48 46.9899 0)
+		(uuid "02373a03-0f3f-4fcb-8690-6d27890d8117")
+		(property "Reference" "R17"
+			(at 69.85 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 157.48 49.5299 0)
+		(property "Value" "10k"
+			(at 69.85 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.956 48.514 90)
+			(at 70.104 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +4659,231 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 154.94 48.26 0)
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "566f850d-b49f-41ad-ae73-a0fa0d2a49c6")
+		)
+		(pin "2"
+			(uuid "0a4d7e5e-4a25-4f1e-97ee-915569a8522f")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03e146ff-f0f9-4e6e-9cb9-74b5e95c8ca8")
+		(property "Reference" "R13"
+			(at 41.91 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "400<R<666"
+			(at 41.91 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.434 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5k Ohm, 0603"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c5c326b-865b-4709-a02e-a879a26bf9d0")
+		)
+		(pin "2"
+			(uuid "b15397ea-9483-49f2-9fbc-48cd83a3e9d7")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 167.64 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a4cf371-1395-44a8-80e5-f675fd8242ed")
+		(property "Reference" "Q7"
+			(at 173.482 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2301L"
+			(at 173.482 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.72 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2301L-7/5768820"
+			(at 172.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.26"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "834a418c-6fe9-4c39-8a13-bbfa28f5d4e2")
+		)
+		(pin "3"
+			(uuid "4a8ac5a2-00aa-41b2-a55e-6333e436c172")
+		)
+		(pin "2"
+			(uuid "e8e5921a-c1f4-429f-a0a7-3d62588e71e6")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 160.02 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d548afc-d864-43a3-be33-8304f7c9cff1")
+		(property "Reference" "R13"
+			(at 162.56 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 162.56 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.036 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +4892,7 @@
 			)
 		)
 		(property "Description" "100k Ohm, 0603"
-			(at 154.94 48.26 0)
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,89 +4909,24 @@
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R22")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 161.29 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11756302-e09b-41fa-a5b3-28a7ad692dcd")
-		(property "Reference" "#PWR039"
-			(at 161.29 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37a78aeb-ab5e-48b8-a0ff-839a16200f51")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 99.06 0)
+		(lib_id "Device:C_Polarized_US")
+		(at 138.43 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1200f14e-75e6-4557-8e45-f70a2d26372f")
-		(property "Reference" "TP3"
-			(at 116.84 94.4879 0)
+		(uuid "10f65c50-dd60-4414-a7e5-f4589abcd0c0")
+		(property "Reference" "C7"
+			(at 135.636 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,8 +4934,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V_{P_PD}=I_{PD}*R_{f}+V_{bias}"
-			(at 116.84 97.0279 0)
+		(property "Value" "100uF"
+			(at 135.636 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,8 +4943,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 99.06 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,8 +4952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 99.06 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105344010/5147589"
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,8 +4961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 119.38 99.06 0)
+		(property "Description" "100 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C"
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,64 +4970,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c02ce96c-f6f6-48b6-b052-fde328fa669e")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 161.29 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13dde8cd-2ab6-44b6-9120-174a25844306")
-		(property "Reference" "#PWR038"
-			(at 161.29 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 161.29 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 161.29 152.4 0)
+		(property "Price" " $0.67000"
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,80 +4980,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4894995-47f7-425f-98aa-aad7371ab881")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 110.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "187d6fba-10c4-4d86-9ff7-ddd7cbe4d841")
-		(property "Reference" "C9"
-			(at 138.176 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 138.176 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.5448 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 143.51 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1uF, 50V, 0603"
-			(at 143.51 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02893d35-d63c-4568-93ce-461d3d570a85")
+			(uuid "4e604da3-d20a-448a-a22b-e9adddaa9b81")
 		)
 		(pin "2"
-			(uuid "a9143fc2-33e6-47bf-8b8a-961ae7d3ac43")
+			(uuid "c472a7e6-b4ef-42a5-bfa4-cd31a3839a39")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5882,33 +4996,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 132.08 68.58 0)
+		(at 130.81 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "19b6b54a-0edb-4138-8113-5c90077e72b0")
+		(uuid "1623c8e6-ebf9-4edf-8acf-93740073c3cf")
 		(property "Reference" "R18"
-			(at 134.62 67.3099 0)
+			(at 130.81 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 134.62 69.8499 0)
+		(property "Value" "22"
+			(at 130.81 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.096 68.834 90)
+			(at 131.064 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5029,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 132.08 68.58 0)
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,8 +5037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100k Ohm, 0603"
-			(at 132.08 68.58 0)
+		(property "Description" "100 Ohm, 0603"
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,10 +5047,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e669a0b-f392-4e15-b035-d2ec6650c828")
+			(uuid "3dbe54de-5e95-4778-8591-230d12c35bdb")
 		)
 		(pin "2"
-			(uuid "2109c685-e2f0-43b9-9113-eb319489d6b8")
+			(uuid "5116fe40-48a8-4a55-953e-1c55b3370f27")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
@@ -5950,16 +5062,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+10V")
-		(at 31.75 158.75 0)
+		(lib_id "power:GND")
+		(at 44.45 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a5b3248-2687-498f-be8c-b304a6c29adf")
-		(property "Reference" "#PWR031"
-			(at 31.75 162.56 0)
+		(uuid "1b4990ab-89ee-4110-8f8a-d1fe9b42a8b0")
+		(property "Reference" "#PWR061"
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,8 +5079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V"
-			(at 31.75 154.686 0)
+		(property "Value" "GND"
+			(at 44.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 158.75 0)
+			(at 44.45 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 158.75 0)
+			(at 44.45 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,8 +5105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 31.75 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,12 +5115,142 @@
 			)
 		)
 		(pin "1"
-			(uuid "685761f4-ae4b-4355-a90e-805c07fac7e5")
+			(uuid "4d5ceb0b-f028-4321-9b61-95258555929e")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR031")
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c6a3213-c9be-427e-8f35-06374bffb52f")
+		(property "Reference" "#PWR068"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e348fc4-e375-4dcf-8461-d5b2fc36b7e8")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20735da2-3e3a-47df-92f0-ae3ca3ef474d")
+		(property "Reference" "#PWR062"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44400f32-21a4-48c9-97cb-6a295264ada8")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6016,7 +5258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 184.15 82.55 90)
+		(at 181.61 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6024,7 +5266,7 @@
 		(dnp no)
 		(uuid "2169f3da-3529-4481-bd5a-12ce7b03760e")
 		(property "Reference" "RN1"
-			(at 184.15 79.502 90)
+			(at 180.086 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5274,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 184.15 85.09 90)
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +5282,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 184.15 84.582 90)
+			(at 181.61 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +5291,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1001S1001P1AT/4725788"
-			(at 184.15 82.55 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +5300,7 @@
 			)
 		)
 		(property "Description" "1k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 184.15 82.55 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +5309,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 184.15 82.55 90)
+			(at 181.61 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,181 +5339,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 110.49 62.23 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "223d666e-d573-4d25-8ec1-0d6da8e5627e")
-		(property "Reference" "U4"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4192"
-			(at 114.046 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $7.18000"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "7710646b-f3ba-4583-bf54-01e77ffe7635")
-		)
-		(pin "12"
-			(uuid "8699b0f4-d5f7-4073-880b-4a822804f372")
-		)
-		(pin "2"
-			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c87")
-		)
-		(pin "4"
-			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae68")
-		)
-		(pin "7"
-			(uuid "09a19eab-c7e7-4dba-9a73-ba7e15d801f0")
-		)
-		(pin "5"
-			(uuid "54c90b68-2d69-4000-82c6-fc1ad7384aa6")
-		)
-		(pin "11"
-			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf8")
-		)
-		(pin "6"
-			(uuid "c55440fd-793c-4239-a970-9bde3a9a609a")
-		)
-		(pin "3"
-			(uuid "c7e62f95-8eb7-4ac6-aec3-78a325c333cb")
-		)
-		(pin "1"
-			(uuid "8dcc2b37-c0fe-40b6-8c43-709c4735ea6a")
-		)
-		(pin "13"
-			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1122")
-		)
-		(pin "10"
-			(uuid "2e41e761-32a2-4916-b099-70b9d3510c3c")
-		)
-		(pin "8"
-			(uuid "16685581-cf03-4f1b-a7d5-ce7bb97ff592")
-		)
-		(pin "14"
-			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea52")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 132.08 92.71 90)
+		(lib_id "power:GND")
+		(at 172.72 105.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "24f709da-2d20-49d3-82d3-6d4ee843278b")
-		(property "Reference" "R19"
-			(at 132.08 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.334 91.694 90)
+		(uuid "2ac2528f-ae7d-4232-80eb-58c53697bf65")
+		(property "Reference" "#PWR066"
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,8 +5357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 132.08 92.71 0)
+		(property "Value" "GND"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,8 +5374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
-			(at 132.08 92.71 0)
+		(property "Datasheet" ""
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,8 +5383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" " $0.23000"
-			(at 132.08 92.71 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,49 +5393,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "831f1298-1029-4079-890d-a16f57755f5f")
-		)
-		(pin "2"
-			(uuid "a180f6d5-bc8f-444a-b1e1-e663b2eab6bc")
+			(uuid "d03c8b57-ab76-4e8a-bd81-303048fac54c")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R19")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 156.21 0)
+		(lib_id "Device:C")
+		(at 69.85 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "274384fe-6b1e-4e60-a4b0-159d8a2c65c3")
-		(property "Reference" "R20"
-			(at 143.51 154.9399 0)
+		(uuid "2be31b70-52ca-435c-a921-3dff1a5e70da")
+		(property "Reference" "C4"
+			(at 69.85 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5k"
-			(at 143.51 157.4799 0)
+		(property "Value" "1uF"
+			(at 69.85 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 156.464 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.66 140.0048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 140.97 156.21 0)
+			(at 69.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,86 +5447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5k Ohm, 0603"
-			(at 140.97 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4eefda29-8f75-48c5-bf7f-d7c2a3cb5fe6")
-		)
-		(pin "2"
-			(uuid "7fa1e50f-589a-47c7-bade-c3f748d4ff02")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 165.1 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a3a6fcf-8cb4-4e03-9f79-7b138fce6a3b")
-		(property "Reference" "R23"
-			(at 162.56 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1Ω±0.25%, 1/8W"
-			(at 162.56 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LD_Library:R_Shunt_0805_2012Metric"
-			(at 163.322 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/CRT0805-CY-1R00ELF/2564154"
-			(at 165.1 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 165.1 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10000"
-			(at 165.1 77.47 0)
+		(property "Description" "1uF, 50V, 0603 (Standards)"
+			(at 69.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,21 +5457,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa1900fe-4df7-4d97-9892-dd2746fe2576")
+			(uuid "c9ec561d-d173-4e04-bb0f-51d4f4ff02ee")
 		)
 		(pin "2"
-			(uuid "50c98255-02fa-4d22-85f5-ed950da6d771")
-		)
-		(pin "4"
-			(uuid "aee5bea6-0449-4791-aaf3-54c7fc9ae91b")
-		)
-		(pin "3"
-			(uuid "85325eda-dc48-4d0d-9895-77a6a044af87")
+			(uuid "3731a93d-70e4-4018-92e4-aa392c066a29")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R23")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6476,8 +5473,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Laser_Photo_PType")
-		(at 162.56 107.95 270)
-		(mirror x)
+		(at 172.72 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6485,25 +5481,25 @@
 		(dnp no)
 		(uuid "30dc5f32-5315-4b03-945e-8d58bb2710d0")
 		(property "Reference" "LD1"
-			(at 150.368 110.998 90)
+			(at 172.72 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "L785P090"
-			(at 150.368 113.538 90)
+			(at 172.72 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LD_Library:S7060R - Laser Diode Socket for Ø5.6 mm Laser, 3 Pin"
-			(at 164.465 107.95 0)
+			(at 170.815 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=S7060R"
-			(at 160.02 104.648 0)
+			(at 175.26 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +5517,7 @@
 			)
 		)
 		(property "Description" "Laser diode with photodiode, center on pin 2, PD cathode on pin 3"
-			(at 162.56 107.95 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +5526,7 @@
 			)
 		)
 		(property "Price" "$7.49"
-			(at 162.56 107.95 90)
+			(at 172.72 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +5535,7 @@
 			)
 		)
 		(property "LD_Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=L785P090"
-			(at 162.56 107.95 90)
+			(at 172.72 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +5563,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 201.93 67.31 270)
+		(at 200.66 63.5 270)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6576,7 +5572,7 @@
 		(dnp no)
 		(uuid "32476deb-819a-4378-91b1-c567300a1fed")
 		(property "Reference" "RN2"
-			(at 201.93 64.262 90)
+			(at 200.66 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +5580,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 201.93 70.104 90)
+			(at 200.66 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +5588,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 201.93 69.342 90)
+			(at 200.66 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +5597,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1002S1002P1AT/4725785"
-			(at 201.93 67.31 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +5606,7 @@
 			)
 		)
 		(property "Description" "10k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 201.93 67.31 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +5615,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 201.93 67.31 90)
+			(at 200.66 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,77 +5645,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 113.03 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "332a7c22-010d-4c71-9348-9b9db977a2d4")
-		(property "Reference" "R16"
-			(at 115.57 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 115.57 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.046 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 113.03 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5k Ohm, 0603"
-			(at 113.03 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe7f820c-2aa8-4711-be3b-3888b9c061ea")
-		)
-		(pin "2"
-			(uuid "2eca73fe-5881-431a-b988-a718778c120a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 134.62 162.56 0)
+		(at 124.46 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6727,8 +5654,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "396ba2c4-dd96-40b0-980e-3f6c7dc19678")
-		(property "Reference" "TP4"
-			(at 132.08 157.9879 0)
+		(property "Reference" "TP7"
+			(at 121.92 150.3679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +5664,7 @@
 			)
 		)
 		(property "Value" "I_{LD_set}"
-			(at 132.08 160.5279 0)
+			(at 121.92 152.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 129.54 162.56 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +5682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 162.56 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +5691,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 134.62 162.56 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,383 +5705,7 @@
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bf606f8-b4a3-4ed7-b22d-a498305e4b90")
-		(property "Reference" "#PWR035"
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576e35b8-c099-4705-8e63-d57443421fda")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c0381fd-fab5-4299-b1e7-74702b28a6b0")
-		(property "Reference" "#PWR033"
-			(at 100.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbd0929d-9491-4d1e-8816-4dd1b95f4b2d")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 162.56 54.61 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c8a9696-f6be-437f-ba24-901bbbef5d20")
-		(property "Reference" "Q6"
-			(at 154.94 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF9Z34"
-			(at 154.94 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IRF9Z34NPBF/811960"
-			(at 162.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Channel 55 V 19A (Tc) 68W (Tc) Through Hole TO-220AB"
-			(at 162.56 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$1.15000"
-			(at 162.56 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 162.56 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 162.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7f88a7bb-875f-472b-906f-7cb63c3841b6")
-		)
-		(pin "2"
-			(uuid "1ebdf759-ca37-4d49-b580-c6790c0cdb9f")
-		)
-		(pin "1"
-			(uuid "c3a29007-743a-4eeb-8a81-8264c80b152a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "473a1559-3b7b-4754-8195-6eca73270247")
-		(property "Reference" "C10"
-			(at 190.754 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 190.754 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 186.3852 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1uF, 50V, 0603"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e705987-4ea0-407d-943c-28e0236c2644")
-		)
-		(pin "2"
-			(uuid "af10c8ef-ddd2-46d2-baca-01ddf675e295")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 31.75 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f4a6222-ddc8-441d-9f7e-4be65c34f1ea")
-		(property "Reference" "R11"
-			(at 34.29 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 34.29 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 32.766 164.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 31.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5k Ohm, 0603"
-			(at 31.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d39824a8-6a04-4807-a8f9-42cb95e64de2")
-		)
-		(pin "2"
-			(uuid "d92a18be-5f49-410e-8ad7-03d11bb667c6")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R11")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7162,507 +5713,15 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 201.93 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bcec4ae-39d5-4cac-995f-194f7d14b36e")
-		(property "Reference" "U4"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4192"
-			(at 206.248 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $7.18000"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 201.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "7710646b-f3ba-4583-bf54-01e77ffe7636")
-		)
-		(pin "12"
-			(uuid "8699b0f4-d5f7-4073-880b-4a822804f373")
-		)
-		(pin "2"
-			(uuid "e6a77aa7-88c2-4a9d-8d6f-007061252d0d")
-		)
-		(pin "4"
-			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae69")
-		)
-		(pin "7"
-			(uuid "3b202ad8-469b-462b-80fe-b2d18b214ffc")
-		)
-		(pin "5"
-			(uuid "c5749380-3fdb-436c-896b-b463303bac47")
-		)
-		(pin "11"
-			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf9")
-		)
-		(pin "6"
-			(uuid "2b7049bf-4b8a-47e3-b7aa-27f5c9d9a3b6")
-		)
-		(pin "3"
-			(uuid "d36970da-d1cd-47ac-91cb-e6f560222f77")
-		)
-		(pin "1"
-			(uuid "5c746647-ffb2-47af-9b8c-d17990cd9556")
-		)
-		(pin "13"
-			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1123")
-		)
-		(pin "10"
-			(uuid "2e41e761-32a2-4916-b099-70b9d3510c3d")
-		)
-		(pin "8"
-			(uuid "16685581-cf03-4f1b-a7d5-ce7bb97ff593")
-		)
-		(pin "14"
-			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea53")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dee28c7-6432-44ba-be6c-592fe8967f82")
-		(property "Reference" "#PWR036"
-			(at 142.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ccc8696-4dd7-4454-945c-51600987215a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 41.91 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63f6d5b6-0e3a-47c1-bb54-f632dae9fe37")
-		(property "Reference" "R12"
-			(at 41.91 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 41.91 171.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 42.164 167.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 41.91 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100k Ohm, 0603"
-			(at 41.91 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba35453d-a1a6-4dc5-bf55-efef7e81c532")
-		)
-		(pin "2"
-			(uuid "6167dce3-6206-41bc-96b9-5aa969fe5149")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 48.26 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65e1b362-75c3-43f2-904d-d7931b9cb38e")
-		(property "Reference" "C4"
-			(at 51.562 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 51.562 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105359001/5147580"
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 30mOhm 2000 Hrs @ 105°C"
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $0.51000"
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a698da42-85c9-4a8d-90f2-84d6e9efd373")
-		)
-		(pin "2"
-			(uuid "5cfabbba-e64a-4197-ac2a-e2d443639f8a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d7fec68-30c1-42d2-9198-9aa9822063e3")
-		(property "Reference" "C7"
-			(at 110.49 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 110.49 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.3 52.3748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 110.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF, 50V, 0603 (Standards)"
-			(at 110.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc837bd4-44b3-48aa-ab3f-c7553a385fb6")
-		)
-		(pin "2"
-			(uuid "4771d147-c43f-43fc-8163-e6d719506f02")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 91.44 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7116b12f-38e9-499a-89df-44c270dcb9ca")
-		(property "Reference" "R15"
-			(at 91.44 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 91.44 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.694 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "805ecaa9-6454-4822-a05e-4c6a89736389")
-		)
-		(pin "2"
-			(uuid "e872ae83-e3ec-403d-b008-0649c5974fb7")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 132.08 101.6 180)
+		(at 100.33 96.52 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7268e649-cbf2-4867-8bf8-31db20d5f7ef")
+		(uuid "41e726f3-e501-40f0-89ee-66fd7dd8875a")
 		(property "Reference" "U4"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +5729,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 127.762 105.41 0)
+			(at 96.012 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +5737,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +5755,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +5764,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +5773,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +5782,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +5791,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +5800,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 132.08 101.6 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +5812,7 @@
 			(uuid "7710646b-f3ba-4583-bf54-01e77ffe7634")
 		)
 		(pin "12"
-			(uuid "5d3d6b4a-fa07-45e0-8c6e-7ab7003a8b42")
+			(uuid "17a14025-736b-413d-ab48-7d820b0bbefd")
 		)
 		(pin "2"
 			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c86")
@@ -7780,7 +5839,7 @@
 			(uuid "8dcc2b37-c0fe-40b6-8c43-709c4735ea69")
 		)
 		(pin "13"
-			(uuid "ebfafd26-398e-4ea6-ac4b-38a98453e7a0")
+			(uuid "b0b94f49-9313-44ab-ad10-5f77d0c6a5dc")
 		)
 		(pin "10"
 			(uuid "2e41e761-32a2-4916-b099-70b9d3510c3b")
@@ -7789,7 +5848,7 @@
 			(uuid "16685581-cf03-4f1b-a7d5-ce7bb97ff591")
 		)
 		(pin "14"
-			(uuid "f81d285a-bce1-4aad-b82f-dc36daee45ad")
+			(uuid "ba791e8b-a170-46a4-b138-2c4c4373faeb")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
@@ -7801,16 +5860,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 115.57 0)
+		(lib_id "Device:R_Shunt")
+		(at 170.18 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76efff90-332e-422e-ba7a-5a610e9f1903")
-		(property "Reference" "#PWR040"
-			(at 162.56 121.92 0)
+		(uuid "42b32d4e-50ae-4347-b3f2-b781608d50cf")
+		(property "Reference" "R15"
+			(at 167.64 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1Ω±0.25%, 1/8W"
+			(at 167.64 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LD_Library:R_Shunt_0805_2012Metric"
+			(at 168.402 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,16 +5895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 162.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 115.57 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/CRT0805-CY-1R00ELF/2564154"
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,8 +5904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 162.56 115.57 0)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,8 +5913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 115.57 0)
+		(property "Price" "$0.10000"
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,12 +5923,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "928c3c30-801d-4d38-9a8a-044e92f9e906")
+			(uuid "2f4b0c99-b6c6-4c37-b934-9c8f8f77f5ef")
+		)
+		(pin "2"
+			(uuid "89f5a22d-f44f-40b6-957b-af227ef1d7cd")
+		)
+		(pin "4"
+			(uuid "ffe773e2-f96b-40c7-bdf5-e4270833c6b8")
+		)
+		(pin "3"
+			(uuid "ab5b2314-4809-40c2-a078-6d1fef2a29ce")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR040")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7867,24 +5945,24 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 74.93 0)
-		(mirror x)
+		(at 149.86 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "788f5abf-d68f-4618-9509-dbcf8992cd8d")
-		(property "Reference" "C6"
-			(at 105.0925 73.8505 0)
+		(uuid "473a1559-3b7b-4754-8195-6eca73270247")
+		(property "Reference" "C11"
+			(at 144.526 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 105.0925 76.1365 0)
+		(property "Value" "0.1uF"
+			(at 144.526 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +5970,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 101.2952 71.12 0)
+			(at 148.8948 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +5979,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 100.33 74.93 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,8 +5987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF, 50V, 0603 (Standards)"
-			(at 100.33 74.93 0)
+		(property "Description" "0.1uF, 50V, 0603"
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,237 +5997,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "afa41481-f5bc-4073-bd63-fc85db5a38ee")
+			(uuid "6e705987-4ea0-407d-943c-28e0236c2644")
 		)
 		(pin "2"
-			(uuid "c10ae7bd-4ba8-4534-ad02-4617a2461268")
+			(uuid "af10c8ef-ddd2-46d2-baca-01ddf675e295")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 132.08 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79fc9d3b-4665-402f-8097-19f98173da13")
-		(property "Reference" "C8"
-			(at 132.08 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5nF"
-			(at 132.08 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.89 84.1248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H152JA01D/586947"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $0.10000"
-			(at 132.08 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b601894d-aef5-43c4-bb99-c329d60efa9d")
-		)
-		(pin "2"
-			(uuid "c78b22e9-3db7-4f48-b46e-fefd7aa6d1dc")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 113.03 166.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82e56754-e152-4050-9435-c84d8b367b77")
-		(property "Reference" "RV1"
-			(at 115.57 167.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 115.57 165.1001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-103LF/1088045"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$2.05000"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "06d13b07-e303-4470-be00-8d55bab395b2")
-		)
-		(pin "2"
-			(uuid "e1e8e9e6-9c13-40d2-86b1-b8744e73e482")
-		)
-		(pin "1"
-			(uuid "10ea5612-7708-407c-81f7-00b0eccb8f3f")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85ed9d84-801e-4177-b1a6-8fffeb5780f0")
-		(property "Reference" "#PWR037"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c7fc42a-4a28-4d2a-a36c-179204edd413")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR037")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8157,15 +6013,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 208.28 106.68 0)
+		(at 127 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "89bb8778-2ae4-45eb-897c-4493fa177d71")
-		(property "Reference" "R24"
-			(at 210.82 105.4099 0)
+		(uuid "4cfa54f2-a9aa-4bd0-bb64-bfc1c0a000b3")
+		(property "Reference" "R17"
+			(at 124.46 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +6031,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 210.82 107.9499 0)
+			(at 124.46 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +6040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.296 106.934 90)
+			(at 125.984 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +6049,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 208.28 106.68 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +6058,7 @@
 			)
 		)
 		(property "Description" "100k Ohm, 0603"
-			(at 208.28 106.68 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,522 +6067,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "de6bef0a-0ed1-46b6-8c5c-bebc5dfaebef")
+			(uuid "e69e9307-53e5-4fe8-b0a1-4e7d9008617e")
 		)
 		(pin "2"
-			(uuid "6ecaec49-f940-406e-954f-420d501dde44")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 148.59 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9638ce45-1a52-4e1c-9936-c6920802a9de")
-		(property "Reference" "R21"
-			(at 148.59 52.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 148.59 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.844 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 148.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohm, 0603"
-			(at 148.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99f84f99-40d9-42d5-bea3-95327683a881")
-		)
-		(pin "2"
-			(uuid "3bb1ec48-66ad-4441-87d1-8667bb246101")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9966ce39-e546-4d6d-9f81-3bb3fcbd20a6")
-		(property "Reference" "TP7"
-			(at 219.71 70.3579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_{I_LD}"
-			(at 219.71 72.8979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5eef4ca-29f1-4303-838d-0a8c77db9edd")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 69.85 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a77492b0-9f88-495c-bcf1-555a78a4b804")
-		(property "Reference" "TP1"
-			(at 72.39 159.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.5V_{ref}"
-			(at 72.39 161.7979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 74.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 69.85 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f286259-3227-4474-8e09-4a291c25b756")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:LT1009xS8")
-		(at 31.75 176.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9c4b9b6-d68e-4e01-91d9-61cd45688aa9")
-		(property "Reference" "U3"
-			(at 29.21 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LT1009"
-			(at 29.21 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 26.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1009S8-TRPBF/960160"
-			(at 31.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Adjustable Micropower Voltage Reference Diodes, TO-92"
-			(at 31.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$7.36000"
-			(at 31.75 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "290f1fc3-e152-4c58-8db0-99899c90f53d")
-		)
-		(pin "4"
-			(uuid "2dbac184-3fb9-4f50-96f9-e969492367a5")
-		)
-		(pin "5"
-			(uuid "cb752ca2-5501-41a4-bd09-162f762689c5")
-		)
-		(pin "8"
-			(uuid "f4159097-7fd7-49b9-916a-0ceb7198ecbf")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 172.72 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaaa644c-5d6a-4ce6-81d4-6bc771232671")
-		(property "Reference" "D5"
-			(at 175.26 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 175.26 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 172.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/XGD10603MR/5290485"
-			(at 172.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 172.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $0.30000"
-			(at 172.72 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec5ec48-eeb8-4c91-b01d-de6025b6b2d0")
-		)
-		(pin "2"
-			(uuid "b7b364f6-6557-4e96-a638-a9cb066b688a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 76.2 57.15 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b477f322-6de9-4028-b86b-e7e6d177d8ad")
-		(property "Reference" "SW1"
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 76.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nidec-components-corporation/CL-SB-22B-02T/3507841"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Slide Switch, SPDT, Surface Mount, 200mA, 12V"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c732f16c-1c98-4523-af72-684d52edfde9")
-		)
-		(pin "5"
-			(uuid "731b788f-2b31-4fc0-9f4a-68559099fee6")
-		)
-		(pin "4"
-			(uuid "4b4206ae-26b4-4227-9a0f-e63f3032e924")
-		)
-		(pin "6"
-			(uuid "c945d413-6fde-4b60-8965-a4fc9a76deba")
-		)
-		(pin "1"
-			(uuid "75061a68-3616-4d2f-b0f1-7621c4e59bb7")
-		)
-		(pin "3"
-			(uuid "cccc43eb-9b09-4e60-84fd-47cf21fd089a")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "SW1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5073250-cb6f-4e90-bd13-a2956c0a63f2")
-		(property "Reference" "R17"
-			(at 125.73 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 125.73 64.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 125.984 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 125.73 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohm, 0603"
-			(at 125.73 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78d24a01-3d2e-467b-b17c-7e80f065d771")
-		)
-		(pin "2"
-			(uuid "39be31f2-92bd-4b3e-b820-f4f53cc366e3")
+			(uuid "cea4f5c6-8231-47e6-b1a4-82fd2cfb60e0")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
@@ -8737,41 +6082,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 201.93 87.63 90)
+		(lib_id "Device:D_TVS_Filled")
+		(at 162.56 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc8b9e96-b005-45c6-acf1-057d12f136f7")
-		(property "Reference" "RN2"
-			(at 201.93 84.582 90)
+		(fields_autoplaced yes)
+		(uuid "4cfbde41-aed1-489f-89a2-73f9f552487e")
+		(property "Reference" "D6"
+			(at 160.02 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 201.93 90.17 90)
+		(property "Value" "D_TVS"
+			(at 160.02 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 201.93 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1002S1002P1AT/4725785"
-			(at 201.93 87.63 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 162.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,8 +6119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 201.93 87.63 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/XGD10603MR/5290485"
+			(at 162.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,8 +6128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" " $0.72000"
-			(at 201.93 87.63 90)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 162.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,89 +6137,25 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "bbffa8c2-057f-4425-965f-43a7d536a9fc")
+		(property "Price" " $0.30000"
+			(at 162.56 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82c771b6-e0ae-4542-a708-8688658a5f2a")
 		)
 		(pin "2"
-			(uuid "feff74cf-fa66-4faa-9a52-d73e0cdc2217")
-		)
-		(pin "3"
-			(uuid "8139796e-27b0-4087-9e0c-9a15998d66da")
-		)
-		(pin "1"
-			(uuid "b9fe6ada-c5d0-4fb6-9b0f-bc780d56e042")
+			(uuid "2d2d92f5-29df-47a6-9b28-3bea7c014d2f")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 176.53 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c34fe91b-d2d8-405b-9491-475cca06967e")
-		(property "Reference" "TP5"
-			(at 173.99 65.2779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+V_{shunt}"
-			(at 173.99 67.8179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 176.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2c3df2b-1d6e-433d-92d7-1de7b0bef64c")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8887,23 +6163,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 91.44 57.15 90)
+		(at 54.61 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd775314-c130-4b70-94f7-51d976ba127c")
+		(uuid "4f1be155-444e-46f5-b85e-6cb56a0fb9e9")
 		(property "Reference" "R14"
-			(at 91.44 54.864 90)
+			(at 54.61 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 91.44 59.436 90)
+		(property "Value" "100k"
+			(at 54.61 162.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.694 56.134 90)
+			(at 54.864 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 91.44 57.15 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,8 +6204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
-			(at 91.44 57.15 0)
+		(property "Description" "100k Ohm, 0603"
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,10 +6214,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1414a87c-3dca-4650-ab86-45d27f6fdad2")
+			(uuid "0fcb5d8f-9c35-45f0-aa27-9e01a2ca26be")
 		)
 		(pin "2"
-			(uuid "ee0bee65-8c24-41da-a2ce-a429a937711e")
+			(uuid "19c0be6c-25de-4d4e-a75d-2e5bc930d9b4")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
@@ -8953,16 +6229,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+10V")
-		(at 165.1 40.64 0)
+		(lib_id "Device:R_US")
+		(at 137.16 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d79b2431-205b-405d-86ac-ee43ab0e30da")
-		(property "Reference" "#PWR041"
-			(at 165.1 44.45 0)
+		(uuid "58a26437-3b18-4d9a-8845-633b3e18d2ce")
+		(property "Reference" "R19"
+			(at 139.7 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 139.7 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 138.176 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,16 +6264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V"
-			(at 165.1 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 40.64 0)
+		(property "Datasheet" "(Standards)"
+			(at 137.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,17 +6273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 165.1 40.64 0)
+		(property "Description" "100k Ohm, 0603"
+			(at 137.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,53 +6283,49 @@
 			)
 		)
 		(pin "1"
-			(uuid "95ef7307-dd37-4c2d-83df-e7b42a5c463c")
+			(uuid "8713c29b-cadc-4f6d-b646-38f836298c0c")
+		)
+		(pin "2"
+			(uuid "f712b320-8a9a-41b6-a21f-e4fa0195cdb4")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR041")
+					(reference "R19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 76.2 67.31 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 60.96 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8ed6f2f-1731-48c3-b3e4-8d2dcc674400")
-		(property "Reference" "SW1"
-			(at 76.2 75.946 0)
+		(uuid "5e1ddfb5-bd05-4b4d-9881-6892b29a3a40")
+		(property "Reference" "C5"
+			(at 64.262 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
-			(at 76.2 73.152 0)
+		(property "Value" "10uF"
+			(at 64.262 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
-			(at 76.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nidec-components-corporation/CL-SB-22B-02T/3507841"
-			(at 76.2 67.31 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,8 +6333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Slide Switch, SPDT, Surface Mount, 200mA, 12V"
-			(at 76.2 67.31 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105359001/5147580"
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,28 +6342,168 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "792f1976-0dfd-4389-aca9-030cc39ee3d0")
+		(property "Description" "10 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 30mOhm 2000 Hrs @ 105°C"
+			(at 60.96 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "d20ba75b-a424-45f2-9201-2a27def9ef56")
-		)
-		(pin "4"
-			(uuid "1d8b3882-9f54-40dc-844e-ecf653b250d5")
-		)
-		(pin "6"
-			(uuid "0cb0d35d-b9ca-4b6a-8813-71998df1c318")
+		(property "Price" " $0.51000"
+			(at 60.96 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ab6b3498-8f4a-43a8-bfcc-74e12060961d")
+			(uuid "f7c41800-6529-414b-be77-6105ec5b3d19")
 		)
-		(pin "3"
-			(uuid "3dad4a49-4ceb-4647-b562-ee1ddaeda5de")
+		(pin "2"
+			(uuid "4253ea1f-c83d-498d-8391-a5eb2e51e669")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "SW1")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61499c6a-63cb-42f1-af4b-406707cdaf85")
+		(property "Reference" "R16"
+			(at 96.52 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 96.52 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.774 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffb17370-e103-4ac1-a80f-a2acfff9d1a5")
+		)
+		(pin "2"
+			(uuid "61f9c5cf-bb25-4a69-96f4-5895ff23b660")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bfce3a1-5abc-4a6b-a6b8-9753131df751")
+		(property "Reference" "R15"
+			(at 96.52 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 96.52 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.774 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88eedb18-b830-4ee3-a7c3-1fedb7d3eaea")
+		)
+		(pin "2"
+			(uuid "29076e12-7ef0-47b2-93b0-75d0f961c6fb")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9098,16 +6511,16 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 163.83 161.29 0)
+		(at 153.67 153.67 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da7202ad-2c03-454b-887a-a3b46986eb2f")
+		(uuid "7040bd10-e876-4900-9316-7ffcb8ae05a6")
 		(property "Reference" "U4"
-			(at 162.56 160.0199 0)
+			(at 152.4 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +6529,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 162.56 162.5599 0)
+			(at 152.4 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +6538,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +6547,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +6556,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +6565,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +6574,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +6583,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +6592,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +6601,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 163.83 161.29 0)
+			(at 153.67 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +6619,7 @@
 			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c84")
 		)
 		(pin "4"
-			(uuid "0e1abf89-1d79-40e0-8606-53d70e076a0c")
+			(uuid "940f92ab-830e-4723-8d85-3b2e920d7d1c")
 		)
 		(pin "7"
 			(uuid "3b202ad8-469b-462b-80fe-b2d18b214ff8")
@@ -9215,7 +6628,7 @@
 			(uuid "c5749380-3fdb-436c-896b-b463303bac43")
 		)
 		(pin "11"
-			(uuid "797b8ae7-f153-466a-aac4-2cab9d4a5cb7")
+			(uuid "56ea63c4-a77f-4f8c-a709-04556055718b")
 		)
 		(pin "6"
 			(uuid "2b7049bf-4b8a-47e3-b7aa-27f5c9d9a3b2")
@@ -9248,8 +6661,1131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 115.57 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e47e457-daeb-432f-9998-04c0530a3b49")
+		(property "Reference" "C5"
+			(at 115.57 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 115.57 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 119.38 48.5648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF, 50V, 0603 (Standards)"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6b384d-f9a2-4c05-a50f-d84f99a57b9e")
+		)
+		(pin "2"
+			(uuid "d433625a-3cc7-49ce-b2ef-20bbf7c2d73c")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 71.12 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bf7e5a9-8eb1-4fa1-8f74-a8205aac738a")
+		(property "Reference" "C6"
+			(at 110.1725 70.0405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 110.1725 72.3265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.3752 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF, 50V, 0603 (Standards)"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c13cbf2-c679-4e5f-93d3-80797f8c196f")
+		)
+		(pin "2"
+			(uuid "e4877c7b-7ce8-412d-bfd0-790050d5ccdb")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9638ce45-1a52-4e1c-9936-c6920802a9de")
+		(property "Reference" "R11"
+			(at 153.67 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 153.67 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.924 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohm, 0603"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99f84f99-40d9-42d5-bea3-95327683a881")
+		)
+		(pin "2"
+			(uuid "3bb1ec48-66ad-4441-87d1-8667bb246101")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 69.85 157.48 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f7abdf-db7b-4448-9671-3cd14feb0e4b")
+		(property "Reference" "U4"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4192"
+			(at 74.676 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $7.18000"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "07172f0d-efdb-44b3-9403-68db0e7f3a44")
+		)
+		(pin "12"
+			(uuid "8699b0f4-d5f7-4073-880b-4a822804f370")
+		)
+		(pin "2"
+			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c85")
+		)
+		(pin "4"
+			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae66")
+		)
+		(pin "7"
+			(uuid "3b202ad8-469b-462b-80fe-b2d18b214ff9")
+		)
+		(pin "5"
+			(uuid "c5749380-3fdb-436c-896b-b463303bac44")
+		)
+		(pin "11"
+			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf6")
+		)
+		(pin "6"
+			(uuid "2b7049bf-4b8a-47e3-b7aa-27f5c9d9a3b3")
+		)
+		(pin "3"
+			(uuid "c7e62f95-8eb7-4ac6-aec3-78a325c333c9")
+		)
+		(pin "1"
+			(uuid "8dcc2b37-c0fe-40b6-8c43-709c4735ea68")
+		)
+		(pin "13"
+			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1120")
+		)
+		(pin "10"
+			(uuid "25ace0da-9c8d-4d72-8fc6-398644315f61")
+		)
+		(pin "8"
+			(uuid "8aa7e341-8a02-4b8e-a721-c4db98175c91")
+		)
+		(pin "14"
+			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea50")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9966ce39-e546-4d6d-9f81-3bb3fcbd20a6")
+		(property "Reference" "TP8"
+			(at 218.44 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{I_LD}"
+			(at 218.44 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5eef4ca-29f1-4303-838d-0a8c77db9edd")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 151.13 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ea5d122-5f84-4aa7-86d4-96413f42e3f8")
+		(property "Reference" "#PWR067"
+			(at 151.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{LD}"
+			(at 151.13 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8233739-f7aa-47e5-bb82-478107b165f7")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0948e87-e9e5-4834-9357-291b25e4a0bd")
+		(property "Reference" "#PWR063"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7dd1397-54d0-4384-8553-9d0df2226c39")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a77492b0-9f88-495c-bcf1-555a78a4b804")
+		(property "Reference" "TP2"
+			(at 85.09 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.5V_{ref}"
+			(at 85.09 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 87.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f286259-3227-4474-8e09-4a291c25b756")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbc897db-6126-4c8d-8520-efbfc5b34973")
+		(property "Reference" "#PWR065"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{LD}"
+			(at 170.18 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "307f516c-9b8a-47c3-8992-a5decd03234b")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack02_SIP_Split")
+		(at 200.66 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8b9e96-b005-45c6-acf1-057d12f136f7")
+		(property "Reference" "RN2"
+			(at 200.66 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+			(at 200.66 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1002S1002P1AT/4725785"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $0.72000"
+			(at 200.66 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bbffa8c2-057f-4425-965f-43a7d536a9fc")
+		)
+		(pin "2"
+			(uuid "feff74cf-fa66-4faa-9a52-d73e0cdc2217")
+		)
+		(pin "3"
+			(uuid "8139796e-27b0-4087-9e0c-9a15998d66da")
+		)
+		(pin "1"
+			(uuid "b9fe6ada-c5d0-4fb6-9b0f-bc780d56e042")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 144.78 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c36f886c-5cb5-40cd-bd4f-163d997bbe3c")
+		(property "Reference" "Q6"
+			(at 151.13 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 151.13 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 149.86 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/2N7002/244345"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 60 V 115mA (Ta) 200mW (Ta) Surface Mount SOT-23-3"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.46000"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f5884fb-2d68-4059-9fc2-3e4cf98e8173")
+		)
+		(pin "2"
+			(uuid "64176920-4bfd-4483-94c5-71fe8a7d3eab")
+		)
+		(pin "1"
+			(uuid "c1ce445e-5258-4a04-84f9-6aca03b8d695")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbd84d5f-b59e-4f32-8e42-f6c2f8127ca9")
+		(property "Reference" "#PWR069"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1074816-3b4f-4568-a4a0-b70c3d8a7efc")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc0b10e-73a7-4584-88ba-cd0d9eb0c022")
+		(property "Reference" "#PWR064"
+			(at 130.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf6c6f7-e30e-4ca3-9c06-db045267b312")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 200.66 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df0a4962-7408-464a-9556-dd5fabc095ce")
+		(property "Reference" "U4"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4192"
+			(at 203.2 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $7.18000"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7710646b-f3ba-4583-bf54-01e77ffe7636")
+		)
+		(pin "12"
+			(uuid "8699b0f4-d5f7-4073-880b-4a822804f373")
+		)
+		(pin "2"
+			(uuid "13f17b16-ee48-455c-b97a-2c237ea3c4e9")
+		)
+		(pin "4"
+			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae69")
+		)
+		(pin "7"
+			(uuid "3b202ad8-469b-462b-80fe-b2d18b214ffc")
+		)
+		(pin "5"
+			(uuid "c5749380-3fdb-436c-896b-b463303bac47")
+		)
+		(pin "11"
+			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf9")
+		)
+		(pin "6"
+			(uuid "2b7049bf-4b8a-47e3-b7aa-27f5c9d9a3b6")
+		)
+		(pin "3"
+			(uuid "8592474d-cb98-4c4f-ac29-70312981301b")
+		)
+		(pin "1"
+			(uuid "e3a01919-8c79-4c10-a70b-b438c159f1e8")
+		)
+		(pin "13"
+			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1123")
+		)
+		(pin "10"
+			(uuid "2e41e761-32a2-4916-b099-70b9d3510c3d")
+		)
+		(pin "8"
+			(uuid "16685581-cf03-4f1b-a7d5-ce7bb97ff593")
+		)
+		(pin "14"
+			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea53")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 140.97 165.1 180)
+		(at 130.81 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9257,7 +7793,7 @@
 		(dnp no)
 		(uuid "e23a540a-1561-4c3c-bc82-8f0cd21ca931")
 		(property "Reference" "RV2"
-			(at 143.51 166.3701 0)
+			(at 133.35 158.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +7802,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 143.51 163.8301 0)
+			(at 133.35 156.2101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +7811,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
-			(at 140.97 165.1 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +7820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-502LF/1088098"
-			(at 140.97 165.1 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +7829,7 @@
 			)
 		)
 		(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 140.97 165.1 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,7 +7838,7 @@
 			)
 		)
 		(property "Price" " $2.05000"
-			(at 140.97 165.1 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,32 +7865,121 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 149.86 90)
+		(lib_id "Reference_Voltage:LT1009xS8")
+		(at 44.45 167.64 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3f04185-04af-43c8-9629-22f11e24b605")
-		(property "Reference" "C5"
-			(at 57.15 144.018 90)
+		(uuid "e48cb954-3e6c-4a66-912c-71b1791b2cd1")
+		(property "Reference" "U3"
+			(at 41.91 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 57.15 146.304 90)
+		(property "Value" "LT1009"
+			(at 41.91 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 60.96 148.8948 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1009S8-TRPBF/960160"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Adjustable Micropower Voltage Reference Diodes, TO-92"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$7.36000"
+			(at 44.45 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5ae769da-11c8-4364-88e6-4444d635eebf")
+		)
+		(pin "4"
+			(uuid "ede3df1f-63da-4d63-965d-5d4f1ad9752a")
+		)
+		(pin "5"
+			(uuid "8ced3c05-af68-44a6-be6a-099153e7c5a4")
+		)
+		(pin "8"
+			(uuid "17a92bfa-f1ce-49c6-9030-1a4879e83058")
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb5ac3c7-5bb4-4d3a-a476-f058e7952d11")
+		(property "Reference" "R16"
+			(at 133.35 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 133.35 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.826 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +7988,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 57.15 149.86 0)
+			(at 130.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,8 +7996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF, 50V, 0603 (Standards)"
-			(at 57.15 149.86 0)
+		(property "Description" "5k Ohm, 0603"
+			(at 130.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,230 +8006,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "70cd7faa-f3a8-448c-8693-e649e476b52e")
+			(uuid "1688ee3a-07d8-4e7a-9100-22ac13622cc5")
 		)
 		(pin "2"
-			(uuid "8ad793da-5dc6-4bb7-b9cc-a340b1fc0d54")
+			(uuid "5ee2e1a3-272f-48fc-a3d9-f804f4e731bd")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e74c6b35-bf11-401d-a548-c5490bb32847")
-		(property "Reference" "#PWR042"
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26d27d52-058b-4d77-bea6-c617815bb210")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 139.7 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7970cd2-4a2a-4ecb-bc42-8226e3958d3e")
-		(property "Reference" "Q5"
-			(at 146.05 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 146.05 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 144.78 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/2N7002/244345"
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 60 V 115mA (Ta) 200mW (Ta) Surface Mount SOT-23-3"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.46000"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "81f61f3c-11e1-423c-aa24-d829bae38270")
-		)
-		(pin "2"
-			(uuid "25fb8c89-6d0e-4e62-b9ae-49c22b13ef7f")
-		)
-		(pin "1"
-			(uuid "efeaff68-861b-4c75-b599-aed5383a32eb")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 113.03 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e86a3b22-24ae-45fa-a1e2-60c0063db07d")
-		(property "Reference" "#PWR034"
-			(at 113.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 113.03 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 113.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "325a14ab-4af4-466c-8a7d-f10a14501e07")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR034")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9612,7 +8022,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 184.15 72.39 270)
+		(at 181.61 71.12 270)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -9621,7 +8031,7 @@
 		(dnp no)
 		(uuid "edeaed2c-a5e0-429d-91ab-76f553e694ff")
 		(property "Reference" "RN1"
-			(at 184.15 69.342 90)
+			(at 180.086 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +8039,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 184.15 74.93 90)
+			(at 184.404 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +8047,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 184.15 74.422 90)
+			(at 181.61 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +8056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1001S1001P1AT/4725788"
-			(at 184.15 72.39 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +8065,7 @@
 			)
 		)
 		(property "Description" "1k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 184.15 72.39 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +8074,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 184.15 72.39 90)
+			(at 181.61 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,34 +8104,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 176.53 85.09 180)
-		(unit 1)
+		(lib_id "Device:Opamp_Quad")
+		(at 115.57 58.42 0)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f39211cd-a352-4729-b2b3-bda615ded3d2")
-		(property "Reference" "TP6"
-			(at 173.99 89.6621 0)
+		(uuid "f041c12a-ba3c-4b4c-9dd8-d50ca54ede24")
+		(property "Reference" "U4"
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "-V_{shunt}"
-			(at 173.99 87.1221 0)
+		(property "Value" "OPA4192"
+			(at 119.126 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 171.45 85.09 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,8 +8138,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 171.45 85.09 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,57 +8147,122 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 176.53 85.09 0)
+		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Price" " $7.18000"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7710646b-f3ba-4583-bf54-01e77ffe7635")
+		)
+		(pin "12"
+			(uuid "8699b0f4-d5f7-4073-880b-4a822804f372")
+		)
+		(pin "2"
+			(uuid "fa908e39-774e-4999-8ce1-9bea23aa3c87")
+		)
+		(pin "4"
+			(uuid "f79442fd-b63e-4bdc-ac45-09a7d498ae68")
+		)
+		(pin "7"
+			(uuid "4773071f-a522-4e18-88f3-7c2b09f17467")
+		)
+		(pin "5"
+			(uuid "ca7958b5-f687-4b67-9c20-b556e2fa8f4c")
+		)
+		(pin "11"
+			(uuid "a74898b6-b14f-4a2d-8084-59a8a0efdcf8")
+		)
+		(pin "6"
+			(uuid "d6b61b57-4e56-465d-bb03-aa8e7714c6d2")
+		)
+		(pin "3"
+			(uuid "c7e62f95-8eb7-4ac6-aec3-78a325c333cb")
 		)
 		(pin "1"
-			(uuid "0ef2866e-cb12-4192-b3c4-45c682203068")
+			(uuid "8dcc2b37-c0fe-40b6-8c43-709c4735ea6a")
+		)
+		(pin "13"
+			(uuid "fff36eb1-57ab-46e2-b521-4f03ef5f1122")
+		)
+		(pin "10"
+			(uuid "2e41e761-32a2-4916-b099-70b9d3510c3c")
+		)
+		(pin "8"
+			(uuid "16685581-cf03-4f1b-a7d5-ce7bb97ff592")
+		)
+		(pin "14"
+			(uuid "2aa4c9c6-89f0-4607-ad18-ddf344c0ea52")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP6")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 162.56 0)
-		(mirror y)
+		(lib_id "power:+3.3V")
+		(at 44.45 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f45cd41e-b01e-4dc2-a91d-ff66e2976ea8")
-		(property "Reference" "TP2"
-			(at 104.14 157.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_{PD_set}"
-			(at 104.14 160.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 101.6 162.56 0)
+		(uuid "f691dd3c-3f9a-4d96-92de-f247954d7d45")
+		(property "Reference" "#PWR042"
+			(at 44.45 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,56 +8270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b58b12d2-33ed-4f82-b21b-6de67ace8c2b")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4a1d675-6b06-4b17-8597-42456fdac6c5")
-		(property "Reference" "#PWR032"
-			(at 31.75 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 189.23 0)
+		(property "Value" "+3.3V_{LD}"
+			(at 44.45 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +8279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 185.42 0)
+			(at 44.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +8288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 185.42 0)
+			(at 44.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,72 +8296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d47d69f5-8fed-4507-a38e-7745836c3723")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 57.15 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5468f42-017a-4aaa-9a14-08169c2cc2aa")
-		(property "Reference" "R13"
-			(at 57.15 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 57.15 159.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.404 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "(Standards)"
-			(at 57.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Ohm, 0603, 1%, 1/4W"
-			(at 57.15 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,93 +8306,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f332e1e-0089-40f2-aeb4-f399e323618b")
-		)
-		(pin "2"
-			(uuid "8ad0ae36-93c3-4db3-90b8-40b9ef68c243")
+			(uuid "01943406-3436-4be6-b5fd-00312df8c128")
 		)
 		(instances
 			(project "RamanSpectrometerBoard"
 				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 196.85 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe138850-bc38-42a8-8e78-66402c49496d")
-		(property "Reference" "C11"
-			(at 199.644 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 199.644 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105344010/5147589"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" " $0.67000"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "952b71a9-9d3b-4200-8318-c897e6a414f2")
-		)
-		(pin "2"
-			(uuid "7e3109f5-d4fe-4eed-9d93-d733db5a4872")
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf/69fd377a-c855-41d7-9c7d-f57d50de570e"
-					(reference "C11")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

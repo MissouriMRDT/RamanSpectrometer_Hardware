@@ -719,6 +719,10 @@
       "Laser Diode Driver Circuit"
     ],
     [
+      "42b2f347-68eb-4414-b5a4-00ef2fdb0e78",
+      "LD_Buck"
+    ],
+    [
       "cd606917-b022-4e10-8237-39c4ab3fa613",
       "Servo Ports"
     ],
