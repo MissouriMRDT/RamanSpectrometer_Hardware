@@ -91,16 +91,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1499158c-2b3c-4199-be4e-dafa412e6c07")
-	)
-	(wire
-		(pts
 			(xy 127 26.67) (xy 133.35 26.67)
 		)
 		(stroke
@@ -168,16 +158,6 @@
 			(type default)
 		)
 		(uuid "5d79f93e-1c09-4134-bc61-4576be44e77a")
-	)
-	(wire
-		(pts
-			(xy 127 72.39) (xy 133.35 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604f1fb7-e72a-4c53-bfc5-23b67d20a836")
 	)
 	(wire
 		(pts
@@ -1012,68 +992,6 @@
 		)
 	)
 	(sheet
-		(at 133.35 64.77)
-		(size 41.91 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cd606917-b022-4e10-8237-39c4ab3fa613")
-		(property "Sheetname" "Servo Ports"
-			(at 133.35 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "servos.kicad_sch"
-			(at 133.35 84.4046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Servo1" input
-			(at 133.35 72.39 180)
-			(uuid "b3924e8e-ab12-4b26-a7f7-bba5858c800f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Servo2" input
-			(at 133.35 76.2 180)
-			(uuid "7dbd3af9-879d-466f-8184-27bab65d0bd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 68.58 19.05)
 		(size 58.42 151.13)
 		(exclude_from_sim no)
@@ -1130,26 +1048,6 @@
 		(pin "STDBY" output
 			(at 127 24.13 0)
 			(uuid "026711f4-a1c6-4420-afe0-b40ec8c06306")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Servo1" output
-			(at 127 72.39 0)
-			(uuid "9972dd27-95a4-44bf-8c3b-9ad0f27819cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Servo2" output
-			(at 127 76.2 0)
-			(uuid "8f84a890-a977-4876-a34f-56b608fa9d82")
 			(effects
 				(font
 					(size 1.27 1.27)
