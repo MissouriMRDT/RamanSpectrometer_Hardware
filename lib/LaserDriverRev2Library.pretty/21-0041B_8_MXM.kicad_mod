@@ -671,4 +671,15 @@
 		(uuid "7962d7a2-2d23-4395-a0e8-ee4f5d94380f")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/3d/21-0041B_8_MXM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
