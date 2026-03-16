@@ -719,6 +719,10 @@
       "Laser Diode Driver Circuit"
     ],
     [
+      "42b2f347-68eb-4414-b5a4-00ef2fdb0e78",
+      "LD_Buck"
+    ],
+    [
       "2495d964-2266-4066-961c-06fbcb7a3cda",
       "CAN Transceiver"
     ]

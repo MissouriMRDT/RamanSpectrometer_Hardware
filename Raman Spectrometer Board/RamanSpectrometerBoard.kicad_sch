@@ -796,6 +796,48 @@
 		)
 	)
 	(sheet
+		(at 215.9 77.47)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42b2f347-68eb-4414-b5a4-00ef2fdb0e78")
+		(property "Sheetname" "LD_Buck"
+			(at 215.9 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LD_Buck.kicad_sch"
+			(at 215.9 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RamanSpectrometerBoard"
+				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 257.81 39.37)
 		(size 20.32 19.05)
 		(exclude_from_sim no)
