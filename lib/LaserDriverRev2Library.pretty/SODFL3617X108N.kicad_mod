@@ -202,15 +202,7 @@
 		(layer "F.Fab")
 		(uuid "99dc6d43-f99d-482e-944b-c08e742dfa59")
 	)
-	(pad "A" smd roundrect
-		(at 1.53 0)
-		(size 1.25 1.16)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
-		(uuid "1613440e-9f72-4833-ad56-0152567c347d")
-	)
-	(pad "C" smd roundrect
+	(pad "1" smd roundrect
 		(at -1.53 0)
 		(size 1.25 1.16)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -218,8 +210,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "8262ce36-e281-4781-808f-8e1ac46ef483")
 	)
+	(pad "2" smd roundrect
+		(at 1.53 0)
+		(size 1.25 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1613440e-9f72-4833-ad56-0152567c347d")
+	)
 	(embedded_fonts no)
-	(model "C:/Users/dwell/Documents/Github/LaserDiodeDriver_Hardware/lib/3D Models/SS24FL.step"
+	(model "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/3d/SS24FL.step"
 		(offset
 			(xyz 0 0 0)
 		)

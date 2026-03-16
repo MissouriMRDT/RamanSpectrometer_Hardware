@@ -394,7 +394,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/dwell/Documents/Github/LaserDiodeDriver_Hardware/lib/3D Models/CTSM_TCM2NK_6032_L6.3W3.5H2.8T0.13S1.3F2.3A2.9B0.65E2.4G2.8P0.9R1X0.2.step"
+	(model "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/3d/CTSM_TCM2NK_6032_L6.3W3.5H2.8T0.13S1.3F2.3A2.9B0.65E2.4G2.8P0.9R1X0.2.step"
 		(offset
 			(xyz 3 1.75 0)
 		)
@@ -402,7 +402,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -180)
+			(xyz -90 -0 180)
 		)
 	)
 )

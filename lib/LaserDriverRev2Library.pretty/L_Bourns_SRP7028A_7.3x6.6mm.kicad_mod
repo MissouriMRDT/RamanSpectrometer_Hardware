@@ -398,7 +398,7 @@
 		(uuid "cfb26772-8d70-4f56-92e7-4f8bf50e516b")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/dwell/Documents/Github/LaserDiodeDriver_Hardware/lib/3D Models/SRP7050TA.stp"
+	(model "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/3d/SRP7050TA.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -406,7 +406,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -180)
+			(xyz -90 -0 180)
 		)
 	)
 )
