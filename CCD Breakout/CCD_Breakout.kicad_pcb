@@ -5439,7 +5439,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-R (2012-12 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C4"
-			(at 2.7975 -0.0175 0)
+			(at 0.762 -1.778 0)
 			(layer "F.SilkS")
 			(uuid "11f0cc1d-99f0-430c-8ed7-30908fd51475")
 			(effects
@@ -11178,7 +11178,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 2.921 0 0)
+			(at 0 -1.397 0)
 			(layer "F.SilkS")
 			(uuid "201abfd1-529d-4b56-bd4a-b3f914e4464b")
 			(effects
@@ -17181,6 +17181,22 @@
 				(xy 41.786225 82.680481) (xy 41.768858 82.65449) (xy 41.730111 82.5965) (xy 41.705879 82.560235)
 				(xy 41.691587 82.501831) (xy 41.718181 82.447904) (xy 41.773216 82.423688) (xy 41.778965 82.4235)
 				(xy 45.343035 82.4235)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 49.238017 74.865389) (xy 49.272505 74.914642) (xy 49.2755 74.937392) (xy 49.2755 81.400868)
+				(xy 49.254935 81.457369) (xy 49.20813 81.484392) (xy 49.208564 81.486009) (xy 49.061974 81.525286)
+				(xy 48.935527 81.59829) (xy 48.83229 81.701527) (xy 48.759286 81.827974) (xy 48.727883 81.945176)
+				(xy 48.7215 81.968999) (xy 48.7215 82.115001) (xy 48.721592 82.115347) (xy 48.721573 82.115562)
+				(xy 48.722252 82.120713) (xy 48.72111 82.120863) (xy 48.716355 82.175244) (xy 48.673842 82.217762)
+				(xy 48.636689 82.226) (xy 48.555953 82.226) (xy 48.519106 82.233329) (xy 48.389129 82.259182) (xy 48.389125 82.259184)
+				(xy 48.231981 82.324274) (xy 48.090553 82.418774) (xy 48.090551 82.418775) (xy 48.090551 82.418776)
+				(xy 48.029553 82.479773) (xy 47.975061 82.505184) (xy 47.916983 82.489621) (xy 47.882495 82.440368)
+				(xy 47.8795 82.417618) (xy 47.8795 75.912933) (xy 47.900065 75.856432) (xy 47.905245 75.850778)
+				(xy 48.727278 75.028745) (xy 48.781772 75.003334) (xy 48.789433 75.003) (xy 48.841 75.003) (xy 48.841001 75.003)
+				(xy 48.982029 74.965212) (xy 49.108471 74.892211) (xy 49.125445 74.875237) (xy 49.179939 74.849826)
 			)
 		)
 		(filled_polygon
