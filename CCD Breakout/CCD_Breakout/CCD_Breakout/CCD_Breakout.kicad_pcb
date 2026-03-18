@@ -1531,6 +1531,17 @@
 			(uuid "3eb6ab9d-ba03-4921-b9d9-1e009f92acd7")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/OPA4322AIPWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -2841,6 +2852,17 @@
 			)
 			(rotate
 				(xyz 90 0 0)
+			)
+		)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/SL_10.stp"
+			(offset
+				(xyz 11.43 0 8.255)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8362,6 +8384,17 @@
 			(uuid "cbf46749-d8a8-4acf-b590-4bb530c040e2")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/74HC541PW_118.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -10516,6 +10549,17 @@
 			(uuid "f61ef2e3-e65f-4b68-a6e4-59340b163a8b")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/MSOP10_MS_MCH.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
