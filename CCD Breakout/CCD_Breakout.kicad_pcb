@@ -1531,6 +1531,17 @@
 			(uuid "3eb6ab9d-ba03-4921-b9d9-1e009f92acd7")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/OPA4322AIPWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -2764,6 +2775,17 @@
 				(xyz 90 0 0)
 			)
 		)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/SL_10.stp"
+			(offset
+				(xyz 11.43 0 8.255)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "CCD:SOT-23_MCC-L"
 		(layer "F.Cu")
@@ -3718,7 +3740,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at -0.254 -1.651 90)
+			(at 2.032 0 180)
 			(layer "F.SilkS")
 			(uuid "85be5b63-62bd-4ef5-9ae4-683751390530")
 			(effects
@@ -8359,6 +8381,17 @@
 			(uuid "cbf46749-d8a8-4acf-b590-4bb530c040e2")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/74HC541PW_118.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -10437,6 +10470,17 @@
 			(uuid "f61ef2e3-e65f-4b68-a6e4-59340b163a8b")
 		)
 		(embedded_fonts no)
+		(model "D:/Desktop/Rover/Libraries/RamanSpectrometer_Hardware/lib/3d/MSOP10_MS_MCH.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Silkscreens:MST_Smaller"
 		(layer "F.Cu")
@@ -12452,6 +12496,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f9d8f592-f8d5-483d-a51f-031907fea46e")
 	)
+	(gr_text "Trig\n"
+		(at 54.977224 66.0654 180)
+		(layer "F.SilkS")
+		(uuid "0c278d8a-955f-42d2-8786-92a9dfe641f0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CCD"
 		(at 26.67 69.342 0)
 		(layer "F.SilkS")
@@ -12488,6 +12545,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 67.679 66.04 180)
+		(layer "F.SilkS")
+		(uuid "58009b8a-6749-4451-886e-0171d9909092")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OUT"
+		(at 48.932024 65.913 180)
+		(layer "F.SilkS")
+		(uuid "5cfa852e-c958-4691-96e0-bcfdce2abd3c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Mars Rover Design Team\nMissouri S&T"
 		(at 39.37 87.884 0)
 		(layer "F.SilkS")
@@ -12512,6 +12595,71 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+5V"
+		(at 47.204 66.04 180)
+		(layer "F.SilkS")
+		(uuid "756f932c-c156-4619-8755-3e062ce46bf5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CMOS_CLK"
+		(at 53.250024 65.9638 180)
+		(layer "F.SilkS")
+		(uuid "982cb4ea-2fb6-4229-9835-25a6c89c5453")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Trig_OUT"
+		(at 65.786 66.04 180)
+		(layer "F.SilkS")
+		(uuid "a117c329-b980-44d7-9505-5bdbcffa86af")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDI\n"
+		(at 62.343224 66.0654 180)
+		(layer "F.SilkS")
+		(uuid "a9713748-2a4d-42c0-8ad0-165cf30ce93c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ADC_CLK"
+		(at 60.666824 66.05 180)
+		(layer "F.SilkS")
+		(uuid "b2a5363c-9b97-4201-97a0-96b6be63e50a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CMOS Board, Rev 2\n"
 		(at 39.37 85.598 0)
 		(layer "F.SilkS")
@@ -12520,6 +12668,32 @@
 			(font
 				(size 0.762 0.762)
 				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ST"
+		(at 56.856824 66.0146 180)
+		(layer "F.SilkS")
+		(uuid "d431ba74-5e67-4199-ab8c-d2fd199c50bf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3V3"
+		(at 44.704 66.04 180)
+		(layer "F.SilkS")
+		(uuid "d86ad6b1-44c2-42fe-aa45-0d331b2ea79e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
