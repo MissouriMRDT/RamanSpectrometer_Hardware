@@ -2446,45 +2446,49 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Teensy"
-		(exclude_from_sim no)
-		(at 63.5 29.21 0)
-		(size 86.36 135.89)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 60.706 40.894)
+		(end 144.526 165.1)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(effects
-			(font
-				(size 3.175 3.175)
-			)
-			(justify left top)
-		)
-		(uuid "786dff68-2fef-41e3-bfa5-2aff8c9c57fb")
+		(uuid 1e976cff-5136-4e1a-99ae-47502275430a)
 	)
-	(text_box "Ethernet"
-		(exclude_from_sim no)
-		(at 151.13 31.75 0)
-		(size 78.74 76.2)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 157.48 40.64)
+		(end 218.44 101.6)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
+		(uuid a1a62164-c47a-4a57-a290-644cf45172b1)
+	)
+	(text "Ethernel "
+		(exclude_from_sim no)
+		(at 164.846 42.672 0)
 		(effects
 			(font
-				(size 3.175 3.175)
+				(size 1.905 1.905)
 			)
-			(justify left top)
 		)
-		(uuid "c8a011d6-4871-4022-b501-30b3d9152582")
+		(uuid "1bb0f7a6-abc8-4aa9-9aa1-caf0bd6d14dd")
+	)
+	(text "Teensy"
+		(exclude_from_sim no)
+		(at 66.04 43.18 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "66db1063-751d-4183-bbe7-7158cbef6cd3")
 	)
 	(junction
 		(at 132.08 149.86)
@@ -2511,6 +2515,10 @@
 		(uuid "ece06117-2ae5-4ceb-8599-fd5db84e5961")
 	)
 	(no_connect
+		(at 125.73 104.14)
+		(uuid "058db068-d33b-475b-8f97-44642a921413")
+	)
+	(no_connect
 		(at 125.73 81.28)
 		(uuid "14f04fa1-84a4-4b28-9a73-d7ba01d0ef13")
 	)
@@ -2533,6 +2541,10 @@
 	(no_connect
 		(at 85.09 111.76)
 		(uuid "3bd3b4c2-8dfc-4e43-a3b0-4767987a7e64")
+	)
+	(no_connect
+		(at 125.73 101.6)
+		(uuid "3f8330ab-6c80-4ca5-a8bb-a596307e9543")
 	)
 	(no_connect
 		(at 85.09 68.58)
@@ -2711,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "267c6b0c-e328-4386-a074-30644c305fa7")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d4c95ac-6972-4128-98ef-d20ffe1d76f6")
 	)
 	(wire
 		(pts
@@ -3124,16 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1386486-b615-4b39-96a6-1a4745fc6cdb")
-	)
-	(wire
-		(pts
 			(xy 215.9 59.69) (xy 215.9 71.12)
 		)
 		(stroke
@@ -3359,17 +3351,6 @@
 		)
 		(uuid "3fd970c1-e8a4-483a-a9f0-73b82f4c1dd0")
 	)
-	(hierarchical_label "Servo1"
-		(shape output)
-		(at 129.54 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4562ccd9-a054-4dbc-8148-da6300317dd6")
-	)
 	(hierarchical_label "ST"
 		(shape output)
 		(at 129.54 91.44 0)
@@ -3523,17 +3504,6 @@
 			(justify right)
 		)
 		(uuid "d6ab7407-e1e0-4bbc-9ec1-1d8c2dd67bd9")
-	)
-	(hierarchical_label "Servo2"
-		(shape output)
-		(at 129.54 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db3a1e05-d696-4555-91c7-409d6e56ec4a")
 	)
 	(hierarchical_label "ADC_CLK_3V3"
 		(shape output)

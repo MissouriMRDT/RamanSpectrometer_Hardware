@@ -216,6 +216,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c47210a-7096-4102-94fb-c19c82517678")
+	)
+	(wire
+		(pts
 			(xy 127 26.67) (xy 133.35 26.67)
 		)
 		(stroke
@@ -236,16 +246,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 133.35 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e82eee7-c226-4e7f-aaf0-b126574c863e")
-	)
-	(wire
-		(pts
 			(xy 60.96 90.17) (xy 68.58 90.17)
 		)
 		(stroke
@@ -253,16 +253,6 @@
 			(type default)
 		)
 		(uuid "4a931312-2034-4223-b59c-8481152c8434")
-	)
-	(wire
-		(pts
-			(xy 127 116.84) (xy 133.35 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d2a46a-f388-46d6-a3a6-7e9a08f6da17")
 	)
 	(wire
 		(pts
@@ -276,26 +266,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 133.35 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d79f93e-1c09-4134-bc61-4576be44e77a")
-	)
-	(wire
-		(pts
-			(xy 127 106.68) (xy 133.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64463f08-077d-4f48-83ff-e06f0e07dcca")
-	)
-	(wire
-		(pts
 			(xy 210.82 25.4) (xy 210.82 24.13)
 		)
 		(stroke
@@ -306,6 +276,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6919ea63-dc3d-491b-b783-a2dc1d428ff1")
+	)
+	(wire
+		(pts
 			(xy 60.96 86.36) (xy 68.58 86.36)
 		)
 		(stroke
@@ -313,6 +293,16 @@
 			(type default)
 		)
 		(uuid "69c22635-172e-48b5-b236-538f297785bb")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5805c4-fd35-41ca-b106-f995a2439917")
 	)
 	(wire
 		(pts
@@ -356,6 +346,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 111.76) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb90eda-460d-428f-927a-34e4c807b46a")
+	)
+	(wire
+		(pts
 			(xy 210.82 40.64) (xy 210.82 39.37)
 		)
 		(stroke
@@ -396,13 +396,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 133.35 101.6)
+			(xy 60.96 109.22) (xy 68.58 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be8bd077-2eb4-4ab2-a9d5-5d259f87e7d6")
+		(uuid "aea45f49-13da-4905-8f50-d35e6a6d77ea")
 	)
 	(wire
 		(pts
@@ -413,6 +413,16 @@
 			(type default)
 		)
 		(uuid "c490d45d-b5ec-4e63-9ed0-3ab98c31383c")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1a8dfd-e98d-400a-9ff0-99ba95c632bc")
 	)
 	(wire
 		(pts
@@ -436,13 +446,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 133.35 104.14)
+			(xy 60.96 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd291d4c-c924-4af1-ab6b-146e40480013")
+		(uuid "e2758e3d-704a-4d57-bf88-b2c7316af9b7")
 	)
 	(wire
 		(pts
@@ -463,16 +473,6 @@
 			(type default)
 		)
 		(uuid "ebf2ca0e-7e45-4288-b936-e0e2ef6ec7d0")
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 133.35 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc81e299-f656-47a4-81ea-64396a68414b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1133,118 +1133,6 @@
 		)
 	)
 	(sheet
-		(at 133.35 99.06)
-		(size 41.91 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3c339d9b-500e-4752-bc41-2adbdf3d2bf6")
-		(property "Sheetname" "CCD Breakout"
-			(at 133.35 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CCDBreakout.kicad_sch"
-			(at 133.35 119.9646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" output
-			(at 133.35 104.14 180)
-			(uuid "ae9f90c1-1e5f-4bc8-bc9b-ac32081bac02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ST" input
-			(at 133.35 109.22 180)
-			(uuid "ea478420-89ae-40a0-be26-274a74380097")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADC_CLK_3V3" input
-			(at 133.35 111.76 180)
-			(uuid "3fa99515-eb6b-42f8-b7fc-a1e8a12b1e5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CCD_CLK_3V3" input
-			(at 133.35 101.6 180)
-			(uuid "a6fa4200-f806-41f0-9e71-d79db86c750b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDI" input
-			(at 133.35 114.3 180)
-			(uuid "ca204aa9-076d-4fb2-884e-54cbdd760993")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Trig" output
-			(at 133.35 106.68 180)
-			(uuid "a2de4ac2-7f4c-4455-a230-b302f59b6860")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Trig_CMOS" input
-			(at 133.35 116.84 180)
-			(uuid "e58dfb21-0b03-44f1-9b0d-5dd926c1510d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "RamanSpectrometerBoard"
-				(path "/ab487c59-f066-48f5-a383-99e8eaf806bf"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 215.9 77.47)
 		(size 31.75 21.59)
 		(exclude_from_sim no)
@@ -1372,7 +1260,7 @@
 	)
 	(sheet
 		(at 19.05 73.66)
-		(size 41.91 25.4)
+		(size 41.91 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1396,7 +1284,7 @@
 			)
 		)
 		(property "Sheetfile" "diodeConnector.kicad_sch"
-			(at 19.05 99.6446 0)
+			(at 19.05 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,6 +1355,76 @@
 		(pin "D2" input
 			(at 60.96 77.47 0)
 			(uuid "1ebf0170-c165-4079-ae3e-e2e774ed1c3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CLK_3V3" input
+			(at 60.96 101.6 0)
+			(uuid "8d3ccf4b-298e-433c-a00f-58719f8ba9cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CCD_CLK_3V3" input
+			(at 60.96 104.14 0)
+			(uuid "3548406f-833b-4249-a5fa-13b5d298398f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" output
+			(at 60.96 106.68 0)
+			(uuid "d61d349f-3b14-47fe-9905-b6f6b9510b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI" input
+			(at 60.96 109.22 0)
+			(uuid "0c252d9a-c075-4025-ac27-e8bfca6cbd97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ST" input
+			(at 60.96 111.76 0)
+			(uuid "c1d5f1cf-74cf-4143-bcff-18ae9e2f2d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig" output
+			(at 60.96 114.3 0)
+			(uuid "b5271cb9-be6d-4692-b72c-121822e59499")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig_CMOS" input
+			(at 60.96 116.84 0)
+			(uuid "9788241e-63a5-4e5f-afdb-7935520dd043")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,36 +1514,6 @@
 				(justify left)
 			)
 		)
-		(pin "IN" input
-			(at 127 104.14 0)
-			(uuid "9929df84-6599-4ba0-9b39-0ab3417a1258")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Trig" input
-			(at 127 106.68 0)
-			(uuid "35b74b6f-7b2e-4635-b900-0e81ff02e8ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST" output
-			(at 127 109.22 0)
-			(uuid "ec2bfb44-81a6-4984-b5dc-5ab00243afa3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "fanOut" output
 			(at 68.58 80.01 180)
 			(uuid "875998b2-279b-4e3f-98d1-f60a37010fe4")
@@ -1624,26 +1552,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "ADC_CLK_3V3" output
-			(at 127 111.76 0)
-			(uuid "8b2d18c8-d73a-4a58-962e-11654354e813")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CCD_CLK_3V3" output
-			(at 127 101.6 0)
-			(uuid "60e43fa7-7fec-465b-bbb4-f73514647ebe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "CRX2" input
@@ -1716,24 +1624,74 @@
 				(justify left)
 			)
 		)
-		(pin "SDI" output
-			(at 127 114.3 0)
-			(uuid "a08838a8-7072-4166-9cfe-d71dfd618c7b")
+		(pin "ADC_CLK_3V3" output
+			(at 68.58 101.6 180)
+			(uuid "174254fc-2bd8-48ab-bf2c-d388c22ace0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "CCD_CLK_3V3" output
+			(at 68.58 104.14 180)
+			(uuid "545ec747-f51f-4595-8142-1029c0c4c4d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 68.58 106.68 180)
+			(uuid "96b93207-b1c5-4ba4-964c-80f67b9f0c0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" output
+			(at 68.58 109.22 180)
+			(uuid "9bc19be9-45bf-4dce-904f-5fac50185af0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ST" output
+			(at 68.58 111.76 180)
+			(uuid "b23ad22b-a87d-4ecd-8cea-6c22912ab54c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig" input
+			(at 68.58 114.3 180)
+			(uuid "453fa988-e643-49a1-babb-58b9403c52fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "Trig_CMOS" output
-			(at 127 116.84 0)
-			(uuid "95fd2d39-e95d-4946-b3cb-00b8632fea72")
+			(at 68.58 116.84 180)
+			(uuid "dd55b0da-5b44-4cb7-99e9-dc6e8162ea0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
