@@ -2014,9 +2014,9 @@
 		)
 		(uuid "3c29af0b-ab9b-4bcc-b84c-3bdd66edb103")
 	)
-	(text "CCD Breakout Connector"
+	(text "TOF Connector"
 		(exclude_from_sim no)
-		(at 45.974 34.798 0)
+		(at 38.862 35.052 0)
 		(effects
 			(font
 				(size 1.905 1.905)
