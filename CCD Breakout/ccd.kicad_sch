@@ -2403,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 35.56) (xy 198.12 35.56)
+			(xy 191.77 35.56) (xy 200.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 38.1) (xy 224.79 38.1)
+			(xy 217.17 38.1) (xy 224.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 35.56) (xy 270.51 35.56)
+			(xy 265.43 35.56) (xy 270.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3538,7 @@
 	)
 	(hierarchical_label "opOUTB"
 		(shape input)
-		(at 222.25 38.1 180)
+		(at 217.17 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,7 +3571,7 @@
 	)
 	(hierarchical_label "opOUTC"
 		(shape input)
-		(at 264.16 35.56 180)
+		(at 265.43 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3604,7 +3604,7 @@
 	)
 	(hierarchical_label "opINB+"
 		(shape output)
-		(at 198.12 35.56 0)
+		(at 200.66 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3793,7 +3793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74HC541PW_118"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT541.pdf"
 			(at 48.26 39.37 0)
 			(effects
 				(font

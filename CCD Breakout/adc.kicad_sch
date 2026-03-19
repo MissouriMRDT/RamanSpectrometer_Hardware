@@ -1461,8 +1461,8 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 68.58 53.34 0)
-		(size 172.72 76.2)
+		(at 60.96 53.34 0)
+		(size 180.34 76.2)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1484,12 +1484,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1098a1ad-9616-4dd2-a336-496eeec6c5c2")
-	)
-	(junction
-		(at 116.84 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5419f620-b3c9-4df5-a2e4-ed022e9b1040")
 	)
 	(junction
 		(at 190.5 73.66)
@@ -1556,12 +1550,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9d28833-e464-46bb-b938-5cc7a1737568")
-	)
-	(junction
-		(at 116.84 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfe53c37-bf69-4e45-a934-6e2f24615801")
 	)
 	(junction
 		(at 101.6 78.74)
@@ -1765,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 116.84 78.74)
+			(xy 101.6 78.74) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1795,13 +1783,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 107.95)
+			(xy 72.39 100.33) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ec42ce6-7622-410c-adce-ff076166ffb3")
+		(uuid "3c739133-2416-4e38-ab46-a216d1e60f73")
 	)
 	(wire
 		(pts
@@ -2015,16 +2003,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 116.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9956a032-b6b7-440e-b547-61cb1ff957b7")
-	)
-	(wire
-		(pts
 			(xy 82.55 76.2) (xy 82.55 78.74)
 		)
 		(stroke
@@ -2055,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 128.27 107.95)
+			(xy 101.6 107.95) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2105,13 +2083,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 128.27 78.74)
+			(xy 72.39 90.17) (xy 82.55 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2e65c02-cdf2-4088-8d61-7925909a77d9")
+		(uuid "b356481e-cf78-4768-8755-51c63e8c36b6")
 	)
 	(wire
 		(pts
@@ -2215,16 +2193,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 107.95) (xy 116.84 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f49218-0acc-486d-a5d1-1a9960bc00a7")
-	)
-	(wire
-		(pts
 			(xy 139.7 91.44) (xy 158.75 91.44)
 		)
 		(stroke
@@ -2232,6 +2200,26 @@
 			(type default)
 		)
 		(uuid "d89457a8-2020-4229-a4c4-587656546ef1")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce2f38d-ef8d-4e30-8fa1-9558aac53c1f")
+	)
+	(wire
+		(pts
+			(xy 72.39 102.87) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b68766-090a-4da3-8797-013ee05e8481")
 	)
 	(wire
 		(pts
@@ -2343,7 +2331,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 128.27 86.36 180)
+		(at 128.27 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2352,7 +2340,7 @@
 		(fields_autoplaced yes)
 		(uuid "01caaac6-c0f3-416e-8f55-1b823bf280b3")
 		(property "Reference" "R15"
-			(at 130.81 85.0899 0)
+			(at 130.81 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2349,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 130.81 87.6299 0)
+			(at 130.81 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 127.254 86.106 90)
+			(at 127.254 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 86.36 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2376,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 128.27 86.36 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,16 +2533,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_US")
-		(at 116.84 102.87 0)
+		(at 72.39 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a67b85f-5fb4-435e-8a40-e54a707fddfb")
 		(property "Reference" "C14"
-			(at 120.65 101.8539 0)
+			(at 65.024 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2550,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 120.65 104.3939 0)
+			(at 62.738 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2559,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_HandSolder"
-			(at 116.84 102.87 0)
+			(at 72.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 102.87 0)
+			(at 72.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2577,7 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
-			(at 116.84 102.87 0)
+			(at 72.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 128.27 102.87 180)
+		(at 128.27 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2958,7 +2945,7 @@
 		(dnp no)
 		(uuid "45092cca-4e06-466c-94f2-5a6f8767b4eb")
 		(property "Reference" "R16"
-			(at 130.81 101.5999 0)
+			(at 130.81 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2954,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 130.81 104.14 0)
+			(at 130.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2963,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 127.254 102.616 90)
+			(at 127.254 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 102.87 0)
+			(at 128.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2981,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 128.27 102.87 0)
+			(at 128.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
