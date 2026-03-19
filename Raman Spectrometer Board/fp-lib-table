@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "RamanSpectrometerBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/RamanSpectrometerBoard.pretty")(options "")(descr ""))
   (lib (name "Raman")(type "KiCad")(uri "${KIPRJMOD}/../lib/Raman.pretty")(options "")(descr ""))
-  (lib (name "LaserDriverRev2Library")(type "KiCad")(uri "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/LaserDriverRev2Library.pretty")(options "")(descr ""))
+  (lib (name "LaserDriverRev2Library")(type "KiCad")(uri "${KIPRJMOD}/../lib/LaserDriverRev2Library.pretty")(options "")(descr ""))
 )
