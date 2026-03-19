@@ -2543,6 +2543,10 @@
 		(uuid "3bd3b4c2-8dfc-4e43-a3b0-4767987a7e64")
 	)
 	(no_connect
+		(at 125.73 88.9)
+		(uuid "3ded27ab-d96b-45fb-bf22-2fefa0a4123e")
+	)
+	(no_connect
 		(at 125.73 101.6)
 		(uuid "3f8330ab-6c80-4ca5-a8bb-a596307e9543")
 	)
@@ -2591,10 +2595,6 @@
 		(uuid "a16258ba-5f99-4d3e-8f25-cd6f05bf89b9")
 	)
 	(no_connect
-		(at 85.09 121.92)
-		(uuid "a1996979-d7d7-46d5-b33f-1e3b1d811e12")
-	)
-	(no_connect
 		(at 125.73 127)
 		(uuid "a4bfebdd-3219-403c-b9bc-ede031f846fb")
 	)
@@ -2613,6 +2613,10 @@
 	(no_connect
 		(at 85.09 73.66)
 		(uuid "b27674f9-c66d-49f0-9ae7-c4e768d711d0")
+	)
+	(no_connect
+		(at 125.73 96.52)
+		(uuid "b9296a34-3fdb-4a04-9daa-1c0a004bb7d4")
 	)
 	(no_connect
 		(at 85.09 96.52)
@@ -2956,6 +2960,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 121.92) (xy 85.09 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c107151-281b-40bc-9ec2-081c16083cc6")
+	)
+	(wire
+		(pts
 			(xy 132.08 147.32) (xy 132.08 149.86)
 		)
 		(stroke
@@ -3063,26 +3077,6 @@
 			(type default)
 		)
 		(uuid "d1c8856d-061b-4768-8c40-e6d30f230f77")
-	)
-	(wire
-		(pts
-			(xy 125.73 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ce1ab3-1ac3-4b1c-ab7a-d69846366370")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5de8491-e989-42b5-80b1-bc4e241cf984")
 	)
 	(wire
 		(pts
@@ -3285,17 +3279,6 @@
 		)
 		(uuid "09debab5-70d0-4bb4-9de9-993ca7c1cb6f")
 	)
-	(hierarchical_label "STDBY2"
-		(shape output)
-		(at 129.54 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f348232-8903-4387-bf21-874320683d36")
-	)
 	(hierarchical_label "CRX"
 		(shape input)
 		(at 129.54 142.24 0)
@@ -3372,17 +3355,6 @@
 			(justify right)
 		)
 		(uuid "5bc88f96-bb7b-47c1-980e-de888cd7f979")
-	)
-	(hierarchical_label "STDBY"
-		(shape output)
-		(at 129.54 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b995a2a-e11b-43ba-9eaa-a82380ba2997")
 	)
 	(hierarchical_label "SW2_Spare"
 		(shape input)
@@ -3515,6 +3487,17 @@
 			(justify right)
 		)
 		(uuid "f153fcdb-b022-4b7c-a719-e94869460b53")
+	)
+	(hierarchical_label "SHDN"
+		(shape output)
+		(at 80.01 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7d1c0a5-8b31-4ae7-89e3-17f47dc8c5dd")
 	)
 	(symbol
 		(lib_id "Connector:RJ45_LED_Shielded")
