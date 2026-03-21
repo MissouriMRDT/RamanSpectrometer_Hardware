@@ -12416,7 +12416,11 @@
 		(pts
 			(xy 151.003 80.01) (xy 150.876 93.98)
 		)
+<<<<<<< Updated upstream
 		(height 64.516)
+=======
+		(height 40.9194)
+>>>>>>> Stashed changes
 		(orientation 1)
 		(format
 			(prefix "")
@@ -12436,7 +12440,11 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "550"
+<<<<<<< Updated upstream
 			(at 214.369 86.995 90)
+=======
+			(at 190.7724 86.995 90)
+>>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "b78bb3b4-85d1-4560-a7e7-e109a49a135d")
 			(effects
@@ -12454,7 +12462,11 @@
 		(pts
 			(xy 116.586 80.01) (xy 185.42 80.01)
 		)
+<<<<<<< Updated upstream
 		(height -37.592)
+=======
+		(height -12.3444)
+>>>>>>> Stashed changes
 		(orientation 0)
 		(format
 			(prefix "")
@@ -12474,7 +12486,11 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "2710"
+<<<<<<< Updated upstream
 			(at 151.003 41.268 0)
+=======
+			(at 151.003 66.5156 0)
+>>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "c759d697-70c9-47dd-abb9-b097b7f43092")
 			(effects
@@ -12492,7 +12508,11 @@
 		(pts
 			(xy 185.42 80.01) (xy 185.42 107.95)
 		)
+<<<<<<< Updated upstream
 		(height 36.83)
+=======
+		(height 13.1572)
+>>>>>>> Stashed changes
 		(orientation 1)
 		(format
 			(prefix "")
@@ -12512,7 +12532,11 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "1100"
+<<<<<<< Updated upstream
 			(at 221.1 93.98 90)
+=======
+			(at 197.4272 93.98 90)
+>>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "df5587d7-d780-4913-918f-225e5217953b")
 			(effects
@@ -12530,7 +12554,11 @@
 		(pts
 			(xy 185.42 93.98) (xy 151.003 93.98)
 		)
+<<<<<<< Updated upstream
 		(height -45.466)
+=======
+		(height -21.2852)
+>>>>>>> Stashed changes
 		(orientation 0)
 		(format
 			(prefix "")
@@ -12550,7 +12578,11 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "1355"
+<<<<<<< Updated upstream
 			(at 168.2115 47.364 0)
+=======
+			(at 168.2115 71.5448 0)
+>>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "e1ed6997-3903-49ce-8af7-b50f289b9cef")
 			(effects
