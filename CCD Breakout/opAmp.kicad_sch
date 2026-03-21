@@ -1221,7 +1221,7 @@
 			(uuid "8debbe27-8793-47a5-989f-d53cd117c185")
 		)
 		(instances
-			(project ""
+			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/1e63b7fc-fcaa-417b-98e4-15f8c0595846"
 					(reference "#PWR025")
 					(unit 1)
@@ -1327,7 +1327,7 @@
 			(uuid "b15b8846-570a-4726-98f0-cdc2021bf104")
 		)
 		(instances
-			(project ""
+			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/1e63b7fc-fcaa-417b-98e4-15f8c0595846"
 					(reference "U8")
 					(unit 1)
@@ -1529,7 +1529,7 @@
 			(uuid "e8068c8e-b043-4fd4-a7d9-f0f3f1a0378d")
 		)
 		(instances
-			(project ""
+			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693/1e63b7fc-fcaa-417b-98e4-15f8c0595846"
 					(reference "#PWR024")
 					(unit 1)

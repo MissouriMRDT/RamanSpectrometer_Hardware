@@ -527,7 +527,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "CCD_Breakout"
 				(path "/102965ac-29c6-4f96-94a4-d07431f6d693"
 					(reference "H1")
 					(unit 1)
