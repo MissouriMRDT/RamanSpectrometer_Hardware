@@ -12287,16 +12287,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 181.356 107.904283)
-		(end 120.65 107.904283)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0865abd9-8f94-494b-873c-96d5a74eb93c")
-	)
 	(gr_arc
 		(start 116.586 84.074)
 		(mid 117.776318 81.200318)
@@ -12308,17 +12298,6 @@
 		(layer "Edge.Cuts")
 		(uuid "2c83f05d-398c-4be4-a0b2-5b0c905c007a")
 	)
-	(gr_arc
-		(start 181.356 80.055717)
-		(mid 184.197355 81.232645)
-		(end 185.374283 84.074)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4c54cbd3-8dcf-4cd2-8673-aec181ed04f2")
-	)
 	(gr_line
 		(start 116.631717 103.886)
 		(end 116.586 84.074)
@@ -12328,6 +12307,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "56e55247-f9a6-483a-9a52-84992c318e5b")
+	)
+	(gr_line
+		(start 120.65 80.01)
+		(end 181.356 80.055717)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "947e54d9-4938-488d-b69b-d277a7595497")
 	)
 	(gr_arc
 		(start 120.65 107.904283)
@@ -12341,25 +12330,25 @@
 		(uuid "772e467a-69a6-4477-92a4-4515277087d5")
 	)
 	(gr_arc
-		(start 185.374283 103.886)
-		(mid 184.197355 106.727355)
-		(end 181.356 107.904283)
+		(start 181.356 80.055717)
+		(mid 184.197355 81.232645)
+		(end 185.374283 84.074)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8b5ff714-f793-4a1c-a300-081ee8afdd3e")
+		(uuid "4c54cbd3-8dcf-4cd2-8673-aec181ed04f2")
 	)
 	(gr_line
-		(start 120.65 80.01)
-		(end 181.356 80.055717)
+		(start 181.356 107.904283)
+		(end 120.65 107.904283)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "947e54d9-4938-488d-b69b-d277a7595497")
+		(uuid "0865abd9-8f94-494b-873c-96d5a74eb93c")
 	)
 	(gr_line
 		(start 185.374283 84.074)
@@ -12371,15 +12360,25 @@
 		(layer "Edge.Cuts")
 		(uuid "ff3bba6b-369f-4dba-a8ae-39ab1fd8c760")
 	)
-	(gr_text "2710x\n1100 mils"
-		(at 119.888 88.646 270)
+	(gr_arc
+		(start 185.374283 103.886)
+		(mid 184.197355 106.727355)
+		(end 181.356 107.904283)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b5ff714-f793-4a1c-a300-081ee8afdd3e")
+	)
+	(gr_text "Mars Rover Design Team\nMissouri S&T"
+		(at 147.828 84.328 0)
 		(layer "F.SilkS")
-		(uuid "0ffa4636-ba52-4f02-891a-7b57579e02da")
+		(uuid "abeb29b2-a0e6-4314-846d-63a87ca9fbd6")
 		(effects
 			(font
 				(size 0.762 0.762)
-				(thickness 0.1524)
-				(bold yes)
+				(thickness 0.09525)
 			)
 			(justify left bottom)
 		)
@@ -12397,14 +12396,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Mars Rover Design Team\nMissouri S&T"
-		(at 147.828 84.328 0)
+	(gr_text "2710x\n1100 mils"
+		(at 119.888 88.646 270)
 		(layer "F.SilkS")
-		(uuid "abeb29b2-a0e6-4314-846d-63a87ca9fbd6")
+		(uuid "0ffa4636-ba52-4f02-891a-7b57579e02da")
 		(effects
 			(font
 				(size 0.762 0.762)
-				(thickness 0.09525)
+				(thickness 0.1524)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -12416,11 +12416,7 @@
 		(pts
 			(xy 151.003 80.01) (xy 150.876 93.98)
 		)
-<<<<<<< Updated upstream
 		(height 64.516)
-=======
-		(height 40.9194)
->>>>>>> Stashed changes
 		(orientation 1)
 		(format
 			(prefix "")
@@ -12440,11 +12436,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "550"
-<<<<<<< Updated upstream
 			(at 214.369 86.995 90)
-=======
-			(at 190.7724 86.995 90)
->>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "b78bb3b4-85d1-4560-a7e7-e109a49a135d")
 			(effects
@@ -12462,11 +12454,7 @@
 		(pts
 			(xy 116.586 80.01) (xy 185.42 80.01)
 		)
-<<<<<<< Updated upstream
 		(height -37.592)
-=======
-		(height -12.3444)
->>>>>>> Stashed changes
 		(orientation 0)
 		(format
 			(prefix "")
@@ -12486,11 +12474,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "2710"
-<<<<<<< Updated upstream
 			(at 151.003 41.268 0)
-=======
-			(at 151.003 66.5156 0)
->>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "c759d697-70c9-47dd-abb9-b097b7f43092")
 			(effects
@@ -12508,11 +12492,7 @@
 		(pts
 			(xy 185.42 80.01) (xy 185.42 107.95)
 		)
-<<<<<<< Updated upstream
 		(height 36.83)
-=======
-		(height 13.1572)
->>>>>>> Stashed changes
 		(orientation 1)
 		(format
 			(prefix "")
@@ -12532,11 +12512,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "1100"
-<<<<<<< Updated upstream
 			(at 221.1 93.98 90)
-=======
-			(at 197.4272 93.98 90)
->>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "df5587d7-d780-4913-918f-225e5217953b")
 			(effects
@@ -12554,11 +12530,7 @@
 		(pts
 			(xy 185.42 93.98) (xy 151.003 93.98)
 		)
-<<<<<<< Updated upstream
 		(height -45.466)
-=======
-		(height -21.2852)
->>>>>>> Stashed changes
 		(orientation 0)
 		(format
 			(prefix "")
@@ -12578,11 +12550,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "1355"
-<<<<<<< Updated upstream
 			(at 168.2115 47.364 0)
-=======
-			(at 168.2115 71.5448 0)
->>>>>>> Stashed changes
 			(layer "Dwgs.User")
 			(uuid "e1ed6997-3903-49ce-8af7-b50f289b9cef")
 			(effects
