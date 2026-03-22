@@ -9101,7 +9101,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-R (2012-12 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C14"
-			(at 0.9906 1.4986 90)
+			(at -2.5146 0.0254 180)
 			(layer "F.SilkS")
 			(uuid "81c6321e-191b-4254-98e7-877a9e7239e4")
 			(effects
