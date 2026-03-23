@@ -8,7 +8,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d38cedd0-e89d-458b-8dc6-ae97a7df6d6a")
+		(uuid "bc905cc2-6ea5-44a1-a9d9-a5c01fdfdb8d")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1fcc5225-111a-499a-a528-478f32e763c4")
+		(uuid "8718f99e-b5a8-4b40-82c7-7e118bcf8208")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a298d5e2-2d78-456e-8461-6ba314e9186c")
+		(uuid "1579d370-c994-4084-ab80-8b2f61f49d6e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79b971ab-0a85-4511-a5a9-43a5f6493a6c")
+		(uuid "249b3df2-a1e9-4963-8a3b-c47818dec237")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -337,104 +337,8 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a4bbdd33-822a-4fc0-988b-a0150dd2f7d8")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "ca0e2612-b11c-4591-a74b-255533c80960")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -3.099194 -1.549197) (xy 3.099194 -1.549197) (xy 3.099194 -1.200798) (xy -3.099194 -1.200798)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "3d4b1b09-1437-4d6d-a41b-e9278c39285d")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -3.099194 1.200798) (xy 3.099194 1.200798) (xy 3.099194 1.549197) (xy -3.099194 1.549197)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "81ce4967-c42e-435b-b070-8634f3517e3f")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -0.991197 -1.200798) (xy 0.991197 -1.200798) (xy 0.991197 1.200798) (xy -0.991197 1.200798)
-			)
-		)
-	)
 	(embedded_fonts no)
-	(model "C:/Users/dwell/Documents/Github/LaserDiodeDriver_Hardware/lib/3D Models/CTSM_TCM2NK_6032_L6.3W3.5H2.8T0.13S1.3F2.3A2.9B0.65E2.4G2.8P0.9R1X0.2.step"
+	(model "C:/Users/dwell/Documents/Github/RamanSpectrometer_Hardware/lib/3d/CTSM_TCM2NK_6032_L6.3W3.5H2.8T0.13S1.3F2.3A2.9B0.65E2.4G2.8P0.9R1X0.2.step"
 		(offset
 			(xyz 3 1.75 0)
 		)
